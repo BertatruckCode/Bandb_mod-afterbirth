@@ -1,0 +1,124 @@
+package fr.bentur_and_bertatruck.bandb_mod.common.loader;
+	
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+	
+public class BandbItems {
+	
+	/***To do**/
+	//items ore
+		//ingot
+	public static Item itemIngotAluminium,itemIngotPlatinum,itemIngotTitan,itemIngotSteel,itemIngotSilver, itemIngotCopper, itemIngotLead, itemIngotTungsten, itemIngotTin;		
+	public static Item itemGemAmethyst,itemGemOnyx,itemGemRuby;
+	public static Item itemGemSapphire,itemGemTopaz;	
+		//dust
+	public static Item itemDustAluminium,itemDustEmerald, itemDustTungsten,itemDustTin ;
+	public static Item itemDustPlatinum,itemDustSteel,itemDustTitan, itemDustSilver, itemDustCopper,itemDustLead;	
+	public static Item itemDustAmethyst, itemDustOnyx, itemDustRuby, itemDustSapphire, itemDustTopaz;
+		//nugget
+	public static Item itemNuggetAluminium,itemNuggetPlatinum,itemNuggetTitan, itemNuggetSteel, itemNuggetSilver, itemNuggetCopper, itemNuggetLead, itemNuggetTungsten, itemNuggetTin;
+	public static Item itemNuggetAmethyst ,itemNuggetRuby,itemNuggetSapphire, itemNuggetOnyx, itemNuggetSapphir, itemNuggetTopaz, itemNuggetEmerald;
+		
+	//miscellaneous
+	public static Item itemJoint,itemIPhone,itemiPad,itemMinecraftForDummies, itemPieceOfGlass;
+	public static Item itemMagentaInkCartridge,itemBlackInkCartridge,itemYellowInkCartridge,itemCyanInkCartridge,itemEmptyInkCartridge;
+	public static Item itemBookCocktailGlass,itemBookCocktails,itemBookShaker,itemBookOldFashioned,itemSurpriseKinderYellow;
+	public static Item itemWorm, itemBookTumbler,itemSurprise,itemSurpriseKinderRed,itemBleach,itemMac;
+		//leather
+	public static Item itemLeatherCowBel, itemLeatherCowCharolais, itemLeatherCowGasconne, itemLeatherCowKerry, itemLeatherCowMilka;
+	public static Item itemLeatherCowMontbeliarde,itemWhiteDye,itemBlackDye,itemBlueDye,itemLeatherGoat;
+		//egg and feather
+	public static Item itemEggOstrich,itemFeatherOstrich,itemEggDuck,itemFeatherDuckFemale;
+	public static Item itemFeatherDuckMale,itemEggCassowary,itemFeatherCassowary,itemEggHummingbird,itemFeatherHummingbirdCanvasPrint;
+	public static Item itemFeatherHummingbirdCrimsonTopaz,itemFeatherHummingbirdFieryThroatedHummingbird,itemFeatherHummingbirdFlyingLavenderBlueHummingbird,itemFeatherHummingbirdSwordBilledHummingbird;
+	public static Item itemEggGouldianFinch,itemFeatherGouldianFinch1,itemFeatherGouldianFinch2,itemFeatherGouldianFinch3,itemFeatherGouldianFinch4;
+	public static Item itemFeatherGouldianFinch5,itemFeatherGouldianFinch6,itemEggSeagull,itemFeatherSeagull,itemEggRoadrunner;
+	public static Item itemFeatherRoadrunner,itemEggKiwi,itemFeatherKiwi,itemEggKingfisher,itemFeatherKingfisher;
+	public static Item itemEggLyrebird,itemFeatherLyrebird,itemEggGull,itemFeatherGull,itemEggPelican;
+	public static Item itemFeatherPelican,itemEggParrot,itemFeatherParrotAfricanGreyParrot,itemFeatherParrotBlueAndYellowMacaw,itemFeatherParrotCockatoo;
+	public static Item itemFeatherParrotGreatGreenMacaw,itemFeatherParrotHyacinthMacaw,itemFeatherParrotRedAndGreenMacaw,itemEggMagpie,itemFeatherMagpie;
+	public static Item itemEggPigeon,itemFeatherPigeon;
+			
+	//plants
+	public static Item itemPlantMustard,itemPlantMint,itemPlantCotton,itemPlantBetterCactus,itemPlantRape;
+	public static Item itemPlantSesame,itemPlantOrchid,itemPlantLicorice,itemPlantDaisy,itemPlantHibiscus;
+	public static Item itemPlantJasmine,itemPlantLavender,itemPlantRosmary,itemPlantTarragon, itemPlantAgave;
+	public static Item itemPlantAmaryllisPink, itemPlantAmaryllisRed, itemPlantAmaryllisWhite, itemPlantBachelorsButtonBlue, itemPlantBelladonna;
+	public static Item itemPlantBlowball, itemPlantButtercup, itemPlantCallaBlack, itemPlantCallaWhite, itemPlantCannabis;
+	public static Item itemPlantChrysantheme, itemPlantEnzian, itemPlantFoxglove, itemPlantHeather, itemPlantIrisBlue;
+	public static Item itemPlantIrisPurple, itemPlantLeafCoca, itemPlantLily, itemPlantMarshMarigold, itemPlantPansy;
+	public static Item itemPlantPeony, itemPlantSyringa, itemPlantTobacco, itemPlantViolet, itemPlantLemonGrass;
+	public static Item itemPlantPeyote,itemPlantBluebell,itemPlantDill,itemPlantGardenia,itemPlantNettle,itemPlantThistle;
+	public static Item itemPlantWormwood,itemPlantCinchona,itemPlantChives,itemPlantChervil,itemPlantWatercress;
+	public static Item itemPlantThyme,itemPlantSage,itemPlantOregano,itemPlantFennel,itemPlantGentian,itemPlantCurryLeaf;
+		//mushrooms
+	public static Item itemPlantTruffle,itemPlantAmanitaMuscaria,itemPlantWhiteMushroom;
+	public static Item itemPlantMorel,itemHornOfPlenty,itemPlantCep,itemPlantHydnumRepandum;
+		//coffee
+	public static Item itemCoffeeArabicas,itemCoffeeBlueMountain,itemCoffeeBourbonPointu,itemCoffeeCattura,itemCoffeeHarrar;
+	public static Item itemCoffeeHuehuetenango,itemCoffeeJava,itemCoffeeKenyaAA,itemCoffeeKona,itemCoffeeKontirWildForest;
+	public static Item itemCoffeeKopiLuwak,itemCoffeeKupeAlamid,itemCoffeeMoka,itemCoffeeMundoNovo,itemCoffeeMuragogype;
+	public static Item itemCoffeePeaberry,itemCoffeeTarrazu,itemCoffeeTorajaKalossi,itemCoffeeYirgacheffe,itemTeaLeaves;		
+		//grains
+	public static Item itemPlantBuckwheat,itemPlantHemp,itemPlantSpelt,itemPlantFonio,itemPlantHop;
+	public static Item itemPlantOats,itemPlantMalt,itemPlantMillet,itemPlantRye,itemPlantSorghum;			
+	public static Item itemPlantCorn,itemPlantBarley,itemPlantRice,itemPlantSesameSeed;		
+	public static Item itemPlantPollen,itemPlantSunflowerSeed;
+	
+	// tools
+		//Tools Material
+	public static ToolMaterial toolGode = EnumHelper.addToolMaterial("toolGode", 2, 16, 12.0F,12.0F, 1);
+		
+	public static Item itemToolPinkGode,itemToolPurpleGode,itemToolGreenGode,itemToolBlueGode,itemToolRedGode;
+	public static Item itemToolAdjustableSpanner;
+		//kitchen tools
+	public static Item itemToolFlyingPan,itemToolCheeseKnife,itemToolCleaverIron,itemToolKnifeIron,itemToolShaker;
+	public static Item itemToolPizzaWheel,itemToolFoforkStone,itemToolCookieCutterStar,itemToolCookieCutterSquare,itemToolCookieCutterMan;
+	public static Item itemToolCookieCutterCircle,itemToolCheeseGraterMachine,itemToolBucketBelMilk,itemToolBucketMilkaMilk,itemToolScrewdriver;
+	public static Item itemToolCocktailGlass,itemToolFlute,itemToolOldFashoned,itemToolTumbler,itemToolGlassCup;
+	public static Item itemToolCocktailGlassDirty,itemToolFluteDirty,itemToolGlassCupDirty,itemToolOldFashonnedDirty,itemToolTumblerDirty;
+	public static Item itemToolBucketGoatMilk,itemToolBucketCream, itemToolKebabSpit;
+			
+	//Butterfly
+	public static Item itemButterflyAcmonBlue,itemButterflyAfricanCloudedYellow,itemButterflyAfricanMapWing,itemButterflyAfricanPeachMoth,itemButterflyAlcidesAgathyrsus;
+	public static Item itemButterflyAmerilaastreus,itemButterflyApolloButterfly,itemButterflyAshButterfly,itemButterflyAtlasMoth,itemButterflyAmberPhantom;
+	public static Item itemButterflyAura,itemButterflyBandedBluePierrot,itemButterflyBirchButterfly,itemButterflyBloodRedGlider,itemButterflyBlueAdmiral;
+	public static Item itemButterflyBlueArgus,itemButterflyBlueEyedSailor,itemButterflyBlueMetalmare,itemButterflyBluePansy,itemButterflyBlueTigerMoth;
+	public static Item itemButterflyBlushingPhantom,itemButterflyBraccaRotundata,itemButterflyBraccaSubfumosa,itemButterflyCactiButterfy,itemButterflyCardinalApollo;
+	public static Item itemButterflyCinderella,itemButterflyCinnabarMoth,itemButterflyCloudButterfly,itemButterflyCloudedApollo;
+	public static Item itemButterflyColombianAdmiral,itemButterflyComma,itemButterflyCommonBrimstone,itemButterflyCommonGreenBirdwing,itemButterflyCommonGreenCharaxes;
+	public static Item itemButterflyCommonMestra,itemButterflyCrimsonSpottedForester,itemButterflyCrimsonTip,itemButterflyCrystalButterfly,itemButterflyDalmatianRinglet;
+	public static Item itemButterflyDarkCaveButterfly,itemButterflyDarkwoodButterfly,itemButterflyDawnCloudedButterfly,itemButterflyDeathsHeadHawkmoth,itemButterflyDiadem;
+	public static Item itemButterflyDiamondButterfly,itemButterflyDottedGlory,itemButterflyEasternTigerSwallowtail,itemButterflyEdwardsForester,itemButterflyEmeraldButterfly;
+	public static Item itemButterflyEmeraldSwallowtail,itemButterflyEndButterfly,itemButterflyFallenBarkLooper,itemButterflyFalseCrocusGeometer,itemButterflyFrozenButterfly;
+	public static Item itemButterflyGardenTigerMoth,itemButterflyGaudyCommodoreIntermediateForm,itemButterflyGaudyCommodoreSummerForm,itemButterflyGaudyCommodoreWinterForm,itemButterflyGiantNorthernSulfur;
+	public static Item itemButterflyGodartsNumberwing,itemButterflyGoldBandedForester,itemButterflyGoldenBirdwing,itemButterflyGoldenJezebel,itemButterflyGoliathBirdwing;
+	public static Item itemButterflyGrapevineEpimenis,itemButterflyGrayPansy,itemButterflyHewitsonsPigmy,itemButterflyHuebnersMetalmark,itemButterflyIndianRedAdmiral;
+	public static Item itemButterflyIreniaMetalmark,itemButterflyIridescentForester,itemButterflyJuttaArctic,itemButterflyLargeBlue,itemButterflyLavaButterfly;
+	public static Item itemButterflyLeafButterfly,itemButterflyLightCaveButterfly,itemButterflyLittleMetalmark,itemButterflyLuminescentButterflyGuardian,itemButterflyLunaMoth;
+	public static Item itemButterflyLustrousButterfly,itemButterflyMacrocosmaMoth,itemButterflyMadagascanSunsetMoth,itemButterflyMagmaButterfly,itemButterflyMalachiteButterfly;
+	public static Item itemButterflyMesosemiaLoruhamaCandara,itemButterflyMesosemiaPacifica,itemButterflyMilbertsTortoiseshell,itemButterflyMonarch,itemButterflyMooButterfly;
+	public static Item itemButterflyMountainApollo,itemButterflyMourningCloak,itemButterflyMylittaGreenwing,itemButterflyNessusLeafwing,itemButterflyNetherrackButterfly;
+	public static Item itemButterflyNetherSkullButterfly,itemButterflyNewZealandRedAdmiral,itemButterflyNorthernBrownArgus,itemButterflyNyctemeraKinabaluensis,itemButterflyNyx;
+	public static Item itemButterflyOceanBlue,itemButterflyOceanBlueAbSchmidtii,itemButterflyOrangeEmigrant,itemButterflyOrangeSpottedSkipper,itemButterflyOrangeTiger;
+	public static Item itemButterflyOrangeTippedAngleSulfur,itemButterflyOrnithopteraPriamusMiokensis,itemButterflyPaintedBeauty,itemButterflyPandoraPinemoth,itemButterflyPandoraSphinxMoth;
+	public static Item itemButterflyPartiallyFrozenPumpkinButterfly,itemButterflyPasiphae,itemButterflyPeacock,itemButterflyPeacockJewelMoth,itemButterflyPeacockPansy;
+	public static Item itemButterflyPearlCharaxes,itemButterflyPentheaMetalmark,itemButterflyPumpkinButterfly,itemButterflyPuririMoth,itemButterflyPurpleEdgedCopper;
+	public static Item itemButterflyQueenVictoriasBirdwing,itemButterflyRedAdmiral,itemButterflyRedBorderedPixie,itemButterflyReedButterfly,itemButterflyRockGrayling;
+	public static Item itemButterflyRoseateEmperorMoth,itemButterflyRubySpottedSwallowtail,itemButterflyRustic,itemButterflySagebrushGirdleMoth,itemButterflySaltMarshMoth;
+	public static Item itemButterflySilkyOwl,itemButterflySilveryBlue,itemButterflySmallCopper,itemButterflySmallTortoiseshell,itemButterflySmallWhite;
+	public static Item itemButterflySpawnerButterfly,itemButterflySturnulaMetalmark,itemButterflySwampButterfly,itemButterflySwissBrassyRinglet,itemButterflySyngraphaOrophila;
+	public static Item itemButterflyTawnyCoster,itemButterflyTelegoneEyemark,itemButterflyThalainaChionoptila,itemButterflyTheanoAlpine,itemButterflyTheWanderer;
+	public static Item itemButterflyTropicalCheckeredSkipper,itemButterflyTwoBarredFlasher,itemButterflyVariableBurnet,itemButterflyVoidButterfly,itemButterflyWallacesGoldenBirdwing;
+	public static Item itemButterflyYellowPansy,itemButterflyZodiacMoth;				
+							
+	public static void Register(){
+	
+	}
+
+	public static void registerRender(){
+	
+	}
+
+}
