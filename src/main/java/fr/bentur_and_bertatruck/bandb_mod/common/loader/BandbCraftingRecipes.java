@@ -271,14 +271,7 @@ public class BandbCraftingRecipes {
 		//Ingot
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemIngotAluminium), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemNuggetAluminium));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemIngotPlatinum), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemNuggetPlatinum));
-	
-		
-		
-		
-		
-		
-		
-		
+			
 		// Miscellaneous
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemSurprise), " Y ", "ZXZ", " Y ",'X', new ItemStack(BandbFood.itemFruitApplePommeDuLimousin),'Y', new ItemStack (BandbBeverages.itemJuiceAppleTentation), 'Z', new ItemStack (BandbFood.itemFruitAppleGrannySmith));
 		//GameRegistry.addRecipe(new ItemStack(BandbItem.itemMac), " Y ", "ZXZ", " Y ",'X', new ItemStack(Items.redstone),'Y', new ItemStack (BandbItem.itemIngotZinc), 'Z', new ItemStack(Item.getItemFromBlock(Blocks.glass)));

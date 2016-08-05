@@ -62,18 +62,17 @@ public class BandbItems {
 	public static Item itemMiscSurprise, itemMiscSurpriseKinderRed, itemMiscSurpriseKinderYellow, itemMiscWorm;
 		//leather
 	public static Item itemLeatherCowBel, itemLeatherCowCharolais, itemLeatherCowGasconne, itemLeatherCowKerry, itemLeatherCowMilka;
-	public static Item itemLeatherCowMontbeliarde,itemLeatherGoat;
+	public static Item itemLeatherCowMontbeliarde, itemLeatherGoat;
 		//egg and feather
-	public static Item itemEggOstrich,itemFeatherOstrich,itemEggDuck,itemFeatherDuckFemale;
-	public static Item itemFeatherDuckMale,itemEggCassowary,itemFeatherCassowary,itemEggHummingbird,itemFeatherHummingbirdCanvasPrint;
-	public static Item itemFeatherHummingbirdCrimsonTopaz,itemFeatherHummingbirdFieryThroatedHummingbird,itemFeatherHummingbirdFlyingLavenderBlueHummingbird,itemFeatherHummingbirdSwordBilledHummingbird;
-	public static Item itemEggGouldianFinch,itemFeatherGouldianFinch1,itemFeatherGouldianFinch2,itemFeatherGouldianFinch3,itemFeatherGouldianFinch4;
-	public static Item itemFeatherGouldianFinch5,itemFeatherGouldianFinch6,itemEggSeagull,itemFeatherSeagull,itemEggRoadrunner;
-	public static Item itemFeatherRoadrunner,itemEggKiwi,itemFeatherKiwi,itemEggKingfisher,itemFeatherKingfisher;
-	public static Item itemEggLyrebird,itemFeatherLyrebird,itemEggGull,itemFeatherGull,itemEggPelican;
-	public static Item itemFeatherPelican,itemEggParrot,itemFeatherParrotAfricanGreyParrot,itemFeatherParrotBlueAndYellowMacaw,itemFeatherParrotCockatoo;
-	public static Item itemFeatherParrotGreatGreenMacaw,itemFeatherParrotHyacinthMacaw,itemFeatherParrotRedAndGreenMacaw,itemEggMagpie,itemFeatherMagpie;
-	public static Item itemEggPigeon,itemFeatherPigeon;
+	public static Item itemEggCassowary, itemEggDuck, itemEggGouldianFinch, itemEggGull, itemEggHummingbird;
+	public static Item itemEggKingfisher, itemEggKiwi, itemEggLyrebird, itemEggMagpie, itemEggOstrich;
+	public static Item itemEggParrot, itemEggPelican, itemEggPigeon, itemEggRoadrunner, itemEggSeagull;
+	public static Item itemFeatherCassowary, itemFeatherDuckFemale, itemFeatherDuckMale, itemFeatherGouldianFinch1, itemFeatherGouldianFinch2;
+	public static Item itemFeatherGouldianFinch3, itemFeatherGouldianFinch4, itemFeatherGouldianFinch5, itemFeatherGouldianFinch6, itemFeatherGull;
+	public static Item itemFeatherHummingbirdCanvasPrint, itemFeatherHummingbirdCrimsonTopaz, itemFeatherHummingbirdFieryThroatedHummingbird, itemFeatherHummingbirdFlyingLavenderBlueHummingbird, itemFeatherHummingbirdSwordBilledHummingbird;
+	public static Item itemFeatherKingfisher, itemFeatherKiwi, itemFeatherLyrebird, itemFeatherMagpie, itemFeatherOstrich;
+	public static Item itemFeatherParrotAfricanGreyParrot, itemFeatherParrotBlueAndYellowMacaw, itemFeatherParrotCockatoo, itemFeatherParrotGreatGreenMacaw, itemFeatherParrotHyacinthMacaw;
+	public static Item itemFeatherParrotRedAndGreenMacaw, itemFeatherPelican, itemFeatherPigeon, itemFeatherRoadrunner, itemFeatherSeagull;
 			
 	/** To do **/
 	// tools
@@ -534,7 +533,133 @@ public class BandbItems {
 		itemMiscSurpriseKinderRed = new ItemMiscellaneous().setUnlocalizedName("itemMiscSurpriseKinderRed");
 		itemMiscSurpriseKinderYellow = new ItemMiscellaneous().setUnlocalizedName("itemMiscSurpriseKinderYellow");
 		itemMiscWorm = new ItemMiscellaneous().setUnlocalizedName("itemMiscWorm");
+			//leather
+		itemLeatherCowBel = new ItemMiscellaneous().setUnlocalizedName("itemLeatherCowBel");
+		itemLeatherCowCharolais = new ItemMiscellaneous().setUnlocalizedName("itemLeatherCowCharolais");
+		itemLeatherCowGasconne = new ItemMiscellaneous().setUnlocalizedName("itemLeatherCowGasconne");
+		itemLeatherCowKerry = new ItemMiscellaneous().setUnlocalizedName("itemLeatherCowKerry");
+		itemLeatherCowMilka = new ItemMiscellaneous().setUnlocalizedName("itemLeatherCowMilka");
 
+		GameRegistry.registerItem(itemLeatherCowBel, "itemLeatherCowBel");
+		GameRegistry.registerItem(itemLeatherCowCharolais, "itemLeatherCowCharolais");
+		GameRegistry.registerItem(itemLeatherCowGasconne, "itemLeatherCowGasconne");
+		GameRegistry.registerItem(itemLeatherCowKerry, "itemLeatherCowKerry");
+		GameRegistry.registerItem(itemLeatherCowMilka, "itemLeatherCowMilka");
+
+		itemLeatherCowMontbeliarde = new ItemMiscellaneous().setUnlocalizedName("itemLeatherCowMontbeliarde");
+		itemLeatherGoat = new ItemMiscellaneous().setUnlocalizedName("itemLeatherGoat");
+
+		GameRegistry.registerItem(itemLeatherCowMontbeliarde, "itemLeatherCowMontbeliarde");
+		GameRegistry.registerItem(itemLeatherGoat, "itemLeatherGoat");
+			//egg and feather
+		itemEggCassowary = new ItemMiscellaneous().setUnlocalizedName("itemEggCassowary");
+		itemEggDuck = new ItemMiscellaneous().setUnlocalizedName("itemEggDuck");
+		itemEggGouldianFinch = new ItemMiscellaneous().setUnlocalizedName("itemEggGouldianFinch");
+		itemEggGull = new ItemMiscellaneous().setUnlocalizedName("itemEggGull");
+		itemEggHummingbird = new ItemMiscellaneous().setUnlocalizedName("itemEggHummingbird");
+
+		GameRegistry.registerItem(itemEggCassowary, "itemEggCassowary");
+		GameRegistry.registerItem(itemEggDuck, "itemEggDuck");
+		GameRegistry.registerItem(itemEggGouldianFinch, "itemEggGouldianFinch");
+		GameRegistry.registerItem(itemEggGull, "itemEggGull");
+		GameRegistry.registerItem(itemEggHummingbird, "itemEggHummingbird");
+
+		itemEggKingfisher = new ItemMiscellaneous().setUnlocalizedName("itemEggKingfisher");
+		itemEggKiwi = new ItemMiscellaneous().setUnlocalizedName("itemEggKiwi");
+		itemEggLyrebird = new ItemMiscellaneous().setUnlocalizedName("itemEggLyrebird");
+		itemEggMagpie = new ItemMiscellaneous().setUnlocalizedName("itemEggMagpie");
+		itemEggOstrich = new ItemMiscellaneous().setUnlocalizedName("itemEggOstrich");
+
+		GameRegistry.registerItem(itemEggKingfisher, "itemEggKingfisher");
+		GameRegistry.registerItem(itemEggKiwi, "itemEggKiwi");
+		GameRegistry.registerItem(itemEggLyrebird, "itemEggLyrebird");
+		GameRegistry.registerItem(itemEggMagpie, "itemEggMagpie");
+		GameRegistry.registerItem(itemEggOstrich, "itemEggOstrich");
+
+		itemEggParrot = new ItemMiscellaneous().setUnlocalizedName("itemEggParrot");
+		itemEggPelican = new ItemMiscellaneous().setUnlocalizedName("itemEggPelican");
+		itemEggPigeon = new ItemMiscellaneous().setUnlocalizedName("itemEggPigeon");
+		itemEggRoadrunner = new ItemMiscellaneous().setUnlocalizedName("itemEggRoadrunner");
+		itemEggSeagull = new ItemMiscellaneous().setUnlocalizedName("itemEggSeagull");
+
+		GameRegistry.registerItem(itemEggParrot, "itemEggParrot");
+		GameRegistry.registerItem(itemEggPelican, "itemEggPelican");
+		GameRegistry.registerItem(itemEggPigeon, "itemEggPigeon");
+		GameRegistry.registerItem(itemEggRoadrunner, "itemEggRoadrunner");
+		GameRegistry.registerItem(itemEggSeagull, "itemEggSeagull");
+
+		itemFeatherCassowary = new ItemMiscellaneous().setUnlocalizedName("itemFeatherCassowary");
+		itemFeatherDuckFemale = new ItemMiscellaneous().setUnlocalizedName("itemFeatherDuckFemale");
+		itemFeatherDuckMale = new ItemMiscellaneous().setUnlocalizedName("itemFeatherDuckMale");
+		itemFeatherGouldianFinch1 = new ItemMiscellaneous().setUnlocalizedName("itemFeatherGouldianFinch1");
+		itemFeatherGouldianFinch2 = new ItemMiscellaneous().setUnlocalizedName("itemFeatherGouldianFinch2");
+
+		GameRegistry.registerItem(itemFeatherCassowary, "itemFeatherCassowary");
+		GameRegistry.registerItem(itemFeatherDuckFemale, "itemFeatherDuckFemale");
+		GameRegistry.registerItem(itemFeatherDuckMale, "itemFeatherDuckMale");
+		GameRegistry.registerItem(itemFeatherGouldianFinch1, "itemFeatherGouldianFinch1");
+		GameRegistry.registerItem(itemFeatherGouldianFinch2, "itemFeatherGouldianFinch2");
+
+		itemFeatherGouldianFinch3 = new ItemMiscellaneous().setUnlocalizedName("itemFeatherGouldianFinch3");
+		itemFeatherGouldianFinch4 = new ItemMiscellaneous().setUnlocalizedName("itemFeatherGouldianFinch4");
+		itemFeatherGouldianFinch5 = new ItemMiscellaneous().setUnlocalizedName("itemFeatherGouldianFinch5");
+		itemFeatherGouldianFinch6 = new ItemMiscellaneous().setUnlocalizedName("itemFeatherGouldianFinch6");
+		itemFeatherGull = new ItemMiscellaneous().setUnlocalizedName("itemFeatherGull");
+
+		GameRegistry.registerItem(itemFeatherGouldianFinch3, "itemFeatherGouldianFinch3");
+		GameRegistry.registerItem(itemFeatherGouldianFinch4, "itemFeatherGouldianFinch4");
+		GameRegistry.registerItem(itemFeatherGouldianFinch5, "itemFeatherGouldianFinch5");
+		GameRegistry.registerItem(itemFeatherGouldianFinch6, "itemFeatherGouldianFinch6");
+		GameRegistry.registerItem(itemFeatherGull, "itemFeatherGull");
+
+		itemFeatherHummingbirdCanvasPrint = new ItemMiscellaneous().setUnlocalizedName("itemFeatherHummingbirdCanvasPrint");
+		itemFeatherHummingbirdCrimsonTopaz = new ItemMiscellaneous().setUnlocalizedName("itemFeatherHummingbirdCrimsonTopaz");
+		itemFeatherHummingbirdFieryThroatedHummingbird = new ItemMiscellaneous().setUnlocalizedName("itemFeatherHummingbirdFieryThroatedHummingbird");
+		itemFeatherHummingbirdFlyingLavenderBlueHummingbird = new ItemMiscellaneous().setUnlocalizedName("itemFeatherHummingbirdFlyingLavenderBlueHummingbird");
+		itemFeatherHummingbirdSwordBilledHummingbird = new ItemMiscellaneous().setUnlocalizedName("itemFeatherHummingbirdSwordBilledHummingbird");
+
+		GameRegistry.registerItem(itemFeatherHummingbirdCanvasPrint, "itemFeatherHummingbirdCanvasPrint");
+		GameRegistry.registerItem(itemFeatherHummingbirdCrimsonTopaz, "itemFeatherHummingbirdCrimsonTopaz");
+		GameRegistry.registerItem(itemFeatherHummingbirdFieryThroatedHummingbird, "itemFeatherHummingbirdFieryThroatedHummingbird");
+		GameRegistry.registerItem(itemFeatherHummingbirdFlyingLavenderBlueHummingbird, "itemFeatherHummingbirdFlyingLavenderBlueHummingbird");
+		GameRegistry.registerItem(itemFeatherHummingbirdSwordBilledHummingbird, "itemFeatherHummingbirdSwordBilledHummingbird");
+
+		itemFeatherKingfisher = new ItemMiscellaneous().setUnlocalizedName("itemFeatherKingfisher");
+		itemFeatherKiwi = new ItemMiscellaneous().setUnlocalizedName("itemFeatherKiwi");
+		itemFeatherLyrebird = new ItemMiscellaneous().setUnlocalizedName("itemFeatherLyrebird");
+		itemFeatherMagpie = new ItemMiscellaneous().setUnlocalizedName("itemFeatherMagpie");
+		itemFeatherOstrich = new ItemMiscellaneous().setUnlocalizedName("itemFeatherOstrich");
+
+		GameRegistry.registerItem(itemFeatherKingfisher, "itemFeatherKingfisher");
+		GameRegistry.registerItem(itemFeatherKiwi, "itemFeatherKiwi");
+		GameRegistry.registerItem(itemFeatherLyrebird, "itemFeatherLyrebird");
+		GameRegistry.registerItem(itemFeatherMagpie, "itemFeatherMagpie");
+		GameRegistry.registerItem(itemFeatherOstrich, "itemFeatherOstrich");
+
+		itemFeatherParrotAfricanGreyParrot = new ItemMiscellaneous().setUnlocalizedName("itemFeatherParrotAfricanGreyParrot");
+		itemFeatherParrotBlueAndYellowMacaw = new ItemMiscellaneous().setUnlocalizedName("itemFeatherParrotBlueAndYellowMacaw");
+		itemFeatherParrotCockatoo = new ItemMiscellaneous().setUnlocalizedName("itemFeatherParrotCockatoo");
+		itemFeatherParrotGreatGreenMacaw = new ItemMiscellaneous().setUnlocalizedName("itemFeatherParrotGreatGreenMacaw");
+		itemFeatherParrotHyacinthMacaw = new ItemMiscellaneous().setUnlocalizedName("itemFeatherParrotHyacinthMacaw");
+
+		GameRegistry.registerItem(itemFeatherParrotAfricanGreyParrot, "itemFeatherParrotAfricanGreyParrot");
+		GameRegistry.registerItem(itemFeatherParrotBlueAndYellowMacaw, "itemFeatherParrotBlueAndYellowMacaw");
+		GameRegistry.registerItem(itemFeatherParrotCockatoo, "itemFeatherParrotCockatoo");
+		GameRegistry.registerItem(itemFeatherParrotGreatGreenMacaw, "itemFeatherParrotGreatGreenMacaw");
+		GameRegistry.registerItem(itemFeatherParrotHyacinthMacaw, "itemFeatherParrotHyacinthMacaw");
+
+		itemFeatherParrotRedAndGreenMacaw = new ItemMiscellaneous().setUnlocalizedName("itemFeatherParrotRedAndGreenMacaw");
+		itemFeatherPelican = new ItemMiscellaneous().setUnlocalizedName("itemFeatherPelican");
+		itemFeatherPigeon = new ItemMiscellaneous().setUnlocalizedName("itemFeatherPigeon");
+		itemFeatherRoadrunner = new ItemMiscellaneous().setUnlocalizedName("itemFeatherRoadrunner");
+		itemFeatherSeagull = new ItemMiscellaneous().setUnlocalizedName("itemFeatherSeagull");
+
+		GameRegistry.registerItem(itemFeatherParrotRedAndGreenMacaw, "itemFeatherParrotRedAndGreenMacaw");
+		GameRegistry.registerItem(itemFeatherPelican, "itemFeatherPelican");
+		GameRegistry.registerItem(itemFeatherPigeon, "itemFeatherPigeon");
+		GameRegistry.registerItem(itemFeatherRoadrunner, "itemFeatherRoadrunner");
+		GameRegistry.registerItem(itemFeatherSeagull, "itemFeatherSeagull");
+		
 	}
 
 	public static void registerRender(){
@@ -745,7 +870,70 @@ public class BandbItems {
 		ModelLoader.setCustomModelResourceLocation(itemMiscSurpriseKinderRed, 0, new ModelResourceLocation("bandb_mod:itemMiscSurpriseKinderRed", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(itemMiscSurpriseKinderYellow, 0, new ModelResourceLocation("bandb_mod:itemMiscSurpriseKinderYellow", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(itemMiscWorm, 0, new ModelResourceLocation("bandb_mod:itemMiscWorm", "inventory"));
+			//leather
+		ModelLoader.setCustomModelResourceLocation(itemLeatherCowBel, 0, new ModelResourceLocation("bandb_mod:itemLeatherCowBel", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemLeatherCowCharolais, 0, new ModelResourceLocation("bandb_mod:itemLeatherCowCharolais", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemLeatherCowGasconne, 0, new ModelResourceLocation("bandb_mod:itemLeatherCowGasconne", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemLeatherCowKerry, 0, new ModelResourceLocation("bandb_mod:itemLeatherCowKerry", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemLeatherCowMilka, 0, new ModelResourceLocation("bandb_mod:itemLeatherCowMilka", "inventory"));
 
+		ModelLoader.setCustomModelResourceLocation(itemLeatherCowMontbeliarde, 0, new ModelResourceLocation("bandb_mod:itemLeatherCowMontbeliarde", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemLeatherGoat, 0, new ModelResourceLocation("bandb_mod:itemLeatherGoat", "inventory"));
+			//egg and feather
+		ModelLoader.setCustomModelResourceLocation(itemEggCassowary, 0, new ModelResourceLocation("bandb_mod:itemEggCassowary", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggDuck, 0, new ModelResourceLocation("bandb_mod:itemEggDuck", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggGouldianFinch, 0, new ModelResourceLocation("bandb_mod:itemEggGouldianFinch", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggGull, 0, new ModelResourceLocation("bandb_mod:itemEggGull", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggHummingbird, 0, new ModelResourceLocation("bandb_mod:itemEggHummingbird", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemEggKingfisher, 0, new ModelResourceLocation("bandb_mod:itemEggKingfisher", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggKiwi, 0, new ModelResourceLocation("bandb_mod:itemEggKiwi", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggLyrebird, 0, new ModelResourceLocation("bandb_mod:itemEggLyrebird", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggMagpie, 0, new ModelResourceLocation("bandb_mod:itemEggMagpie", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggOstrich, 0, new ModelResourceLocation("bandb_mod:itemEggOstrich", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemEggParrot, 0, new ModelResourceLocation("bandb_mod:itemEggParrot", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggPelican, 0, new ModelResourceLocation("bandb_mod:itemEggPelican", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggPigeon, 0, new ModelResourceLocation("bandb_mod:itemEggPigeon", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggRoadrunner, 0, new ModelResourceLocation("bandb_mod:itemEggRoadrunner", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemEggSeagull, 0, new ModelResourceLocation("bandb_mod:itemEggSeagull", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemFeatherCassowary, 0, new ModelResourceLocation("bandb_mod:itemFeatherCassowary", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherDuckFemale, 0, new ModelResourceLocation("bandb_mod:itemFeatherDuckFemale", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherDuckMale, 0, new ModelResourceLocation("bandb_mod:itemFeatherDuckMale", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherGouldianFinch1, 0, new ModelResourceLocation("bandb_mod:itemFeatherGouldianFinch1", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherGouldianFinch2, 0, new ModelResourceLocation("bandb_mod:itemFeatherGouldianFinch2", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemFeatherGouldianFinch3, 0, new ModelResourceLocation("bandb_mod:itemFeatherGouldianFinch3", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherGouldianFinch4, 0, new ModelResourceLocation("bandb_mod:itemFeatherGouldianFinch4", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherGouldianFinch5, 0, new ModelResourceLocation("bandb_mod:itemFeatherGouldianFinch5", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherGouldianFinch6, 0, new ModelResourceLocation("bandb_mod:itemFeatherGouldianFinch6", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherGull, 0, new ModelResourceLocation("bandb_mod:itemFeatherGull", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemFeatherHummingbirdCanvasPrint, 0, new ModelResourceLocation("bandb_mod:itemFeatherHummingbirdCanvasPrint", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherHummingbirdCrimsonTopaz, 0, new ModelResourceLocation("bandb_mod:itemFeatherHummingbirdCrimsonTopaz", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherHummingbirdFieryThroatedHummingbird, 0, new ModelResourceLocation("bandb_mod:itemFeatherHummingbirdFieryThroatedHummingbird", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherHummingbirdFlyingLavenderBlueHummingbird, 0, new ModelResourceLocation("bandb_mod:itemFeatherHummingbirdFlyingLavenderBlueHummingbird", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherHummingbirdSwordBilledHummingbird, 0, new ModelResourceLocation("bandb_mod:itemFeatherHummingbirdSwordBilledHummingbird", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemFeatherKingfisher, 0, new ModelResourceLocation("bandb_mod:itemFeatherKingfisher", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherKiwi, 0, new ModelResourceLocation("bandb_mod:itemFeatherKiwi", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherLyrebird, 0, new ModelResourceLocation("bandb_mod:itemFeatherLyrebird", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherMagpie, 0, new ModelResourceLocation("bandb_mod:itemFeatherMagpie", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherOstrich, 0, new ModelResourceLocation("bandb_mod:itemFeatherOstrich", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemFeatherParrotAfricanGreyParrot, 0, new ModelResourceLocation("bandb_mod:itemFeatherParrotAfricanGreyParrot", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherParrotBlueAndYellowMacaw, 0, new ModelResourceLocation("bandb_mod:itemFeatherParrotBlueAndYellowMacaw", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherParrotCockatoo, 0, new ModelResourceLocation("bandb_mod:itemFeatherParrotCockatoo", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherParrotGreatGreenMacaw, 0, new ModelResourceLocation("bandb_mod:itemFeatherParrotGreatGreenMacaw", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherParrotHyacinthMacaw, 0, new ModelResourceLocation("bandb_mod:itemFeatherParrotHyacinthMacaw", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemFeatherParrotRedAndGreenMacaw, 0, new ModelResourceLocation("bandb_mod:itemFeatherParrotRedAndGreenMacaw", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherPelican, 0, new ModelResourceLocation("bandb_mod:itemFeatherPelican", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherPigeon, 0, new ModelResourceLocation("bandb_mod:itemFeatherPigeon", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherRoadrunner, 0, new ModelResourceLocation("bandb_mod:itemFeatherRoadrunner", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemFeatherSeagull, 0, new ModelResourceLocation("bandb_mod:itemFeatherSeagull", "inventory"));
+		
 	}
 
 }

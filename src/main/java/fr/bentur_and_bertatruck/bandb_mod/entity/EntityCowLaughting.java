@@ -136,11 +136,11 @@ public class EntityCowLaughting extends EntityAnimal
         {
             if (itemstack.stackSize-- == 1)
             {
-                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemBucketBelMilk));
+                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemToolBucketBelMilk));
             }
-            else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemBucketBelMilk)))
+            else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemToolBucketBelMilk)))
             {
-                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemBucketBelMilk, 1, 0), false);
+                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemToolBucketBelMilk, 1, 0), false);
             }
 
             return true;

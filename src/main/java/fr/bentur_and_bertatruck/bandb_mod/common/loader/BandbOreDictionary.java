@@ -5,7 +5,7 @@ import net.minecraftforge.oredict.OreDictionary;
 
 public class BandbOreDictionary {
 	
-	public static void loaderPlankWood(){
+	public static void register(){
 		
 		OreDictionary.registerOre("plankWood", new ItemStack(BandbBlocks.blockPlankAlmond, 1, 0));
 		OreDictionary.registerOre("plankWood", new ItemStack(BandbBlocks.blockPlankApricot, 1, 0));
@@ -251,13 +251,8 @@ public class BandbOreDictionary {
 		OreDictionary.registerOre("logWood", new ItemStack(BandbBlocks.blockWoodCinchona, 1, 0));
 		
 		
-		OreDictionary.registerOre("dyeBlack", new ItemStack(BandbItems.itemBlackDye, 1, 0));
-		OreDictionary.registerOre("dyeBlue", new ItemStack(BandbItems.itemBlueDye, 1, 0));
-		OreDictionary.registerOre("dyeWhite", new ItemStack(BandbItems.itemWhiteDye, 1, 0));
-		
-		
-
-		
+		OreDictionary.registerOre("dyeBlack", new ItemStack(BandbItems.itemMiscDyeBlack, 1, 0));
+		OreDictionary.registerOre("dyeBlue", new ItemStack(BandbItems.itemMiscDyeBlue, 1, 0));
+		OreDictionary.registerOre("dyeWhite", new ItemStack(BandbItems.itemMiscDyeWhite, 1, 0));				
 	}
-
 }

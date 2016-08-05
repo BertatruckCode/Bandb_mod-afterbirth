@@ -141,7 +141,7 @@ public class EntityBenLaden extends EntityMob {
     private void func_146077_cc(){
     	
         if (!this.worldObj.isRemote){
-            boolean flag = this.worldObj.getGameRules().getGameRuleBooleanValue("mobGriefing");
+            boolean flag = this.worldObj.getGameRules().getBoolean("mobGriefing");
             
             this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, (float)this.explosionRadius, flag);
             

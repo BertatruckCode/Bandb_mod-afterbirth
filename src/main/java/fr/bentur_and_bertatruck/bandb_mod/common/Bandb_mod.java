@@ -3,11 +3,17 @@ package fr.bentur_and_bertatruck.bandb_mod.common;
 
 import org.apache.logging.log4j.Logger;
 
+import fr.bentur_and_bertatruck.bandb_mod.common.handler.CraftingHandler;
+import fr.bentur_and_bertatruck.bandb_mod.common.handler.EventHandlerBandb;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBeverages;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
+import fr.bentur_and_bertatruck.bandb_mod.machine.gui.HandlerGui;
+import fr.bentur_and_bertatruck.bandb_mod.machine.network.NetworkHandler;
 import fr.bentur_and_bertatruck.bandb_mod.proxy.bandb_mod_CommonProxy;
 import net.minecraft.block.Block;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -15,9 +21,10 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod(modid = "bandb_mod", name = "bandb_mod", version = "10.0.0", acceptedMinecraftVersions = "[1.8.9]")
+@Mod(modid = "bandb_mod", name = "bandb_mod", version = "1.0.0", acceptedMinecraftVersions = "[1.8.9]")
 public class Bandb_mod{
 	
 	public static final String MODID = "bandb_mod";
@@ -35,10 +42,10 @@ public class Bandb_mod{
 	public static final int guiIDMac = 23;
 
 	//event
-	//EventHandlerBandb events = new EventHandlerBandb(); 
-		
-	//CraftingHandler craftingHandler = new CraftingHandler();
-	//test
+	EventHandlerBandb events = new EventHandlerBandb(); 		
+	CraftingHandler craftingHandler = new CraftingHandler();
+	
+	//test	
 	public static Block blockTest, blockTestOGL, blockNuke;	
 	public static Block blockDistrib;			
 		     
@@ -50,11 +57,9 @@ public class Bandb_mod{
 		//Items.melon.setTextureName(Bandb_mod.MODID + ":fruit/itemMelon");
 		
 		//event
-		//FMLCommonHandler.instance().bus().register(events);
-		//MinecraftForge.EVENT_BUS.register(events);
+		MinecraftForge.EVENT_BUS.register(events);
 			//crafting
-		//FMLCommonHandler.instance().bus().register(craftingHandler);
-		//MinecraftForge.EVENT_BUS.register(craftingHandler);
+		MinecraftForge.EVENT_BUS.register(craftingHandler);
 		
 		/**
 		//tools and stuff
@@ -102,7 +107,6 @@ public class Bandb_mod{
 	@EventHandler
 	public void init(FMLInitializationEvent event){
 		
-
 		/**
 		BandbLists.init();
 		BandbMachines.init();
@@ -178,14 +182,14 @@ public class Bandb_mod{
 		
 		//gui handler
 		
-		/**
-		NetworkRegistry.INSTANCE.registerGuiHandler(this, new HandlerGui());	
+		**/
+		//NetworkRegistry.INSTANCE.registerGuiHandler(this, new HandlerGui());	
 		
 		new NetworkHandler();
 		
 		//register render
-		proxy.registerRender();
-		**/
+		proxy.init();
+		
 	}
 
 	@EventHandler

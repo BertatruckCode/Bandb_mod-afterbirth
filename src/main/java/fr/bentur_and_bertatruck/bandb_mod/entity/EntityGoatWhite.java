@@ -1,5 +1,8 @@
 package fr.bentur_and_bertatruck.bandb_mod.entity;
 
+import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -18,8 +21,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.pathfinding.PathNavigateGround;
 import net.minecraft.world.World;
-import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
-import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 
 public class EntityGoatWhite extends EntityAnimal
 {
@@ -117,11 +118,11 @@ public class EntityGoatWhite extends EntityAnimal
         {
             if (this.isBurning())
             {
-                this.dropItem(BandbItems.itemGoatCooked, 1);
+                this.dropItem(BandbFood.itemMeatGoatCooked, 1);
             }
             else
             {
-                this.dropItem(BandbItems.itemGoatRaw, 1);
+                this.dropItem(BandbFood.itemMeatGoatRaw, 1);
             }
         }
     }
@@ -134,10 +135,10 @@ public class EntityGoatWhite extends EntityAnimal
 
         if (itemstack != null && itemstack.getItem() == Items.bucket && !p_70085_1_.capabilities.isCreativeMode){
             if (itemstack.stackSize-- == 1){
-                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemBucketGoatMilk));
+                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemToolBucketGoatMilk));
             
-            }else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemBucketGoatMilk))){
-                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemBucketGoatMilk, 1, 0), false);
+            }else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemToolBucketGoatMilk))){
+                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemToolBucketGoatMilk, 1, 0), false);
             }
             return true;
         

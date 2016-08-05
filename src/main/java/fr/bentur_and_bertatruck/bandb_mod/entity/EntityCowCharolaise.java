@@ -131,11 +131,11 @@ public class EntityCowCharolaise extends EntityAnimal{
         {
             if (itemstack.stackSize-- == 1)
             {
-                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemBucketMilkaMilk));
+                p_70085_1_.inventory.setInventorySlotContents(p_70085_1_.inventory.currentItem, new ItemStack(BandbItems.itemToolBucketMilkaMilk));
             }
-            else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemBucketMilkaMilk)))
+            else if (!p_70085_1_.inventory.addItemStackToInventory(new ItemStack(BandbItems.itemToolBucketMilkaMilk)))
             {
-                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemBucketMilkaMilk, 1, 0), false);
+                p_70085_1_.dropPlayerItemWithRandomChoice(new ItemStack(BandbItems.itemToolBucketMilkaMilk, 1, 0), false);
             }
 
             return true;

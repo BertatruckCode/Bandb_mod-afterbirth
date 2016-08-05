@@ -1,6 +1,6 @@
 package fr.bentur_and_bertatruck.bandb_mod.entity;
 
-import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
 import jdk.nashorn.internal.ir.Block;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -100,9 +100,9 @@ public class EntityZebra extends EntityAnimal
 
         for(k = 0; k < j; ++k){
             if (this.isBurning()){
-                this.dropItem(BandbItems.itemZebraCooked, 1);
+                this.dropItem(BandbFood.itemMeatZebraCooked, 1);
             }else{
-                this.dropItem(BandbItems.itemZebraRaw, 1);
+                this.dropItem(BandbFood.itemMeatZebraRaw, 1);
             }
         }
     }
