@@ -1,5 +1,6 @@
 package fr.bentur_and_bertatruck.bandb_mod.common.loader;
 	
+import fr.bentur_and_bertatruck.bandb_mod.common.item.ItemMiscellaneous;
 import fr.bentur_and_bertatruck.bandb_mod.common.item.ItemOre;
 import fr.bentur_and_bertatruck.bandb_mod.common.item.ItemPlant;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -53,15 +54,15 @@ public class BandbItems {
 	public static Item itemPlantRice, itemPlantRye, itemPlantSesameSeed, itemPlantSorghum, itemPlantSpelt;
 	public static Item itemPlantSunflowerSeed;
 
-	/** To do **/
 	//miscellaneous
-	public static Item itemJoint,itemIPhone,itemiPad,itemMinecraftForDummies, itemPieceOfGlass;
-	public static Item itemMagentaInkCartridge,itemBlackInkCartridge,itemYellowInkCartridge,itemCyanInkCartridge,itemEmptyInkCartridge;
-	public static Item itemBookCocktailGlass,itemBookCocktails,itemBookShaker,itemBookOldFashioned,itemSurpriseKinderYellow;
-	public static Item itemWorm, itemBookTumbler,itemSurprise,itemSurpriseKinderRed,itemBleach,itemMac;
+	public static Item itemMiscBleach, itemMiscBookCocktailGlass, itemMiscBookCocktails, itemMiscBookOldFashioned, itemMiscBookShaker;
+	public static Item itemMiscBookTumbler, itemMiscDyeBlack, itemMiscDyeBlue, itemMiscDyeWhite, itemMiscIPad;
+	public static Item itemMiscIPhone, itemMiscInkCartridgeBlack, itemMiscInkCartridgeCyan, itemMiscInkCartridgeEmpty, itemMiscInkCartridgeMagenta;
+	public static Item itemMiscInkCartridgeYellow, itemMiscJoint, itemMiscMac, itemMiscMinecraftForDummies, itemMiscPieceOfGlass;
+	public static Item itemMiscSurprise, itemMiscSurpriseKinderRed, itemMiscSurpriseKinderYellow, itemMiscWorm;
 		//leather
 	public static Item itemLeatherCowBel, itemLeatherCowCharolais, itemLeatherCowGasconne, itemLeatherCowKerry, itemLeatherCowMilka;
-	public static Item itemLeatherCowMontbeliarde,itemWhiteDye,itemBlackDye,itemBlueDye,itemLeatherGoat;
+	public static Item itemLeatherCowMontbeliarde,itemLeatherGoat;
 		//egg and feather
 	public static Item itemEggOstrich,itemFeatherOstrich,itemEggDuck,itemFeatherDuckFemale;
 	public static Item itemFeatherDuckMale,itemEggCassowary,itemFeatherCassowary,itemEggHummingbird,itemFeatherHummingbirdCanvasPrint;
@@ -74,21 +75,25 @@ public class BandbItems {
 	public static Item itemFeatherParrotGreatGreenMacaw,itemFeatherParrotHyacinthMacaw,itemFeatherParrotRedAndGreenMacaw,itemEggMagpie,itemFeatherMagpie;
 	public static Item itemEggPigeon,itemFeatherPigeon;
 			
-	
+	/** To do **/
 	// tools
 		//Tools Material
-	public static ToolMaterial toolGode = EnumHelper.addToolMaterial("toolGode", 2, 16, 12.0F,12.0F, 1);
+	public static ToolMaterial toolGode = EnumHelper.addToolMaterial("toolGode", 0, 16, 12.0F, 12.0F, 1);	
+	public static ToolMaterial toolKitchen = EnumHelper.addToolMaterial("toolKitchen", 0, 128, 1.0F, 10.0F, 5);		
+
+	public static Item itemToolGodePink,itemToolGodePurple,itemToolGodeGreen,itemToolGodeBlue,itemToolGodeRed;
 		
-	public static Item itemToolPinkGode,itemToolPurpleGode,itemToolGreenGode,itemToolBlueGode,itemToolRedGode;
-	public static Item itemToolAdjustableSpanner;
-		//kitchen tools
+	//kitchen tools
+		//crafting tools
+	public static Item itemToolBucketGoatMilk,itemToolBucketCream, itemToolKebabSpit;
+	public static Item itemToolCocktailGlassDirty,itemToolFluteDirty,itemToolGlassCupDirty,itemToolOldFashonnedDirty,itemToolTumblerDirty;
+	public static Item itemToolCocktailGlass,itemToolFlute,itemToolOldFashoned,itemToolTumbler,itemToolGlassCup;
+	public static Item itemToolBucketBelMilk,itemToolBucketMilkaMilk;
+		//durable tools
 	public static Item itemToolFlyingPan,itemToolCheeseKnife,itemToolCleaverIron,itemToolKnifeIron,itemToolShaker;
 	public static Item itemToolPizzaWheel,itemToolFoforkStone,itemToolCookieCutterStar,itemToolCookieCutterSquare,itemToolCookieCutterMan;
-	public static Item itemToolCookieCutterCircle,itemToolCheeseGraterMachine,itemToolBucketBelMilk,itemToolBucketMilkaMilk,itemToolScrewdriver;
-	public static Item itemToolCocktailGlass,itemToolFlute,itemToolOldFashoned,itemToolTumbler,itemToolGlassCup;
-	public static Item itemToolCocktailGlassDirty,itemToolFluteDirty,itemToolGlassCupDirty,itemToolOldFashonnedDirty,itemToolTumblerDirty;
-	public static Item itemToolBucketGoatMilk,itemToolBucketCream, itemToolKebabSpit;
-			
+	public static Item itemToolCookieCutterCircle,itemToolCheeseGraterMachine,itemToolScrewdriver, itemToolCheeseGrater;
+				
 	//Butterfly
 	public static Item itemButterflyAcmonBlue,itemButterflyAfricanCloudedYellow,itemButterflyAfricanMapWing,itemButterflyAfricanPeachMoth,itemButterflyAlcidesAgathyrsus;
 	public static Item itemButterflyAmerilaastreus,itemButterflyApolloButterfly,itemButterflyAshButterfly,itemButterflyAtlasMoth,itemButterflyAmberPhantom;
@@ -475,7 +480,60 @@ public class BandbItems {
 		itemPlantSunflowerSeed = new ItemPlant().setUnlocalizedName("itemPlantSunflowerSeed");
 
 		GameRegistry.registerItem(itemPlantSunflowerSeed, "itemPlantSunflowerSeed");
+		
+		//miscellaneous
+		itemMiscBleach = new ItemMiscellaneous().setUnlocalizedName("itemMiscBleach");
+		itemMiscBookCocktailGlass = new ItemMiscellaneous().setUnlocalizedName("itemMiscBookCocktailGlass");
+		itemMiscBookCocktails = new ItemMiscellaneous().setUnlocalizedName("itemMiscBookCocktails");
+		itemMiscBookOldFashioned = new ItemMiscellaneous().setUnlocalizedName("itemMiscBookOldFashioned");
+		itemMiscBookShaker = new ItemMiscellaneous().setUnlocalizedName("itemMiscBookShaker");
 
+		GameRegistry.registerItem(itemMiscBleach, "itemMiscBleach");
+		GameRegistry.registerItem(itemMiscBookCocktailGlass, "itemMiscBookCocktailGlass");
+		GameRegistry.registerItem(itemMiscBookCocktails, "itemMiscBookCocktails");
+		GameRegistry.registerItem(itemMiscBookOldFashioned, "itemMiscBookOldFashioned");
+		GameRegistry.registerItem(itemMiscBookShaker, "itemMiscBookShaker");
+
+		itemMiscBookTumbler = new ItemMiscellaneous().setUnlocalizedName("itemMiscBookTumbler");
+		itemMiscDyeBlack = new ItemMiscellaneous().setUnlocalizedName("itemMiscDyeBlack");
+		itemMiscDyeBlue = new ItemMiscellaneous().setUnlocalizedName("itemMiscDyeBlue");
+		itemMiscDyeWhite = new ItemMiscellaneous().setUnlocalizedName("itemMiscDyeWhite");
+		itemMiscIPad = new ItemMiscellaneous().setUnlocalizedName("itemMiscIPad");
+
+		GameRegistry.registerItem(itemMiscBookTumbler, "itemMiscBookTumbler");
+		GameRegistry.registerItem(itemMiscDyeBlack, "itemMiscDyeBlack");
+		GameRegistry.registerItem(itemMiscDyeBlue, "itemMiscDyeBlue");
+		GameRegistry.registerItem(itemMiscDyeWhite, "itemMiscDyeWhite");
+		GameRegistry.registerItem(itemMiscIPad, "itemMiscIPad");
+
+		itemMiscIPhone = new ItemMiscellaneous().setUnlocalizedName("itemMiscIPhone");
+		itemMiscInkCartridgeBlack = new ItemMiscellaneous().setUnlocalizedName("itemMiscInkCartridgeBlack");
+		itemMiscInkCartridgeCyan = new ItemMiscellaneous().setUnlocalizedName("itemMiscInkCartridgeCyan");
+		itemMiscInkCartridgeEmpty = new ItemMiscellaneous().setUnlocalizedName("itemMiscInkCartridgeEmpty");
+		itemMiscInkCartridgeMagenta = new ItemMiscellaneous().setUnlocalizedName("itemMiscInkCartridgeMagenta");
+
+		GameRegistry.registerItem(itemMiscIPhone, "itemMiscIPhone");
+		GameRegistry.registerItem(itemMiscInkCartridgeBlack, "itemMiscInkCartridgeBlack");
+		GameRegistry.registerItem(itemMiscInkCartridgeCyan, "itemMiscInkCartridgeCyan");
+		GameRegistry.registerItem(itemMiscInkCartridgeEmpty, "itemMiscInkCartridgeEmpty");
+		GameRegistry.registerItem(itemMiscInkCartridgeMagenta, "itemMiscInkCartridgeMagenta");
+
+		itemMiscInkCartridgeYellow = new ItemMiscellaneous().setUnlocalizedName("itemMiscInkCartridgeYellow");
+		itemMiscJoint = new ItemMiscellaneous().setUnlocalizedName("itemMiscJoint");
+		itemMiscMac = new ItemMiscellaneous().setUnlocalizedName("itemMiscMac");
+		itemMiscMinecraftForDummies = new ItemMiscellaneous().setUnlocalizedName("itemMiscMinecraftForDummies");
+		itemMiscPieceOfGlass = new ItemMiscellaneous().setUnlocalizedName("itemMiscPieceOfGlass");
+
+		GameRegistry.registerItem(itemMiscInkCartridgeYellow, "itemMiscInkCartridgeYellow");
+		GameRegistry.registerItem(itemMiscJoint, "itemMiscJoint");
+		GameRegistry.registerItem(itemMiscMac, "itemMiscMac");
+		GameRegistry.registerItem(itemMiscMinecraftForDummies, "itemMiscMinecraftForDummies");
+		GameRegistry.registerItem(itemMiscPieceOfGlass, "itemMiscPieceOfGlass");
+
+		itemMiscSurprise = new ItemMiscellaneous().setUnlocalizedName("itemMiscSurprise");
+		itemMiscSurpriseKinderRed = new ItemMiscellaneous().setUnlocalizedName("itemMiscSurpriseKinderRed");
+		itemMiscSurpriseKinderYellow = new ItemMiscellaneous().setUnlocalizedName("itemMiscSurpriseKinderYellow");
+		itemMiscWorm = new ItemMiscellaneous().setUnlocalizedName("itemMiscWorm");
 
 	}
 
@@ -658,7 +716,36 @@ public class BandbItems {
 
 		ModelLoader.setCustomModelResourceLocation(itemPlantSunflowerSeed, 0, new ModelResourceLocation("bandb_mod:itemPlantSunflowerSeed", "inventory"));
 
-	
+		//miscellaneous
+		ModelLoader.setCustomModelResourceLocation(itemMiscBleach, 0, new ModelResourceLocation("bandb_mod:itemMiscBleach", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscBookCocktailGlass, 0, new ModelResourceLocation("bandb_mod:itemMiscBookCocktailGlass", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscBookCocktails, 0, new ModelResourceLocation("bandb_mod:itemMiscBookCocktails", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscBookOldFashioned, 0, new ModelResourceLocation("bandb_mod:itemMiscBookOldFashioned", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscBookShaker, 0, new ModelResourceLocation("bandb_mod:itemMiscBookShaker", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemMiscBookTumbler, 0, new ModelResourceLocation("bandb_mod:itemMiscBookTumbler", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscDyeBlack, 0, new ModelResourceLocation("bandb_mod:itemMiscDyeBlack", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscDyeBlue, 0, new ModelResourceLocation("bandb_mod:itemMiscDyeBlue", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscDyeWhite, 0, new ModelResourceLocation("bandb_mod:itemMiscDyeWhite", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscIPad, 0, new ModelResourceLocation("bandb_mod:itemMiscIPad", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemMiscIPhone, 0, new ModelResourceLocation("bandb_mod:itemMiscIPhone", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscInkCartridgeBlack, 0, new ModelResourceLocation("bandb_mod:itemMiscInkCartridgeBlack", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscInkCartridgeCyan, 0, new ModelResourceLocation("bandb_mod:itemMiscInkCartridgeCyan", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscInkCartridgeEmpty, 0, new ModelResourceLocation("bandb_mod:itemMiscInkCartridgeEmpty", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscInkCartridgeMagenta, 0, new ModelResourceLocation("bandb_mod:itemMiscInkCartridgeMagenta", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemMiscInkCartridgeYellow, 0, new ModelResourceLocation("bandb_mod:itemMiscInkCartridgeYellow", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscJoint, 0, new ModelResourceLocation("bandb_mod:itemMiscJoint", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscMac, 0, new ModelResourceLocation("bandb_mod:itemMiscMac", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscMinecraftForDummies, 0, new ModelResourceLocation("bandb_mod:itemMiscMinecraftForDummies", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscPieceOfGlass, 0, new ModelResourceLocation("bandb_mod:itemMiscPieceOfGlass", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(itemMiscSurprise, 0, new ModelResourceLocation("bandb_mod:itemMiscSurprise", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscSurpriseKinderRed, 0, new ModelResourceLocation("bandb_mod:itemMiscSurpriseKinderRed", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscSurpriseKinderYellow, 0, new ModelResourceLocation("bandb_mod:itemMiscSurpriseKinderYellow", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(itemMiscWorm, 0, new ModelResourceLocation("bandb_mod:itemMiscWorm", "inventory"));
+
 	}
 
 }

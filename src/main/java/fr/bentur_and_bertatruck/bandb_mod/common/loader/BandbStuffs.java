@@ -19,7 +19,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 		public static Item itemHelmetRuby,itemChestplateRuby,itemLeggingsRuby,itemBootsRuby;
 		public static Item itemHelmetSapphire,itemChestplateSapphire,itemLeggingsSapphire,itemBootsSapphire;
 		public static Item itemHelmetTitan,itemChestplateTitan,itemLeggingsTitan,itemBootsTitan;
-    	public static Item itemHelmetPainite,itemChestplatePainite,itemLeggingsPainite,itemBootsPainite;
 		
 		//material
 		public static ArmorMaterial armorAluminium = EnumHelper.addArmorMaterial("armorAluminium",15, new int[]{2, 6, 5, 2}, 9);
@@ -31,7 +30,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 		public static ArmorMaterial armorSapphire = EnumHelper.addArmorMaterial("armorSapphire",15, new int[]{2, 6, 5, 2}, 9);
 		public static ArmorMaterial armorSteel = EnumHelper.addArmorMaterial("armorSteel",15, new int[]{2, 6, 5, 2}, 9);
 		public static ArmorMaterial armorTitan = EnumHelper.addArmorMaterial("armorTitan",15, new int[]{2, 6, 5, 2}, 9);	
-		public static ArmorMaterial armorPainite = EnumHelper.addArmorMaterial("armorPainite",15, new int[]{2, 6, 5, 2}, 9);	
 		public static ArmorMaterial armorBronze = EnumHelper.addArmorMaterial("armorBronze",15, new int[]{2, 6, 5, 2}, 9);	
 
 		public static void loaderStuff(boolean bool){
@@ -125,18 +123,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 		    	GameRegistry.registerItem(itemChestplateTitan, "itemChestplateTitan");
 		    	GameRegistry.registerItem(itemLeggingsTitan, "itemLeggingsTitan");
 		    	GameRegistry.registerItem(itemBootsTitan, "itemBootsTitan");
-		    	  	
-				//painite		    	
-		    	itemHelmetPainite = new ItemArmors(armorPainite, 0, "ArmorPainite", "painite").setUnlocalizedName("itemHelmetPainite").setTextureName(Bandb_mod.MODID + ":ore/armor/itemHelmetPainite");
-				itemChestplatePainite= new ItemArmors(armorPainite, 1, "ArmorPainite", "painite").setUnlocalizedName("itemChestplatePainite").setTextureName(Bandb_mod.MODID + ":ore/armor/itemChestplatePainite");
-				itemLeggingsPainite = new ItemArmors(armorPainite, 2, "ArmorPainite", "painite").setUnlocalizedName("itemLeggingsPainite").setTextureName(Bandb_mod.MODID + ":ore/armor/itemLeggingsPainite");
-				itemBootsPainite = new ItemArmors(armorPainite, 3, "ArmorPainite", "painite").setUnlocalizedName("itemBootsPainite").setTextureName(Bandb_mod.MODID + ":ore/armor/itemBootsPainite");
-		    	
-		    	GameRegistry.registerItem(itemHelmetPainite, "itemHelmetPainite");
-		    	GameRegistry.registerItem(itemChestplatePainite, "itemChestplatePainite");
-		    	GameRegistry.registerItem(itemLeggingsPainite, "itemLeggingsPainite");
-		    	GameRegistry.registerItem(itemBootsPainite, "itemBootsPainite");
-		    			 
+		    	  			    			 
 			}
 		}
 }

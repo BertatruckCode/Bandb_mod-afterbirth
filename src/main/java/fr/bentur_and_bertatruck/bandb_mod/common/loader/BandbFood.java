@@ -22,6 +22,10 @@ public class BandbFood {
 	public static Item itemIngredientLeaveCocaDried, itemIngredientMayonnaise, itemIngredientMustardSauce, itemIngredientSaltedCaramel, itemIngredientSliverCheese;
 	public static Item itemIngredientSliverOnion, itemIngredientSliverTomato, itemIngredientTobaccoDried, itemIngredientWhiteChocolate, itemIngredientWhiteSauce;
 	
+	/** To do **/
+	public static Item itemIngredientSalt, itemIngredientPollen;
+	/** end To do **/
+	
 	//processed food
 	public static Item itemFoodApplePie, itemFoodBlackForest, itemFoodBounty, itemFoodBubbleGum, itemFoodCandyCane;
 	public static Item itemFoodCandyStrawberry, itemFoodCotonCandy, itemFoodCremeBrulee, itemFoodGum;
@@ -48,7 +52,6 @@ public class BandbFood {
 	public static Item itemFoodMilkaOreo, itemFoodMilkaPullChoco, itemFoodMilkaPullChocoBarre, itemFoodMilkaPullDaim, itemFoodMilkaPullDaimBarre;
 	public static Item itemFoodMilkaPullNoisette, itemFoodMilkaPullNoisetteBarre, itemFoodMilkaRizCroustillant, itemFoodMilkaTendreLait, itemFoodMilkaTendresMomentMousse;
 	public static Item itemFoodMilkaTendresMomentMoussePraline, itemFoodMilkaTuc;
-		//Mc Donald's
 	
 	//fruit
 	public static Item itemFruitAbiu, itemFruitAfrican, itemFruitAllspice, itemFruitAlmond, itemFruitAmla;
@@ -75,7 +78,6 @@ public class BandbFood {
 	public static Item itemFruitAppleElstar, itemFruitAppleFuji, itemFruitAppleGala, itemFruitAppleGolden, itemFruitAppleGrannySmith;
 	public static Item itemFruitAppleHoneycrunch, itemFruitAppleJazz, itemFruitAppleJonagoldJonagored, itemFruitAppleLesRouges, itemFruitApplePinkLady;
 	public static Item itemFruitApplePommeDuLimousin, itemFruitAppleReineDesReinettes, itemFruitAppleReinetteGriseDuCanada, itemFruitAppleTentation, itemFruitCrabapple;
-
 		//Grape
 	public static Item itemGrapeAbouriou, itemGrapeAleaticu, itemGrapeAligote, itemGrapeAltesse, itemGrapeAramon;
 	public static Item itemGrapeArbois, itemGrapeArrufiac, itemGrapeAubinVert, itemGrapeBarbarossa, itemGrapeBergeron;
