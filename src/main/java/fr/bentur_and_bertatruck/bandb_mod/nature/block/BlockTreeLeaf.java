@@ -1,24 +1,22 @@
 package fr.bentur_and_bertatruck.bandb_mod.nature.block;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
-import net.minecraft.block.BlockLeaves;
-import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.IIcon;
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.world.World;
-import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBlocks;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbCreativeTabs;
-import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
+import net.minecraft.block.BlockLeaves;
+import net.minecraft.block.BlockPlanks.EnumType;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.BlockPos;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 
 public class BlockTreeLeaf extends BlockLeaves {
-	protected IIcon fastIcon;
+	
 	protected String name;
 	protected Item itemDrop;
 //drop Sapling and Fruit
@@ -28,19 +26,6 @@ public class BlockTreeLeaf extends BlockLeaves {
 		this.setCreativeTab(BandbCreativeTabs.CreativeTabsLeaf);
 	}
 
-	@Override
-	public void registerBlockIcons(IIconRegister iconregister) {
-		blockIcon = iconregister.registerIcon(this.getTextureName());
-		fastIcon = iconregister.registerIcon(this.getTextureName() + "_opaque");
-
-	}
-
-	@Override
-	public IIcon getIcon(int side, int metadata) {
-		return (isOpaqueCube() ? fastIcon : blockIcon);
-	}
-
-	@Override
 	public String[] func_150125_e() {
 		return null;
 	}
@@ -50,7 +35,6 @@ public class BlockTreeLeaf extends BlockLeaves {
 		return Blocks.leaves.isOpaqueCube();
 	}
 
-	@Override
 	public boolean isLeaves(IBlockAccess world, int x, int y, int z) {
 		return true;
 	}
@@ -60,7 +44,6 @@ public class BlockTreeLeaf extends BlockLeaves {
 		return -1;
 	}
 
-	@Override
 	public int getRenderColor(int par1) {
 		return -1;
 	}
@@ -70,7 +53,6 @@ public class BlockTreeLeaf extends BlockLeaves {
 		return random.nextInt(20) == 0 ? 1 : 0;
 	}
 
-	@Override
 	public ArrayList<ItemStack> getDrops(World world, int x, int y, int z, int metadata, int fortune) {
 	ArrayList<ItemStack> drops = new ArrayList<ItemStack>();
 	if (world.rand.nextFloat() < 0.10F){
@@ -291,14 +273,23 @@ public class BlockTreeLeaf extends BlockLeaves {
 			drops.add(new ItemStack( Item.getItemFromBlock(BandbBlocks.blockMorelloCherrySapling)));
 		if (name == "whitepeach")
 			drops.add(new ItemStack( Item.getItemFromBlock(BandbBlocks.blockWhitePeachSapling)));
-		
-		
-	
+			
 	}else if (world.rand.nextFloat() < 0.05F){
 		drops.add(new ItemStack(itemDrop));			
 	}
-	
-	
+		
 	return drops;
+	}
+
+	@Override
+	public List<ItemStack> onSheared(ItemStack item, IBlockAccess world, BlockPos pos, int fortune) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EnumType getWoodType(int meta) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

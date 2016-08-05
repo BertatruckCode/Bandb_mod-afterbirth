@@ -1,7 +1,6 @@
 package fr.bentur_and_bertatruck.bandb_mod.machine.slot;
 
-import fr.bentur_and_bertatruck.bandb_mod.common.item.ItemCapsule;
-import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBeverages;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
@@ -18,7 +17,7 @@ public class SlotCoffeeMakerCup extends Slot{
 		}
 		@Override
 		public boolean isItemValid(ItemStack itemstack) {
-			if(itemstack.getItem() == BandbItems.itemMugCoffeeEmpty)
+			if(itemstack.getItem() == BandbBeverages.itemCupCoffeeEmpty)
 		return true;
 			else
 				return false;

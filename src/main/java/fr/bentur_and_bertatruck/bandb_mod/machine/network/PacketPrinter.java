@@ -3,6 +3,7 @@ package fr.bentur_and_bertatruck.bandb_mod.machine.network;
 import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityPrinter;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.BlockPos;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
@@ -68,7 +69,7 @@ public class PacketPrinter implements IMessage {
 	}
 
 	public void handleServerSide(EntityPlayer player) {
-		TileEntityPrinter tile = (TileEntityPrinter) player.worldObj.getTileEntity(x, y, z);
+		TileEntityPrinter tile = (TileEntityPrinter) player.worldObj.getTileEntity(new BlockPos(x, y, z));
 		if (tile != null) {
 			tile.inkBlack = inkBlack;
 			tile.inkCyan = inkCyan;

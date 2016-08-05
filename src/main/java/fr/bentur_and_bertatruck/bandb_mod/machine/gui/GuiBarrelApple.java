@@ -1,25 +1,20 @@
 package fr.bentur_and_bertatruck.bandb_mod.machine.gui;
 
+import org.lwjgl.opengl.GL11;
+
+import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
+import fr.bentur_and_bertatruck.bandb_mod.machine.container.ContainerBarrelApple;
+import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityBarrelApple;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.texture.TextureMap;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.util.IIcon;
 import net.minecraft.util.ResourceLocation;
-import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.FluidStack;
-
-import org.lwjgl.opengl.GL11;
-
-import buildcraft.core.lib.render.RenderUtils;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
-import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFluids;
-import fr.bentur_and_bertatruck.bandb_mod.machine.container.ContainerBarrelApple;
-import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityBarrelApple;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class GuiBarrelApple extends GuiContainer {
 

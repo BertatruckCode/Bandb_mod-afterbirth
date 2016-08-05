@@ -1,20 +1,16 @@
 package fr.bentur_and_bertatruck.bandb_mod.machine.model;
 
-import net.minecraft.block.Block;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.RenderBlocks;
-import net.minecraft.world.IBlockAccess;
-
 import org.lwjgl.opengl.GL11;
 
-import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
 import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.model.TileEntitySpecialRendererFurnitureKitchenWorktopA;
-import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.tileEntity.TileEntityFurnitureKitchenWorktopA;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBlocks;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbMachines;
 import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityKebabStand;
 import fr.bentur_and_bertatruck.bandb_mod.proxy.bandb_mod_ClientProxy;
+import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.world.IBlockAccess;
 
 public class TESRInventoryRenderer implements ISimpleBlockRenderingHandler {
 

@@ -1,8 +1,7 @@
 package fr.bentur_and_bertatruck.bandb_mod.machine.slot;
 
-import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
@@ -18,7 +17,7 @@ public class SlotCottonCandyMachineSugar extends Slot{
 		}
 		@Override
 		public boolean isItemValid(ItemStack itemstack) {
-		if(itemstack.getItem() == BandbItems.itemCottonCandySugar){
+		if(itemstack.getItem() == BandbFood.itemIngredientCottonCandySugar){
 			return true;
 		}else
 			return false;

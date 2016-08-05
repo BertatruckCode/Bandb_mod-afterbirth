@@ -3,6 +3,7 @@ package fr.bentur_and_bertatruck.bandb_mod.machine.network;
 import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityBottleCaster;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.BlockPos;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
@@ -77,7 +78,7 @@ public class PacketBottleCaster implements IMessage {
 	}
 
 	public void handleServerSide(EntityPlayer player) {
-		TileEntityBottleCaster tile = (TileEntityBottleCaster) player.worldObj.getTileEntity(x, y, z);
+		TileEntityBottleCaster tile = (TileEntityBottleCaster) player.worldObj.getTileEntity(new BlockPos(x, y, z));
 		if (tile != null) {
 			tile.amountMoltenGlass = amountMoltenGlass;
 			tile.amountWater = amountWater;

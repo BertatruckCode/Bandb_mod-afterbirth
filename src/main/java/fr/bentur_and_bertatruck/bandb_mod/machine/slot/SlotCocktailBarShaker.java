@@ -18,7 +18,7 @@ public class SlotCocktailBarShaker extends Slot{
 		}
 		@Override
 		public boolean isItemValid(ItemStack itemstack) {
-			if(itemstack.getItem() == BandbItems.itemShaker)
+			if(itemstack.getItem() == BandbItems.itemToolShaker)
 		return true;
 			else
 				return false;

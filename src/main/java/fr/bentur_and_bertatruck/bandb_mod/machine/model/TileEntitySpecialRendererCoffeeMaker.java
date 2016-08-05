@@ -34,4 +34,10 @@ public class TileEntitySpecialRendererCoffeeMaker  extends TileEntitySpecialRend
         model.renderAll(); // rend le modèle
         GL11.glPopMatrix(); // ferme la matrix
     }
+
+	@Override
+	public void renderTileEntityAt(TileEntity te, double x, double y, double z, float partialTicks, int destroyStage) {
+		// TODO Auto-generated method stub
+		
+	}
 }
