@@ -12,7 +12,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 	
 public class BandbItems {
 	
-	/***To do**/
 	//items ore
 		//ingot
 	public static Item itemGemAmethyst, itemGemOnyx, itemGemRuby, itemGemSapphire, itemGemTopaz;

@@ -6,11 +6,7 @@ import net.minecraft.block.material.Material;
 
 public class BlockTreeWood extends BlockLog{
 	
-	public BlockTreeWood(Material material)
-	{   
-		super();
-		this.setHardness(2.0F);
-        this.setStepSound(soundTypeWood);
+	public BlockTreeWood(){   
         this.setCreativeTab(BandbCreativeTabs.CreativeTabsWood);
 	}
 	

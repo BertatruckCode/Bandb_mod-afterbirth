@@ -168,10 +168,10 @@ public class BandbBlocks {
    	
 		public static void loaderBlock(){
 						
-			blockAfricanWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/african/blockAfricanWood").setBlockName("blockAfricanWood");
+			blockAfricanWood = new BlockTreeWood().setBlockTextureName(Bandb_mod.MODID + ":tree/african/blockAfricanWood").setBlockName("blockAfricanWood");
 	    	GameRegistry.registerBlock(blockAfricanWood , "blockAfricanWood");
 
-	    	blockAlmondWood = new BlockTreeWood().setBlockTextureName(Bandb_mod.MODID + ":tree/almond/blockAlmondWood").setBlockName("blockAlmondWood");
+	    	blockAlmondWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/almond/blockAlmondWood").setBlockName("blockAlmondWood");
 			GameRegistry.registerBlock(blockAlmondWood , "blockAlmondWood");
 
 	    	blockAmlaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/amia/blockAmiaWood").setBlockName("blockAmlaWood");
@@ -1575,4 +1575,4 @@ public class BandbBlocks {
 
 		}			
 			
-		}
+	}

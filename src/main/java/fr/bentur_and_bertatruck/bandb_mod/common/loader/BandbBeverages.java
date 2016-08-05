@@ -36,7 +36,11 @@ public class BandbBeverages {
 	public static Item itemBeverageBenturCola, itemBeverageFleurOranger, itemBeverageLimonade, itemBeveragePerrier, itemBeverageSchweppesAgrum;
 	public static Item itemBeverageSchweppesDarkSide, itemBeverageSchweppesGingerAle, itemBeverageSchweppesLemon, itemBeverageSchweppesMango, itemBeverageSchweppesPamplemousse;
 	public static Item itemBeverageSchweppesPassion, itemBeverageSchweppesPech, itemBeverageSchweppesPomme, itemBeverageSchweppesRaisin, itemBeverageSchweppesRicqles;
-	public static Item itemBeverageSchweppesTonic;		
+	public static Item itemBeverageSchweppesTonic;	
+	
+	/** To do **/
+	public static Item itemBeverageVinegar;
+	/** end To do **/
 	
 		//Brandy
 	public static Item itemBananaBrandy, itemBrandyApple, itemBrandyApricot, itemBrandyBlackberry, itemBrandyBlackcurrant;
