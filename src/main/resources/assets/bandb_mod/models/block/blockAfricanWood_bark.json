@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "bandb_mod:blocks/tree/log/blockAfricanWood"
+    }
+}

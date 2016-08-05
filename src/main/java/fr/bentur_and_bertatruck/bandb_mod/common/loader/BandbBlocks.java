@@ -1,53 +1,35 @@
 package fr.bentur_and_bertatruck.bandb_mod.common.loader;
 
-import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
-import fr.bentur_and_bertatruck.bandb_mod.common.blockDecoration;
-import fr.bentur_and_bertatruck.bandb_mod.common.blockDecorationGlass;
-import fr.bentur_and_bertatruck.bandb_mod.common.blockDecorationSandstone;
-import fr.bentur_and_bertatruck.bandb_mod.common.blockDecorationTnt;
-import fr.bentur_and_bertatruck.bandb_mod.common.block.BlockIngot;
-import fr.bentur_and_bertatruck.bandb_mod.common.block.BlockMilka;
-import fr.bentur_and_bertatruck.bandb_mod.common.block.BlockOreDropGem;
-import fr.bentur_and_bertatruck.bandb_mod.common.block.BlockOreDropOre;
-import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.BlockFurnitureKitchenWorktopA;
-import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.tileEntity.TileEntityFurnitureKitchenWorktopA;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockMushroom;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockMushroomOre;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockPlant;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockPlantDesert;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockTreeLeaf;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockTreePlank;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockTreeSaplingApple;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockTreeSaplingFruit;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockTreeSaplingHight;
-import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockTreeSaplingPalmTree;
 import fr.bentur_and_bertatruck.bandb_mod.nature.block.BlockTreeWood;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class BandbBlocks {
 	
 		//woods
-		public static Block blockAlmondWood,blockApricotWood,blockBananaWood,blockCherryWood,blockClementineWood;
-		public static Block blockDateWood,blockDragonfruitWood,blockFigWood,blockGuavaWood,blockLemonWood;
-		public static Block blockLimeWood,blockLycheeWood,blockPassionfruitWood,blockPomegranateWood,blockQuinceWood;
-		public static Block blockAvocadoWood,blockCoconutWood,blockTangerineWood,blockMangoWood,blockChestnutWood;
-		public static Block blockMirabelleWood,blockNutsWood,blockWalnutWood,blockOliveWood,blockOrangeWood;
-		public static Block blockGrapefruitWood,blockPapayaWood,blockPeachWood,blockPearWood,blockPlumWood;
-		public static Block blockAfricanWood,blockAniseWood,blockStarAniseWood,blockCacaoWood,blockCashewWood;
-		public static Block blockBreadNutWood,blockKiwiWood,blockPistachioWood,blockVanillaWood;
-		public static Block blockAmlaWood,blockPersimmonWood,blockNectarineWood,blockKumquatWood,blockJujubeWood;
-		public static Block blockAllspiceWood, blockBaelWood, blockPlantainWood, blockBlackCherryWood, blockBlackthornWood;
-		public static Block blockBrazilNutWood, blockButternutWood, blockCinnamonWood, blockCloveWood, blockDamsonPlumWood;
-		public static Block blockElderberryWood, blockLaurelWood, blockMacadamiaWood, blockPomeloWood, blockSatsumaWood;
-		public static Block blockBloodOrangeWood,blockMorelloCherryWood,blockWhitePeachWood,blockAbiuWood;
-		public static Block blockLonganWood,blockLoquatWood,blockNutmegWood,blockPlaneWood,blockTonkaBeanWood;
-		public static Block blockGrapefruitPinkWood,blockMapleWood,blockBerWood,blockCurryWood,blockRedBananaWood;
-		public static Block blockBunyaNutWood,blockGingkoNutWood,blockHuckleberriesWood,blockJackFruitWood,blockMameySapoteWood;
-		public static Block blockMangosteenWood,blockOhiaAiWood,blockOsageOrangeWood,blockParadiseNutWood,blockPineNutWood;
-		public static Block blockSapodillaWood,blockSoursopWood,blockTamarilloWood,blockWoodCinchona;
-			//apple
+	public static Block blockAbiuWood, blockAfricanWood, blockAllspiceWood, blockAlmondWood, blockAmlaWood;
+	public static Block blockAniseWood, blockApricotWood, blockAvocadoWood, blockBaelWood, blockBananaWood;
+	public static Block blockBerWood, blockBlackCherryWood, blockBlackthornWood, blockBloodOrangeWood, blockBrazilNutWood;
+	public static Block blockBreadNutWood, blockBunyaNutWood, blockButternutWood, blockCacaoWood, blockCashewWood;
+	public static Block blockCherryWood, blockChestnutWood, blockCinnamonWood, blockClementineWood, blockCloveWood;
+	public static Block blockCoconutWood, blockCurryWood, blockDamsonPlumWood, blockDateWood, blockDragonfruitWood;
+	public static Block blockElderberryWood, blockFigWood, blockGingkoNutWood, blockGrapefruitPinkWood, blockGrapefruitWood;
+	public static Block blockGuavaWood, blockHuckleberriesWood, blockJackFruitWood, blockJujubeWood, blockKiwiWood;
+	public static Block blockKumquatWood, blockLaurelWood, blockLemonWood, blockLimeWood, blockLonganWood;
+	public static Block blockLoquatWood, blockLycheeWood, blockMacadamiaWood, blockMameySapoteWood, blockMangoWood;
+	public static Block blockMangosteenWood, blockMapleWood, blockMirabelleWood, blockMorelloCherryWood, blockNectarineWood;
+	public static Block blockNutmegWood, blockNutsWood, blockOhiaAiWood, blockOliveWood, blockOrangeWood;
+	public static Block blockOsageOrangeWood, blockPapayaWood, blockParadiseNutWood, blockPassionfruitWood, blockPeachWood;
+	public static Block blockPearWood, blockPersimmonWood, blockPineNutWood, blockPistachioWood, blockPlaneWood;
+	public static Block blockPlantainWood, blockPlumWood, blockPomegranateWood, blockPomeloWood, blockQuinceWood;
+	public static Block blockRedBananaWood, blockSapodillaWood, blockSatsumaWood, blockSoursopWood, blockStarAniseWood;
+	public static Block blockTamarilloWood, blockTangerineWood, blockTonkaBeanWood, blockVanillaWood, blockWalnutWood;
+	public static Block blockWhitePeachWood, blockWoodCinchona;	
+	
+	//apple
 		public static Block blockCrabappleWood,blockAppleAntaresWood,blockAppleArianeWood,blockAppleBelchardChantecierWood,blockAppleBelleDeBoskoopWood;
 		public static Block blockAppleBraeburnWood,blockAppleElstarWood,blockAppleFujiWood,blockAppleGalaWood,blockAppleGoldenWood;
 		public static Block blockAppleGrannySmithWood,blockAppleHoneycrunchWood,blockAppleJazzWood,blockAppleJonagoldJonagoredWood,blockAppleLesRougesWood;
@@ -165,275 +147,330 @@ public class BandbBlocks {
 		public static Block blockCobblestoneMilka,blockStoneMilka,blockDirtMilka_top;
 				
 		public static Block blockFurnitureKitchenWorktopA;
-   	
+		
+	public static void register(){
+		blockAbiuWood = new BlockTreeWood().setUnlocalizedName("blockAbiuWood");
+		blockAfricanWood = new BlockTreeWood().setUnlocalizedName("blockAfricanWood");
+		blockAllspiceWood = new BlockTreeWood().setUnlocalizedName("blockAllspiceWood");
+		blockAlmondWood = new BlockTreeWood().setUnlocalizedName("blockAlmondWood");
+		blockAmlaWood = new BlockTreeWood().setUnlocalizedName("blockAmlaWood");
+
+		GameRegistry.registerBlock(blockAbiuWood, "blockAbiuWood");
+		GameRegistry.registerBlock(blockAfricanWood, "blockAfricanWood");
+		GameRegistry.registerBlock(blockAllspiceWood, "blockAllspiceWood");
+		GameRegistry.registerBlock(blockAlmondWood, "blockAlmondWood");
+		GameRegistry.registerBlock(blockAmlaWood, "blockAmlaWood");
+
+		blockAniseWood = new BlockTreeWood().setUnlocalizedName("blockAniseWood");
+		blockApricotWood = new BlockTreeWood().setUnlocalizedName("blockApricotWood");
+		blockAvocadoWood = new BlockTreeWood().setUnlocalizedName("blockAvocadoWood");
+		blockBaelWood = new BlockTreeWood().setUnlocalizedName("blockBaelWood");
+		blockBananaWood = new BlockTreeWood().setUnlocalizedName("blockBananaWood");
+
+		GameRegistry.registerBlock(blockAniseWood, "blockAniseWood");
+		GameRegistry.registerBlock(blockApricotWood, "blockApricotWood");
+		GameRegistry.registerBlock(blockAvocadoWood, "blockAvocadoWood");
+		GameRegistry.registerBlock(blockBaelWood, "blockBaelWood");
+		GameRegistry.registerBlock(blockBananaWood, "blockBananaWood");
+
+		blockBerWood = new BlockTreeWood().setUnlocalizedName("blockBerWood");
+		blockBlackCherryWood = new BlockTreeWood().setUnlocalizedName("blockBlackCherryWood");
+		blockBlackthornWood = new BlockTreeWood().setUnlocalizedName("blockBlackthornWood");
+		blockBloodOrangeWood = new BlockTreeWood().setUnlocalizedName("blockBloodOrangeWood");
+		blockBrazilNutWood = new BlockTreeWood().setUnlocalizedName("blockBrazilNutWood");
+
+		GameRegistry.registerBlock(blockBerWood, "blockBerWood");
+		GameRegistry.registerBlock(blockBlackCherryWood, "blockBlackCherryWood");
+		GameRegistry.registerBlock(blockBlackthornWood, "blockBlackthornWood");
+		GameRegistry.registerBlock(blockBloodOrangeWood, "blockBloodOrangeWood");
+		GameRegistry.registerBlock(blockBrazilNutWood, "blockBrazilNutWood");
+
+		blockBreadNutWood = new BlockTreeWood().setUnlocalizedName("blockBreadNutWood");
+		blockBunyaNutWood = new BlockTreeWood().setUnlocalizedName("blockBunyaNutWood");
+		blockButternutWood = new BlockTreeWood().setUnlocalizedName("blockButternutWood");
+		blockCacaoWood = new BlockTreeWood().setUnlocalizedName("blockCacaoWood");
+		blockCashewWood = new BlockTreeWood().setUnlocalizedName("blockCashewWood");
+
+		GameRegistry.registerBlock(blockBreadNutWood, "blockBreadNutWood");
+		GameRegistry.registerBlock(blockBunyaNutWood, "blockBunyaNutWood");
+		GameRegistry.registerBlock(blockButternutWood, "blockButternutWood");
+		GameRegistry.registerBlock(blockCacaoWood, "blockCacaoWood");
+		GameRegistry.registerBlock(blockCashewWood, "blockCashewWood");
+
+		blockCherryWood = new BlockTreeWood().setUnlocalizedName("blockCherryWood");
+		blockChestnutWood = new BlockTreeWood().setUnlocalizedName("blockChestnutWood");
+		blockCinnamonWood = new BlockTreeWood().setUnlocalizedName("blockCinnamonWood");
+		blockClementineWood = new BlockTreeWood().setUnlocalizedName("blockClementineWood");
+		blockCloveWood = new BlockTreeWood().setUnlocalizedName("blockCloveWood");
+
+		GameRegistry.registerBlock(blockCherryWood, "blockCherryWood");
+		GameRegistry.registerBlock(blockChestnutWood, "blockChestnutWood");
+		GameRegistry.registerBlock(blockCinnamonWood, "blockCinnamonWood");
+		GameRegistry.registerBlock(blockClementineWood, "blockClementineWood");
+		GameRegistry.registerBlock(blockCloveWood, "blockCloveWood");
+
+		blockCoconutWood = new BlockTreeWood().setUnlocalizedName("blockCoconutWood");
+		blockCurryWood = new BlockTreeWood().setUnlocalizedName("blockCurryWood");
+		blockDamsonPlumWood = new BlockTreeWood().setUnlocalizedName("blockDamsonPlumWood");
+		blockDateWood = new BlockTreeWood().setUnlocalizedName("blockDateWood");
+		blockDragonfruitWood = new BlockTreeWood().setUnlocalizedName("blockDragonfruitWood");
+
+		GameRegistry.registerBlock(blockCoconutWood, "blockCoconutWood");
+		GameRegistry.registerBlock(blockCurryWood, "blockCurryWood");
+		GameRegistry.registerBlock(blockDamsonPlumWood, "blockDamsonPlumWood");
+		GameRegistry.registerBlock(blockDateWood, "blockDateWood");
+		GameRegistry.registerBlock(blockDragonfruitWood, "blockDragonfruitWood");
+
+		blockElderberryWood = new BlockTreeWood().setUnlocalizedName("blockElderberryWood");
+		blockFigWood = new BlockTreeWood().setUnlocalizedName("blockFigWood");
+		blockGingkoNutWood = new BlockTreeWood().setUnlocalizedName("blockGingkoNutWood");
+		blockGrapefruitPinkWood = new BlockTreeWood().setUnlocalizedName("blockGrapefruitPinkWood");
+		blockGrapefruitWood = new BlockTreeWood().setUnlocalizedName("blockGrapefruitWood");
+
+		GameRegistry.registerBlock(blockElderberryWood, "blockElderberryWood");
+		GameRegistry.registerBlock(blockFigWood, "blockFigWood");
+		GameRegistry.registerBlock(blockGingkoNutWood, "blockGingkoNutWood");
+		GameRegistry.registerBlock(blockGrapefruitPinkWood, "blockGrapefruitPinkWood");
+		GameRegistry.registerBlock(blockGrapefruitWood, "blockGrapefruitWood");
+
+		blockGuavaWood = new BlockTreeWood().setUnlocalizedName("blockGuavaWood");
+		blockHuckleberriesWood = new BlockTreeWood().setUnlocalizedName("blockHuckleberriesWood");
+		blockJackFruitWood = new BlockTreeWood().setUnlocalizedName("blockJackFruitWood");
+		blockJujubeWood = new BlockTreeWood().setUnlocalizedName("blockJujubeWood");
+		blockKiwiWood = new BlockTreeWood().setUnlocalizedName("blockKiwiWood");
+
+		GameRegistry.registerBlock(blockGuavaWood, "blockGuavaWood");
+		GameRegistry.registerBlock(blockHuckleberriesWood, "blockHuckleberriesWood");
+		GameRegistry.registerBlock(blockJackFruitWood, "blockJackFruitWood");
+		GameRegistry.registerBlock(blockJujubeWood, "blockJujubeWood");
+		GameRegistry.registerBlock(blockKiwiWood, "blockKiwiWood");
+
+		blockKumquatWood = new BlockTreeWood().setUnlocalizedName("blockKumquatWood");
+		blockLaurelWood = new BlockTreeWood().setUnlocalizedName("blockLaurelWood");
+		blockLemonWood = new BlockTreeWood().setUnlocalizedName("blockLemonWood");
+		blockLimeWood = new BlockTreeWood().setUnlocalizedName("blockLimeWood");
+		blockLonganWood = new BlockTreeWood().setUnlocalizedName("blockLonganWood");
+
+		GameRegistry.registerBlock(blockKumquatWood, "blockKumquatWood");
+		GameRegistry.registerBlock(blockLaurelWood, "blockLaurelWood");
+		GameRegistry.registerBlock(blockLemonWood, "blockLemonWood");
+		GameRegistry.registerBlock(blockLimeWood, "blockLimeWood");
+		GameRegistry.registerBlock(blockLonganWood, "blockLonganWood");
+
+		blockLoquatWood = new BlockTreeWood().setUnlocalizedName("blockLoquatWood");
+		blockLycheeWood = new BlockTreeWood().setUnlocalizedName("blockLycheeWood");
+		blockMacadamiaWood = new BlockTreeWood().setUnlocalizedName("blockMacadamiaWood");
+		blockMameySapoteWood = new BlockTreeWood().setUnlocalizedName("blockMameySapoteWood");
+		blockMangoWood = new BlockTreeWood().setUnlocalizedName("blockMangoWood");
+
+		GameRegistry.registerBlock(blockLoquatWood, "blockLoquatWood");
+		GameRegistry.registerBlock(blockLycheeWood, "blockLycheeWood");
+		GameRegistry.registerBlock(blockMacadamiaWood, "blockMacadamiaWood");
+		GameRegistry.registerBlock(blockMameySapoteWood, "blockMameySapoteWood");
+		GameRegistry.registerBlock(blockMangoWood, "blockMangoWood");
+
+		blockMangosteenWood = new BlockTreeWood().setUnlocalizedName("blockMangosteenWood");
+		blockMapleWood = new BlockTreeWood().setUnlocalizedName("blockMapleWood");
+		blockMirabelleWood = new BlockTreeWood().setUnlocalizedName("blockMirabelleWood");
+		blockMorelloCherryWood = new BlockTreeWood().setUnlocalizedName("blockMorelloCherryWood");
+		blockNectarineWood = new BlockTreeWood().setUnlocalizedName("blockNectarineWood");
+
+		GameRegistry.registerBlock(blockMangosteenWood, "blockMangosteenWood");
+		GameRegistry.registerBlock(blockMapleWood, "blockMapleWood");
+		GameRegistry.registerBlock(blockMirabelleWood, "blockMirabelleWood");
+		GameRegistry.registerBlock(blockMorelloCherryWood, "blockMorelloCherryWood");
+		GameRegistry.registerBlock(blockNectarineWood, "blockNectarineWood");
+
+		blockNutmegWood = new BlockTreeWood().setUnlocalizedName("blockNutmegWood");
+		blockNutsWood = new BlockTreeWood().setUnlocalizedName("blockNutsWood");
+		blockOhiaAiWood = new BlockTreeWood().setUnlocalizedName("blockOhiaAiWood");
+		blockOliveWood = new BlockTreeWood().setUnlocalizedName("blockOliveWood");
+		blockOrangeWood = new BlockTreeWood().setUnlocalizedName("blockOrangeWood");
+
+		GameRegistry.registerBlock(blockNutmegWood, "blockNutmegWood");
+		GameRegistry.registerBlock(blockNutsWood, "blockNutsWood");
+		GameRegistry.registerBlock(blockOhiaAiWood, "blockOhiaAiWood");
+		GameRegistry.registerBlock(blockOliveWood, "blockOliveWood");
+		GameRegistry.registerBlock(blockOrangeWood, "blockOrangeWood");
+
+		blockOsageOrangeWood = new BlockTreeWood().setUnlocalizedName("blockOsageOrangeWood");
+		blockPapayaWood = new BlockTreeWood().setUnlocalizedName("blockPapayaWood");
+		blockParadiseNutWood = new BlockTreeWood().setUnlocalizedName("blockParadiseNutWood");
+		blockPassionfruitWood = new BlockTreeWood().setUnlocalizedName("blockPassionfruitWood");
+		blockPeachWood = new BlockTreeWood().setUnlocalizedName("blockPeachWood");
+
+		GameRegistry.registerBlock(blockOsageOrangeWood, "blockOsageOrangeWood");
+		GameRegistry.registerBlock(blockPapayaWood, "blockPapayaWood");
+		GameRegistry.registerBlock(blockParadiseNutWood, "blockParadiseNutWood");
+		GameRegistry.registerBlock(blockPassionfruitWood, "blockPassionfruitWood");
+		GameRegistry.registerBlock(blockPeachWood, "blockPeachWood");
+
+		blockPearWood = new BlockTreeWood().setUnlocalizedName("blockPearWood");
+		blockPersimmonWood = new BlockTreeWood().setUnlocalizedName("blockPersimmonWood");
+		blockPineNutWood = new BlockTreeWood().setUnlocalizedName("blockPineNutWood");
+		blockPistachioWood = new BlockTreeWood().setUnlocalizedName("blockPistachioWood");
+		blockPlaneWood = new BlockTreeWood().setUnlocalizedName("blockPlaneWood");
+
+		GameRegistry.registerBlock(blockPearWood, "blockPearWood");
+		GameRegistry.registerBlock(blockPersimmonWood, "blockPersimmonWood");
+		GameRegistry.registerBlock(blockPineNutWood, "blockPineNutWood");
+		GameRegistry.registerBlock(blockPistachioWood, "blockPistachioWood");
+		GameRegistry.registerBlock(blockPlaneWood, "blockPlaneWood");
+
+		blockPlantainWood = new BlockTreeWood().setUnlocalizedName("blockPlantainWood");
+		blockPlumWood = new BlockTreeWood().setUnlocalizedName("blockPlumWood");
+		blockPomegranateWood = new BlockTreeWood().setUnlocalizedName("blockPomegranateWood");
+		blockPomeloWood = new BlockTreeWood().setUnlocalizedName("blockPomeloWood");
+		blockQuinceWood = new BlockTreeWood().setUnlocalizedName("blockQuinceWood");
+
+		GameRegistry.registerBlock(blockPlantainWood, "blockPlantainWood");
+		GameRegistry.registerBlock(blockPlumWood, "blockPlumWood");
+		GameRegistry.registerBlock(blockPomegranateWood, "blockPomegranateWood");
+		GameRegistry.registerBlock(blockPomeloWood, "blockPomeloWood");
+		GameRegistry.registerBlock(blockQuinceWood, "blockQuinceWood");
+
+		blockRedBananaWood = new BlockTreeWood().setUnlocalizedName("blockRedBananaWood");
+		blockSapodillaWood = new BlockTreeWood().setUnlocalizedName("blockSapodillaWood");
+		blockSatsumaWood = new BlockTreeWood().setUnlocalizedName("blockSatsumaWood");
+		blockSoursopWood = new BlockTreeWood().setUnlocalizedName("blockSoursopWood");
+		blockStarAniseWood = new BlockTreeWood().setUnlocalizedName("blockStarAniseWood");
+
+		GameRegistry.registerBlock(blockRedBananaWood, "blockRedBananaWood");
+		GameRegistry.registerBlock(blockSapodillaWood, "blockSapodillaWood");
+		GameRegistry.registerBlock(blockSatsumaWood, "blockSatsumaWood");
+		GameRegistry.registerBlock(blockSoursopWood, "blockSoursopWood");
+		GameRegistry.registerBlock(blockStarAniseWood, "blockStarAniseWood");
+
+		blockTamarilloWood = new BlockTreeWood().setUnlocalizedName("blockTamarilloWood");
+		blockTangerineWood = new BlockTreeWood().setUnlocalizedName("blockTangerineWood");
+		blockTonkaBeanWood = new BlockTreeWood().setUnlocalizedName("blockTonkaBeanWood");
+		blockVanillaWood = new BlockTreeWood().setUnlocalizedName("blockVanillaWood");
+		blockWalnutWood = new BlockTreeWood().setUnlocalizedName("blockWalnutWood");
+
+		GameRegistry.registerBlock(blockTamarilloWood, "blockTamarilloWood");
+		GameRegistry.registerBlock(blockTangerineWood, "blockTangerineWood");
+		GameRegistry.registerBlock(blockTonkaBeanWood, "blockTonkaBeanWood");
+		GameRegistry.registerBlock(blockVanillaWood, "blockVanillaWood");
+		GameRegistry.registerBlock(blockWalnutWood, "blockWalnutWood");
+
+		blockWhitePeachWood = new BlockTreeWood().setUnlocalizedName("blockWhitePeachWood");
+		blockWoodCinchona = new BlockTreeWood().setUnlocalizedName("blockWoodCinchona");
+
+		GameRegistry.registerBlock(blockWhitePeachWood, "blockWhitePeachWood");
+		GameRegistry.registerBlock(blockWoodCinchona, "blockWoodCinchona");
+
+	}
+		
+	public static void registerRender(){
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAbiuWood), 0, new ModelResourceLocation("bandb_mod:blockAbiuWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAfricanWood), 0, new ModelResourceLocation("bandb_mod:blockAfricanWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAllspiceWood), 0, new ModelResourceLocation("bandb_mod:blockAllspiceWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAlmondWood), 0, new ModelResourceLocation("bandb_mod:blockAlmondWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAmlaWood), 0, new ModelResourceLocation("bandb_mod:blockAmlaWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAniseWood), 0, new ModelResourceLocation("bandb_mod:blockAniseWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockApricotWood), 0, new ModelResourceLocation("bandb_mod:blockApricotWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAvocadoWood), 0, new ModelResourceLocation("bandb_mod:blockAvocadoWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBaelWood), 0, new ModelResourceLocation("bandb_mod:blockBaelWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBananaWood), 0, new ModelResourceLocation("bandb_mod:blockBananaWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBerWood), 0, new ModelResourceLocation("bandb_mod:blockBerWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBlackCherryWood), 0, new ModelResourceLocation("bandb_mod:blockBlackCherryWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBlackthornWood), 0, new ModelResourceLocation("bandb_mod:blockBlackthornWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBloodOrangeWood), 0, new ModelResourceLocation("bandb_mod:blockBloodOrangeWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBrazilNutWood), 0, new ModelResourceLocation("bandb_mod:blockBrazilNutWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBreadNutWood), 0, new ModelResourceLocation("bandb_mod:blockBreadNutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockBunyaNutWood), 0, new ModelResourceLocation("bandb_mod:blockBunyaNutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockButternutWood), 0, new ModelResourceLocation("bandb_mod:blockButternutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCacaoWood), 0, new ModelResourceLocation("bandb_mod:blockCacaoWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCashewWood), 0, new ModelResourceLocation("bandb_mod:blockCashewWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCherryWood), 0, new ModelResourceLocation("bandb_mod:blockCherryWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockChestnutWood), 0, new ModelResourceLocation("bandb_mod:blockChestnutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCinnamonWood), 0, new ModelResourceLocation("bandb_mod:blockCinnamonWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockClementineWood), 0, new ModelResourceLocation("bandb_mod:blockClementineWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCloveWood), 0, new ModelResourceLocation("bandb_mod:blockCloveWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCoconutWood), 0, new ModelResourceLocation("bandb_mod:blockCoconutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCurryWood), 0, new ModelResourceLocation("bandb_mod:blockCurryWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockDamsonPlumWood), 0, new ModelResourceLocation("bandb_mod:blockDamsonPlumWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockDateWood), 0, new ModelResourceLocation("bandb_mod:blockDateWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockDragonfruitWood), 0, new ModelResourceLocation("bandb_mod:blockDragonfruitWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockElderberryWood), 0, new ModelResourceLocation("bandb_mod:blockElderberryWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockFigWood), 0, new ModelResourceLocation("bandb_mod:blockFigWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockGingkoNutWood), 0, new ModelResourceLocation("bandb_mod:blockGingkoNutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockGrapefruitPinkWood), 0, new ModelResourceLocation("bandb_mod:blockGrapefruitPinkWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockGrapefruitWood), 0, new ModelResourceLocation("bandb_mod:blockGrapefruitWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockGuavaWood), 0, new ModelResourceLocation("bandb_mod:blockGuavaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockHuckleberriesWood), 0, new ModelResourceLocation("bandb_mod:blockHuckleberriesWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockJackFruitWood), 0, new ModelResourceLocation("bandb_mod:blockJackFruitWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockJujubeWood), 0, new ModelResourceLocation("bandb_mod:blockJujubeWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockKiwiWood), 0, new ModelResourceLocation("bandb_mod:blockKiwiWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockKumquatWood), 0, new ModelResourceLocation("bandb_mod:blockKumquatWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockLaurelWood), 0, new ModelResourceLocation("bandb_mod:blockLaurelWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockLemonWood), 0, new ModelResourceLocation("bandb_mod:blockLemonWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockLimeWood), 0, new ModelResourceLocation("bandb_mod:blockLimeWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockLonganWood), 0, new ModelResourceLocation("bandb_mod:blockLonganWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockLoquatWood), 0, new ModelResourceLocation("bandb_mod:blockLoquatWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockLycheeWood), 0, new ModelResourceLocation("bandb_mod:blockLycheeWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMacadamiaWood), 0, new ModelResourceLocation("bandb_mod:blockMacadamiaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMameySapoteWood), 0, new ModelResourceLocation("bandb_mod:blockMameySapoteWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMangoWood), 0, new ModelResourceLocation("bandb_mod:blockMangoWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMangosteenWood), 0, new ModelResourceLocation("bandb_mod:blockMangosteenWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMapleWood), 0, new ModelResourceLocation("bandb_mod:blockMapleWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMirabelleWood), 0, new ModelResourceLocation("bandb_mod:blockMirabelleWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMorelloCherryWood), 0, new ModelResourceLocation("bandb_mod:blockMorelloCherryWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockNectarineWood), 0, new ModelResourceLocation("bandb_mod:blockNectarineWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockNutmegWood), 0, new ModelResourceLocation("bandb_mod:blockNutmegWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockNutsWood), 0, new ModelResourceLocation("bandb_mod:blockNutsWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockOhiaAiWood), 0, new ModelResourceLocation("bandb_mod:blockOhiaAiWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockOliveWood), 0, new ModelResourceLocation("bandb_mod:blockOliveWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockOrangeWood), 0, new ModelResourceLocation("bandb_mod:blockOrangeWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockOsageOrangeWood), 0, new ModelResourceLocation("bandb_mod:blockOsageOrangeWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPapayaWood), 0, new ModelResourceLocation("bandb_mod:blockPapayaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockParadiseNutWood), 0, new ModelResourceLocation("bandb_mod:blockParadiseNutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPassionfruitWood), 0, new ModelResourceLocation("bandb_mod:blockPassionfruitWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPeachWood), 0, new ModelResourceLocation("bandb_mod:blockPeachWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPearWood), 0, new ModelResourceLocation("bandb_mod:blockPearWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPersimmonWood), 0, new ModelResourceLocation("bandb_mod:blockPersimmonWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPineNutWood), 0, new ModelResourceLocation("bandb_mod:blockPineNutWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPistachioWood), 0, new ModelResourceLocation("bandb_mod:blockPistachioWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPlaneWood), 0, new ModelResourceLocation("bandb_mod:blockPlaneWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPlantainWood), 0, new ModelResourceLocation("bandb_mod:blockPlantainWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPlumWood), 0, new ModelResourceLocation("bandb_mod:blockPlumWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPomegranateWood), 0, new ModelResourceLocation("bandb_mod:blockPomegranateWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockPomeloWood), 0, new ModelResourceLocation("bandb_mod:blockPomeloWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockQuinceWood), 0, new ModelResourceLocation("bandb_mod:blockQuinceWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockRedBananaWood), 0, new ModelResourceLocation("bandb_mod:blockRedBananaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockSapodillaWood), 0, new ModelResourceLocation("bandb_mod:blockSapodillaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockSatsumaWood), 0, new ModelResourceLocation("bandb_mod:blockSatsumaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockSoursopWood), 0, new ModelResourceLocation("bandb_mod:blockSoursopWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockStarAniseWood), 0, new ModelResourceLocation("bandb_mod:blockStarAniseWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockTamarilloWood), 0, new ModelResourceLocation("bandb_mod:blockTamarilloWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockTangerineWood), 0, new ModelResourceLocation("bandb_mod:blockTangerineWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockTonkaBeanWood), 0, new ModelResourceLocation("bandb_mod:blockTonkaBeanWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockVanillaWood), 0, new ModelResourceLocation("bandb_mod:blockVanillaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockWalnutWood), 0, new ModelResourceLocation("bandb_mod:blockWalnutWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockWhitePeachWood), 0, new ModelResourceLocation("bandb_mod:blockWhitePeachWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockWoodCinchona), 0, new ModelResourceLocation("bandb_mod:blockWoodCinchona", "inventory"));
+	}
+		
+   	/***
 		public static void loaderBlock(){
-						
-			blockAfricanWood = new BlockTreeWood().setBlockTextureName(Bandb_mod.MODID + ":tree/african/blockAfricanWood").setBlockName("blockAfricanWood");
-	    	GameRegistry.registerBlock(blockAfricanWood , "blockAfricanWood");
-
-	    	blockAlmondWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/almond/blockAlmondWood").setBlockName("blockAlmondWood");
-			GameRegistry.registerBlock(blockAlmondWood , "blockAlmondWood");
-
-	    	blockAmlaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/amia/blockAmiaWood").setBlockName("blockAmlaWood");
-	    	GameRegistry.registerBlock(blockAmlaWood , "blockAmlaWood");
-	    	
-	    	blockAniseWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/anise/blockAniseWood").setBlockName("blockAniseWood");
-	    	GameRegistry.registerBlock(blockAniseWood , "blockAniseWood");
-	    	
-	    	blockApricotWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apricot/blockApricotWood").setBlockName("blockApricotWood");
-	    	GameRegistry.registerBlock(blockApricotWood , "blockApricotWood");
-
-	    	blockAvocadoWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/avocado/blockAvocadoWood").setBlockName("blockAvocadoWood");
-	    	GameRegistry.registerBlock(blockAvocadoWood , "blockAvocadoWood");
-	    	
-	    	blockBananaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/banana/blockBananaWood").setBlockName("blockBananaWood");
-	    	GameRegistry.registerBlock(blockBananaWood , "blockBananaWood");
-
-	    	blockBreadNutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/breadnut/blockWoodBreadNut").setBlockName("blockBreadNutWood");
-	    	GameRegistry.registerBlock(blockBreadNutWood , "blockBreadNutWood");
-	    	
-	    	blockCacaoWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/cacao/blockWoodCacao").setBlockName("blockCacaoWood");
-	    	GameRegistry.registerBlock(blockCacaoWood , "blockCacaoWood");
-	    	
-	    	blockCashewWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/cashew/blockCashewWood").setBlockName("blockCashewWood");
-	    	GameRegistry.registerBlock(blockCashewWood , "blockCashewWood");
-	    	 		    	
-	    	blockCherryWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/cherry/blockCherryWood").setBlockName("blockCherryWood");
-	    	GameRegistry.registerBlock(blockCherryWood , "blockCherryWood");
-
-	    	blockChestnutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/chestnut/blockChestnutWood").setBlockName("blockChestnutWood");				
-	    	GameRegistry.registerBlock(blockChestnutWood , "blockChestnutWood");
-
-	    	blockClementineWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/clementine/blockClementineWood").setBlockName("blockClementineWood");
-	    	GameRegistry.registerBlock(blockClementineWood , "blockClementineWood");
-
-	    	blockCoconutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/coconut/blockCoconutWood").setBlockName("blockCoconutWood");
-	    	GameRegistry.registerBlock(blockCoconutWood , "blockCoconutWood");
-
-			blockDateWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/date/blockDateWood").setBlockName("blockDateWood");
-	    	GameRegistry.registerBlock(blockDateWood , "blockDateWood");
-
-			blockDragonfruitWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/dragonfruit/blockDragonfruitWood").setBlockName("blockDragonfruitWood");
-	    	GameRegistry.registerBlock(blockDragonfruitWood , "blockDragonfruitWood");
-
-			blockFigWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/fig/blockFigWood").setBlockName("blockFigWood");
-	    	GameRegistry.registerBlock(blockFigWood , "blockFigWood");
-
-	    	blockGrapefruitWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/grapefruit/blockGrapefruitWood").setBlockName("blockGrapefruitWood");
-	    	GameRegistry.registerBlock(blockGrapefruitWood , "blockGrapefruitWood");
-	    	
-	    	blockGuavaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/guava/blockGuavaWood").setBlockName("blockGuavaWood");
-			GameRegistry.registerBlock(blockGuavaWood , "blockGuavaWood");
-
-	    	blockJujubeWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/jujube/blockJujubeWood").setBlockName("blockJujubeWood");
-	    	GameRegistry.registerBlock(blockJujubeWood , "blockJujubeWood");
-	    	
-	    	blockKiwiWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/kiwi/blockKiwiWood").setBlockName("blockKiwiWood");
-	    	GameRegistry.registerBlock(blockKiwiWood , "blockKiwiWood");
-
-	    	blockKumquatWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/kumquat/blockKumquatWood").setBlockName("blockKumquatWood");
-	    	GameRegistry.registerBlock(blockKumquatWood , "blockKumquatWood");		    	
-	    	
-	    	blockLemonWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/lemon/blockLemonWood").setBlockName("blockLemonWood");
-	    	GameRegistry.registerBlock(blockLemonWood , "blockLemonWood");
-
-			blockLimeWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/lime/blockLimeWood").setBlockName("blockLimeWood");
-			GameRegistry.registerBlock(blockLimeWood , "blockLimeWood");
-
-			blockLycheeWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/lychee/blockLycheeWood").setBlockName("blockLycheeWood");
-	    	GameRegistry.registerBlock(blockLycheeWood , "blockLycheeWood");
-
-	    	blockMangoWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/mango/blockMangoWood").setBlockName("blockMangoWood");
-	    	GameRegistry.registerBlock(blockMangoWood , "blockMangoWood");
-
-			blockMirabelleWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/mirabelle/blockMirabelleWood").setBlockName("blockMirabelleWood");
-			GameRegistry.registerBlock(blockMirabelleWood , "blockMirabelleWood");
-
-			blockNectarineWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/nectarine/blockNectarineWood").setBlockName("blockNectarineWood");
-	    	GameRegistry.registerBlock(blockNectarineWood , "blockNectarineWood");
-
-			blockNutsWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/nuts/blockNutsWood").setBlockName("blockNutsWood");
-	    	GameRegistry.registerBlock(blockNutsWood , "blockNutsWood");
-
-			blockOliveWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/olive/blockOliveWood").setBlockName("blockOliveWood");
-	    	GameRegistry.registerBlock(blockOliveWood , "blockOliveWood");
-
-			blockOrangeWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/orange/blockOrangeWood").setBlockName("blockOrangeWood");
-	    	GameRegistry.registerBlock(blockOrangeWood , "blockOrangeWood");
-
-			blockPapayaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/papaya/blockPapayaWood").setBlockName("blockPapayaWood");
-	    	GameRegistry.registerBlock(blockPapayaWood , "blockPapayaWood");
-
-			blockPassionfruitWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/passionfruit/blockPassionfruitWood").setBlockName("blockPassionfruitWood");
-	    	GameRegistry.registerBlock(blockPassionfruitWood , "blockPassionfruitWood");
-
-			blockPeachWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/peach/blockPeachWood").setBlockName("blockPeachWood");
-	    	GameRegistry.registerBlock(blockPeachWood , "blockPeachWood");
-
-			blockPearWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/pear/blockPearWood").setBlockName("blockPearWood");
-	    	GameRegistry.registerBlock(blockPearWood , "blockPearWood");
-
-	    	blockPersimmonWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/persimmon/blockPersimmonWood").setBlockName("blockPersimmonWood");
-			GameRegistry.registerBlock(blockPersimmonWood , "blockPersimmonWood");
-	    	
-			blockPistachioWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/pistachio/blockPistachioWood").setBlockName("blockPistachioWood");
-	    	GameRegistry.registerBlock(blockPistachioWood , "blockPistachioWood");
-
-	    	blockPlumWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/plum/blockPlumWood").setBlockName("blockPlumWood");						    	
-	    	GameRegistry.registerBlock(blockPlumWood , "blockPlumWood");
-	    	
-			blockPomegranateWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/pomegranate/blockPomegranateWood").setBlockName("blockPomegranateWood");
-	    	GameRegistry.registerBlock(blockPomegranateWood , "blockPomegranateWood");
-	    	
-			blockQuinceWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/quince/blockQuinceWood").setBlockName("blockQuinceWood");				
-	    	GameRegistry.registerBlock(blockQuinceWood , "blockQuinceWood");
-
-			blockStarAniseWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/anisestar/blockStarAniseWood").setBlockName("blockStarAniseWood");
-			GameRegistry.registerBlock(blockStarAniseWood , "blockStarAniseWood");		    							    	
-	    				
-			blockTangerineWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/tangerine/blockTangerineWood").setBlockName("blockTangerineWood");			
-	    	GameRegistry.registerBlock(blockTangerineWood , "blockTangerineWood");
-	
-	    	blockVanillaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/vanilla/blockVanillaWood").setBlockName("blockVanillaWood");
-	    	GameRegistry.registerBlock(blockVanillaWood , "blockVanillaWood");
-	    	
-			blockWalnutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/walnut/blockWalnutWood").setBlockName("blockWalnutWood");				
-	    	GameRegistry.registerBlock(blockWalnutWood , "blockWalnutWood");
-	    	
-	    	blockAllspiceWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/allspice/blockAllspiceWood").setBlockName("blockAllspiceWood");				
-	    	GameRegistry.registerBlock(blockAllspiceWood , "blockAllspiceWood");
-	    	
-	    	blockBaelWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/bael/blockBaelWood").setBlockName("blockBaelWood");				
-	    	GameRegistry.registerBlock(blockBaelWood , "blockBaelWood");
-	    	
-	    	blockPlantainWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/bananaplantain/blockPlantainWood").setBlockName("blockPlantainWood");				
-	    	GameRegistry.registerBlock(blockPlantainWood , "blockPlantainWood");
-	    	
-	    	blockBlackCherryWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/blackcherry/blockBlackCherryWood").setBlockName("blockBlackCherryWood");				
-	    	GameRegistry.registerBlock(blockBlackCherryWood , "blockBlackCherryWood");
-	    	
-	    	blockBlackthornWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/blackthorn/blockBlackthornWood").setBlockName("blockBlackthornWood");				
-	    	GameRegistry.registerBlock(blockBlackthornWood , "blockBlackthornWood");
-	    	
-	    	blockBrazilNutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/brazilnut/blockBrazilNutWood").setBlockName("blockBrazilNutWood");				
-	    	GameRegistry.registerBlock(blockBrazilNutWood , "blockBrazilNutWood");
-	    	
-	    	blockButternutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/butternut/blockButternutWood").setBlockName("blockButternutWood");				
-	    	GameRegistry.registerBlock(blockButternutWood , "blockButternutWood");
-	    	
-	    	blockCinnamonWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/cinnamon/blockCinnamonWood").setBlockName("blockCinnamonWood");				
-	    	GameRegistry.registerBlock(blockCinnamonWood , "blockCinnamonWood");
-	    	
-	    	blockCloveWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/clove/blockCloveWood").setBlockName("blockCloveWood");				
-	    	GameRegistry.registerBlock(blockCloveWood , "blockCloveWood");
-	    	
-	    	blockDamsonPlumWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/damsonplum/blockDamsonPlumWood").setBlockName("blockDamsonPlumWood");				
-	    	GameRegistry.registerBlock(blockDamsonPlumWood , "blockDamsonPlumWood");
-	    	
-	    	blockElderberryWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/elderberry/blockElderberryWood").setBlockName("blockElderberryWood");				
-	    	GameRegistry.registerBlock(blockElderberryWood , "blockElderberryWood");
-	    	
-	    	blockLaurelWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/laurel/blockLaurelWood").setBlockName("blockLaurelWood");				
-	    	GameRegistry.registerBlock(blockLaurelWood , "blockLaurelWood");
-	    	
-	    	blockMacadamiaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/macadamia/blockMacadamiaWood").setBlockName("blockMacadamiaWood");				
-	    	GameRegistry.registerBlock(blockMacadamiaWood , "blockMacadamiaWood");
-	    	
-	    	blockPomeloWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/pomelo/blockPomeloWood").setBlockName("blockPomeloWood");				
-	    	GameRegistry.registerBlock(blockPomeloWood , "blockPomeloWood");
-	    	
-	    	blockSatsumaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/satsuma/blockSatsumaWood").setBlockName("blockSatsumaWood");				
-	    	GameRegistry.registerBlock(blockSatsumaWood , "blockSatsumaWood");
-	    	
-	    	blockBloodOrangeWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/bloodorange/blockBloodOrangeWood").setBlockName("blockBloodOrangeWood");				
-	    	GameRegistry.registerBlock(blockBloodOrangeWood , "blockBloodOrangeWood");
-	    	
-	    	blockMorelloCherryWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/morellocherry/blockMorelloCherryWood").setBlockName("blockMorelloCherryWood");				
-	    	GameRegistry.registerBlock(blockMorelloCherryWood , "blockMorelloCherryWood");
-	    	
-	    	blockWhitePeachWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/whitepeach/blockWhitePeachWood").setBlockName("blockWhitePeachWood");				
-	    	GameRegistry.registerBlock(blockWhitePeachWood , "blockWhitePeachWood");
-	    	
-	    	blockAbiuWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/abiu/blockAbiuWood").setBlockName("blockAbiuWood");				
-	    	GameRegistry.registerBlock(blockAbiuWood , "blockAbiuWood");
-	    	
-	    	blockLonganWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/longan/blockLonganWood").setBlockName("blockLonganWood");				
-	    	GameRegistry.registerBlock(blockLonganWood , "blockLonganWood");
-	    	
-	    	blockLoquatWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/loquat/blockLoquatWood").setBlockName("blockLoquatWood");				
-	    	GameRegistry.registerBlock(blockLoquatWood , "blockLoquatWood");
-	    	
-	    	blockNutmegWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/nutmeg/blockNutmegWood").setBlockName("blockNutmegWood");				
-	    	GameRegistry.registerBlock(blockNutmegWood , "blockNutmegWood");
-	    	
-	    	blockPlaneWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/plane/blockPlaneWood").setBlockName("blockPlaneWood");				
-	    	GameRegistry.registerBlock(blockPlaneWood , "blockPlaneWood");
-	    	
-	    	blockTonkaBeanWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/tonkabean/blockTonkaBeanWood").setBlockName("blockTonkaBeanWood");				
-	    	GameRegistry.registerBlock(blockTonkaBeanWood , "blockTonkaBeanWood");
-	    	
-	    	blockMapleWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/maple/blockMapleWood").setBlockName("blockMapleWood");				
-	    	GameRegistry.registerBlock(blockMapleWood , "blockMapleWood");
-	    	
-	    	blockGrapefruitPinkWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/grapefruitpink/blockGrapefruitPinkWood").setBlockName("blockGrapefruitPinkWood");				
-	    	GameRegistry.registerBlock(blockGrapefruitPinkWood , "blockGrapefruitPinkWood");
-	    	
-	    	blockBerWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/ber/blockBerWood").setBlockName("blockBerWood");				
-	    	GameRegistry.registerBlock(blockBerWood , "blockBerWood");
-	    	
-	    	blockCurryWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/curry/blockCurryWood").setBlockName("blockCurryWood");				
-	    	GameRegistry.registerBlock(blockCurryWood , "blockCurryWood");
-	    	
-	    	blockRedBananaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/redbanana/blockRedBananaWood").setBlockName("blockRedBananaWood");				
-	    	GameRegistry.registerBlock(blockRedBananaWood , "blockRedBananaWood");
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	blockBunyaNutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/bunyanut/blockBunyaNutWood").setBlockName("blockBunyaNutWood");				
-	    	GameRegistry.registerBlock(blockBunyaNutWood , "blockBunyaNutWood");
-	    	
-	    	blockGingkoNutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/gingkonut/blockGingkoNutWood").setBlockName("blockGingkoNutWood");				
-	    	GameRegistry.registerBlock(blockGingkoNutWood , "blockGingkoNutWood");
-	    	
-	    	blockHuckleberriesWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/huckleberries/blockHuckleberriesWood").setBlockName("blockHuckleberriesWood");				
-	    	GameRegistry.registerBlock(blockHuckleberriesWood , "blockHuckleberriesWood");
-	    	
-	    	blockJackFruitWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/jackfruit/blockJackFruitWood").setBlockName("blockJackFruitWood");				
-	    	GameRegistry.registerBlock(blockJackFruitWood , "blockJackFruitWood");
-	    	
-	    	blockMameySapoteWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/mameysapote/blockMameySapoteWood").setBlockName("blockMameySapoteWood");				
-	    	GameRegistry.registerBlock(blockMameySapoteWood , "blockMameySapoteWood");
-	    	
-	    	blockMangosteenWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/mangosteen/blockMangosteenWood").setBlockName("blockMangosteenWood");				
-	    	GameRegistry.registerBlock(blockMangosteenWood , "blockMangosteenWood");
-	    	
-	    	blockOhiaAiWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/ohiaai/blockOhiaAiWood").setBlockName("blockOhiaAiWood");				
-	    	GameRegistry.registerBlock(blockOhiaAiWood , "blockOhiaAiWood");
-	    	
-	    	blockOsageOrangeWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/osageorange/blockOsageOrangeWood").setBlockName("blockOsageOrangeWood");				
-	    	GameRegistry.registerBlock(blockOsageOrangeWood , "blockOsageOrangeWood");
-	    	
-	    	blockParadiseNutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/paradisenut/blockParadiseNutWood").setBlockName("blockParadiseNutWood");				
-	    	GameRegistry.registerBlock(blockParadiseNutWood , "blockParadiseNutWood");
-	    	
-	    	blockPineNutWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/pinenut/blockPineNutWood").setBlockName("blockPineNutWood");				
-	    	GameRegistry.registerBlock(blockPineNutWood , "blockPineNutWood");
-	    	
-	    	blockSoursopWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/soursop/blockSoursopWood").setBlockName("blockSoursopWood");				
-	    	GameRegistry.registerBlock(blockSoursopWood , "blockSoursopWood");
-	    	
-	    	blockSapodillaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/sapodilla/blockSapodillaWood").setBlockName("blockSapodillaWood");				
-	    	GameRegistry.registerBlock(blockSapodillaWood , "blockSapodillaWood");
-	    	
-	    	blockTamarilloWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/tamarillo/blockTamarilloWood").setBlockName("blockTamarilloWood");				
-	    	GameRegistry.registerBlock(blockTamarilloWood , "blockTamarilloWood");
-	    	
-	    	blockWoodCinchona = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/cinchona/blockWoodCinchona").setBlockName("blockWoodCinchona");				
-	    	GameRegistry.registerBlock(blockWoodCinchona , "blockWoodCinchona");
-	    	
-	    	
+						    	
 	    	//apple
 	    	
 	    	blockCrabappleWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/crabapple/blockCrabappleWood").setBlockName("blockCrabappleWood");
@@ -1574,5 +1611,5 @@ public class BandbBlocks {
 			GameRegistry.registerBlock(blockFurnitureKitchenWorktopA, "blockFurnitureKitchenWortopA");
 
 		}			
-			
+			***/
 	}

@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import fr.bentur_and_bertatruck.bandb_mod.common.handler.CraftingHandler;
 import fr.bentur_and_bertatruck.bandb_mod.common.handler.EventHandlerBandb;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBeverages;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBlocks;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 import fr.bentur_and_bertatruck.bandb_mod.machine.gui.HandlerGui;
@@ -75,11 +76,13 @@ public class Bandb_mod{
 		BandbCocktails.preInit();
 		**/
 		
+		BandbBlocks.register();
 		BandbBeverages.register();
 		BandbFood.register();
 		BandbItems.register();
 		
 		if(event.getSide() == Side.CLIENT){
+			BandbBlocks.registerRender();
 			BandbBeverages.registerRender();
 			BandbFood.registerRender();
 			BandbItems.registerRender();

@@ -1,0 +1,7 @@
+{
+    "parent": "block/column_side",
+    "textures": {
+        "end": "bandb_mod:blocks/tree/log/blockAfricanWood_top",
+        "side": "bandb_mod:blocks/tree/log/blockAfricanWood"
+    }
+}

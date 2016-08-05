@@ -1155,9 +1155,7 @@ public class BandbFood {
 		itemMeatZebraCooked = new ItemMeatCooked(3, 3.0F, false).setUnlocalizedName("itemMeatZebraCooked");
 
 		GameRegistry.registerItem(itemMeatZebraCooked, "itemMeatZebraCooked");
-
-
-
+		
 		//Cheese
 		
 	}
