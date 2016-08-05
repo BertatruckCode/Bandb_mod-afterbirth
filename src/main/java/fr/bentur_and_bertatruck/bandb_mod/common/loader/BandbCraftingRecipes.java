@@ -11,31 +11,31 @@ public class BandbCraftingRecipes {
 		
 		//Shapeless crafting recipes
 		//beverage empty
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleBenturCola), new ItemStack(BandbBeverages.itemBenturColaWOLabel), new ItemStack(BandbItems.itemBenturColaLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCapCorse), new ItemStack(BandbBeverages.itemBottleCapCorseWOLabel), new ItemStack(BandbItems.itemCapCorseLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleBrandy), new ItemStack(BandbBeverages.itemBottleBrandyWOLabel), new ItemStack(BandbItems.itemBrandyLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCalvados), new ItemStack(BandbBeverages.itemBottleCalvadosWOLabel), new ItemStack(BandbItems.itemCalvadosLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleVinegar), new ItemStack(BandbBeverages.itemBottleVinegarWOLabel), new ItemStack(BandbItems.itemVinegarLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleBenturCola), new ItemStack(BandbBeverages.itemBenturColaWOLabel), new ItemStack(BandbBeverages.itemBottleBenturColaLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCapCorse), new ItemStack(BandbBeverages.itemBottleCapCorseWOLabel), new ItemStack(BandbBeverages.itemBottleCapCorseLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleBrandy), new ItemStack(BandbBeverages.itemBottleBrandyWOLabel), new ItemStack(BandbBeverages.itemBottleBrandyLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCalvados), new ItemStack(BandbBeverages.itemBottleCalvadosWOLabel), new ItemStack(BandbBeverages.itemBottleCalvadosLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleVinegar), new ItemStack(BandbBeverages.itemBottleVinegarWOLabel), new ItemStack(BandbBeverages.itemBottleVinegarLabel));
 
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCiderKerne), new ItemStack(BandbBeverages.itemBottleCiderKerneWOLabel), new ItemStack(BandbItems.itemCiderLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCognac), new ItemStack(BandbBeverages.itemBottleCognacWOLabel), new ItemStack(BandbItems.itemCognacLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleGin), new ItemStack(BandbBeverages.itemBottleGinWOLabel), new ItemStack(BandbItems.itemGinLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleLambig), new ItemStack(BandbBeverages.itemBottleLambigWOLabel), new ItemStack(BandbItems.itemLambigLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottlePastis51), new ItemStack(BandbBeverages.itemBottleWhiteMartiniWOLabel), new ItemStack(BandbItems.itemPastis51Label));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCiderKerne), new ItemStack(BandbBeverages.itemBottleCiderKerneWOLabel), new ItemStack(BandbBeverages.itemBottleCiderLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleCognac), new ItemStack(BandbBeverages.itemBottleCognacWOLabel), new ItemStack(BandbBeverages.itemBottleCognacLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleGin), new ItemStack(BandbBeverages.itemBottleGinWOLabel), new ItemStack(BandbBeverages.itemBottleGinLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleLambig), new ItemStack(BandbBeverages.itemBottleLambigWOLabel), new ItemStack(BandbBeverages.itemBottleLambigLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottlePastis51), new ItemStack(BandbBeverages.itemBottleWhiteMartiniWOLabel), new ItemStack(BandbBeverages.itemBottlePastis51Label));
 
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleChouchen), new ItemStack(BandbBeverages.itemBottleWhiteMartiniWOLabel), new ItemStack(BandbItems.itemChouchenLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottlePerrier), new ItemStack(BandbBeverages.itemPerrierWOLabel), new ItemStack(BandbItems.itemPerrierLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottlePommeau), new ItemStack(BandbBeverages.itemBottlePommeauWOLabel), new ItemStack(BandbItems.itemPommeauLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleRedMartini), new ItemStack(BandbBeverages.itemBottleRedMartiniWOLabel), new ItemStack(BandbItems.itemRedMartiniLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleRedPort), new ItemStack(BandbBeverages.itemBottleRedPortWOLabel), new ItemStack(BandbItems.itemRedPortLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleChouchen), new ItemStack(BandbBeverages.itemBottleWhiteMartiniWOLabel), new ItemStack(BandbBeverages.itemBottleChouchenLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottlePerrier), new ItemStack(BandbBeverages.itemPerrierWOLabel), new ItemStack(BandbBeverages.itemBottlePerrierLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottlePommeau), new ItemStack(BandbBeverages.itemBottlePommeauWOLabel), new ItemStack(BandbBeverages.itemBottlePommeauLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleRedMartini), new ItemStack(BandbBeverages.itemBottleRedMartiniWOLabel), new ItemStack(BandbBeverages.itemBottleRedMartiniLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleRedPort), new ItemStack(BandbBeverages.itemBottleRedPortWOLabel), new ItemStack(BandbBeverages.itemBottleRedPortLabel));
 
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleRum), new ItemStack(BandbBeverages.itemBottleRumWOLabel), new ItemStack(BandbItems.itemRumLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleTequila), new ItemStack(BandbBeverages.itemBottleTequilaWOLabel), new ItemStack(BandbItems.itemTequilaLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleVodka), new ItemStack(BandbBeverages.itemBottleVodkaWOLabel), new ItemStack(BandbItems.itemVodkaLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleWhiskey), new ItemStack(BandbBeverages.itemBottleVinegarWOLabel), new ItemStack(BandbItems.itemWhiskeyLabel));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleWhiteMartini), new ItemStack(BandbBeverages.itemBottleWhiteMartiniWOLabel), new ItemStack(BandbItems.itemWhiteMartiniLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleRum), new ItemStack(BandbBeverages.itemBottleRumWOLabel), new ItemStack(BandbBeverages.itemBottleRumLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleTequila), new ItemStack(BandbBeverages.itemBottleTequilaWOLabel), new ItemStack(BandbBeverages.itemBottleTequilaLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleVodka), new ItemStack(BandbBeverages.itemBottleVodkaWOLabel), new ItemStack(BandbBeverages.itemBottleVodkaLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleWhiskey), new ItemStack(BandbBeverages.itemBottleVinegarWOLabel), new ItemStack(BandbBeverages.itemBottleWhiskeyLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleWhiteMartini), new ItemStack(BandbBeverages.itemBottleWhiteMartiniWOLabel), new ItemStack(BandbBeverages.itemBottleWhiteMartiniLabel));
 
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleWhitePort), new ItemStack(BandbBeverages.itemBottleWhitePortWOLabel), new ItemStack(BandbItems.itemWhitePortLabel));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbBeverages.itemBottleWhitePort), new ItemStack(BandbBeverages.itemBottleWhitePortWOLabel), new ItemStack(BandbBeverages.itemBottleWhitePortLabel));
 		
 		//wood to plank 
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankAfrican ,4), new ItemStack(BandbBlocks.blockAfricanWood));
@@ -148,40 +148,35 @@ public class BandbCraftingRecipes {
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockPlankAppleTentation ,4), new ItemStack(BandbBlocks.blockAppleTentationWood));		
 		
 	
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemChickenLegRaw ,2), new ItemStack(BandbItems.itemChickenFullRaw));								
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemMeatChickenLegRaw ,2), new ItemStack(BandbFood.itemMeatChickenFullRaw));								
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetAluminium ,9), new ItemStack(BandbItems.itemIngotAluminium));								
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetAmethyst ,9), new ItemStack(BandbItems.itemAmethyst));								
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetJade ,9), new ItemStack(BandbItems.itemJade));																
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetOnyx ,9), new ItemStack(BandbItems.itemOnyx));								
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetAmethyst ,9), new ItemStack(BandbItems.itemGemAmethyst));																								
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetOnyx ,9), new ItemStack(BandbItems.itemGemOnyx));								
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetPlatinum ,9), new ItemStack(BandbItems.itemIngotPlatinum));								
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetRuby ,9), new ItemStack(BandbItems.itemRuby));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetSapphire ,9), new ItemStack(BandbItems.itemSapphire));										
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetRuby ,9), new ItemStack(BandbItems.itemGemRuby));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemNuggetSapphire ,9), new ItemStack(BandbItems.itemGemSapphire));										
 		
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemCurry ,1), new ItemStack(BandbItems.itemCurryLeafDried));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourBuckwheat ,1), new ItemStack(BandbItems.itemBuckwheat));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourHemp ,1), new ItemStack(BandbItems.itemHemp));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourSpelt ,1), new ItemStack(BandbItems.itemSpelt));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourFonio ,1), new ItemStack(BandbItems.itemFonio));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourHop ,1), new ItemStack(BandbItems.itemHop));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourOats ,1), new ItemStack(BandbItems.itemOats));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourMalt ,1), new ItemStack(BandbItems.itemMalt));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourMillet ,1), new ItemStack(BandbItems.itemMillet));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourRye ,1), new ItemStack(BandbItems.itemRye));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourSorghum ,1), new ItemStack(BandbItems.itemSorghum));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourCorn ,1), new ItemStack(BandbItems.itemCorn));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemFlourBarley ,1), new ItemStack(BandbItems.itemBarley));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemCacaoPower ,1), new ItemStack(BandbItems.itemCacao));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientCurry ,1), new ItemStack(BandbFood.itemIngredientCurryLeafDried));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourBuckwheat ,1), new ItemStack(BandbItems.itemPlantBuckwheat));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourHemp ,1), new ItemStack(BandbItems.itemPlantHemp));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourSpelt ,1), new ItemStack(BandbItems.itemPlantSpelt));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourFonio ,1), new ItemStack(BandbItems.itemPlantFonio));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourHop ,1), new ItemStack(BandbItems.itemPlantHop));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourOats ,1), new ItemStack(BandbItems.itemPlantOats));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourMalt ,1), new ItemStack(BandbItems.itemPlantMalt));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourMillet ,1), new ItemStack(BandbItems.itemPlantMillet));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourRye ,1), new ItemStack(BandbItems.itemPlantRye));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourSorghum ,1), new ItemStack(BandbItems.itemPlantSorghum));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourCorn ,1), new ItemStack(BandbItems.itemPlantCorn));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientFlourBarley ,1), new ItemStack(BandbItems.itemPlantBarley));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemIngredientCacaoPowder ,1), new ItemStack(BandbFood.itemFruitCacao));
 		
 		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBucketCream ,1), new ItemStack(Items.milk_bucket));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationBrick_1 ,1), new ItemStack(Blocks.brick_block));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationSandstone_1 ,1), new ItemStack(Blocks.sandstone));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationTnt_1 ,2), new ItemStack(Blocks.tnt));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockDecorationGlass_black_1 ,1), new ItemStack(Blocks.glass));
 	
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbItems.itemSesame));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemSesameSeed ,2), new ItemStack(BandbBlocks.blockSesame));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemPlantSesameSeed ,2), new ItemStack(BandbItems.itemPlantSesame));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemPlantSesameSeed ,2), new ItemStack(BandbBlocks.blockSesame));
 		
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemGum, 2), new ItemStack(Blocks.spruce_stairs));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbFood.itemFoodGum, 2), new ItemStack(Blocks.spruce_stairs));
 		
 	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockRape ,1), new ItemStack(BandbItems.itemRape));
 	//	GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockBetterCactus ,1), new ItemStack(BandbItems.itemBetterCactus));
@@ -231,50 +226,47 @@ public class BandbCraftingRecipes {
 		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockWatercress ,1), new ItemStack(BandbItems.itemWatercress));
 		//GameRegistry.addShapelessRecipe(new ItemStack(BandbBlocks.blockWormwood ,1), new ItemStack(BandbItems.itemWormwood));
 	
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemRape));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 2), new ItemStack(BandbItems.itemBetterCactus));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemDaisy));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 6), new ItemStack(BandbItems.itemOrchid));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 1), new ItemStack(BandbItems.itemHibiscus));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemJasmine));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemBlowball));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 5), new ItemStack(BandbItems.itemViolet));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 6), new ItemStack(BandbItems.itemBachelorsButtonBlue));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 9), new ItemStack(BandbItems.itemPeony));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlueDye), new ItemStack(BandbItems.itemIrisBlue));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 13), new ItemStack(BandbItems.itemLavender));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 13), new ItemStack(BandbItems.itemLily));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemChrysantheme));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemAmaryllisWhite));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 9), new ItemStack(BandbItems.itemHeather));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 5), new ItemStack(BandbItems.itemSyringa));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlackDye), new ItemStack(BandbItems.itemCallaBlack));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlueDye), new ItemStack(BandbItems.itemEnzian));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 14), new ItemStack(BandbItems.itemFoxglove));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemCallaWhite));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlueDye), new ItemStack(BandbItems.itemBelladonna));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 9), new ItemStack(BandbItems.itemAmaryllisPink));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 5), new ItemStack(BandbItems.itemIrisPurple));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 1), new ItemStack(BandbItems.itemAmaryllisRed));
-		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlackDye), new ItemStack(BandbItems.itemPansy));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemMarshMarigold));
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemButtercup));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemPlantRape));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 2), new ItemStack(BandbItems.itemPlantBetterCactus));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemPlantDaisy));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 6), new ItemStack(BandbItems.itemPlantOrchid));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 1), new ItemStack(BandbItems.itemPlantHibiscus));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemPlantJasmine));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemPlantBlowball));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 5), new ItemStack(BandbItems.itemPlantViolet));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 6), new ItemStack(BandbItems.itemPlantBachelorsButtonBlue));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 9), new ItemStack(BandbItems.itemPlantPeony));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlueDye), new ItemStack(BandbItems.itemPlantIrisBlue));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 13), new ItemStack(BandbItems.itemPlantLavender));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 13), new ItemStack(BandbItems.itemPlantLily));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemPlantChrysantheme));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemPlantAmaryllisWhite));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 9), new ItemStack(BandbItems.itemPlantHeather));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 5), new ItemStack(BandbItems.itemPlantSyringa));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlackDye), new ItemStack(BandbItems.itemPlantCallaBlack));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlueDye), new ItemStack(BandbItems.itemPlantEnzian));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 14), new ItemStack(BandbItems.itemPlantFoxglove));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemWhiteDye), new ItemStack(BandbItems.itemPlantCallaWhite));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlueDye), new ItemStack(BandbItems.itemPlantBelladonna));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 9), new ItemStack(BandbItems.itemPlantAmaryllisPink));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 5), new ItemStack(BandbItems.itemPlantIrisPurple));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 1), new ItemStack(BandbItems.itemPlantAmaryllisRed));
+		GameRegistry.addShapelessRecipe(new ItemStack(BandbItems.itemBlackDye), new ItemStack(BandbItems.itemPlantPansy));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemPlantMarshMarigold));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.dye, 2, 11), new ItemStack(BandbItems.itemPlantButtercup));
 		
 		
 	//Crafting recipe
 			
 		//Block
 		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockAluminium), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockAmethyst), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemAmethyst));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockJade), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemJade));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockOnyx), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemOnyx));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockOpal), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemOpal));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockPainite), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemPainite));
+		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockAmethyst), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemAmethyst));
+		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockOnyx), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemOnyx));
 		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockPlatinum), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemIngotPlatinum));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockRuby), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemRuby));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockSapphire), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemSapphire));
+		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockRuby), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemRuby));
+		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockSapphire), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemSapphire));
 		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockTitan), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemIngotTitan));
-		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockTopaz), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemTopaz));
+		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockTopaz), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemTopaz));
 		
 		//Ingot
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemIngotAluminium), "XXX", "XXX", "XXX",'X', new ItemStack(BandbItems.itemNuggetAluminium));
@@ -288,92 +280,92 @@ public class BandbCraftingRecipes {
 		
 		
 		// Miscellaneous
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemSurprise), " Y ", "ZXZ", " Y ",'X', new ItemStack(BandbItems.itemApplePommeDuLimousin),'Y', new ItemStack (BandbBeverages.itemJuiceAppleTentation), 'Z', new ItemStack (BandbItems.itemAppleGrannySmith));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemSurprise), " Y ", "ZXZ", " Y ",'X', new ItemStack(BandbFood.itemFruitApplePommeDuLimousin),'Y', new ItemStack (BandbBeverages.itemJuiceAppleTentation), 'Z', new ItemStack (BandbFood.itemFruitAppleGrannySmith));
 		//GameRegistry.addRecipe(new ItemStack(BandbItem.itemMac), " Y ", "ZXZ", " Y ",'X', new ItemStack(Items.redstone),'Y', new ItemStack (BandbItem.itemIngotZinc), 'Z', new ItemStack(Item.getItemFromBlock(Blocks.glass)));
 		//GameRegistry.addRecipe(new ItemStack(BandbItem.itemiPad), " Y ", "ZXZ", " Y ",'X', new ItemStack(Items.redstone),'Y', new ItemStack (BandbItem.itemIngotZinc), 'Z', new ItemStack(Item.getItemFromBlock(Blocks.glass)));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookCocktailGlass), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemCocktailGlass));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookCocktailGlass), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemToolCocktailGlass));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookCocktails), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemBookCocktailGlass));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookOldFashioned), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemOldFashoned));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookShaker), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemShaker));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookTumbler), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemTumbler));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookOldFashioned), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemToolOldFashoned));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookShaker), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemToolShaker));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBookTumbler), "XXX", "XYX", "XXX",'X', new ItemStack(Items.book),'Y', new ItemStack (BandbItems.itemToolTumbler));
 		
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBlackInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(BandbItems.itemBlackDye),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCyanInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(BandbItems.itemBlueDye),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMagentaInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(Items.dye, 2, 13),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemYellowInkCartridge), "XXX", "XYX", "XZX",'X', new ItemStack(Items.dye, 2, 11),'Y', new ItemStack (BandbItems.itemEmptyInkCartridge),'Z', new ItemStack (Items.water_bucket));
 		GameRegistry.addRecipe(new ItemStack(BandbItems.itemEmptyInkCartridge), "XXX", "XYX", "XXX",'X', new ItemStack(Items.iron_ingot),'Y', new ItemStack (Items.bucket));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), "XXX", "   ", "   ",'X', new ItemStack(Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), "   ", "XXX", "   ",'X', new ItemStack(Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), "   ", "   ", "XXX",'X', new ItemStack(Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), "X  ", "X  ", "X  ",'X', new ItemStack(Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), " X ", " X ", " X ",'X', new ItemStack(Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), "  X", "  X", "  X",'X', new ItemStack(Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), "X  ", " X ", "  X",'X', new ItemStack(Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabSpit, 2), "  X", " X ", "X  ",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), "XXX", "   ", "   ",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), "   ", "XXX", "   ",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), "   ", "   ", "XXX",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), "X  ", "X  ", "X  ",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), " X ", " X ", " X ",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), "  X", "  X", "  X",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), "X  ", " X ", "  X",'X', new ItemStack(Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKebabSpit, 2), "  X", " X ", "X  ",'X', new ItemStack(Items.iron_ingot));
 		
 					// Tea bag Empty
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEmpty, 6), " Y ", " X ", "   ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEmpty, 6), "Y  ", "X  ", "   ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEmpty, 6), "  Y", "  X", "   ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEmpty, 6), "   ", "Y  ", "X  ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEmpty, 6), "   ", " Y ", " X ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEmpty, 6), "   ", "  Y", "  X",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEmpty, 6), " Y ", " X ", "   ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEmpty, 6), "Y  ", "X  ", "   ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEmpty, 6), "  Y", "  X", "   ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEmpty, 6), "   ", "Y  ", "X  ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEmpty, 6), "   ", " Y ", " X ",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEmpty, 6), "   ", "  Y", "  X",'X', new ItemStack(Items.paper),'Y', new ItemStack (Items.string));
 					// Tea bag Raspberry
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagRaspberry, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbItems.itemRaspberry),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagRaspberry, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbItems.itemRaspberry),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagRaspberry, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbItems.itemRaspberry),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagRaspberry, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbFood.itemFruitRaspberry),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagRaspberry, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbFood.itemFruitRaspberry),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagRaspberry, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbFood.itemFruitRaspberry),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 					// Tea bag Peach
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagPeach, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbItems.itemPeach),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagPeach, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbItems.itemPeach),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagPeach, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbItems.itemPeach),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagPeach, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbFood.itemFruitPeach),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagPeach, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbFood.itemFruitPeach),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagPeach, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbFood.itemFruitPeach),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 					// Tea bag Caramel
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagCaramel, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbItems.itemCaramel),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagCaramel, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbItems.itemCaramel),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagCaramel, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbItems.itemCaramel),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagCaramel, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbFood.itemIngredientCaramel),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagCaramel, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbFood.itemIngredientCaramel),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagCaramel, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbFood.itemIngredientCaramel),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 					// Tea bag Chai
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagChai, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbItems.itemTeaLeaves),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagChai, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbItems.itemTeaLeaves),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagChai, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbItems.itemTeaLeaves),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagChai, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbItems.itemTeaLeaves),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagChai, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbItems.itemTeaLeaves),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagChai, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbItems.itemTeaLeaves),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 					// Tea bag Earl Grey
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEarlGrey, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbItems.itemLime),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEarlGrey, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbItems.itemLime),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagEarlGrey, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbItems.itemLime),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEarlGrey, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbFood.itemFruitLime),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEarlGrey, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbFood.itemFruitLime),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagEarlGrey, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbFood.itemFruitLime),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 					// Tea bag Lemon
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagLemon, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbItems.itemLemon),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagLemon, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbItems.itemLemon),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagLemon, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbItems.itemLemon),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagLemon, 1), " Y ", " X ", " Z ",'X', new ItemStack(BandbFood.itemFruitLemon),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagLemon, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(BandbFood.itemFruitLemon),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagLemon, 1), "  Y", "  X", "  Z",'X', new ItemStack(BandbFood.itemFruitLemon),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 					// Tea bag Matcha Green
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagMatchaGreen, 1), " Y ", " X ", " Z ",'X', new ItemStack(Blocks.leaves),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagMatchaGreen, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(Blocks.leaves),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagMatchaGreen, 1), "  Y", "  X", "  Z",'X', new ItemStack(Blocks.leaves),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagMatchaGreen, 1), " Y ", " X ", " Z ",'X', new ItemStack(Blocks.leaves),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagMatchaGreen, 1), "Y  ", "X  ", "Z  ",'X', new ItemStack(Blocks.leaves),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagMatchaGreen, 1), "  Y", "  X", "  Z",'X', new ItemStack(Blocks.leaves),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 					// Tea bag Red Fruit
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagRedFruit, 1), " Y ", "VXW", " Z ",'V', new ItemStack(BandbItems.itemStrawberry),'W', new ItemStack(BandbItems.itemBlueBerry),'X', new ItemStack(BandbItems.itemRaspberry),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagRedFruit, 1), "Y  ", "VXW", "Z  ",'V', new ItemStack(BandbItems.itemStrawberry),'W', new ItemStack(BandbItems.itemBlueBerry),'X', new ItemStack(BandbItems.itemRaspberry),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeaBagRedFruit, 1), "  Y", "VXW", "  Z",'V', new ItemStack(BandbItems.itemStrawberry),'W', new ItemStack(BandbItems.itemBlueBerry),'X', new ItemStack(BandbItems.itemRaspberry),'Y', new ItemStack (BandbItems.itemTeaBagEmpty),'Z', new ItemStack (BandbItems.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagRedFruit, 1), " Y ", "VXW", " Z ",'V', new ItemStack(BandbFood.itemFruitStrawberry),'W', new ItemStack(BandbFood.itemFruitBlueBerry),'X', new ItemStack(BandbFood.itemFruitRaspberry),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagRedFruit, 1), "Y  ", "VXW", "Z  ",'V', new ItemStack(BandbFood.itemFruitStrawberry),'W', new ItemStack(BandbFood.itemFruitBlueBerry),'X', new ItemStack(BandbFood.itemFruitRaspberry),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeaBagRedFruit, 1), "  Y", "VXW", "  Z",'V', new ItemStack(BandbFood.itemFruitStrawberry),'W', new ItemStack(BandbFood.itemFruitBlueBerry),'X', new ItemStack(BandbFood.itemFruitRaspberry),'Y', new ItemStack (BandbBeverages.itemTeaBagEmpty),'Z', new ItemStack (BandbBeverages.itemDriedTeaLeaves));
 				
 		
 		//Food
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemButter), "   ", "XXX", "   ",'X', new ItemStack(BandbItems.itemBucketCream));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKetchup), "XXX", "YZY", "XXX",'X', new ItemStack(BandbItems.itemTomato),'Y', new ItemStack (Items.sugar),'Z', new ItemStack (BandbBeverages.itemBottleKetchup));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCelerySalt), "XXX", "YYY", "XXX",'X', new ItemStack(BandbItems.itemSalt),'Y', new ItemStack (BandbItems.itemCelery));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemHoney), "XXX", "XYX", "XXX",'X', new ItemStack(BandbItems.itemPollen),'Y', new ItemStack (BandbBeverages.itemBottleHoney));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToffeeNut, 6), "XXX", "XYX", "XXX",'X', new ItemStack(BandbItems.itemCaramel),'Y', new ItemStack (BandbItems.itemReastedHazelnut));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientButter), "   ", "XXX", "   ",'X', new ItemStack(BandbFood.itemBucketCream));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientKetchup), "XXX", "YZY", "XXX",'X', new ItemStack(BandbFood.itemVegetableTomato),'Y', new ItemStack (Items.sugar),'Z', new ItemStack (BandbBeverages.itemBottleKetchup));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientCelerySalt), "XXX", "YYY", "XXX",'X', new ItemStack(BandbFood.itemIngredientSalt),'Y', new ItemStack (BandbFood.itemVegetableCelery));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientHoney), "XXX", "XYX", "XXX",'X', new ItemStack(BandbFood.itemIngredientPollen),'Y', new ItemStack (BandbBeverages.itemBottleHoney));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodToffeeNut, 6), "XXX", "XYX", "XXX",'X', new ItemStack(BandbFood.itemIngredientCaramel),'Y', new ItemStack (BandbFood.itemFoodReastedHazelnut));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemDarkChocolate), "XXX", "XXX", "   ",'X', new ItemStack(BandbItems.itemCacaoPower));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemDarkChocolate), "   ", "XXX", "XXX",'X', new ItemStack(BandbItems.itemCacaoPower));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemChocolate), "XXX", "XYX", "XXX",'X', new ItemStack(BandbItems.itemCacaoPower),'Y', new ItemStack (Items.milk_bucket));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemWhiteChocolate), "XXX", "ZYZ", "XXX",'X', new ItemStack(BandbItems.itemCacaoPower),'Y', new ItemStack (Items.milk_bucket),'Z', new ItemStack (BandbItems.itemButter));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientDarkChocolate), "XXX", "XXX", "   ",'X', new ItemStack(BandbFood.itemIngredientCacaoPowder));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientDarkChocolate), "   ", "XXX", "XXX",'X', new ItemStack(BandbFood.itemIngredientCacaoPowder));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientChocolate), "XXX", "XYX", "XXX",'X', new ItemStack(BandbFood.itemIngredientCacaoPowder),'Y', new ItemStack (Items.milk_bucket));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientWhiteChocolate), "XXX", "ZYZ", "XXX",'X', new ItemStack(BandbFood.itemIngredientCacaoPowder),'Y', new ItemStack (Items.milk_bucket),'Z', new ItemStack (BandbFood.itemIngredientButter));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCandyStrawberry), "XXX", "XYX", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (BandbItems.itemStrawberry));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBubbleGum), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodCandyStrawberry), "XXX", "XYX", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (BandbFood.itemFruitStrawberry));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodBubbleGum), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbFood.itemFruitStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebabRaw), "RST", "UVW", "XYZ",'R', new ItemStack(Items.chicken),'S', new ItemStack (Items.porkchop),'T', new ItemStack (Items.beef),'U', new ItemStack (BandbItems.itemGoatRaw),'V', new ItemStack (BandbItems.itemZebraRaw),'W', new ItemStack (BandbItems.itemPorkHamRaw),'X', new ItemStack (BandbItems.itemLegMuttonRaw),'Y', new ItemStack (BandbItems.itemCowRumpsteakRaw),'Z', new ItemStack (BandbItems.itemCowForeRibRaw));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbItems.itemMeatKebab),'W', new ItemStack (BandbItems.itemWhiteSauce),'X', new ItemStack (BandbItems.itemTomato),'Y', new ItemStack (BandbItems.itemSalat),'Z', new ItemStack (BandbItems.itemBreadKebab));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbItems.itemMeatKebab),'W', new ItemStack (BandbItems.itemSalat),'X', new ItemStack (BandbItems.itemWhiteSauce),'Y', new ItemStack (BandbItems.itemTomato),'Z', new ItemStack (BandbItems.itemBreadKebab));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbItems.itemMeatKebab),'W', new ItemStack (BandbItems.itemTomato),'X', new ItemStack (BandbItems.itemSalat),'Y', new ItemStack (BandbItems.itemWhiteSauce),'Z', new ItemStack (BandbItems.itemBreadKebab));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbItems.itemMeatKebab),'W', new ItemStack (BandbItems.itemTomato),'X', new ItemStack (BandbItems.itemWhiteSauce),'Y', new ItemStack (BandbItems.itemSalat),'Z', new ItemStack (BandbItems.itemBreadKebab));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbItems.itemMeatKebab),'W', new ItemStack (BandbItems.itemSalat),'X', new ItemStack (BandbItems.itemTomato),'Y', new ItemStack (BandbItems.itemWhiteSauce),'Z', new ItemStack (BandbItems.itemBreadKebab));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbItems.itemMeatKebab),'W', new ItemStack (BandbItems.itemWhiteSauce),'X', new ItemStack (BandbItems.itemSalat),'Y', new ItemStack (BandbItems.itemTomato),'Z', new ItemStack (BandbItems.itemBreadKebab));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemKebabRaw), "RST", "UVW", "XYZ",'R', new ItemStack(Items.chicken),'S', new ItemStack (Items.porkchop),'T', new ItemStack (Items.beef),'U', new ItemStack (BandbFood.itemMeatGoatRaw),'V', new ItemStack (BandbFood.itemMeatZebraRaw),'W', new ItemStack (BandbFood.itemMeatPorkHamRaw),'X', new ItemStack (BandbFood.itemMeatMuttonLegRaw),'Y', new ItemStack (BandbFood.itemMeatCowRumpsteakRaw),'Z', new ItemStack (BandbFood.itemMeatCowForeRibRaw));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbFood.itemMeatKebabCooked),'W', new ItemStack (BandbFood.itemIngredientWhiteSauce),'X', new ItemStack (BandbFood.itemVegetableTomato),'Y', new ItemStack (BandbFood.itemVegetableSalat),'Z', new ItemStack (BandbFood.itemBreadKebab));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbFood.itemMeatKebabCooked),'W', new ItemStack (BandbFood.itemVegetableSalat),'X', new ItemStack (BandbFood.itemIngredientWhiteSauce),'Y', new ItemStack (BandbFood.itemVegetableTomato),'Z', new ItemStack (BandbFood.itemBreadKebab));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbFood.itemMeatKebabCooked),'W', new ItemStack (BandbFood.itemVegetableTomato),'X', new ItemStack (BandbFood.itemVegetableSalat),'Y', new ItemStack (BandbFood.itemIngredientWhiteSauce),'Z', new ItemStack (BandbFood.itemBreadKebab));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbFood.itemMeatKebabCooked),'W', new ItemStack (BandbFood.itemVegetableTomato),'X', new ItemStack (BandbFood.itemIngredientWhiteSauce),'Y', new ItemStack (BandbFood.itemVegetableSalat),'Z', new ItemStack (BandbFood.itemBreadKebab));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbFood.itemMeatKebabCooked),'W', new ItemStack (BandbFood.itemVegetableSalat),'X', new ItemStack (BandbFood.itemVegetableTomato),'Y', new ItemStack (BandbFood.itemIngredientWhiteSauce),'Z', new ItemStack (BandbFood.itemBreadKebab));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemFoodKebab), "VVV", "WXY", " Z ",'V', new ItemStack(BandbFood.itemMeatKebabCooked),'W', new ItemStack (BandbFood.itemIngredientWhiteSauce),'X', new ItemStack (BandbFood.itemVegetableSalat),'Y', new ItemStack (BandbFood.itemVegetableTomato),'Z', new ItemStack (BandbFood.itemBreadKebab));
 			
 		
 		//Machine
@@ -383,23 +375,23 @@ public class BandbCraftingRecipes {
 		
 	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockBottleCaster), "XXX", "ZYZ", "XXX",'X', new ItemStack(Blocks.iron_block),'Y', new ItemStack (Blocks.redstone_block),'Z', new ItemStack (TFItems.ingotEnderium));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockCocktailBar), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockCocktailBar), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockCoffeeMaker), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockCoffeeMaker), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockCottonCandyMachine), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockCottonCandyMachine), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockDrier), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockDrier), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockKebabStand), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockKebabStand), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockLabelMachine), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockLabelMachine), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockPress), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockPress), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockPrinter), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockPrinter), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbMachines.blockSyrupMachine), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
+	//	GameRegistry.addRecipe(new ItemStack(BandbMachines.blockSyrupMachine), "XXX", "ZYZ", "XXX",'X', new ItemStack(Items.sugar),'Y', new ItemStack (Items.slime_ball),'Z', new ItemStack (BandbItems.itemStrawberry));
 	
 		
 		
@@ -422,15 +414,15 @@ public class BandbCraftingRecipes {
 		
 		//amethyst
 				//armor
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetAmethyst), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemAmethyst));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetAmethyst), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemAmethyst));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetAmethyst), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemGemAmethyst));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetAmethyst), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemGemAmethyst));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateAmethyst), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemAmethyst));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateAmethyst), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemAmethyst));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsAmethyst), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemAmethyst));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsAmethyst), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemGemAmethyst));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsAmethyst), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemAmethyst));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsAmethyst), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemAmethyst));			
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsAmethyst), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemGemAmethyst));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsAmethyst), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemGemAmethyst));			
 		
 		//emerald
 				//armor
@@ -446,15 +438,15 @@ public class BandbCraftingRecipes {
 						
 		//onyx
 				//armor
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetOnyx), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemOnyx));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetOnyx), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemOnyx));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetOnyx), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemGemOnyx));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetOnyx), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemGemOnyx));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateOnyx), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemOnyx));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateOnyx), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemOnyx));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsOnyx), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemOnyx));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsOnyx), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemGemOnyx));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsOnyx), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemOnyx));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsOnyx), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemOnyx));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsOnyx), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemGemOnyx));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsOnyx), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemGemOnyx));
 		
 		//platinum
 			//armor
@@ -470,27 +462,27 @@ public class BandbCraftingRecipes {
 					
 		//ruby
 				//armor
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetRuby), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemRuby));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetRuby), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemRuby));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetRuby), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemGemRuby));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetRuby), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemGemRuby));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateRuby), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemRuby));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateRuby), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemRuby));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsRuby), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemRuby));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsRuby), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemGemRuby));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsRuby), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemRuby));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsRuby), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemRuby));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsRuby), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemGemRuby));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsRuby), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemGemRuby));
 			
 		//sapphire
 				//armor
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetSapphire), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemSapphire));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetSapphire), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemSapphire));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetSapphire), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemGemSapphire));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetSapphire), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemGemSapphire));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateSapphire), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemSapphire));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplateSapphire), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemGemSapphire));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsSapphire), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemSapphire));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsSapphire), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemGemSapphire));
 	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsSapphire), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemSapphire));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsSapphire), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemSapphire));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsSapphire), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemGemSapphire));
+		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsSapphire), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemGemSapphire));
 		
 	
 		//titan
@@ -505,85 +497,73 @@ public class BandbCraftingRecipes {
 		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsTitan), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemIngotTitan));
 		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsTitan), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemIngotTitan));
 				
-		//painite
-				//armor
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetPainite), "XXX", "X X", "   ",'X', new ItemStack(BandbItems.itemPainite));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemHelmetPainite), "   ", "XXX", "X X",'X', new ItemStack(BandbItems.itemPainite));
-	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemChestplatePainite), "X X", "XXX", "XXX",'X', new ItemStack(BandbItems.itemPainite));
-	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemLeggingsPainite), "XXX", "X X", "X X",'X', new ItemStack(BandbItems.itemPainite));
-	
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsPainite), "X X", "X X", "   ",'X', new ItemStack(BandbItems.itemPainite));
-		GameRegistry.addRecipe(new ItemStack(BandbStuffs.itemBootsPainite), "   ", "X X", "X X",'X', new ItemStack(BandbItems.itemPainite));
+					
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemPlantAmanitaMuscaria), "   ", "   ", "  Y", 'Y', new ItemStack(BandbItems.itemToolKnifeIron));
 		
-				
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemAmanitaMuscaria), "   ", "   ", "  Y", 'Y', new ItemStack(BandbItems.itemKnifeIron));
-		
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemBlueGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemSapphire), 'X', new ItemStack (BandbItems.itemOrchid));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemPinkGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemPainite), 'X', new ItemStack (BandbItems.itemAmaryllisPink));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemPurpleGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemAmethyst), 'X', new ItemStack (BandbItems.itemSyringa));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemRedGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemRuby), 'X', new ItemStack (BandbItems.itemAmaryllisRed));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolBlueGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemGemSapphire), 'X', new ItemStack (BandbItems.itemPlantOrchid));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolPinkGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemGemRuby, 2), 'X', new ItemStack (BandbItems.itemPlantAmaryllisPink));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolPurpleGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemGemAmethyst), 'X', new ItemStack (BandbItems.itemPlantSyringa));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolRedGode), " X ", " Y ", "ZZZ", 'Z', new ItemStack (Items.diamond),'Y', new ItemStack (BandbItems.itemGemRuby), 'X', new ItemStack (BandbItems.itemPlantAmaryllisRed));
 		
 		//Kitchen Tools
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemFlyingPan), " XX", " YX", "Y  ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCheeseGrater), "X X", " X ", "X X", 'X', new ItemStack (Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCheeseKnife), "  X", " YX", "Y  ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCleaverIron), "XXX", " YX", "Y  ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCookieCutterCircle), " X ", "X X", " X ", 'X', new ItemStack (Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCookieCutterSquare), " XXX", "X X", "XXX", 'X', new ItemStack (Items.iron_ingot));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemFoforkStone), "X X", " Y ", "XYX", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemKnifeIron), "   ", " X ", " Y ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolFlyingPan), " XX", " YX", "Y  ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolCheeseGrater), "X X", " X ", "X X", 'X', new ItemStack (Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolCheeseKnife), "  X", " YX", "Y  ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolCleaverIron), "XXX", " YX", "Y  ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolCookieCutterCircle), " X ", "X X", " X ", 'X', new ItemStack (Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolCookieCutterSquare), " XXX", "X X", "XXX", 'X', new ItemStack (Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolFoforkStone), "X X", " Y ", "XYX", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
+		GameRegistry.addRecipe(new ItemStack(BandbItems.itemToolKnifeIron), "   ", " X ", " Y ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Items.stick));
 		GameRegistry.addRecipe(new ItemStack(BandbBlocks.blockFurnitureKitchenWorktopA), "YYY", "XXX", "XXX", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (Blocks.stone));
 		
 		//Mug and Teapot
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMugCoffeeEmpty ,2), "   ", " XY", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMugCoffeeEmpty ,2), " XY", "   ", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMugCoffeeEmpty ,2), "   ", "   ", "XY ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMugCoffeeEmpty ,2), "   ", "   ", " XY", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMugCoffeeEmpty ,2), "   ", "XY ", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemMugCoffeeEmpty ,2), "XY ", "   ", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemTeapot), "X  ", " XX", " XX", 'X', new ItemStack (Items.iron_ingot));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCupCoffeeEmpty ,2), "   ", " XY", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCupCoffeeEmpty ,2), " XY", "   ", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCupCoffeeEmpty ,2), "   ", "   ", "XY ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCupCoffeeEmpty ,2), "   ", "   ", " XY", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCupCoffeeEmpty ,2), "   ", "XY ", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCupCoffeeEmpty ,2), "XY ", "   ", "   ", 'X', new ItemStack (Items.iron_ingot),'Y', new ItemStack (BandbItems.itemNuggetPlatinum));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemTeapot), "X  ", " XX", " XX", 'X', new ItemStack (Items.iron_ingot));
 		//Capsules
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleArpeggioEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,5),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleBukeelaKaEthiopiaEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,14),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleCapriccioEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,2),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemBlackDye));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleCosiEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'X', new ItemStack (Items.dye,1,2));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDecaffeinatoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDecaffeinatoLungoEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDecaffeinatoIntensoEmpty, 32), "XXX", "XYX", "ZZZ", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemBlackDye));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDharkanEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,6),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDulsaoDoBrasilEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,11),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleFortissioLungoEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,2),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleIndriyaFromIndiaEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,2),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleKazaarEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (BandbItems.itemBlueDye),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleLinizioLungoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,14),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleLivantoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,14),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemBlackDye));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleRistrettoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (BandbItems.itemBlackDye),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleRomaEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,7),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleRosabayaDeColombiaEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,9),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleVivaltoLungoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,12),'Y', new ItemStack (BandbItems.itemIngotAluminium));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleVollutoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,11),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleArpeggioEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,5),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleBukeelaKaEthiopiaEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,14),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleCapriccioEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,2),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemBlackDye));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleCosiEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'X', new ItemStack (Items.dye,1,2));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDecaffeinatoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDecaffeinatoLungoEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDecaffeinatoIntensoEmpty, 32), "XXX", "XYX", "ZZZ", 'X', new ItemStack (Items.dye,1,1),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemBlackDye));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDharkanEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,6),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDulsaoDoBrasilEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,11),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleFortissioLungoEmpty, 32), "XXX", "XYZ", "ZZZ", 'X', new ItemStack (Items.dye,1,2),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemWhiteDye));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleIndriyaFromIndiaEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,2),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleKazaarEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (BandbItems.itemBlueDye),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleLinizioLungoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,14),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleLivantoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,14),'Y', new ItemStack (BandbItems.itemIngotAluminium), 'Z', new ItemStack (BandbItems.itemBlackDye));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleRistrettoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (BandbItems.itemBlackDye),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleRomaEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,7),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleRosabayaDeColombiaEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,9),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleVivaltoLungoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,12),'Y', new ItemStack (BandbItems.itemIngotAluminium));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleVollutoEmpty, 32), "XXX", "XYX", "XXX", 'X', new ItemStack (Items.dye,1,11),'Y', new ItemStack (BandbItems.itemIngotAluminium));
 		
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleArpeggio, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeArabicasGround),'Y', new ItemStack (BandbItems.itemCapsuleArpeggioEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleBukeelaKaEthiopia, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeBlueMountainGround),'Y', new ItemStack (BandbItems.itemCapsuleBukeelaKaEthiopiaEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleCapriccio, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeBourbonPointuGround),'Y', new ItemStack (BandbItems.itemCapsuleCapriccioEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleCosi, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeCatturaGround),'Y', new ItemStack (BandbItems.itemCapsuleCosiEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDecaffeinato, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeHarrarGround),'Y', new ItemStack (BandbItems.itemCapsuleDecaffeinatoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDecaffeinatoIntenso, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeHuehuetenangoGround),'Y', new ItemStack (BandbItems.itemCapsuleDecaffeinatoIntensoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDecaffeinatoLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeJavaGround),'Y', new ItemStack (BandbItems.itemCapsuleDecaffeinatoLungoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDharkan, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeKenyaAAGround),'Y', new ItemStack (BandbItems.itemCapsuleDharkanEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleDulsaoDoBrasil, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeKonaGround),'Y', new ItemStack (BandbItems.itemCapsuleDulsaoDoBrasilEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleFortissioLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeKontirWildForestGround),'Y', new ItemStack (BandbItems.itemCapsuleFortissioLungoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleIndriyaFromIndia, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeKopiLuwakGround),'Y', new ItemStack (BandbItems.itemCapsuleIndriyaFromIndiaEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleKazaar, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeKupeAlamidGround),'Y', new ItemStack (BandbItems.itemCapsuleKazaarEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleLinizioLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeMokaGround),'Y', new ItemStack (BandbItems.itemCapsuleLinizioLungoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleLivanto, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeMundoNovoGround),'Y', new ItemStack (BandbItems.itemCapsuleLivantoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleRistretto, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeMuragogypeGround),'Y', new ItemStack (BandbItems.itemCapsuleRistrettoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleRoma, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeePeaberryGround),'Y', new ItemStack (BandbItems.itemCapsuleRomaEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleRosabayaDeColombia, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeTarrazuGround),'Y', new ItemStack (BandbItems.itemCapsuleRosabayaDeColombiaEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleVivaltoLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeTorajaKalossiGround),'Y', new ItemStack (BandbItems.itemCapsuleVivaltoLungoEmpty));
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCapsuleVolluto, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbItems.itemCoffeeYirgacheffeGround),'Y', new ItemStack (BandbItems.itemCapsuleVollutoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleArpeggio, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeArabicasGround),'Y', new ItemStack (BandbBeverages.itemCapsuleArpeggioEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleBukeelaKaEthiopia, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeBlueMountainGround),'Y', new ItemStack (BandbBeverages.itemCapsuleBukeelaKaEthiopiaEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleCapriccio, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeBourbonPointuGround),'Y', new ItemStack (BandbBeverages.itemCapsuleCapriccioEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleCosi, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeCatturaGround),'Y', new ItemStack (BandbBeverages.itemCapsuleCosiEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDecaffeinato, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeHarrarGround),'Y', new ItemStack (BandbBeverages.itemCapsuleDecaffeinatoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDecaffeinatoIntenso, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeHuehuetenangoGround),'Y', new ItemStack (BandbBeverages.itemCapsuleDecaffeinatoIntensoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDecaffeinatoLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeJavaGround),'Y', new ItemStack (BandbBeverages.itemCapsuleDecaffeinatoLungoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDharkan, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeKenyaAAGround),'Y', new ItemStack (BandbBeverages.itemCapsuleDharkanEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleDulsaoDoBrasil, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeKonaGround),'Y', new ItemStack (BandbBeverages.itemCapsuleDulsaoDoBrasilEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleFortissioLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeKontirWildForestGround),'Y', new ItemStack (BandbBeverages.itemCapsuleFortissioLungoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleIndriyaFromIndia, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeKopiLuwakGround),'Y', new ItemStack (BandbBeverages.itemCapsuleIndriyaFromIndiaEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleKazaar, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeKupeAlamidGround),'Y', new ItemStack (BandbBeverages.itemCapsuleKazaarEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleLinizioLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeMokaGround),'Y', new ItemStack (BandbBeverages.itemCapsuleLinizioLungoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleLivanto, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeMundoNovoGround),'Y', new ItemStack (BandbBeverages.itemCapsuleLivantoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleRistretto, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeMuragogypeGround),'Y', new ItemStack (BandbBeverages.itemCapsuleRistrettoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleRoma, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeePeaberryGround),'Y', new ItemStack (BandbBeverages.itemCapsuleRomaEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleRosabayaDeColombia, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeTarrazuGround),'Y', new ItemStack (BandbBeverages.itemCapsuleRosabayaDeColombiaEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleVivaltoLungo, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeTorajaKalossiGround),'Y', new ItemStack (BandbBeverages.itemCapsuleVivaltoLungoEmpty));
+		GameRegistry.addRecipe(new ItemStack(BandbBeverages.itemCapsuleVolluto, 1), "X X", " Y ", "X X", 'X', new ItemStack (BandbBeverages.itemCoffeeYirgacheffeGround),'Y', new ItemStack (BandbBeverages.itemCapsuleVollutoEmpty));
 		
 		
 		//Guy
@@ -617,19 +597,19 @@ public class BandbCraftingRecipes {
 		GameRegistry.addRecipe(new ItemStack(Bandb_mod.blockOvenIdle), "STT", "UVW", "XYZ",'S', (TFItems.ingotElectrum),'T', (TFItems.ingotBronze),'U', new ItemStack (BandbItem.itemPowerCoilNickel),'V', (TFBlocks.blockFluidCryotheum),'W', new ItemStack (BandbBlock.blockTopaz),'X', new ItemStack (BandbItem.itemPneumaticServoTopaz),'Y', new ItemStack (Items.glowstone_dust),'Z', new ItemStack (BandbItem.itemGearTungsten));
 		 */
 		//Other
-		GameRegistry.addRecipe(new ItemStack(BandbItems.itemCottonCandySugar, 3), "XXX", "XYX", "XXX", 'X', new ItemStack(Items.dye,1,13),'Y', new ItemStack (Items.sugar));
+		GameRegistry.addRecipe(new ItemStack(BandbFood.itemIngredientCottonCandySugar, 3), "XXX", "XYX", "XXX", 'X', new ItemStack(Items.dye,1,13),'Y', new ItemStack (Items.sugar));
 		
 	}
 	
 	public static void loaderFurnaceRecipe(){
-		GameRegistry.addSmelting(BandbItems.itemZebraRaw, new ItemStack(BandbItems.itemZebraCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemPorkForeLoinRaw, new ItemStack(BandbItems.itemPorkForeLoinCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemPorkHamRaw, new ItemStack(BandbItems.itemPorkHamCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemPorkLoinChopsRaw, new ItemStack(BandbItems.itemPorkLoinChopsCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemGoatRaw, new ItemStack(BandbItems.itemGoatCooked, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemNuts, new ItemStack(BandbItems.itemReastedHazelnut, 1), 0.5F);
-		GameRegistry.addSmelting(BandbItems.itemSunflowerSeed, new ItemStack(BandbItems.itemSunflowerSeedRoasted, 1), 0.5F);
+		GameRegistry.addSmelting(BandbFood.itemMeatZebraRaw, new ItemStack(BandbFood.itemMeatZebraCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbFood.itemMeatGoatRaw, new ItemStack(BandbFood.itemMeatGoatCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbFood.itemMeatPorkForeLoinRaw, new ItemStack(BandbFood.itemMeatPorkForeLoinCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbFood.itemMeatPorkHamRaw, new ItemStack(BandbFood.itemMeatPorkHamCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbFood.itemMeatPorkLoinChopsRaw, new ItemStack(BandbFood.itemMeatPorkLoinChopsCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbFood.itemMeatGoatRaw, new ItemStack(BandbFood.itemMeatGoatCooked, 1), 0.5F);
+		GameRegistry.addSmelting(BandbFood.itemFruitNuts, new ItemStack(BandbFood.itemFoodReastedHazelnut, 1), 0.5F);
+		GameRegistry.addSmelting(BandbItems.itemPlantSunflowerSeed, new ItemStack(BandbFood.itemFoodSunflowerSeedRoasted, 1), 0.5F);
 		
 	}
 
