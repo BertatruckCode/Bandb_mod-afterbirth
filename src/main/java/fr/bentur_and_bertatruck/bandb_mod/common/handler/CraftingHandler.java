@@ -1,5 +1,6 @@
 package fr.bentur_and_bertatruck.bandb_mod.common.handler;
 
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
@@ -13,13 +14,13 @@ public class CraftingHandler {
 
 		// Alliages
 
-		if (event.crafting.getItem().equals(BandbItems.itemChickenFullRaw)) {
+		if (event.crafting.getItem().equals(BandbFood.itemMeatChickenFullRaw)) {
 
 			
 
 		}
 
-		else if (event.crafting.getItem().equals(BandbItems.itemChickenFullRaw)) {
+		else if (event.crafting.getItem().equals(BandbFood.itemMeatChickenFullRaw)) {
 
 
 		}
@@ -47,8 +48,8 @@ public class CraftingHandler {
 			if (event.craftMatrix.getStackInSlot(i) != null) {
 				
 				ItemStack item0 = event.craftMatrix.getStackInSlot(i);
-					if (item0 != null && item0.getItem() == BandbItems.itemKnifeIron) {
-						ItemStack k = new ItemStack(BandbItems.itemKnifeIron, 2, (item0.getItemDamage() + 1));
+					if (item0 != null && item0.getItem() == BandbItems.itemToolKnifeIron) {
+						ItemStack k = new ItemStack(BandbItems.itemToolKnifeIron, 2, (item0.getItemDamage() + 1));
 						
 						if (k.getItemDamage() >= k.getMaxDamage()) {
 							k.stackSize--;
@@ -59,8 +60,8 @@ public class CraftingHandler {
 					}
 					
 				ItemStack item1 = event.craftMatrix.getStackInSlot(i);
-					if (item1 != null && item1.getItem() == BandbItems.itemFlyingPan) {
-						ItemStack k = new ItemStack(BandbItems.itemFlyingPan, 2, (item1.getItemDamage() + 1));
+					if (item1 != null && item1.getItem() == BandbItems.itemToolFlyingPan) {
+						ItemStack k = new ItemStack(BandbItems.itemToolFlyingPan, 2, (item1.getItemDamage() + 1));
 						
 						if (k.getItemDamage() >= k.getMaxDamage()) {
 							k.stackSize--;
@@ -72,8 +73,8 @@ public class CraftingHandler {
 				
 				ItemStack item2 = event.craftMatrix.getStackInSlot(i);
 				
-				if (item2 != null && item2.getItem() == BandbItems.itemChickenFullRaw) {
-					ItemStack k = new ItemStack(BandbItems.itemChickenFleshRaw, 3);
+				if (item2 != null && item2.getItem() == BandbFood.itemMeatChickenFullRaw) {
+					ItemStack k = new ItemStack(BandbFood.itemMeatChickenFleshRaw, 3);
 
 					event.player.inventory.addItemStackToInventory(k);
 										

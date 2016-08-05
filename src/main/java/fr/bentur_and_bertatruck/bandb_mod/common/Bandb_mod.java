@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBeverages;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 import fr.bentur_and_bertatruck.bandb_mod.proxy.bandb_mod_CommonProxy;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.common.Mod;
@@ -58,20 +59,6 @@ public class Bandb_mod{
 		/**
 		//tools and stuff
 		BandbStuffs.loaderStuff(true);
-		//item
-		BandbItems.LoaderItemIngotDustNugget(true);
-		BandbItems.loaderProcessFood(true);
-		BandbItems.loaderMiscellaneous(true);
-		BandbItems.loaderFruit(true);
-		BandbItems.loaderVegetable(true);
-		BandbItems.loaderCoffeeTea(true);
-		BandbItems.loaderMushroom(true);
-		BandbItems.loaderLabel(true);
-		BandbItems.loaderWrapping(true);
-		BandbItems.loaderTools(true);
-		BandbItems.loaderPharmaceuticals(true);
-		BandbItems.loaderCoktail(true);
-		BandbItems.loaderCreativeOnly(true);			
 		//block
 		BandbBlocks.loaderBlock();		
 		//crop and seed
@@ -85,10 +72,12 @@ public class Bandb_mod{
 		
 		BandbBeverages.register();
 		BandbFood.register();
+		BandbItems.register();
 		
 		if(event.getSide() == Side.CLIENT){
 			BandbBeverages.registerRender();
 			BandbFood.registerRender();
+			BandbItems.registerRender();
 		}
 ////////blocks//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////:       
    

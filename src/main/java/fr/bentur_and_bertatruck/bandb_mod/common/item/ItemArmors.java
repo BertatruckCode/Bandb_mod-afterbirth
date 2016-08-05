@@ -32,25 +32,23 @@ public class ItemArmors extends ItemArmor {
 	public boolean getIsRepairable(ItemStack input, ItemStack repair) {
 		 if(itemRepairMaterial == "aluminium" && repair.getItem() == BandbItems.itemIngotAluminium){
 			return true;
-		}else if(itemRepairMaterial == "amethyst" && repair.getItem() == BandbItems.itemAmethyst){
+		}else if(itemRepairMaterial == "amethyst" && repair.getItem() == BandbItems.itemGemAmethyst){
 			return true;
-		}/*else if(itemRepairMaterial == "copper" && repair.getItem() == TFItems.ingotCopper.getItem()){
+		}else if(itemRepairMaterial == "copper" && repair.getItem() == BandbItems.itemIngotCopper){
 			return true;
-		}*/else if(itemRepairMaterial == "emerald" && repair.getItem() == Items.emerald){
+		}else if(itemRepairMaterial == "emerald" && repair.getItem() == Items.emerald){
 			return true;
-		}else if(itemRepairMaterial == "onyx" && repair.getItem() == BandbItems.itemOnyx){
+		}else if(itemRepairMaterial == "onyx" && repair.getItem() == BandbItems.itemGemOnyx){
 			return true;
 		}else if(itemRepairMaterial == "platinum" && repair.getItem() == BandbItems.itemIngotPlatinum){
 			return true;
-		}else if(itemRepairMaterial == "ruby" && repair.getItem() == BandbItems.itemRuby){
+		}else if(itemRepairMaterial == "ruby" && repair.getItem() == BandbItems.itemGemRuby){
 			return true;
-		}else if(itemRepairMaterial == "sapphire" && repair.getItem() == BandbItems.itemSapphire){
+		}else if(itemRepairMaterial == "sapphire" && repair.getItem() == BandbItems.itemGemSapphire){
 			return true;
-		}/*else if(itemRepairMaterial == "silver" && repair.getItem() == TFItems.ingotSilver.getItem()){
+		}else if(itemRepairMaterial == "silver" && repair.getItem() == BandbItems.itemIngotSilver){
 			return true;
-		}*/else if(itemRepairMaterial == "titan" && repair.getItem() == BandbItems.itemIngotTitan){
-			return true;
-		}else if(itemRepairMaterial == "painite" && repair.getItem() == BandbItems.itemPainite){
+		}else if(itemRepairMaterial == "titan" && repair.getItem() == BandbItems.itemIngotTitan){
 			return true;
 		}/*else if(itemRepairMaterial == "bronze" && repair.getItem() == TFItems.ingotBronze.getItem()){
 			return true;

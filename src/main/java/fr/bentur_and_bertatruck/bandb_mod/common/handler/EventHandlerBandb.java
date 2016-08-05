@@ -2,6 +2,7 @@ package fr.bentur_and_bertatruck.bandb_mod.common.handler;
 
 import java.util.Random;
 
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowCharolaise;
 import fr.bentur_and_bertatruck.bandb_mod.entity.EntityCowGasconne;
@@ -32,16 +33,16 @@ public class EventHandlerBandb {
 			
 			Random random = new Random();
 			
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemLegMuttonRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatMuttonLegRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
-			ItemStack itemStackToDrop2 = new ItemStack(BandbItems.itemShoulderMuttonRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop2 = new ItemStack(BandbFood.itemMeatMuttonShoulderRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop2));
 
-			ItemStack itemStackToDrop3 = new ItemStack(BandbItems.itemSaddleMuttonRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop3 = new ItemStack(BandbFood.itemMeatMuttonSaddleRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop3));
 			
-			ItemStack itemStackToDrop4 = new ItemStack(BandbItems.itemMuttonBrain, random.nextInt(1) );
+			ItemStack itemStackToDrop4 = new ItemStack(BandbFood.itemMeatMuttonBrain, random.nextInt(1) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop4));
 						
 		}
@@ -56,10 +57,10 @@ public class EventHandlerBandb {
 			
 			Random random = new Random();
 
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemCowForeRibRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatCowForeRibRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
-			ItemStack itemStackToDrop2 = new ItemStack(BandbItems.itemCowRumpsteakRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop2 = new ItemStack(BandbFood.itemMeatCowRumpsteakRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop2));
 			
 			ItemStack itemStackToDrop3 = new ItemStack(Items.leather, random.nextInt(3) );
@@ -72,13 +73,13 @@ public class EventHandlerBandb {
 			
 			Random random = new Random();
 			
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemPorkForeLoinRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatPorkForeLoinRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
-			ItemStack itemStackToDrop2 = new ItemStack(BandbItems.itemPorkHamRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop2 = new ItemStack(BandbFood.itemMeatPorkHamRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop2));
 
-			ItemStack itemStackToDrop3 = new ItemStack(BandbItems.itemPorkLoinChopsRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop3 = new ItemStack(BandbFood.itemMeatPorkLoinChopsRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop3));
 			
 
@@ -89,7 +90,7 @@ public class EventHandlerBandb {
 			
 			event.drops.clear();
 						
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemChickenFullRaw, 1 );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatChickenFullRaw, 1 );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
 			ItemStack itemStackToDrop2 = new ItemStack(Items.feather, random.nextInt(4) );
@@ -102,10 +103,10 @@ public class EventHandlerBandb {
 			
 			Random random = new Random();
 
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemCowForeRibRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatCowForeRibRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
-			ItemStack itemStackToDrop2 = new ItemStack(BandbItems.itemCowRumpsteakRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop2 = new ItemStack(BandbFood.itemMeatCowRumpsteakRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop2));
 			
 			ItemStack itemStackToDrop3 = new ItemStack(BandbItems.itemLeatherCowCharolais, random.nextInt(3) );
@@ -116,10 +117,10 @@ public class EventHandlerBandb {
 			
 			Random random = new Random();
 
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemCowForeRibRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatCowForeRibRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
-			ItemStack itemStackToDrop2 = new ItemStack(BandbItems.itemCowRumpsteakRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop2 = new ItemStack(BandbFood.itemMeatCowRumpsteakRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop2));
 			
 			ItemStack itemStackToDrop3 = new ItemStack(BandbItems.itemLeatherCowGasconne, random.nextInt(3) );
@@ -130,10 +131,10 @@ public class EventHandlerBandb {
 			
 			Random random = new Random();
 
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemCowForeRibRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatCowForeRibRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
-			ItemStack itemStackToDrop2 = new ItemStack(BandbItems.itemCowRumpsteakRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop2 = new ItemStack(BandbFood.itemMeatCowRumpsteakRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop2));
 			
 			ItemStack itemStackToDrop3 = new ItemStack(BandbItems.itemLeatherCowKerry, random.nextInt(3) );
@@ -160,10 +161,10 @@ public class EventHandlerBandb {
 			
 			Random random = new Random();
 
-			ItemStack itemStackToDrop1 = new ItemStack(BandbItems.itemCowForeRibRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop1 = new ItemStack(BandbFood.itemMeatCowForeRibRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop1));
 			
-			ItemStack itemStackToDrop2 = new ItemStack(BandbItems.itemCowRumpsteakRaw, random.nextInt(2) );
+			ItemStack itemStackToDrop2 = new ItemStack(BandbFood.itemMeatCowRumpsteakRaw, random.nextInt(2) );
 			event.drops.add(new EntityItem(event.entity.worldObj,event.entity.posX,event.entity.posY, event.entity.posZ, itemStackToDrop2));
 			
 			ItemStack itemStackToDrop3 = new ItemStack(BandbItems.itemLeatherCowMontbeliarde, random.nextInt(3) );
@@ -185,7 +186,7 @@ public class EventHandlerBandb {
 	@SubscribeEvent(priority = EventPriority.NORMAL, receiveCanceled = true)
 	public void onCrafting(ItemCraftedEvent event){
 		    
-    if(event.crafting.getItem() == BandbItems.itemChickenFullRaw){
+    if(event.crafting.getItem() == BandbFood.itemMeatChickenFullRaw){
     	
     	
     }

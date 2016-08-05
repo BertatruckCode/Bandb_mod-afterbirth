@@ -202,6 +202,7 @@ public class BandbBeverages {
 	public static Item itemCupRistretto, itemCupRoma, itemCupRosabayaDeColombia, itemCupTeaCaramel, itemCupTeaChai;
 	public static Item itemCupTeaEarlGrey, itemCupTeaLemon, itemCupTeaMatchaGreen, itemCupTeaPeach, itemCupTeaRaspberry;
 	public static Item itemCupTeaRedFruit, itemCupVivaltoLungo, itemCupVolluto, itemTeapot;
+	
 	public static void register(){
 		//items beverage
 			//alcohol
