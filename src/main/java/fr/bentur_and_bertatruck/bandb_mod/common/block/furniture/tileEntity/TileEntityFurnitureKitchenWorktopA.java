@@ -1,10 +1,9 @@
 package fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.tileEntity;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import fr.bentur_and_bertatruck.bandb_mod.common.block.furniture.model.ModelFurnitureKitchenWorktopA;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.BlockPos;
 
 public class TileEntityFurnitureKitchenWorktopA extends TileEntity{
 	
@@ -37,7 +36,7 @@ public class TileEntityFurnitureKitchenWorktopA extends TileEntity{
 
     public void setDirection(byte direction){
         this.direction = direction;
-        this.worldObj.markBlockForUpdate(this.xCoord, this.yCoord, this.zCoord);
+        this.worldObj.markBlockForUpdate(this.getPos());
     }
 
 	public boolean isAngle() {

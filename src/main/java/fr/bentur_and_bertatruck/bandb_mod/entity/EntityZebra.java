@@ -1,7 +1,7 @@
 package fr.bentur_and_bertatruck.bandb_mod.entity;
 
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
-import jdk.nashorn.internal.ir.Block;
+import net.minecraft.block.Block;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.EntityAIFollowParent;

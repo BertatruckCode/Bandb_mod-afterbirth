@@ -6,13 +6,16 @@ import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbCreativeTabs;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.util.BlockPos;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 public class BlockOreDropGem extends Block {
+	
 	Item itemDrop;
 	int bonusDrop;
 
@@ -25,31 +28,23 @@ public class BlockOreDropGem extends Block {
 		itemDrop = drop;
 		bonusDrop = proba;
 	}
-	 @Override	
-	 	public int quantityDropped(Random random)	
-	 	{	
-		 return 1 + random.nextInt(bonusDrop);	
-	 	}	
+	
+	@Override	
+	public int quantityDropped(Random random){	
+		return 1 + random.nextInt(bonusDrop);	
+	}	
 
-	 @Override	
-	 	public Item getItemDropped(int metadata, Random random, int par3)	
-	 	{	
-		 return itemDrop;
-	 	}
+	public Item getItemDropped(int metadata, Random random, int par3){	
+		return itemDrop;
+	}
 	 	 
-	 public void dropBlockAsItemWithChance(World p_149690_1_, int p_149690_2_, int p_149690_3_, int p_149690_4_, int p_149690_5_, float p_149690_6_, int p_149690_7_)
-	    {
-	        super.dropBlockAsItemWithChance(p_149690_1_, p_149690_2_, p_149690_3_, p_149690_4_, p_149690_5_, p_149690_6_, p_149690_7_);
-	    }
-
-	    private Random rand = new Random();
+	public void dropBlockAsItemWithChance(World world, BlockPos bockpos, IBlockState state, float f, int i){
+		super.dropBlockAsItemWithChance(world, bockpos, state, f, i);
+	}	    
 	    
-	    
-	    @Override	    
-	    public int getExpDrop(IBlockAccess p_149690_1_, int p_149690_5_, int p_149690_7_)
-	    {
-	        return 5;
-	    }
+	public int getExpDrop(IBlockAccess p_149690_1_, int p_149690_5_, int p_149690_7_){
+		return 5;
+	}
 
 }
 

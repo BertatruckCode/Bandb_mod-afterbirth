@@ -12,7 +12,7 @@ public class BlockMilka extends Block{
 		this.setHarvestLevel("pickaxe", 2);
 		this.setResistance(20.0F);
 		this.setStepSound(Block.soundTypeMetal);
-		this.setCreativeTab(BandbCreativeTabs.CreativeTabsMilka);
+		this.setCreativeTab(BandbCreativeTabs.CreativeTabsMiscellaneous);
 	}
 
 }

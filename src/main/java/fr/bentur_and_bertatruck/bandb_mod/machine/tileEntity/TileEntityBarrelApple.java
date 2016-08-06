@@ -22,14 +22,6 @@ public class TileEntityBarrelApple extends TileEntity implements IInventory {
 	public Fluid currentFluid;
 	public int amountFluid;
 
-	public String getInventoryName() {
-		return "Barrel Apple Tree";
-	}
-
-	public boolean hasCustomInventoryName() {
-		return false;
-	}
-
 	public int getSizeInventory() {
 		return this.slots.length;
 	}
@@ -85,16 +77,7 @@ public class TileEntityBarrelApple extends TileEntity implements IInventory {
 	}
 
 	public boolean isUseableByPlayer(EntityPlayer entityplayer) {
-		return this.worldObj.getTileEntity(this.xCoord, this.yCoord,
-				this.zCoord) != this ? false : entityplayer.getDistanceSq(
-				(double) this.xCoord + 0.5D, (double) this.yCoord + 0.5D,
-				(double) this.zCoord + 0.5D) <= 64.0D;
-	}
-
-	public void openInventory() {
-	}
-
-	public void closeInventory() {
+		return this.worldObj.getTileEntity(this.getPos()) != this ? false : entityplayer.getDistanceSq((double)this.getPos().getX() + 0.5D, (double)this.getPos().getY() + 0.5D, (double)this.getPos().getZ() + 0.5D) <= 64.0D;
 	}
 
 	public boolean isItemValidForSlot(int i, ItemStack itemstack) {
@@ -248,19 +231,16 @@ public class TileEntityBarrelApple extends TileEntity implements IInventory {
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Barrel Apple Tree";
 	}
 
 	@Override
 	public boolean hasCustomName() {
-		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 	@Override
 	public IChatComponent getDisplayName() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -271,14 +251,11 @@ public class TileEntityBarrelApple extends TileEntity implements IInventory {
 	}
 
 	@Override
-	public void openInventory(EntityPlayer player) {
-		// TODO Auto-generated method stub
-		
+	public void openInventory(EntityPlayer player) {		
 	}
 
 	@Override
 	public void closeInventory(EntityPlayer player) {
-		// TODO Auto-generated method stub
 		
 	}
 

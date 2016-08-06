@@ -12,7 +12,7 @@ public class BlockBel extends Block{
 		this.setHarvestLevel("pickaxe", 2);
 		this.setResistance(20.0F);
 		this.setStepSound(Block.soundTypeMetal);
-		this.setCreativeTab(BandbCreativeTabs.CreativeTabsBel);
+		this.setCreativeTab(BandbCreativeTabs.CreativeTabsMiscellaneous);
 	}
 
 }

@@ -44,10 +44,10 @@ public class BlockTreeWood extends BlockLog{
     public int getMetaFromState(IBlockState state){
     	
         switch ((BlockLog.EnumAxis)state.getValue(LOG_AXIS)){
-            case X: return 0b0100;
-            case Y: return 0b0000;
-            case Z: return 0b1000;
-            case NONE: return 0b1100;
+            case X: return 4;
+            case Y: return 0;
+            case Z: return 8;
+            case NONE: return 12;
         }
         return 12;
     }

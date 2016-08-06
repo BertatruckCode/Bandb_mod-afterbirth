@@ -2,29 +2,24 @@ package fr.bentur_and_bertatruck.bandb_mod.common.block;
 
 import java.util.Random;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockCrops;
-import net.minecraft.block.IGrowable;
-import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
-import net.minecraft.util.IIcon;
-import net.minecraft.util.MathHelper;
-import net.minecraft.world.World;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbCrops;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockCrops;
+import net.minecraft.block.IGrowable;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
+import net.minecraft.util.MathHelper;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 
 public class BlockCrop extends BlockCrops implements IGrowable
 {
 
     protected int maxGrowthStage = 7;
-
-    @SideOnly(Side.CLIENT)
-    protected IIcon[] iIcon;
     
     Item itemDrop;
     String texture, renderType;
