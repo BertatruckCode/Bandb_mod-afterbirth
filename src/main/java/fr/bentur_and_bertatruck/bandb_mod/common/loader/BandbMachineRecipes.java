@@ -155,7 +155,7 @@ public class BandbMachineRecipes {
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceGrapefruitPink , new ItemStack(BandbBeverages.itemSyrupPinkGrapefruit ));
 		RecipeSyrupMachine.addRecipe(BandbFood.itemVegetablePistachio , new ItemStack(BandbBeverages.itemSyrupPistachio ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuicePomegranate , new ItemStack(BandbBeverages.itemSyrupPomegranate ));
-		RecipeSyrupMachine.addRecipe(Items.sugar, new ItemStack(BandbBeverages.itemSyrupPureCaneSugar));
+		RecipeSyrupMachine.addRecipe(Items.reeds, new ItemStack(BandbBeverages.itemSyrupPureCaneSugar));
 		
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceLemon , new ItemStack(BandbBeverages.itemSyrupRantchoLemon ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceRaspberry , new ItemStack(BandbBeverages.itemSyrupRaspberry ));
