@@ -1,57 +1,31 @@
 package fr.bentur_and_bertatruck.bandb_mod.machine.block;
 
+import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbMachines;
+import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityBottleCaster;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.IIcon;
+import net.minecraft.util.BlockPos;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
-import cpw.mods.fml.common.network.internal.FMLNetworkHandler;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
-import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbMachines;
-import fr.bentur_and_bertatruck.bandb_mod.machine.tileEntity.TileEntityBottleCaster;
+import net.minecraftforge.fml.common.network.internal.FMLNetworkHandler;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockBottleCaster extends BlockContainer {
-
-	
-
-	@SideOnly(Side.CLIENT)
-	private IIcon iconFront;
-
-	@SideOnly(Side.CLIENT)
-	private IIcon iconTop;
 
 	private static boolean keepInventory;
 
 	public BlockBottleCaster() {
 		super(Material.iron);
 
-
-	}
-
-	@SideOnly(Side.CLIENT)
-	public void registerBlockIcons(IIconRegister iconRegister) {
-
-		this.blockIcon = iconRegister.registerIcon(Bandb_mod.MODID+ ":gui/oven/furnace_side");
-		this.iconTop = iconRegister.registerIcon(Bandb_mod.MODID+ ":gui/oven/furnace_top");
-
-	}
-
-	/**
-	 * Gets the block's texture. Args: side, meta
-	 */
-	@SideOnly(Side.CLIENT)
-	public IIcon getIcon(int side, int metadata) {
-		return side == 1 ? this.iconTop : (side == 0 ? this.iconTop
-				: (side != metadata ? this.blockIcon : this.iconFront));
 	}
 
 	public Item getItemDropped(World world, int x, int y, int z) {
@@ -61,17 +35,17 @@ public class BlockBottleCaster extends BlockContainer {
 	/**
 	 * Called whenever the block is added into the world. Args: world, x, y, z
 	 */
-	public void onBlockAdded(World world, int x, int y, int z) {
-		super.onBlockAdded(world, x, y, z);
-		this.setDefaultDirection(world, x, y, z);
+	public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
+		super.onBlockAdded(world, pos, state);
+		this.setDefaultDirection(world, pos);
 	}
 
-	private void setDefaultDirection(World world, int x, int y, int z) {
+	private void setDefaultDirection(World world, BlockPos pos) {
 		if (!world.isRemote) {
-			Block block = world.getBlock(x, y, z - 1);
-			Block block1 = world.getBlock(x, y, z + 1);
-			Block block2 = world.getBlock(x - 1, y, z);
-			Block block3 = world.getBlock(x + 1, y, z);
+			Block block = world.getBlockState(new BlockPos(pos.getX(), pos.getY(), pos.getZ() - 1)).getBlock();
+			Block block1 = world.getBlockState(new BlockPos(pos.getX(), pos.getY(), pos.getZ() + 1)).getBlock();
+			Block block2 = world.getBlockState(new BlockPos(pos.getX() - 1, pos.getY(), pos.getZ())).getBlock();
+			Block block3 = world.getBlockState(new BlockPos(pos.getX() + 1, pos.getY(), pos.getZ())).getBlock();
 			byte b0 = 3;
 
 			if (block.func_149730_j() && !block1.func_149730_j()) {

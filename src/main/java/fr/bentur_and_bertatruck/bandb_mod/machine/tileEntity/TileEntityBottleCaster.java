@@ -152,10 +152,8 @@ public class TileEntityBottleCaster extends TileEntity implements IInventory {
 							this.slots[1] = this.slots[1].getItem().getContainerItem(this.slots[1]);
 						}
 					}
-
 				}
-
-			} else if (this.hasMoltenGlass() && this.slots[1] != null && this.burnTime == 0) {
+			}else if(this.hasMoltenGlass() && this.slots[1] != null && this.burnTime == 0) {
 				this.currentGlassBurnTime = this.burnTime = BandbFuel.getFuelValue(this.slots[1].getItem());
 				if (this.isBurning()) {
 					flag1 = true;
@@ -167,7 +165,7 @@ public class TileEntityBottleCaster extends TileEntity implements IInventory {
 					}
 				}
 			}
-			if (!this.worldObj.isRemote) {
+			if(!this.worldObj.isRemote) {
 				if (this.amountWater <= 1000){
 					if(this.slots[2] != null && this.slots[2].getItem() == Items.water_bucket){
 						this.slots[2] = new ItemStack(Items.bucket);
@@ -175,7 +173,7 @@ public class TileEntityBottleCaster extends TileEntity implements IInventory {
 					}
 				}
 			}
-			if (!this.worldObj.isRemote) {
+			if(!this.worldObj.isRemote) {
 				if(this.hasMoltenGlass()){
 					if(!this.isBurning()){
 						this.amountMoltenGlass--;
