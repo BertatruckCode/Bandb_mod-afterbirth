@@ -34,9 +34,7 @@ public class BandbBlocks {
 	public static Block blockAppleElstarWood, blockAppleFujiWood, blockAppleGalaWood, blockAppleGoldenWood, blockAppleGrannySmithWood;
 	public static Block blockAppleHoneycrunchWood, blockAppleJazzWood, blockAppleJonagoldJonagoredWood, blockAppleLesRougesWood, blockApplePinkLadyWood;
 	public static Block blockApplePommeLimousinWood, blockAppleReineDesReinettesWood, blockAppleReinetteGriseDuCanadaWood, blockAppleTentationWood, blockCrabappleWood;
-		
-		
-		
+				
 	//leaves
 		public static Block blockAlmondLeaves,blockApricotLeaves,blockBananaLeaves,blockCherryLeaves,blockClementineLeaves;
 		public static Block blockDateLeaves,blockDragonfruitLeaves,blockFigLeaves,blockGuavaLeaves,blockLemonLeaves;
@@ -546,58 +544,7 @@ public class BandbBlocks {
 	}
 		
    	/***
-		public static void loaderBlock(){
-						    	
-	    	//apple
-	    	
-	    	blockCrabappleWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/crabapple/blockCrabappleWood").setBlockName("blockCrabappleWood");
-			blockAppleAntaresWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/antares/blockAppleAntaresWood").setBlockName("blockAppleAntaresWood");
-			blockAppleArianeWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/ariane/blockAppleArianeWood").setBlockName("blockAppleArianeWood");
-			blockAppleBelchardChantecierWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/belchardchantecier/blockAppleBelchardChantecierWood").setBlockName("blockAppleBelchardChantecierWood");
-			blockAppleBelleDeBoskoopWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/belledeboskoop/blockAppleBelleDeBoskoopWood").setBlockName("blockAppleBelleDeBoskoopWood");
-
-			blockAppleBraeburnWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/braeburn/blockAppleBraeburnWood").setBlockName("blockAppleBraeburnWood");
-			blockAppleElstarWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/elstar/blockAppleElstarWood").setBlockName("blockAppleElstarWood");
-			blockAppleFujiWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/fuji/blockAppleFujiWood").setBlockName("blockAppleFujiWood");
-			blockAppleGalaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/gala/blockAppleGalaWood").setBlockName("blockAppleGalaWood");
-			blockAppleGoldenWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/golden/blockAppleGoldenWood").setBlockName("blockAppleGoldenWood");
-
-	    	GameRegistry.registerBlock(blockCrabappleWood , "blockCrabappleWood");
-	    	GameRegistry.registerBlock(blockAppleAntaresWood , "blockAppleAntaresWood");
-	    	GameRegistry.registerBlock(blockAppleArianeWood , "blockAppleArianeWood");
-	    	GameRegistry.registerBlock(blockAppleBelchardChantecierWood , "blockAppleBelchardChantecierWood");
-	    	GameRegistry.registerBlock(blockAppleBelleDeBoskoopWood , "blockAppleBelleDeBoskoopWood");
-
-	    	GameRegistry.registerBlock(blockAppleBraeburnWood , "blockAppleBraeburnWood");
-	    	GameRegistry.registerBlock(blockAppleElstarWood , "blockAppleElstarWood");
-	    	GameRegistry.registerBlock(blockAppleFujiWood , "blockAppleFujiWood");
-	    	GameRegistry.registerBlock(blockAppleGalaWood , "blockAppleGalaWood");
-	    	GameRegistry.registerBlock(blockAppleGoldenWood , "blockAppleGoldenWood");
-	    	
-			blockAppleGrannySmithWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/grannysmith/blockAppleGrannySmithWood").setBlockName("blockAppleGrannySmithWood");
-			blockAppleHoneycrunchWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/honeycrunch/blockAppleHoneycrunchWood").setBlockName("blockAppleHoneycrunchWood");
-			blockAppleJazzWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/jazz/blockAppleJazzWood").setBlockName("blockAppleJazzWood");
-			blockAppleJonagoldJonagoredWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/jonagoldjonagored/blockAppleJonagoldJonagoredWood").setBlockName("blockAppleJonagoldJonagoredWood");
-			blockAppleLesRougesWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/lesrouges/blockAppleLesRougesWood").setBlockName("blockAppleLesRougesWood");
-
-			blockApplePinkLadyWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/pinklady/blockApplePinkLadyWood").setBlockName("blockApplePinkLadyWood");
-			blockApplePommeLimousinWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/pommedulimousin/blockApplePommeLimousinWood").setBlockName("blockApplePommeLimousinWood");
-			blockAppleReineDesReinettesWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/reinedesreinettes/blockAppleReineDesReinettesWood").setBlockName("blockAppleReineDesReinettesWood");
-			blockAppleReinetteGriseDuCanadaWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/reinettegriseducanada/blockAppleReinetteGriseDuCanadaWood").setBlockName("blockAppleReinetteGriseDuCanadaWood");
-			blockAppleTentationWood = new BlockTreeWood(Material.wood).setBlockTextureName(Bandb_mod.MODID + ":tree/apple/tentation/blockAppleTentationWood").setBlockName("blockAppleTentationWood");
-
-	    	GameRegistry.registerBlock(blockAppleGrannySmithWood , "blockAppleGrannySmithWood");
-	    	GameRegistry.registerBlock(blockAppleHoneycrunchWood , "blockAppleHoneycrunchWood");
-	    	GameRegistry.registerBlock(blockAppleJazzWood , "blockAppleJazzWood");
-	    	GameRegistry.registerBlock(blockAppleJonagoldJonagoredWood , "blockAppleJonagoldJonagoredWood");
-	    	GameRegistry.registerBlock(blockAppleLesRougesWood , "blockAppleLesRougesWood");
-
-	    	GameRegistry.registerBlock(blockApplePinkLadyWood , "blockApplePinkLadyWood");
-	    	GameRegistry.registerBlock(blockApplePommeLimousinWood , "blockApplePommeLimousinWood");
-	    	GameRegistry.registerBlock(blockAppleReineDesReinettesWood , "blockAppleReineDesReinettesWood");
-	    	GameRegistry.registerBlock(blockAppleReinetteGriseDuCanadaWood , "blockAppleReinetteGriseDuCanadaWood");
-	    	GameRegistry.registerBlock(blockAppleTentationWood , "blockAppleTentationWood");	
-	    	
+		public static void loaderBlock(){	    	
 			
 			blockAfricanLeaves = new BlockTreeLeaf("african",BandbItems.itemAfrican).setBlockTextureName(Bandb_mod.MODID + ":tree/african/blockAfricanLeaves").setBlockName("blockAfricanLeaves");
 			GameRegistry.registerBlock(blockAfricanLeaves , "blockAfricanLeaves");
