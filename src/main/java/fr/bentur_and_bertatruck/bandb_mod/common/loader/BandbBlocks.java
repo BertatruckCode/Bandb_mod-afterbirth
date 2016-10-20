@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class BandbBlocks {
 	
-		//woods
+	//woods
 	public static Block blockAbiuWood, blockAfricanWood, blockAllspiceWood, blockAlmondWood, blockAmlaWood;
 	public static Block blockAniseWood, blockApricotWood, blockAvocadoWood, blockBaelWood, blockBananaWood;
 	public static Block blockBerWood, blockBlackCherryWood, blockBlackthornWood, blockBloodOrangeWood, blockBrazilNutWood;
@@ -29,13 +29,15 @@ public class BandbBlocks {
 	public static Block blockTamarilloWood, blockTangerineWood, blockTonkaBeanWood, blockVanillaWood, blockWalnutWood;
 	public static Block blockWhitePeachWood, blockWoodCinchona;	
 	
-	//apple
-		public static Block blockCrabappleWood,blockAppleAntaresWood,blockAppleArianeWood,blockAppleBelchardChantecierWood,blockAppleBelleDeBoskoopWood;
-		public static Block blockAppleBraeburnWood,blockAppleElstarWood,blockAppleFujiWood,blockAppleGalaWood,blockAppleGoldenWood;
-		public static Block blockAppleGrannySmithWood,blockAppleHoneycrunchWood,blockAppleJazzWood,blockAppleJonagoldJonagoredWood,blockAppleLesRougesWood;
-		public static Block blockApplePinkLadyWood,blockApplePommeLimousinWood,blockAppleReineDesReinettesWood,blockAppleReinetteGriseDuCanadaWood,blockAppleTentationWood;
+		//apple
+	public static Block blockAppleAntaresWood, blockAppleArianeWood, blockAppleBelchardChantecierWood, blockAppleBelleDeBoskoopWood, blockAppleBraeburnWood;
+	public static Block blockAppleElstarWood, blockAppleFujiWood, blockAppleGalaWood, blockAppleGoldenWood, blockAppleGrannySmithWood;
+	public static Block blockAppleHoneycrunchWood, blockAppleJazzWood, blockAppleJonagoldJonagoredWood, blockAppleLesRougesWood, blockApplePinkLadyWood;
+	public static Block blockApplePommeLimousinWood, blockAppleReineDesReinettesWood, blockAppleReinetteGriseDuCanadaWood, blockAppleTentationWood, blockCrabappleWood;
 		
-		//leaves
+		
+		
+	//leaves
 		public static Block blockAlmondLeaves,blockApricotLeaves,blockBananaLeaves,blockCherryLeaves,blockClementineLeaves;
 		public static Block blockDateLeaves,blockDragonfruitLeaves,blockFigLeaves,blockGuavaLeaves,blockLemonLeaves;
 		public static Block blockLimeLeaves,blockLycheeLeaves,blockPassionfruitLeaves,blockPomegranateLeaves,blockQuinceLeaves;
@@ -358,6 +360,55 @@ public class BandbBlocks {
 
 		GameRegistry.registerBlock(blockWhitePeachWood, "blockWhitePeachWood");
 		GameRegistry.registerBlock(blockWoodCinchona, "blockWoodCinchona");
+		
+			//apple
+		blockAppleAntaresWood = new BlockTreeWood().setUnlocalizedName("blockAppleAntaresWood");
+		blockAppleArianeWood = new BlockTreeWood().setUnlocalizedName("blockAppleArianeWood");
+		blockAppleBelchardChantecierWood = new BlockTreeWood().setUnlocalizedName("blockAppleBelchardChantecierWood");
+		blockAppleBelleDeBoskoopWood = new BlockTreeWood().setUnlocalizedName("blockAppleBelleDeBoskoopWood");
+		blockAppleBraeburnWood = new BlockTreeWood().setUnlocalizedName("blockAppleBraeburnWood");
+
+		GameRegistry.registerBlock(blockAppleAntaresWood, "blockAppleAntaresWood");
+		GameRegistry.registerBlock(blockAppleArianeWood, "blockAppleArianeWood");
+		GameRegistry.registerBlock(blockAppleBelchardChantecierWood, "blockAppleBelchardChantecierWood");
+		GameRegistry.registerBlock(blockAppleBelleDeBoskoopWood, "blockAppleBelleDeBoskoopWood");
+		GameRegistry.registerBlock(blockAppleBraeburnWood, "blockAppleBraeburnWood");
+
+		blockAppleElstarWood = new BlockTreeWood().setUnlocalizedName("blockAppleElstarWood");
+		blockAppleFujiWood = new BlockTreeWood().setUnlocalizedName("blockAppleFujiWood");
+		blockAppleGalaWood = new BlockTreeWood().setUnlocalizedName("blockAppleGalaWood");
+		blockAppleGoldenWood = new BlockTreeWood().setUnlocalizedName("blockAppleGoldenWood");
+		blockAppleGrannySmithWood = new BlockTreeWood().setUnlocalizedName("blockAppleGrannySmithWood");
+
+		GameRegistry.registerBlock(blockAppleElstarWood, "blockAppleElstarWood");
+		GameRegistry.registerBlock(blockAppleFujiWood, "blockAppleFujiWood");
+		GameRegistry.registerBlock(blockAppleGalaWood, "blockAppleGalaWood");
+		GameRegistry.registerBlock(blockAppleGoldenWood, "blockAppleGoldenWood");
+		GameRegistry.registerBlock(blockAppleGrannySmithWood, "blockAppleGrannySmithWood");
+
+		blockAppleHoneycrunchWood = new BlockTreeWood().setUnlocalizedName("blockAppleHoneycrunchWood");
+		blockAppleJazzWood = new BlockTreeWood().setUnlocalizedName("blockAppleJazzWood");
+		blockAppleJonagoldJonagoredWood = new BlockTreeWood().setUnlocalizedName("blockAppleJonagoldJonagoredWood");
+		blockAppleLesRougesWood = new BlockTreeWood().setUnlocalizedName("blockAppleLesRougesWood");
+		blockApplePinkLadyWood = new BlockTreeWood().setUnlocalizedName("blockApplePinkLadyWood");
+
+		GameRegistry.registerBlock(blockAppleHoneycrunchWood, "blockAppleHoneycrunchWood");
+		GameRegistry.registerBlock(blockAppleJazzWood, "blockAppleJazzWood");
+		GameRegistry.registerBlock(blockAppleJonagoldJonagoredWood, "blockAppleJonagoldJonagoredWood");
+		GameRegistry.registerBlock(blockAppleLesRougesWood, "blockAppleLesRougesWood");
+		GameRegistry.registerBlock(blockApplePinkLadyWood, "blockApplePinkLadyWood");
+
+		blockApplePommeLimousinWood = new BlockTreeWood().setUnlocalizedName("blockApplePommeLimousinWood");
+		blockAppleReineDesReinettesWood = new BlockTreeWood().setUnlocalizedName("blockAppleReineDesReinettesWood");
+		blockAppleReinetteGriseDuCanadaWood = new BlockTreeWood().setUnlocalizedName("blockAppleReinetteGriseDuCanadaWood");
+		blockAppleTentationWood = new BlockTreeWood().setUnlocalizedName("blockAppleTentationWood");
+		blockCrabappleWood = new BlockTreeWood().setUnlocalizedName("blockCrabappleWood");
+
+		GameRegistry.registerBlock(blockApplePommeLimousinWood, "blockApplePommeLimousinWood");
+		GameRegistry.registerBlock(blockAppleReineDesReinettesWood, "blockAppleReineDesReinettesWood");
+		GameRegistry.registerBlock(blockAppleReinetteGriseDuCanadaWood, "blockAppleReinetteGriseDuCanadaWood");
+		GameRegistry.registerBlock(blockAppleTentationWood, "blockAppleTentationWood");
+		GameRegistry.registerBlock(blockCrabappleWood, "blockCrabappleWood");
 
 	}
 		
@@ -466,6 +517,32 @@ public class BandbBlocks {
 
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockWhitePeachWood), 0, new ModelResourceLocation("bandb_mod:blockWhitePeachWood", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockWoodCinchona), 0, new ModelResourceLocation("bandb_mod:blockWoodCinchona", "inventory"));
+		
+			//apple
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleAntaresWood), 0, new ModelResourceLocation("bandb_mod:blockAppleAntaresWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleArianeWood), 0, new ModelResourceLocation("bandb_mod:blockAppleArianeWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleBelchardChantecierWood), 0, new ModelResourceLocation("bandb_mod:blockAppleBelchardChantecierWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleBelleDeBoskoopWood), 0, new ModelResourceLocation("bandb_mod:blockAppleBelleDeBoskoopWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleBraeburnWood), 0, new ModelResourceLocation("bandb_mod:blockAppleBraeburnWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleElstarWood), 0, new ModelResourceLocation("bandb_mod:blockAppleElstarWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleFujiWood), 0, new ModelResourceLocation("bandb_mod:blockAppleFujiWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleGalaWood), 0, new ModelResourceLocation("bandb_mod:blockAppleGalaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleGoldenWood), 0, new ModelResourceLocation("bandb_mod:blockAppleGoldenWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleGrannySmithWood), 0, new ModelResourceLocation("bandb_mod:blockAppleGrannySmithWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleHoneycrunchWood), 0, new ModelResourceLocation("bandb_mod:blockAppleHoneycrunchWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleJazzWood), 0, new ModelResourceLocation("bandb_mod:blockAppleJazzWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleJonagoldJonagoredWood), 0, new ModelResourceLocation("bandb_mod:blockAppleJonagoldJonagoredWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleLesRougesWood), 0, new ModelResourceLocation("bandb_mod:blockAppleLesRougesWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockApplePinkLadyWood), 0, new ModelResourceLocation("bandb_mod:blockApplePinkLadyWood", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockApplePommeLimousinWood), 0, new ModelResourceLocation("bandb_mod:blockApplePommeLimousinWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleReineDesReinettesWood), 0, new ModelResourceLocation("bandb_mod:blockAppleReineDesReinettesWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleReinetteGriseDuCanadaWood), 0, new ModelResourceLocation("bandb_mod:blockAppleReinetteGriseDuCanadaWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockAppleTentationWood), 0, new ModelResourceLocation("bandb_mod:blockAppleTentationWood", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockCrabappleWood), 0, new ModelResourceLocation("bandb_mod:blockCrabappleWood", "inventory"));
+
 	}
 		
    	/***

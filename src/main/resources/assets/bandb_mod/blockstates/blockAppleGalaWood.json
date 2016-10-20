@@ -1,0 +1,1 @@
+{    "variants": {        "axis=y":  { "model": "bandb_mod:blockAppleGalaWood" },        "axis=z":   { "model": "bandb_mod:blockAppleGalaWood_side" },        "axis=x":   { "model": "bandb_mod:blockAppleGalaWood_side" },        "axis=none": { "model": "bandb_mod:blockAppleGalaWood_bark" }    }}
