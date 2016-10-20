@@ -40,7 +40,7 @@ public class BandbCreativeTabs {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem() {
-			return BandbBeverages.itemBottleBordeauxChateauLary;
+			return BandbItems.itemPlantOrchid;
 		}
 
 	};
@@ -49,7 +49,7 @@ public class BandbCreativeTabs {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem() {
-			return BandbBeverages.itemBottleBordeauxChateauLary;
+			return BandbItems.itemGemAmethyst;
 		}
 
 	};
@@ -206,7 +206,7 @@ public class BandbCreativeTabs {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem() {
-			return BandbBeverages.itemBottleBordeauxChateauLary;
+			return BandbItems.itemMiscIPad;
 
 		}
 
