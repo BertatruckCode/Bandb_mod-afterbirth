@@ -337,18 +337,12 @@ public class BlockTreeLeaf extends BlockLeaves {
     public IBlockState getStateFromMeta(int meta){
         IBlockState iblockstate = this.getDefaultState();
 
-        switch (meta & 12){
-            case 0:
-                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.Y);
+        switch (meta){
+            case 1:
+                iblockstate = iblockstate.withProperty(CHECK_DECAY, false);
                 break;
-            case 4:
-                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.X);
-                break;
-            case 8:
-                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.Z);
-                break;
-            default:
-                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.NONE);
+           default:
+                iblockstate = iblockstate.withProperty(CHECK_DECAY, true);
         }
 
         return iblockstate;
@@ -359,13 +353,10 @@ public class BlockTreeLeaf extends BlockLeaves {
      */
     public int getMetaFromState(IBlockState state){
     	
-        switch ((BlockLog.EnumAxis)state.getValue(LOG_AXIS)){
-            case X: return 4;
-            case Y: return 0;
-            case Z: return 8;
-            case NONE: return 12;
+        if(state.getValue(CHECK_DECAY)){
+        	return 0;
         }
-        return 12;
+        return 1;
     }
 
 
