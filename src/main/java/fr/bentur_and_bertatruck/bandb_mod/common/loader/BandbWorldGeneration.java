@@ -26,8 +26,8 @@ public class BandbWorldGeneration {
 	public static void init(){
 		
 		//desert tree
-		ListGenerationDesertPalmTree.add(BandbBlocks.blockDateLeaves, BandbBlocks.blockDateWood);
-		ListGenerationDesertPalmTree.add(BandbBlocks.blockCoconutLeaves, BandbBlocks.blockCoconutWood);
+		ListGenerationDesertPalmTree.add(BandbBlocks.blockLeavesDate, BandbBlocks.blockWoodDate);
+		ListGenerationDesertPalmTree.add(BandbBlocks.blockLeavesCoconut, BandbBlocks.blockWoodCoconut);
 		
 		//desert plant
 		ListGenerationDesertPlant.add(BandbBlocks.blockBetterCactus);
@@ -35,119 +35,119 @@ public class BandbWorldGeneration {
 		ListGenerationDesertPlant.add(BandbBlocks.blockAgave);
 		
 		//forest tree apple
-		ListGenerationForestTreeApple.add(BandbBlocks.blockCrabappleLeaves, BandbBlocks.blockCrabappleWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleAntaresLeaves, BandbBlocks.blockAppleAntaresWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleArianeLeaves, BandbBlocks.blockAppleArianeWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleBelchardChantecierLeaves, BandbBlocks.blockAppleBelchardChantecierWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleBelleDeBoskoopLeaves, BandbBlocks.blockAppleBelleDeBoskoopWood);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesCrabapple, BandbBlocks.blockWoodCrabapple);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleAntares, BandbBlocks.blockWoodAppleAntares);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleAriane, BandbBlocks.blockWoodAppleAriane);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleBelchardChantecier, BandbBlocks.blockWoodAppleBelchardChantecier);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleBelleDeBoskoop, BandbBlocks.blockWoodAppleBelleDeBoskoop);
 		
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleBelleDeBoskoopLeaves, BandbBlocks.blockAppleBelleDeBoskoopWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleBraeburnLeaves, BandbBlocks.blockAppleBraeburnWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleElstarLeaves, BandbBlocks.blockAppleElstarWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleFujiLeaves, BandbBlocks.blockAppleFujiWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleGalaLeaves, BandbBlocks.blockAppleGalaWood);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleBelleDeBoskoop, BandbBlocks.blockWoodAppleBelleDeBoskoop);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleBraeburn, BandbBlocks.blockWoodAppleBraeburn);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleElstar, BandbBlocks.blockWoodAppleElstar);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleFuji, BandbBlocks.blockWoodAppleFuji);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleGala, BandbBlocks.blockWoodAppleGala);
 		
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleGoldenLeaves, BandbBlocks.blockAppleGoldenWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleGrannySmithLeaves, BandbBlocks.blockAppleGrannySmithWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleHoneycrunchLeaves, BandbBlocks.blockAppleHoneycrunchWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleJazzLeaves, BandbBlocks.blockAppleJazzWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleJonagoldJonagoredLeaves, BandbBlocks.blockAppleJonagoldJonagoredWood);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleGolden, BandbBlocks.blockWoodAppleGolden);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleGrannySmith, BandbBlocks.blockWoodAppleGrannySmith);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleHoneycrunch, BandbBlocks.blockWoodAppleHoneycrunch);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleJazz, BandbBlocks.blockWoodAppleJazz);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleJonagoldJonagored, BandbBlocks.blockWoodAppleJonagoldJonagored);
 		
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleLesRougesLeaves, BandbBlocks.blockAppleLesRougesWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockApplePinkLadyLeaves, BandbBlocks.blockApplePinkLadyWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockApplePommeLimousinLeaves, BandbBlocks.blockApplePommeLimousinWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleReineDesReinettesLeaves, BandbBlocks.blockAppleReineDesReinettesWood);
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleReinetteGriseDuCanadaLeaves, BandbBlocks.blockAppleReinetteGriseDuCanadaWood);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleLesRouges, BandbBlocks.blockWoodAppleLesRouges);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesApplePinkLady, BandbBlocks.blockWoodApplePinkLady);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesApplePommeLimousin, BandbBlocks.blockWoodApplePommeLimousin);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleReineDesReinettes, BandbBlocks.blockWoodAppleReineDesReinettes);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleReinetteGriseDuCanada, BandbBlocks.blockWoodAppleReinetteGriseDuCanada);
 		
-		ListGenerationForestTreeApple.add(BandbBlocks.blockAppleTentationLeaves, BandbBlocks.blockAppleTentationWood);
+		ListGenerationForestTreeApple.add(BandbBlocks.blockLeavesAppleTentation, BandbBlocks.blockWoodAppleTentation);
 		
 		//forest tree
-		ListGenerationForestTree.add(BandbBlocks.blockAlmondLeaves, BandbBlocks.blockAlmondWood);
-		ListGenerationForestTree.add(BandbBlocks.blockAmlaLeaves, BandbBlocks.blockAmlaWood);
-		ListGenerationForestTree.add(BandbBlocks.blockAniseLeaves, BandbBlocks.blockAniseWood);
-		ListGenerationForestTree.add(BandbBlocks.blockApricotLeaves, BandbBlocks.blockApricotWood);
-		ListGenerationForestTree.add(BandbBlocks.blockAvocadoLeaves, BandbBlocks.blockAvocadoWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesAlmond, BandbBlocks.blockWoodAlmond);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesAmla, BandbBlocks.blockWoodAmla);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesAnise, BandbBlocks.blockWoodAnise);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesApricot, BandbBlocks.blockWoodApricot);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesAvocado, BandbBlocks.blockWoodAvocado);
 
-		ListGenerationForestTree.add(BandbBlocks.blockBreadNutLeaves, BandbBlocks.blockBreadNutWood);
-		ListGenerationForestTree.add(BandbBlocks.blockCashewLeaves, BandbBlocks.blockCashewWood);
-		ListGenerationForestTree.add(BandbBlocks.blockCherryLeaves, BandbBlocks.blockCherryWood);
-		ListGenerationForestTree.add(BandbBlocks.blockChestnutLeaves, BandbBlocks.blockChestnutWood);
-		ListGenerationForestTree.add(BandbBlocks.blockClementineLeaves, BandbBlocks.blockClementineWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBreadNut, BandbBlocks.blockWoodBreadNut);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesCashew, BandbBlocks.blockWoodCashew);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesCherry, BandbBlocks.blockWoodCherry);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesChestnut, BandbBlocks.blockWoodChestnut);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesClementine, BandbBlocks.blockWoodClementine);
 
-		ListGenerationForestTree.add(BandbBlocks.blockFigLeaves, BandbBlocks.blockFigWood);
-		ListGenerationForestTree.add(BandbBlocks.blockGrapefruitLeaves, BandbBlocks.blockGrapefruitWood);
-		ListGenerationForestTree.add(BandbBlocks.blockJujubeLeaves, BandbBlocks.blockJujubeWood);
-		ListGenerationForestTree.add(BandbBlocks.blockKiwiLeaves, BandbBlocks.blockKiwiWood);
-		ListGenerationForestTree.add(BandbBlocks.blockLemonLeaves, BandbBlocks.blockLemonWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesFig, BandbBlocks.blockWoodFig);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesGrapefruit, BandbBlocks.blockWoodGrapefruit);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesJujube, BandbBlocks.blockWoodJujube);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesKiwi, BandbBlocks.blockWoodKiwi);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesLemon, BandbBlocks.blockWoodLemon);
 
-		ListGenerationForestTree.add(BandbBlocks.blockLimeLeaves, BandbBlocks.blockLimeWood);
-		ListGenerationForestTree.add(BandbBlocks.blockMirabelleLeaves, BandbBlocks.blockMirabelleWood);
-		ListGenerationForestTree.add(BandbBlocks.blockNectarineLeaves, BandbBlocks.blockNectarineWood);
-		ListGenerationForestTree.add(BandbBlocks.blockNutsLeaves, BandbBlocks.blockNutsWood);
-		ListGenerationForestTree.add(BandbBlocks.blockOliveLeaves, BandbBlocks.blockOliveWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesLime, BandbBlocks.blockWoodLime);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesMirabelle, BandbBlocks.blockWoodMirabelle);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesNectarine, BandbBlocks.blockWoodNectarine);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesNuts, BandbBlocks.blockWoodNuts);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesOlive, BandbBlocks.blockWoodOlive);
 
-		ListGenerationForestTree.add(BandbBlocks.blockOrangeLeaves, BandbBlocks.blockOrangeWood);
-		ListGenerationForestTree.add(BandbBlocks.blockPeachLeaves, BandbBlocks.blockPeachWood);
-		ListGenerationForestTree.add(BandbBlocks.blockPearLeaves, BandbBlocks.blockPearWood);
-		ListGenerationForestTree.add(BandbBlocks.blockPersimmonLeaves, BandbBlocks.blockPersimmonWood);
-		ListGenerationForestTree.add(BandbBlocks.blockPistachioLeaves, BandbBlocks.blockPistachioWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesOrange, BandbBlocks.blockWoodOrange);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesPeach, BandbBlocks.blockWoodPeach);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesPear, BandbBlocks.blockWoodPear);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesPersimmon, BandbBlocks.blockWoodPersimmon);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesPistachio, BandbBlocks.blockWoodPistachio);
 
-		ListGenerationForestTree.add(BandbBlocks.blockPlumLeaves, BandbBlocks.blockPlumWood);
-		ListGenerationForestTree.add(BandbBlocks.blockStarAniseLeaves, BandbBlocks.blockStarAniseWood);
-		ListGenerationForestTree.add(BandbBlocks.blockTangerineLeaves, BandbBlocks.blockTangerineWood);
-		ListGenerationForestTree.add(BandbBlocks.blockVanillaLeaves, BandbBlocks.blockVanillaWood);
-		ListGenerationForestTree.add(BandbBlocks.blockWalnutLeaves, BandbBlocks.blockWalnutWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesPlum, BandbBlocks.blockWoodPlum);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesStarAnise, BandbBlocks.blockWoodStarAnise);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesTangerine, BandbBlocks.blockWoodTangerine);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesVanilla, BandbBlocks.blockWoodVanilla);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesWalnut, BandbBlocks.blockWoodWalnut);
 
-		ListGenerationForestTree.add(BandbBlocks.blockAllspiceLeaves, BandbBlocks.blockAllspiceWood);
-		ListGenerationForestTree.add(BandbBlocks.blockBaelLeaves, BandbBlocks.blockBaelWood);
-		ListGenerationForestTree.add(BandbBlocks.blockBlackCherryLeaves, BandbBlocks.blockBlackCherryWood);
-		ListGenerationForestTree.add(BandbBlocks.blockBlackthornLeaves, BandbBlocks.blockBlackthornWood);
-		ListGenerationForestTree.add(BandbBlocks.blockBrazilNutLeaves, BandbBlocks.blockBrazilNutWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesAllspice, BandbBlocks.blockWoodAllspice);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBael, BandbBlocks.blockWoodBael);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBlackCherry, BandbBlocks.blockWoodBlackCherry);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBlackthorn, BandbBlocks.blockWoodBlackthorn);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBrazilNut, BandbBlocks.blockWoodBrazilNut);
 		
-		ListGenerationForestTree.add(BandbBlocks.blockButternutLeaves, BandbBlocks.blockButternutWood);
-		ListGenerationForestTree.add(BandbBlocks.blockCinnamonLeaves, BandbBlocks.blockCinnamonWood);
-		ListGenerationForestTree.add(BandbBlocks.blockCloveLeaves, BandbBlocks.blockCloveWood);
-		ListGenerationForestTree.add(BandbBlocks.blockDamsonPlumLeaves, BandbBlocks.blockDamsonPlumWood);
-		ListGenerationForestTree.add(BandbBlocks.blockElderberryLeaves, BandbBlocks.blockElderberryWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesButternut, BandbBlocks.blockWoodButternut);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesCinnamon, BandbBlocks.blockWoodCinnamon);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesClove, BandbBlocks.blockWoodClove);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesDamsonPlum, BandbBlocks.blockWoodDamsonPlum);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesElderberry, BandbBlocks.blockWoodElderberry);
 
-		ListGenerationForestTree.add(BandbBlocks.blockLaurelLeaves, BandbBlocks.blockLaurelWood);
-		ListGenerationForestTree.add(BandbBlocks.blockMacadamiaLeaves, BandbBlocks.blockMacadamiaWood);
-		ListGenerationForestTree.add(BandbBlocks.blockSatsumaLeaves, BandbBlocks.blockSatsumaWood);
-		ListGenerationForestTree.add(BandbBlocks.blockBloodOrangeLeaves, BandbBlocks.blockBloodOrangeWood);
-		ListGenerationForestTree.add(BandbBlocks.blockWhitePeachLeaves, BandbBlocks.blockWhitePeachWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesLaurel, BandbBlocks.blockWoodLaurel);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesMacadamia, BandbBlocks.blockWoodMacadamia);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesSatsuma, BandbBlocks.blockWoodSatsuma);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBloodOrange, BandbBlocks.blockWoodBloodOrange);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesWhitePeach, BandbBlocks.blockWoodWhitePeach);
 
-		ListGenerationForestTree.add(BandbBlocks.blockMorelloCherryLeaves, BandbBlocks.blockMorelloCherryWood);
-		ListGenerationForestTree.add(BandbBlocks.blockGrapefruitPinkLeaves, BandbBlocks.blockGrapefruitPinkWood);
-		ListGenerationForestTree.add(BandbBlocks.blockLeavesAbiu, BandbBlocks.blockAbiuWood);
-		ListGenerationForestTree.add(BandbBlocks.blockLonganLeaves, BandbBlocks.blockLonganWood);
-		ListGenerationForestTree.add(BandbBlocks.blockLoquatLeaves, BandbBlocks.blockLoquatWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesMorelloCherry, BandbBlocks.blockWoodMorelloCherry);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesGrapefruitPink, BandbBlocks.blockWoodGrapefruitPink);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesAbiu, BandbBlocks.blockWoodAbiu);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesLongan, BandbBlocks.blockWoodLongan);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesLoquat, BandbBlocks.blockWoodLoquat);
 
-		ListGenerationForestTree.add(BandbBlocks.blockNutmegLeaves, BandbBlocks.blockNutmegWood);
-		ListGenerationForestTree.add(BandbBlocks.blockTonkaBeanLeaves, BandbBlocks.blockTonkaBeanWood);
-		ListGenerationForestTree.add(BandbBlocks.blockMapleLeaves, BandbBlocks.blockMapleWood);
-		ListGenerationForestTree.add(BandbBlocks.blockPlaneLeaves, BandbBlocks.blockPlaneWood);
-		ListGenerationForestTree.add(BandbBlocks.blockBerLeaves, BandbBlocks.blockBerWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesNutmeg, BandbBlocks.blockWoodNutmeg);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesTonkaBean, BandbBlocks.blockWoodTonkaBean);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesMaple, BandbBlocks.blockWoodMaple);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesPlane, BandbBlocks.blockWoodPlane);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBer, BandbBlocks.blockWoodBer);
 
-		ListGenerationForestTree.add(BandbBlocks.blockCurryLeaves, BandbBlocks.blockCurryWood);
-		ListGenerationForestTree.add(BandbBlocks.blockBunyaNutLeaves, BandbBlocks.blockBunyaNutWood);
-		ListGenerationForestTree.add(BandbBlocks.blockGingkoNutLeaves, BandbBlocks.blockGingkoNutWood);
-		ListGenerationForestTree.add(BandbBlocks.blockHuckleberriesLeaves, BandbBlocks.blockHuckleberriesWood);
-		ListGenerationForestTree.add(BandbBlocks.blockJackFruitLeaves, BandbBlocks.blockJackFruitWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesCurry, BandbBlocks.blockWoodCurry);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesBunyaNut, BandbBlocks.blockWoodBunyaNut);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesGingkoNut, BandbBlocks.blockWoodGingkoNut);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesHuckleberries, BandbBlocks.blockWoodHuckleberries);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesJackFruit, BandbBlocks.blockWoodJackFruit);
 
-		ListGenerationForestTree.add(BandbBlocks.blockMameySapoteLeaves, BandbBlocks.blockMameySapoteWood);
-		ListGenerationForestTree.add(BandbBlocks.blockMangosteenLeaves, BandbBlocks.blockMangosteenWood);
-		ListGenerationForestTree.add(BandbBlocks.blockOhiaAiLeaves, BandbBlocks.blockOhiaAiWood);
-		ListGenerationForestTree.add(BandbBlocks.blockOsageOrangeLeaves, BandbBlocks.blockOsageOrangeWood);
-		ListGenerationForestTree.add(BandbBlocks.blockParadiseNutLeaves, BandbBlocks.blockParadiseNutWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesMameySapote, BandbBlocks.blockWoodMameySapote);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesMangosteen, BandbBlocks.blockWoodMangosteen);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesOhiaAi, BandbBlocks.blockWoodOhiaAi);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesOsageOrange, BandbBlocks.blockWoodOsageOrange);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesParadiseNut, BandbBlocks.blockWoodParadiseNut);
 
-		ListGenerationForestTree.add(BandbBlocks.blockPineNutLeaves, BandbBlocks.blockPineNutWood);
-		ListGenerationForestTree.add(BandbBlocks.blockSapodillaLeaves, BandbBlocks.blockSapodillaWood);
-		ListGenerationForestTree.add(BandbBlocks.blockSoursopLeaves, BandbBlocks.blockSoursopWood);
-		ListGenerationForestTree.add(BandbBlocks.blockTamarilloLeaves, BandbBlocks.blockTamarilloWood);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesPineNut, BandbBlocks.blockWoodPineNut);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesSapodilla, BandbBlocks.blockWoodSapodilla);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesSoursop, BandbBlocks.blockWoodSoursop);
+		ListGenerationForestTree.add(BandbBlocks.blockLeavesTamarillo, BandbBlocks.blockWoodTamarillo);
 		ListGenerationForestTree.add(BandbBlocks.blockLeavesCinchona, BandbBlocks.blockWoodCinchona);
 		
 		//forest tree high
-		ListGenerationForestTreeHigh.add(BandbBlocks.blockAlmondLeaves, BandbBlocks.blockAlmondWood);
+		ListGenerationForestTreeHigh.add(BandbBlocks.blockLeavesAlmond, BandbBlocks.blockWoodAlmond);
 
 		//forest mushroom
 		ListGenerationForestMushroom.add(BandbBlocks.blockAmanitaMuscaria);
@@ -217,25 +217,25 @@ public class BandbWorldGeneration {
 		ListGenerationPlainPlant.add(BandbBlocks.blockWormwood);
 
 		//jungle palm tree
-		ListGenerationJunglePalmTree.add(BandbBlocks.blockAfricanLeaves, BandbBlocks.blockAfricanWood);
-		ListGenerationJunglePalmTree.add(BandbBlocks.blockBananaLeaves, BandbBlocks.blockBananaWood);
-		ListGenerationJunglePalmTree.add(BandbBlocks.blockPlantainLeaves, BandbBlocks.blockPlantainWood);
-		ListGenerationJunglePalmTree.add(BandbBlocks.blockRedBananaLeaves, BandbBlocks.blockRedBananaWood);
+		ListGenerationJunglePalmTree.add(BandbBlocks.blockLeavesAfrican, BandbBlocks.blockWoodAfrican);
+		ListGenerationJunglePalmTree.add(BandbBlocks.blockLeavesBanana, BandbBlocks.blockWoodBanana);
+		ListGenerationJunglePalmTree.add(BandbBlocks.blockLeavesPlantain, BandbBlocks.blockWoodPlantain);
+		ListGenerationJunglePalmTree.add(BandbBlocks.blockLeavesRedBanana, BandbBlocks.blockWoodRedBanana);
 
 		//jungle tree
-		ListGenerationJungleTree.add(BandbBlocks.blockCacaoLeaves, BandbBlocks.blockCacaoWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockDragonfruitLeaves, BandbBlocks.blockDragonfruitWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockGuavaLeaves, BandbBlocks.blockGuavaWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockKumquatLeaves, BandbBlocks.blockKumquatWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockLycheeLeaves, BandbBlocks.blockLycheeWood);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesCacao, BandbBlocks.blockWoodCacao);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesDragonfruit, BandbBlocks.blockWoodDragonfruit);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesGuava, BandbBlocks.blockWoodGuava);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesKumquat, BandbBlocks.blockWoodKumquat);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesLychee, BandbBlocks.blockWoodLychee);
 
-		ListGenerationJungleTree.add(BandbBlocks.blockMangoLeaves, BandbBlocks.blockMangoWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockPapayaLeaves, BandbBlocks.blockPapayaWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockPassionfruitLeaves, BandbBlocks.blockPassionfruitWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockPomegranateLeaves, BandbBlocks.blockPomegranateWood);
-		ListGenerationJungleTree.add(BandbBlocks.blockQuinceLeaves, BandbBlocks.blockQuinceWood);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesMango, BandbBlocks.blockWoodMango);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesPapaya, BandbBlocks.blockWoodPapaya);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesPassionfruit, BandbBlocks.blockWoodPassionfruit);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesPomegranate, BandbBlocks.blockWoodPomegranate);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesQuince, BandbBlocks.blockWoodQuince);
 		
-		ListGenerationJungleTree.add(BandbBlocks.blockPomeloLeaves, BandbBlocks.blockPomeloWood);
+		ListGenerationJungleTree.add(BandbBlocks.blockLeavesPomelo, BandbBlocks.blockWoodPomelo);
 		
 		
 		
