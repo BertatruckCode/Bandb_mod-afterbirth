@@ -1,1 +1,0 @@
-{    "parent": "block/column_side",    "textures": {        "end": "bandb_mod:blocks/tree/log/blockVanillaWood_top",        "side": "bandb_mod:blocks/tree/log/blockVanillaWood"    }}

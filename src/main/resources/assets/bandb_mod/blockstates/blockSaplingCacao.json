@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "stage=0":  { "model": "bandb_mod:blockSaplingCacao" },
+        "stage=1":   { "model": "bandb_mod:blockSaplingCacao" }
+    }
+}

@@ -1,1 +1,0 @@
-{    "variants": {        "axis=y":  { "model": "bandb_mod:blockGuavaWood" },        "axis=z":   { "model": "bandb_mod:blockGuavaWood_side" },        "axis=x":   { "model": "bandb_mod:blockGuavaWood_side" },        "axis=none": { "model": "bandb_mod:blockGuavaWood_bark" }    }}

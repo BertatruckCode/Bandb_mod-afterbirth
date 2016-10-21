@@ -1,0 +1,1 @@
+{    "parent": "block/cube_column",    "textures": {        "end": "bandb_mod:blocks/tree/log/blockWoodAvocado_top",        "side": "bandb_mod:blocks/tree/log/blockWoodAvocado"    }}

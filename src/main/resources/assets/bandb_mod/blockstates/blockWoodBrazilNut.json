@@ -1,0 +1,1 @@
+{    "variants": {        "axis=y":  { "model": "bandb_mod:blockWoodBrazilNut" },        "axis=z":   { "model": "bandb_mod:blockWoodBrazilNut_side" },        "axis=x":   { "model": "bandb_mod:blockWoodBrazilNut_side" },        "axis=none": { "model": "bandb_mod:blockWoodBrazilNut_bark" }    }}

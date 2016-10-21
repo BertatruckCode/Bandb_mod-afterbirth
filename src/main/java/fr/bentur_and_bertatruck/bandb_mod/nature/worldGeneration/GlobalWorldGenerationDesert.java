@@ -57,7 +57,7 @@ public class GlobalWorldGenerationDesert implements IWorldGenerator{
  				int y1 = rand.nextInt(128);
  				int z1 = z + rand.nextInt(16);
 				BlockPos position = new BlockPos(x1, y1, z1);
- 				(new WorldGenerationTreesPalmTree(BandbBlocks.blockCoconutLeaves, BandbBlocks.blockCoconutWood)).generate(world, rand, position);	 				
+ 				(new WorldGenerationTreesPalmTree(BandbBlocks.blockLeavesCoconut, BandbBlocks.blockWoodCoconut)).generate(world, rand, position);	 				
  			}	 		
 	 	}
 	 

@@ -1,1 +1,0 @@
-{    "variants": {        "axis=y":  { "model": "bandb_mod:blockLimeWood" },        "axis=z":   { "model": "bandb_mod:blockLimeWood_side" },        "axis=x":   { "model": "bandb_mod:blockLimeWood_side" },        "axis=none": { "model": "bandb_mod:blockLimeWood_bark" }    }}

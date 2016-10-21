@@ -1,1 +1,0 @@
-{    "variants": {        "axis=y":  { "model": "bandb_mod:blockDamsonPlumWood" },        "axis=z":   { "model": "bandb_mod:blockDamsonPlumWood_side" },        "axis=x":   { "model": "bandb_mod:blockDamsonPlumWood_side" },        "axis=none": { "model": "bandb_mod:blockDamsonPlumWood_bark" }    }}

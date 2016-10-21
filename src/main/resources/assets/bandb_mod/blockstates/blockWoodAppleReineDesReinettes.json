@@ -1,0 +1,1 @@
+{    "variants": {        "axis=y":  { "model": "bandb_mod:blockWoodAppleReineDesReinettes" },        "axis=z":   { "model": "bandb_mod:blockWoodAppleReineDesReinettes_side" },        "axis=x":   { "model": "bandb_mod:blockWoodAppleReineDesReinettes_side" },        "axis=none": { "model": "bandb_mod:blockWoodAppleReineDesReinettes_bark" }    }}

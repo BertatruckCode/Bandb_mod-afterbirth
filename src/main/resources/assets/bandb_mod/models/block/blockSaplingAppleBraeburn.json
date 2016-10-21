@@ -1,0 +1,5 @@
+{    "parent": "block/cross",
+    "textures": {
+        "cross": "bandb_mod:blocks/tree/sapling/blockSaplingAppleBraeburn"
+    }
+}

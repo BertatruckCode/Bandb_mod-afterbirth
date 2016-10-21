@@ -8,8 +8,7 @@ import net.minecraft.block.BlockBush;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 
-public class BlockMushroom extends BlockBush 
-{
+public class BlockMushroom extends BlockBush{
 	Item itemDrop;
 	
 	 public BlockMushroom(Item drop,float f,float f1,float f2,float f3, float f4, float f5, float f6){	
@@ -19,12 +18,12 @@ public class BlockMushroom extends BlockBush
 	 }
 
 	 protected boolean canPlaceBlockOn(Block block){
-	 return block == Blocks.grass || block == Blocks.dirt || block == Blocks.stone;
+		 return block == Blocks.grass || block == Blocks.dirt || block == Blocks.stone;
 	 }
 
 	 @Override	
 	 public int quantityDropped(Random random){	
-	 return random.nextInt(2)+1;	
+		 return random.nextInt(2)+1;	
 	 }	 
 
 }

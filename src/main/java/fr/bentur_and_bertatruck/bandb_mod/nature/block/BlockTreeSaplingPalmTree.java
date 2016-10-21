@@ -6,6 +6,7 @@ import java.util.Random;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbCreativeTabs;
 import fr.bentur_and_bertatruck.bandb_mod.nature.construction.ConstructionTreesPalmTree;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockPlanks;
 import net.minecraft.block.BlockSapling;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -22,6 +23,7 @@ public class BlockTreeSaplingPalmTree extends BlockSapling{
 	Block blockleaves,blockwood;
 		
 	public BlockTreeSaplingPalmTree(Block leaves, Block wood){	
+        this.setDefaultState(this.blockState.getBaseState().withProperty(TYPE, BlockPlanks.EnumType.OAK).withProperty(STAGE, Integer.valueOf(0)));
 		float f = 0.4F;	
 		setBlockBounds(0.5F - f, 0.0F, 0.5F - f, 0.5F + f, f * 2.0F, 0.5F + f);	
 		this.setCreativeTab(BandbCreativeTabs.CreativeTabSapling);

@@ -1,0 +1,1 @@
+{    "variants": {        "axis=y":  { "model": "bandb_mod:blockWoodWhitePeach" },        "axis=z":   { "model": "bandb_mod:blockWoodWhitePeach_side" },        "axis=x":   { "model": "bandb_mod:blockWoodWhitePeach_side" },        "axis=none": { "model": "bandb_mod:blockWoodWhitePeach_bark" }    }}
