@@ -1,5 +1,5 @@
 ﻿item..name=
-//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS
+//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS//ITEMS
 
 entity.EntityCowLaughting.name=Cow Laughing
 entity.EntityCowMilka.name=Cow Milka
@@ -29,7 +29,7 @@ tile.blockDistrib.name=Distrib
 
 
 
-
+//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS//FRUITS
 	//items fruits
 itemGroup.CreativeTabsFruit=Fruits
 
@@ -251,7 +251,7 @@ item.itemGrapeViognier.name=Grape Viognier
 
 
 
-
+//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES//VEGETABLES
 	//items Vegetable
 itemGroup.CreativeTabsVegetable=Vegetables
 
@@ -300,109 +300,16 @@ item.itemVegetableSweetYellowPepper.name=Sweet Yellow Pepper
 
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	//plants
-itemGroup.CreativeTabsPlant=Plants
-
-item.itemPlantAgave.name=Agave
-item.itemPlantAmaryllisPink.name=Amaryllis Pink
-item.itemPlantAmaryllisRed.name=Amaryllis Red
-item.itemPlantAmaryllisWhite.name=Amaryllis White
-item.itemPlantBachelorsButtonBlue.name=Bachelors Button Blue
-item.itemPlantBelladonna.name=Belladonna
-item.itemPlantBetterCactus.name=Better Cactus
-item.itemPlantBlowball.name=Blowball
-item.itemPlantBluebell.name=Bluebell
-item.itemPlantButtercup.name=Buttercup
-item.itemPlantCallaBlack.name=Calla Black
-item.itemPlantCallaWhite.name=Calla White
-item.itemPlantCannabis.name=Cannabis
-item.itemPlantChervil.name=Chervil
-item.itemPlantChives.name=Chives
-item.itemPlantChrysantheme.name=Chrysantheme
-item.itemPlantCotton.name=Cotton
-item.itemPlantCurryLeaf.name=Curry Leaf
-item.itemPlantDaisy.name=Daisy
-item.itemPlantDill.name=Dill
-item.itemPlantEnzian.name=Enzian
-item.itemPlantFennel.name=Fennel
-item.itemPlantFoxglove.name=Foxglove
-item.itemPlantGardenia.name=Gardenia
-item.itemPlantGentian.name=Gentian
-item.itemPlantHeather.name=Heather
-item.itemPlantHibiscus.name=Hibiscus
-item.itemPlantIrisBlue.name=Iris Blue
-item.itemPlantIrisPurple.name=Iris Purple
-item.itemPlantJasmine.name=Jasmine
-item.itemPlantLavender.name=Lavender
-item.itemPlantLeafCoca.name=Leaf Coca
-item.itemPlantLemonGrass.name=Lemon Grass
-item.itemPlantLicorice.name=Licorice
-item.itemPlantLily.name=Lily
-item.itemPlantMarshMarigold.name=Marsh Marigold
-item.itemPlantMint.name=Mint
-item.itemPlantMustard.name=Mustard
-item.itemPlantNettle.name=Nettle
-item.itemPlantOrchid.name=Orchid
-item.itemPlantOregano.name=Oregano
-item.itemPlantPansy.name=Pansy
-item.itemPlantPeony.name=Peony
-item.itemPlantPeyote.name=Peyote
-item.itemPlantRape.name=Rape
-item.itemPlantRosmary.name=Rosmary
-item.itemPlantSage.name=Sage
-item.itemPlantSesame.name=Sesame
-item.itemPlantSyringa.name=Syringa
-item.itemPlantTarragon.name=Tarragon
-item.itemPlantThistle.name=Thistle
-item.itemPlantThyme.name=Thyme
-item.itemPlantTobacco.name=Tobacco
-item.itemPlantViolet.name=Violet
-item.itemPlantWatercress.name=Watercress
-item.itemPlantWormwood.name=Wormwood
-item.itemPlantHornOfPlenty.name=Horn Of Plenty
-item.itemPlantAmanitaMuscaria.name=Amanita Muscaria
-item.itemPlantCep.name=Cep
-item.itemPlantHydnumRepandum.name=Hydnum Repandum
-item.itemPlantMorel.name=Morel
-item.itemPlantTruffle.name=Truffle
-item.itemPlantWhiteMushroom.name=White Mushroom
-item.itemPlantBarley.name=Barley
-item.itemPlantBuckwheat.name=Buckwheat
-item.itemPlantCorn.name=Corn
-item.itemPlantFonio.name=Fonio
-item.itemPlantHemp.name=Hemp
-item.itemPlantHop.name=Hop
-item.itemPlantMalt.name=Malt
-item.itemPlantMillet.name=Millet
-item.itemPlantOats.name=Oats
-item.itemPlantRice.name=Rice
-item.itemPlantRye.name=Rye
-item.itemPlantSesameSeed.name=Sesame Seed
-item.itemPlantSorghum.name=Sorghum
-item.itemPlantSpelt.name=Spelt
-item.itemPlant.name=
 
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	//Graine
+
+
+
+
+
+
+//Graine
 itemGroup.CreativeTabsSeed=Seed
 item.itemSeedOats.name=Oats Seeds
 item.itemSeedBuckwheat.name=Buckwheat Seeds
@@ -552,32 +459,228 @@ item.itemSeedGrapeCot.name=Grape Côt Seeds
 item.itemSeedGrape.name=Grape  Seeds
 
 
-
-
-
-
-
-
-
-
-
-
-	//mushroom
-itemGroup.CreativeTabsMushroom=Mushrooms
 	
-item.itemTruffle.name=Truffle Melanosporum
-item.itemAmanitaMuscaria.name=Amanita Muscaria
-tile.BlockTruffle.name=Dirt for mushrooms
-tile.blockCep.name=Cep
-tile.blockAmanitaMuscaria.name=Amanita Muscaria
-tile.blockHornOfPlenty.name=Horn of plenty
-tile.blockHydnumRepandum.name=Hydnum Repandum
-tile.blockMorel.name=Morel
-item.itemWhiteMushroom.name=White Mushroom
-item.itemHydnumRepandum.name=Hydnum Repandum
-item.itemCep.name=Cep
-item.itemHornOfPlenty.name=Horn Of Plenty
-item.itemMorel.name=Morel
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//plants
+itemGroup.CreativeTabsPlant=Plants
+
+item.itemPlantAgave.name=Agave
+item.itemPlantAmaryllisPink.name=Amaryllis Pink
+item.itemPlantAmaryllisRed.name=Amaryllis Red
+item.itemPlantAmaryllisWhite.name=Amaryllis White
+item.itemPlantBachelorsButtonBlue.name=Bachelors Button Blue
+item.itemPlantBelladonna.name=Belladonna
+item.itemPlantBetterCactus.name=Better Cactus
+item.itemPlantBlowball.name=Blowball
+item.itemPlantBluebell.name=Bluebell
+item.itemPlantButtercup.name=Buttercup
+item.itemPlantCallaBlack.name=Calla Black
+item.itemPlantCallaWhite.name=Calla White
+item.itemPlantCannabis.name=Cannabis
+item.itemPlantChervil.name=Chervil
+item.itemPlantChives.name=Chives
+item.itemPlantChrysantheme.name=Chrysantheme
+item.itemPlantCotton.name=Cotton
+item.itemPlantCurryLeaf.name=Curry Leaf
+item.itemPlantDaisy.name=Daisy
+item.itemPlantDill.name=Dill
+item.itemPlantEnzian.name=Enzian
+item.itemPlantFennel.name=Fennel
+item.itemPlantFoxglove.name=Foxglove
+item.itemPlantGardenia.name=Gardenia
+item.itemPlantGentian.name=Gentian
+item.itemPlantHeather.name=Heather
+item.itemPlantHibiscus.name=Hibiscus
+item.itemPlantIrisBlue.name=Iris Blue
+item.itemPlantIrisPurple.name=Iris Purple
+item.itemPlantJasmine.name=Jasmine
+item.itemPlantLavender.name=Lavender
+item.itemPlantLeafCoca.name=Leaf Coca
+item.itemPlantLemonGrass.name=Lemon Grass
+item.itemPlantLicorice.name=Licorice
+item.itemPlantLily.name=Lily
+item.itemPlantMarshMarigold.name=Marsh Marigold
+item.itemPlantMint.name=Mint
+item.itemPlantMustard.name=Mustard
+item.itemPlantNettle.name=Nettle
+item.itemPlantOrchid.name=Orchid
+item.itemPlantOregano.name=Oregano
+item.itemPlantPansy.name=Pansy
+item.itemPlantPeony.name=Peony
+item.itemPlantPeyote.name=Peyote
+item.itemPlantRape.name=Rape
+item.itemPlantRosmary.name=Rosmary
+item.itemPlantSage.name=Sage
+item.itemPlantSesame.name=Sesame
+item.itemPlantSyringa.name=Syringa
+item.itemPlantTarragon.name=Tarragon
+item.itemPlantThistle.name=Thistle
+item.itemPlantThyme.name=Thyme
+item.itemPlantTobacco.name=Tobacco
+item.itemPlantViolet.name=Violet
+item.itemPlantWatercress.name=Watercress
+item.itemPlantWormwood.name=Wormwood
+item.itemPlantHornOfPlenty.name=Horn Of Plenty
+item.itemPlantAmanitaMuscaria.name=Amanita Muscaria
+item.itemPlantCep.name=Cep
+item.itemPlantHydnumRepandum.name=Hydnum Repandum
+item.itemPlantMorel.name=Morel
+item.itemPlantTruffle.name=Truffle
+item.itemPlantWhiteMushroom.name=White Mushroom
+item.itemPlantBarley.name=Barley
+item.itemPlantBuckwheat.name=Buckwheat
+item.itemPlantCorn.name=Corn
+item.itemPlantFonio.name=Fonio
+item.itemPlantHemp.name=Hemp
+item.itemPlantHop.name=Hop
+item.itemPlantMalt.name=Malt
+item.itemPlantMillet.name=Millet
+item.itemPlantOats.name=Oats
+item.itemPlantRice.name=Rice
+item.itemPlantRye.name=Rye
+item.itemPlantSesameSeed.name=Sesame Seed
+item.itemPlantSorghum.name=Sorghum
+item.itemPlantSpelt.name=Spelt
+item.itemPlant.name=
+
+
+
+	
+	
+	
+	
+	
+	
+	//items Ore
+itemGroup.CreativeTabsOre=Ores and Precious Stone
+
+item.itemIngotAdamantite.name=Adamantite Ingot
+item.itemIngotAluminium.name=Aluminium Ingot
+item.ItemIngotCalcium.name=Calcium Ingot
+item.itemIngotCopper.name=Copper Ingot
+item.itemIngotLead.name=Lead Ingot
+item.itemIngotMithril.name=Mithril Ingot
+item.itemIngotNatrium.name=Natrium Ingot
+item.itemIngotNickel.name=Nickel Ingot
+item.itemIngotPlatinum.name=Platinum Ingot
+item.itemIngotSilver.name=Silver Ingot
+item.itemIngotSteel.name=Steel Ingot
+item.itemIngotTin.name=Tin Ingot
+item.itemIngotTitan.name=Titan Ingot
+item.itemIngotTungsten.name=Tungsten Ingot
+item.itemIngotUranium.name=Uranium Ingot
+item.itemIngotZinc.name=Zinc Ingot
+
+item.itemGemAmethyst.name=Amethyst
+item.itemGemOnyx.name=Onyx
+item.itemGemRuby.name=Ruby
+item.itemGemSapphire.name=Sapphire
+item.itemGemTopaz.name=Topaz
+
+tile.blockMundoCraftLordGold.name=Mundo Craft Lord Gold
+tile.blockMundoCraftLordRedstone.name=Mundo Craft Lord Redstone
+tile.blockMundoCraftLordDiamond.name=Mundo Craft Lord Diamond
+tile.blockMundoCraftLordIron.name=Mundo Craft Lord Iron
+tile.blockMundoCraftLordCopper.name=Mundo Craft Lord Copper
+
+
+item.itemDustAdamantite.name=Adamantite Dust
+item.itemDustAluminium.name=Aluminium Dust
+item.itemDustAmethyst.name=Amethyst Dust
+item.ItemDustCalcium.name=Calcium
+item.itemDustCopper.name=Copper Dust
+item.itemDustEmerald.name=Emerald Dust
+item.itemDustJade.name=Jade Dust
+item.itemDustLead.name=Lead Dust
+item.itemMagnesium.name=Magnesium
+item.itemDustMithril.name=Mithril Dust
+item.itemDustNatrium.name=Natrium Dust
+item.itemSalt.name=Salt
+item.itemSulphur.name=Sulphur
+item.itemDustNickel.name=Nickel Dust
+item.itemDustOpal.name=Opal Dust
+item.itemDustPlatinum.name=Platinum Dust
+item.itemDustSilver.name=Silver Dust
+item.itemDustSteel.name=Steel Dust
+item.itemDustTin.name=Tin Dust
+item.itemDustTitan.name=Titan Dust
+item.itemDustTungsten.name=Tungsten Dust
+item.itemDustUranium.name=Uranium Dust
+item.itemDustCalcium.name=Calcium
+item.itemDustUranium.name=Uranium Dust
+
+item.itemNuggetAdamantite.name=Adamantite Nugget
+item.itemNuggetAluminium.name=Aluminium Nugget
+item.itemNuggetAmethyst.name=Amethyst Nugget
+item.itemNuggetCopper.name=Copper Nugget
+item.itemNuggetEmerald.name=Emerald Nugget
+item.itemNuggetJade.name=Jade Nugget
+item.itemNuggetLead.name=Lead Nugget
+item.itemNuggetMithril.name=Mithril Nugget
+item.itemNuggetNatrium.name=Natrium Nugget
+item.itemNuggetNickel.name=Nickel Nugget
+item.itemNuggetOnyx.name=Onyx Nugget
+item.itemNuggetPlatinum.name=Platinum Nugget
+item.itemNuggetRuby.name=Ruby Nugget
+item.itemNuggetSapphire.name=Sapphire Nugget
+item.itemNuggetJade.name=Jade Nugget
+item.itemNuggetLead.name=Lead Nugget
+item.itemNuggetSilver.name=Silver Nugget
+item.itemNuggetSteel.name=Steel Nugget
+item.itemNuggetTin.name=Tin Nugget
+item.itemNuggetTungsten.name=Tungsten Nugget
+item.itemNuggetUranium.name=Uranium Nugget
+item.itemNuggetZinc.name=Zinc Nugget
+
+item.itemGearTitan.name=Titan Gear
+item.itemGearSteel.name=Steel Gear
+item.itemGearZinc.name=Zinc Gear
+item.itemGearMithril.name=Mithril Gear
+item.itemGearPlatinum.name=Platinum Gear
+item.itemGearAdamantite.name=Adamantite Gear
+item.itemGearNatrium.name=Natrium Gear
+item.itemGearNickel.name=Nickel Gear
+item.itemGearAluminium.name=Aluminium Gear
+item.itemGearTungsten.name=Tungsten Gear
+
+item.itemPowerCoilAdamantite.name=Adamantite Power Coil
+item.itemPowerCoilAluminium.name=Aluminium Power Coil
+item.itemPowerCoilAmethyst.name=Amethyst Power Coil
+item.itemPowerCoilDiamond.name=Diamond Power Coil
+item.itemPowerCoilJade.name=Jade Power Coil
+item.itemPowerCoilMithril.name=Mithril Power Coil
+item.itemPowerCoilNickel.name=Nickel Power Coil
+item.itemPowerCoilOnyx.name=Onyx Power Coil
+item.itemPowerCoilOpal.name=Opal Power Coil
+item.itemPowerCoilPainite.name=Painite Power Coil
+item.itemPowerCoilRuby.name=Ruby Power Coil
+item.itemPowerCoilSapphire.name=Sapphire Power Coil
+item.itemPowerCoilTopaz.name=Topaz Power Coil
+item.itemPowerCoilTungsten.name=Tungsten Power Coil
+
+item.itemPneumaticServoAdamantite.name=Adamantite Pneumatic Servo
+item.itemPneumaticServoAmethyst.name=Amethyst Pneumatic Servo
+item.itemPneumaticServoPainite.name=Painite Pneumatic Servo
+item.itemPneumaticServoRuby.name=Ruby Pneumatic Servo
+item.itemPneumaticServoTopaz.name=Topaz Pneumatic Servo
+item.itemPneumaticServoUranium.name=Uranium Pneumatic Servo
+item.itemPneumaticServoZinc.name=Zinc Pneumatic Servo
+	
+	
+	
+
+
 
 
 
@@ -588,30 +691,54 @@ item.itemMorel.name=Morel
 
 	//items beverage
 itemGroup.CreativeTabsBeverage=Beverage
+itemGroup.CreativeTabsBottle=Bottle Empty and without label
+itemGroup.CreativeTabsLabel=Labels
 
-item.itemBeverageCapCorse.name=Cap-Corse
-item.itemBeverageCiderKerne.name=Cider Kerne
-item.itemBenturCola.name=Bentur-Cola
-item.itemBeverageBrownRum.name=Brown Rum
-item.itemBeverageCalvados.name=Calvados
-item.itemBeverageChouchen.name=Chouchen
-item.itemBeverageCognac.name=Cognac
-item.itemBeverageGin.name=Gin
-item.itemBeverageLambig.name=Lambig
-item.itemBeveragePastis51.name=Pastis 51
-item.itemPerrier.name=Perrier
-item.itemBeveragePommeau.name=Pommeau
-item.itemBeverageRedMartini.name=Red Martini
-item.itemBeverageRedPort.name=Red Port
-item.itemBeverageTequila.name=Tequila
-item.itemVinegar.name=Vinegar
-item.itemBeverageVodka.name=Vodka
-item.itemBeverageWhiskey.name=Whiskey
-item.itemBeverageWhiteMartini.name=White Martini
-item.itemBeverageWhitePort.name=White Port
-item.itemBeverageWhiteRum.name=White Rum
-item.itemBeverageBordeauxChateauLary.name=A.O.P. Bordeaux Château Lary 2012
-item.itemBeverageBordeauxChateauTourVerite.name=A.O.P. Bordeaux Château Tour Verite 2012
+
+		//Brandy
+item.itemBrandyApple.name=Apple Brandy
+item.itemBrandyApricot.name=Apricot Brandy
+item.itemBrandyBanana.name=Banana Brandy
+item.itemBananaBrandy.name=Banana Brandy
+item.itemBrandyBlackberry.name=Blackberry Brandy
+item.itemBrandyBlackcurrant.name=Blackcurrant Brandy
+item.itemBrandyBlueberry.name=Blueberry Brandy
+item.itemBrandyCherry.name=Cherry Brandy
+item.itemBrandyClementine.name=Clementine Brandy
+item.itemBrandyCoconut.name=Coconut Brandy
+item.itemBrandyCranberry.name=Cranberry Brandy
+item.itemBrandyCurrant.name=Currant Brandy
+item.itemBrandyGoyava.name=Goyava Brandy
+item.itemBrandyGrapefruit.name=Grapefruit Brandy
+item.itemBrandyKiwi.name=Kiwi Brandy
+item.itemBrandyLemon.name=Lemon Brandy
+item.itemBrandyLime.name=Lime Brandy
+item.itemBrandyLychee.name=Lychee Brandy
+item.itemBrandyMango.name=Mango Brandy
+item.itemBrandyMirabelle.name=Mirabelle Plum Brandy
+item.itemBrandyOrange.name=Orange Brandy
+item.itemBrandyPeach.name=Peach Brandy
+item.itemBrandyPear.name=Pear Brandy
+item.itemBrandyPineapple.name=Pineapple Brandy
+item.itemBrandyPlum.name=Plum Brandy
+item.itemBrandyRaspberry.name=Raspberry Brandy
+item.itemBrandyStrawsberry.name=Strawberry Brandy
+item.itemBrandyTangerine.name=Tangerine Brandy
+
+		//Fruit Juice
+item.itemPint.name=Pint
+item.itemJuiceGuava.name=Guava Juice
+item.itemJuicePassionFruit.name=Passion Fruit Juice
+item.itemJuiceGrapefruitPink.name=Grapefruit Pink juice
+item.itemPassionFruitJuice.name=Passion Fruit Juice
+item.itemJuiceCocoMilk.name=Coco Milk
+item.itemJuiceCherryPlum.name=Cherry Plum juice
+item.itemJuiceBloodOrange.name=Blood Orange juice
+item.itemJuiceMorelloCherry.name=Morello Cherry juice
+item.itemJuiceWildStrawberry.name=Wild Strawberry juice
+item.itemJuicePlantainBanana.name=Plantain Banana juice
+item.itemJuicePomegranate.name=Pomegranate juice
+item.itemJuiceWhitePeach.name=White Peach juice
 item.itemJuiceApricot.name=Apricot juice
 item.itemJuicePineappleCayenneLisse.name=Pineapple Cayenne-Lisse juice
 item.itemJuicePineappleVictoria.name=Pineapple Victoria juice
@@ -671,144 +798,7 @@ item.itemJuiceAppleGrannySmith.name=Apple Granny Smith juice
 item.itemJuiceAppleJonagoldJonagored.name=Apple Jonagold Jonagored juice
 item.itemJuiceAppleReinetteGriseDuCanada.name=Apple reinette grise du Canada juice
 item.itemJuiceCarrot.name=Carrot juice
-item.itemBrandyApple.name=Apple Brandy
-item.itemBrandyApricot.name=Apricot Brandy
-item.itemBrandyBanana.name=Banana Brandy
-item.itemBananaBrandy.name=Banana Brandy
-item.itemBrandyBlackberry.name=Blackberry Brandy
-item.itemBrandyBlackcurrant.name=Blackcurrant Brandy
-item.itemBrandyBlueberry.name=Blueberry Brandy
-item.itemBrandyCherry.name=Cherry Brandy
-item.itemBrandyClementine.name=Clementine Brandy
-item.itemBrandyCoconut.name=Coconut Brandy
-item.itemBrandyCranberry.name=Cranberry Brandy
-item.itemBrandyCurrant.name=Currant Brandy
-item.itemBrandyGoyava.name=Goyava Brandy
-item.itemBrandyGrapefruit.name=Grapefruit Brandy
-item.itemBrandyKiwi.name=Kiwi Brandy
-item.itemBrandyLemon.name=Lemon Brandy
-item.itemBrandyLime.name=Lime Brandy
-item.itemBrandyLychee.name=Lychee Brandy
-item.itemBrandyMango.name=Mango Brandy
-item.itemBrandyMirabelle.name=Mirabelle Plum Brandy
-item.itemBrandyOrange.name=Orange Brandy
-item.itemBrandyPeach.name=Peach Brandy
-item.itemBrandyPear.name=Pear Brandy
-item.itemBrandyPineapple.name=Pineapple Brandy
-item.itemBrandyPlum.name=Plum Brandy
-item.itemBrandyRaspberry.name=Raspberry Brandy
-item.itemBrandyStrawsberry.name=Strawberry Brandy
-item.itemBrandyTangerine.name=Tangerine Brandy
-item.itemJuiceGuava.name=Guava Juice
-item.itemJuicePassionFruit.name=Passion Fruit Juice
-item.itemJuiceGrapefruitPink.name=Grapefruit Pink juice
-item.itemJuiceCocoMilk.name=Coco Milk
-item.itemJuiceCherryPlum.name=Cherry Plum juice
-item.itemJuiceBloodOrange.name=Blood Orange juice
-item.itemJuiceMorelloCherry.name=Morello Cherry juice
-item.itemJuiceWildStrawberry.name=Wild Strawberry juice
-item.itemJuicePlantainBanana.name=Plantain Banana juice
-item.itemJuicePomegranate.name=Pomegranate juice
-item.itemJuiceWhitePeach.name=White Peach juice
-item.itemBeverageAmaretto.name=Amaretto
-item.itemBeverageBitter.name=Bitter
-item.itemBeverageBlueCuracao.name=Blue Curaçao
-item.itemBeverageCuracaoTripleSec.name=Curaçao Triple Sec
-item.itemBottleAmaretto.name=Amaretto Bottle
-item.itemBottleBitter.name=Bitter Bottle
-item.itemBottleBlueCuracao.name=Blue Curaçao Bottle
-item.itemBottleCuracaoTripleSec.name=Curaçao Triple Sec Bottle
-item.itemBeveragePetrus.name=Petrus
-item.itemBeverageAngosturaBitter.name=Angostura Bitter
-item.itemBlackcurrantLiqueur.name=Blackcurrant Liqueur
-item.itemLiqueurLychee.name=Lychee Liqueur
-item.itemLiqueurLime.name=Lime Liqueur
-item.itemLiqueurLemon.name=Lemon Liqueur
-item.itemLiqueurGuava.name=Guava Liqueur
-item.itemLiqueurFig.name=Fig Liqueur
-item.itemLiqueurClementine.name=Clementine Liqueur
-item.itemLiqueurCherry.name=Cherry Liqueur
-item.itemLiqueurBanana.name=Banana Liqueur
-item.itemLiqueurApricot.name=Apricot Liqueur
-item.itemLiqueurPassionFruit.name=Passion Fruit Liqueur
-item.itemLiqueurPomegranate.name=Pomegranate Liqueur
-item.itemLiqueurQuince.name=Quince Liqueur
-item.itemLiqueurTangerine.name=Tangerine Liqueur
-item.itemLiqueurMango.name=Mango Liqueur
-item.itemLiqueurCherryPlum.name=Cherry Plum Liqueur
-item.itemLiqueurApple.name=Apple Liqueur
-item.itemLiqueurOrange.name=Orange Liqueur
-item.itemLiqueurGrapefruit.name=Grapefruit Liqueur
-item.itemLiqueurPeach.name=Peach Liqueur
-item.itemLiqueurStrawberry.name=Strawberry Liqueur
-item.itemLiqueurBlackberry.name=Blackberry Liqueur
-item.itemLiqueurBlueberry.name=Blueberry Liqueur
-item.itemLiqueurRaspberry.name=Raspberry Liqueur
-item.itemLiqueurCranberry.name=Cranberry Liqueur
-item.itemLiqueurPlum.name=Plum Liqueur
-item.itemLiqueurCoffee.name=Coffee Liqueur
-item.itemLiqueurPineapple.name=Pineapple Liqueur
-item.itemLiqueurKiwi.name=Kiwi Liqueur
-item.itemLiqueurPlantain.name=Plantain Liqueur
-item.itemLiqueurGrape.name=Grape Liqueur
-item.itemLiqueurWhitePeach.name=White Peach Liqueur
-item.itemLiqueurMelon.name=Melon Liqueur
-item.itemLiqueurMint.name=Mint Liqueur
-item.itemLiqueurCacao.name=Cacao Liqueur
-item.itemLiqueurHoney.name=Honey Liqueur
-item.itemPassionFruitJuice.name=Passion Fruit Juice
-item.itemBeverageWorcestershireSauce.name=Worcestershire Sauce
-item.itemBeverageBenedictine.name=Bénédictine
-item.itemBeverageTabasco.name=Tabasco
-item.itemBeveragePontarlier.name=Pontarlier
-item.itemBeverageDubonnetRouge.name=Dubonnet Rouge
-item.itemBeverageCampari.name=Campari
-item.itemFleurOranger.name=Fleur d'Oranger
-item.itemBeverageChartreuseJaune.name=Chartreuse Jaune
-item.itemBeverageGrandMarnier.name=Grand Marnier
-item.itemBeverageChartreuseVerte.name=Chartreuse Verte
-item.itemBeverageHeineken.name=Heineken
-item.itemBeverageBaileys.name=Baileys
-item.itemBeverageDrambuie.name=Drambuie
-item.itemBeverageCuracaoOrange.name=Curaçao Orange
-item.itemLimonade.name=Limonade
-item.itemBeverageXeres.name=Xeres
-item.itemBeveragePisco.name=Pisco
-item.itemLiqueurBlackcurrant.name=Blackcurrant Liqueur
-item.itemSchweppesTonic.name=Schweppes Tonic
-item.itemSchweppesAgrum.name=Schweppes Agrum
-item.itemSchweppesDarkSide.name=Schweppes Dark Side
-item.itemSchweppesLemon.name=Schweppes Lemon
-item.itemSchweppesMango.name=Schweppes Mango
-item.itemSchweppesPamplemousse.name=Schweppes Pamplemousse
-item.itemSchweppesPassion.name=Schweppes Passion
-item.itemSchweppesPech.name=Schweppes Pech'
-item.itemSchweppesRicqles.name=Schweppes Ricqles
-item.itemSchweppesPomme.name=Schweppes Pomm'
-item.itemSchweppesGingerAle.name=Schweppes Ginger Ale
-item.itemBeverageFernetBranca.name=Fernet Branca
-item.itemLiqueurCoco.name=Coconut Liqueur
-item.itemBeverageChampagneMumm.name=Champagne G.H. Mumm
-item.itemBeverageGuinness.name=Guinness
-item.itemBeverageBourgogneAligote.name=Bourgogne Aligoté
-item.itemBeverageAlsaceRiesling.name=Alsace Riesling
-item.itemBeverageEnate.name=Énate
-item.itemBeverageSouthernComfort.name=Southern Comfort
-item.itemBeverageGrimbergen.name=Grimbergen
-item.itemBeverageSanMiguel.name=San Miguel
-item.itemBeverageXII.name=XII
-item.itemBeverageDuvel.name=Duvel
-item.itemBeverage1664.name=1664
-item.itemBeverageLeffe.name=Leffe
-item.itemBeverageSkoll.name=Skoll
-item.itemBeverageSmirnoff.name=Smirnoff
-item.itemBeverageDesperados.name=Desperados
-item.itemBeverageBritt.name=Britt
-item.itemBeverageGet27.name=Get 27
-item.itemBeverageSchweppesRaisin.name=Schweppes Raisin
-item.itemBeverage.name=
-
-
+		//Grape Fruit
 item.itemGrapeAbouriouJuice.name=Grape Abouriou Juice
 item.itemGrapeAleaticuJuice.name=Grape Aleaticu Juice
 item.itemGrapeAligoteJuice.name=Grape Aligote Juice
@@ -900,256 +890,1029 @@ item.itemGrapeVaccareseJuice.name=Grape Vaccarese Juice
 item.itemGrapeVermentinuJuice.name=Grape Vermentinu Juice
 item.itemGrapeViognierJuice.name=Grape Viognier Juice
 
+		//Liqueur
+item.itemBlackcurrantLiqueur.name=Blackcurrant Liqueur
+item.itemLiqueurLychee.name=Lychee Liqueur
+item.itemLiqueurLime.name=Lime Liqueur
+item.itemLiqueurLemon.name=Lemon Liqueur
+item.itemLiqueurGuava.name=Guava Liqueur
+item.itemLiqueurFig.name=Fig Liqueur
+item.itemLiqueurClementine.name=Clementine Liqueur
+item.itemLiqueurCherry.name=Cherry Liqueur
+item.itemLiqueurBanana.name=Banana Liqueur
+item.itemLiqueurApricot.name=Apricot Liqueur
+item.itemLiqueurPassionFruit.name=Passion Fruit Liqueur
+item.itemLiqueurPomegranate.name=Pomegranate Liqueur
+item.itemLiqueurQuince.name=Quince Liqueur
+item.itemLiqueurTangerine.name=Tangerine Liqueur
+item.itemLiqueurMango.name=Mango Liqueur
+item.itemLiqueurCherryPlum.name=Cherry Plum Liqueur
+item.itemLiqueurApple.name=Apple Liqueur
+item.itemLiqueurOrange.name=Orange Liqueur
+item.itemLiqueurGrapefruit.name=Grapefruit Liqueur
+item.itemLiqueurPeach.name=Peach Liqueur
+item.itemLiqueurStrawberry.name=Strawberry Liqueur
+item.itemLiqueurBlackberry.name=Blackberry Liqueur
+item.itemLiqueurBlueberry.name=Blueberry Liqueur
+item.itemLiqueurRaspberry.name=Raspberry Liqueur
+item.itemLiqueurCranberry.name=Cranberry Liqueur
+item.itemLiqueurPlum.name=Plum Liqueur
+item.itemLiqueurCoffee.name=Coffee Liqueur
+item.itemLiqueurPineapple.name=Pineapple Liqueur
+item.itemLiqueurKiwi.name=Kiwi Liqueur
+item.itemLiqueurPlantain.name=Plantain Liqueur
+item.itemLiqueurGrape.name=Grape Liqueur
+item.itemLiqueurWhitePeach.name=White Peach Liqueur
+item.itemLiqueurMelon.name=Melon Liqueur
+item.itemLiqueurMint.name=Mint Liqueur
+item.itemLiqueurCacao.name=Cacao Liqueur
+item.itemLiqueurHoney.name=Honey Liqueur
+item.itemLiqueurBlackcurrant.name=Blackcurrant Liqueur
+item.itemLiqueurCoco.name=Coconut Liqueur
 
+		//Alcohol
+item.itemBeverage1664.name=1664
+item.itemBottle1664WOLabel.name=1664 Bottle Without Label
+item.itemBottle1664.name=1664 Bottle Empty
+item.itemBottle1664Label.name=1664 Label
 
+item.itemBeverageAlsaceRiesling.name=Alsace Riesling
+item.itemBottleAlsaceRieslingWOLabel.name=Alsace Riesling Bottle Without Label
+item.itemBottleAlsaceRiesling.name=Alsace Riesling Bottle Empty
+item.itemBottleAlsaceRieslingLabel.name=Alsace Riesling Label
 
+item.itemBeverageAmaretto.name=Amaretto
+item.itemBottleAmarettoWOLabel.name=Amaretto Bottle Without Label
+item.itemBottleAmaretto.name=Amaretto Bottle Empty
+item.itemBottleAmarettoLabel.name=Amaretto Label
 
+item.itemBeverageAngosturaBitter.name=Angostura Bitter
+item.itemBottleAngosturaBitterWOLabel.name=Angostura Bitter Bottle Without Label
+item.itemBottleAngosturaBitter.name=Angostura Bitter Bottle Empty
+item.itemBottleAngosturaBitterLabel.name=Angostura Bitter Label
 
+item.itemBeverageBaileys.name=Baileys
+item.itemBottleBaileysWOLabel.name=Baileys Bottle Without Label
+item.itemBottleBaileys.name=Baileys Bottle Empty
+item.itemBottleBaileysLabel.name=Baileys Label
 
+item.itemBeverageBenedictine.name=Benedictine
+item.itemBottleBenedictineWOLabel.name=Benedictine Bottle Without Label
+item.itemBottleBenedictine.name=Benedictine Bottle Empty
+item.itemBottleBenedictineLabel.name=Benedictine Label
 
+item.itemBeverageBitter.name=Bitter
+item.itemBottleBitterWOLabel.name=Bitter Bottle Without Label
+item.itemBottleBitter.name=Bitter Bottle Empty
+item.itemBottleBitterLabel.name=Bitter Label
 
+item.itemBeverageBlueCuracao.name=Blue Curaçao
+item.itemBottleBlueCaracaoWOLabel.name=Blue Curaçao Bottle Without Label
+item.itemBottleBlueCaracao.name=Blue Curaçao Bottle Empty
+item.itemBottleBlueCaracaoLabel.name=Blue Curaçao Label
 
+item.itemBeverageBordeauxChateauLary.name=A.O.P. Bordeaux Chateau Lary
+item.itemBottleBordeauxChateauLaryWOLabel.name=Bordeaux Chateau Lary Bottle Without Label
+item.itemBottleBordeauxChateauLary.name=Bordeaux Chateau Lary Bottle Empty
+item.itemBottleBordeauxChateauLaryLabel.name=Bordeaux Chateau Lary Label
 
+item.itemBeverageBordeauxChateauTourVerite.name=A.O.P. Bordeaux Chateau Tour Verite
+item.itemBottleBordeauxChateauTourVeriteWOLabel.name=Bordeaux Chateau Tour Verite Bottle Without Label
+item.itemBottleBordeauxChateauTourVerite.name=Bordeaux Chateau Tour Verite Bottle Empty
+item.itemBottleBordeauxChateauTourVeriteLabel.name=Bordeaux Chateau Tour Verite Label
 
-	//items beverage empty
-itemGroup.CreativeTabsBottle=Bottle Empty and without label
+item.itemBeverageBourgogneAligote.name=Bourgogne Aligote
+item.itemBottleBourgogneAligoteWOLabel.name=Bourgogne Aligote Bottle Without Label
+item.itemBottleBourgogneAligote.name=BOurgogne Aligote Bottle Empty
+item.itemBottleBourgogneAligoteLabel.name=Bourgogne Aligote Label
 
-item.itemPint.name=Pint
+item.itemBeverageBritt.name=Britt
+item.itemBottleBrittWOLabel.name=Britt Bottle Without Label
+item.itemBottleBritt.name=Britt Bottle Empty
+item.itemBottleBrittLabel.name=Britt Label
 
-item.itemBottleCapCorse.name=Cap-Corse Bottle Empty
-item.itemCapCorseWOLabel.name=Cap-Corse bottle without label
-
-
-item.itemBottleBenturCola.name=Bentur-Cola Bottle Empty
-item.itemBenturColaWOLabel.name=Bentur-Cola bottle without label
-
-item.itemBottleCiderKerne.name=Cider Kerne Bottle Empty
-item.itemCiderKerneWOLabel.name=Cider Kerne bottle without label
-
-item.itemBottleBrandy.name=Brandy Bottle Empty
-item.itemBrandyWOLabel.name=Brandy bottle without label
-
-item.itemBottleCalvados.name=Calvados Bottle Empty
-item.itemCalvadosWOLabel.name=Calvados bottle without label
-
-item.itemBottleChouchen.name=Chouchen Bottle Empty
-item.itemBottleChouchenWOLabel.name=Chouchen bottle without label
-
-item.itemBottleCognac.name=Cognac Bottle Empty
-item.itemCognacWOLabel.name=Cognac bottle without label
-
-item.itemBottleGin.name=Gin Bottle Empty
-item.itemGinWOLabel.name=Gin bottle without label
-
-item.itemBottleLambig.name=Lambig Bottle Empty
-item.itemLambigWOLabel.name=Lambig bottle without label
-
-item.itemBottlePastis51.name=Pastis 51 Bottle Empty
-item.itemBottlePastis51WOLabel.name=Pastis 51 bottle without label
-
-item.itemBottlePerrier.name=Perrier Bottle Empty
-item.itemPerrierWOLabel.name=Perrier bottle without label
-
-item.itemBottlePommeau.name=Pommeau Bottle Empty
-item.itemPommeauWOLabel.name=Pommeau bottle without label
-
-item.itemBottleRedMartini.name=Red Martini Bottle Empty
-item.itemRedMartiniWOLabel.name=Red Martini bottle without label
-
-item.itemBottleRedPort.name=Red Port Bottle Empty
-item.itemRedPortWOLabel.name=Red Port bottle without label
-
+item.itemBeverageBrownRum.name=Brown Rum
+item.itemBottleRumWOLabel.name=Rum Bottle Without Label
 item.itemBottleRum.name=Rum Bottle Empty
-item.itemRumWOLabel.name=Rum bottle without label
+item.itemBottleRumLabel.name=Rum Label
 
-item.itemBottleTequila.name=Tequila Bottle Empty 
-item.itemTequilaWOLabel.name=Tequila bottle without label
+item.itemBeverageCalvados.name=Calvados
+item.itemBottleCalvadosWOLabel.name=Calvados Bottle Without Label
+item.itemBottleCalvados.name=Calvados Bottle Empty
+item.itemBottleCalvadosLabel.name=Calvados Label
 
-item.itemBottleVinegar.name=Vinegar Bottle Empty
-item.itemVinegarWOLabel.name=Vinegar bottle without label
+item.itemBeverageCampari.name=Campari
+item.itemBottleCampariWOLabel.name=Campari Bottle Without Label
+item.itemBottleCampari.name=Campari Bottle Empty
+item.itemBottleCampariLabel.name=Campari Label
 
+item.itemBeverageCapCorse.name=Cap-Corse
+item.itemBottleCapCorseWOLabel.name=Cap-Corse Bottle Without Label
+item.itemBottleCapCorse.name=Cap-Corse Bottle Empty
+item.itemBottleCapCorseLabel.name=Cap-Corse Label
+
+item.itemBeverageChampagneMumm.name=Champagne G.H. Mumm
+item.itemBottleChampagneMummWOLabel.name=Champagne G.H. Mumm Bottle Without Label
+item.itemBottleChampagneMumm.name=Champagne G.H. Mumm Bottle Empty
+item.itemBottleChampagneMummLabel.name=Champagne G.H. Mumm Label
+
+item.itemBeverageChartreuseJaune.name=Chartreuse Jaune
+item.itemBottleChartreuseJauneWOLabel.name=Chartreuse Jaune Bottle Without Label
+item.itemBottleChartreuseJaune.name=Chartreuse Jaune Bottle Empty
+item.itemBottleChartreuseJauneLabel.name=Chartreuse Jaune Label
+
+item.itemBeverageChartreuseVerte.name=Chartreuse Verte
+item.itemBottleChartreuseVerteWOLabel.name=Chartreuse Verte Bottle Without Label
+item.itemBottleChartreuseVerte.name=Chartreuse Verte Bottle Empty
+item.itemBottleChartreuseVerteLabel.name=Chartreuse Verte Label
+
+item.itemBeverageChouchen.name=Chouchen
+item.itemBottleChouchenWOLabel.name=Chouchen Bottle Without Label
+item.itemBottleChouchen.name=Chouchen Bottle Empty
+item.itemBottleChouchenLabel.name=Chouchen Label
+
+item.itemBeverageCiderKerne.name=Cider Kerne
+item.itemBottleCiderKerneWOLabel.name=Cider Kerne Bottle Without Label
+item.itemBottleCiderKerne.name=Cider Kerne Bottle Empty
+item.itemBottleCiderKerneLabel.name=Cider Kerne Label
+
+item.itemBeverageCognac.name=Cognac
+item.itemBottleCognacWOLabel.name=Cognac Bottle Without Label
+item.itemBottleCognac.name=Cognac Bottle Empty
+item.itemBottleCognacLabel.name=Cognac Label
+
+item.itemBeverageCuracaoOrange.name=Curaçao Orange 
+item.itemBottleCuracaoOrangeWOLabel.name=Curaçao Orange Bottle Without Label
+item.itemBottleCuracaoOrange.name=Curaçao Orange  Bottle Empty
+item.itemBottleCuracaoOrangeLabel.name=Curaçao Orange  Label
+
+item.itemBeverageCuracaoTripleSec.name=Curaçao Triple Sec
+item.itemBottleCuracaoTripleSecWOLabel.name=Curaçao Triple Sec Bottle Without Label
+item.itemBottleCuracaoTripleSec.name=Curaçao Triple Sec Bottle Empty
+item.itemBottleCuracaoTripleSecLabel.name=Curaçao Triple Sec Label
+
+item.itemBeverageDesperados.name=Desperados
+item.itemBottleDesperadosWOLabel.name=Desperados Bottle Without Label
+item.itemBottleDesperados.name=Desperados Bottle Empty
+item.itemBottleDesperadosLabel.name=Desperados Label
+
+item.itemBeverageDrambuie.name=Drambuie
+item.itemBottleDrambuieWOLabel.name=Drambuie Bottle Without Label
+item.itemBottleDrambuie.name=Drambuie Bottle Empty
+item.itemBottleDrambuieLabel.name=Drambuie Label
+
+item.itemBeverageDubonnetRouge.name=Dubonnet Rouge
+item.itemBottleDubonnetRougeWOLabel.name=Dubonnet Rouge Bottle Without Label
+item.itemBottleDubonnetRouge.name=Dubonnet Rouge Bottle Empty
+item.itemBottleDubonnetRougeLabel.name=Dubonnet Rouge Label
+
+item.itemBeverageDuvel.name=Duvel
+item.itemBottleDuvelWOLabel.name=Duvel Bottle Without Label
+item.itemBottleDuvel.name=Duvel Bottle Empty
+item.itemBottleDuvelLabel.name=Duvel Label
+
+item.itemBeverageEnate.name=Enate
+item.itemBottleEnateWOLabel.name=Enate Bottle Without Label
+item.itemBottleEnate.name=Enate Bottle Empty
+item.itemBottleEnateLabel.name=Enate Label
+
+item.itemBeverageFernetBranca.name=Fernet Branca
+item.itemBottleFernetBrancaWOLabel.name=Fernet Branca Bottle Without Label
+item.itemBottleFernetBranca.name=Fernet Branca Bottle Empty
+item.itemBottleFernetBrancaLabel.name=Fernet Branca Label
+
+item.itemBeverageGet27.name=Get 27
+item.itemBottleGet27WOLabel.name=Get 27 Bottle Without Label
+item.itemBottleGet27.name=Get 27 Bottle Empty
+item.itemBottleGet27Label.name=Get 27 Label
+
+item.itemBeverageGin.name=Gin
+item.itemBottleGinWOLabel.name=Gin Bottle Without Label
+item.itemBottleGin.name=Gin Bottle Empty
+item.itemBottleGinLabel.name=Gin Label
+
+item.itemBeverageGrandMarnier.name=Grand Marnier
+item.itemBottleGrandMarnierWOLabel.name=Grand Marnier Bottle Without Label
+item.itemBottleGrandMarnier.name=Grand Marnier Bottle Empty
+item.itemBottleGrandMarnierLabel.name=Grand Marnier Label
+
+item.itemBeverageGrimbergen.name=Grimbergen
+item.itemBottleGrimbergenWOLabel.name=Grimbergen Bottle Without Label
+item.itemBottleGrimbergen.name=Grimbergen Bottle Empty
+item.itemBottleGrimbergenLabel.name=Grimbergen Label
+
+item.itemBeverageGuinness.name=Guinness
+item.itemBottleGuinnessWOLabel.name=Guinness Bottle Without Label
+item.itemBottleGuinness.name=Guinness Bottle Empty
+item.itemBottleGuinnessLabel.name=Guinness Label
+
+item.itemBeverageHeineken.name=Heineken
+item.itemBottleHeinekenWOLabel.name=Heineken Bottle Without Label
+item.itemBottleHeineken.name=Heineken Bottle Empty
+item.itemBottleHeinekenLabel.name=Heineken Label
+
+item.itemBeverageLambig.name=Lambig
+item.itemBottleLambigWOLabel.name=Lambig Bottle Without Label
+item.itemBottleLambig.name=Lambig Bottle Empty
+item.itemBottleLambigLabel.name=Lambig Label
+
+item.itemBeverageLeffe.name=Leffe
+item.itemBottleLeffeWOLabel.name=Leffe Bottle Without Label
+item.itemBottleLeffe.name=Leffe Bottle Empty
+item.itemBottleLeffeLabel.name=Leffe Label
+
+item.itemBeveragePastis51.name=Pastis 51
+item.itemBottlePastis51WOLabel.name=Pastis 51 Bottle Without Label
+item.itemBottlePastis51.name=Pastis 51 Bottle Empty
+item.itemBottlePastis51Label.name=Pastis 51 Label
+
+item.itemBeveragePetrus.name=Petrus
+item.itemBottlePetrusWOLabel.name=Petrus Bottle Without Label
+item.itemBottlePetrus.name=Petrus Bottle Empty
+item.itemBottlePetrusLabel.name=Petrus Label
+
+item.itemBeveragePisco.name=Pisco
+item.itemBottlePiscoWOLabel.name=Pisco Bottle Without Label
+item.itemBottlePisco.name=Pisco Bottle Empty
+item.itemBottlePiscoLabel.name=Pisco Label
+
+item.itemBeveragePommeau.name=Pommeau
+item.itemBottlePommeauWOLabel.name=Pommeau Bottle Without Label
+item.itemBottlePommeau.name=Pommeau Bottle Empty
+item.itemBottlePommeauLabel.name=Pommeau Label
+
+item.itemBeveragePontarlier.name=Pontarlier
+item.itemBottlePontarlierWOLabel.name=Pontarlier Bottle Without Label
+item.itemBottlePontarlier.name=Pontarlier Bottle Empty
+item.itemBottlePontarlierLabel.name=Pontarlier Label
+
+item.itemBeverageRedMartini.name=Red Martini
+item.itemBottleRedMartiniWOLabel.name=Red Martini Bottle Without Label
+item.itemBottleRedMartini.name=Red Martini Bottle Empty
+item.itemBottleRedMartiniLabel.name=Red Martini Label
+
+item.itemBeverageRedPort.name=Red Port
+item.itemBottleRedPortWOLabel.name=Red Port Bottle Without Label
+item.itemBottleRedPort.name=Red Port Bottle Empty
+item.itemBottleRedPortLabel.name=Red Port Label
+
+item.itemBeverageSanMiguel.name=San Miguel
+item.itemBottleSanMiguelWOLabel.name=San Miguel Bottle Without Label
+item.itemBottleSanMiguel.name=San Miguel Bottle Empty
+item.itemBottleSanMiguelLabel.name=San Miguel Label
+
+item.itemBeverageSkoll.name=Skoll
+item.itemBottleSkollWOLabel.name=Skoll Bottle Without Label
+item.itemBottleSkoll.name=Skoll Bottle Empty
+item.itemBottleSkollLabel.name=Skoll Label
+
+item.itemBeverageSmirnoff.name=Smirnoff
+item.itemBottleSmirnoffWOLabel.name=Smirnoff Bottle Without Label
+item.itemBottleSmirnoff.name=Smirnoff Bottle Empty
+item.itemBottleSmirnoffLabel.name=Smirnoff Label
+
+item.itemBeverageSouthernComfort.name=Southern Comfort
+item.itemBottleSouthernComfortWOLabel.name=Southern Comfort Bottle Without Label
+item.itemBottleSouthernComfort.name=Southern Comfort Bottle Empty
+item.itemBottleSouthernComfortLabel.name=Southern Comfort Label
+
+item.itemBeverageTabasco.name=Tabasco
+item.itemBottleTabascoWOLabel.name=Tabasco Bottle Without Label
+item.itemBottleTabasco.name=Tabasco Bottle Empty
+item.itemBottleTabascoLabel.name=Tabasco Label
+
+item.itemBeverageTequila.name=Tequila
+item.itemBottleTequilaWOLabel.name=Tequila Bottle Without Label
+item.itemBottleTequila.name=Tequila Bottle Empty
+item.itemBottleTequilaLabel.name=Tequila Label
+
+item.itemBeverageVodka.name=Vodka
+item.itemBottleVodkaWOLabel.name=Vodka Bottle Without Label
 item.itemBottleVodka.name=Vodka Bottle Empty
-item.itemVodkaWOLabel.name=Vodka bottle without label
+item.itemBottleVodkaLabel.name=Vodka Label
 
+item.itemBeverageWhiskey.name=Whiskey
+item.itemBottleWhiskeyWOLabel.name=Whiskey Bottle Without Label
 item.itemBottleWhiskey.name=Whiskey Bottle Empty
-item.itemBottleWhiskeyWOLabel.name=Whiskey bottle without label
+item.itemBottleWhiskeyLabel.name=Whiskey Label
 
+item.itemBeverageWhiteMartini.name=White Martini
+item.itemBottleWhiteMartiniWOLabel.name=White Martini Bottle Without Label
 item.itemBottleWhiteMartini.name=White Martini Bottle Empty
-item.itemWhiteMartiniWOLabel.name=White Martini bottle without label
+item.itemBottleWhiteMartiniLabel.name=White Martini Label
 
+item.itemBeverageWhitePort.name=White Port
+item.itemBottleWhitePortWOLabel.name=White Port Bottle Without Label
 item.itemBottleWhitePort.name=White Port Bottle Empty
-item.itemWhitePortWOLabel.name=White Port bottle without label
+item.itemBottleWhitePortLabel.name=White Port Label
 
-item.itemBottleBordeauxChateauLary.name=A.O.P. Bordeaux Château Lary Bottle Empty
-item.itemBottleBordeauxLaryWOLabel.name=A.O.P. Bordeaux Château Lary bottle without label
+item.itemBeverageBenturCola.name=Bentur Cola
+item.itemBottleBenturColaWOLabel.name=Bentur Cola Bottle Without Label
+item.itemBottleBenturCola.name=Bentur Cola Bottle Empty
+item.itemBottleBenturColaLabel.name=Bentur Cola Label
 
-item.itemBottleBordeauxChateauTourVerite.name=A.O.P. Bordeaux Château Tour Vérité Bottle Empty
-item.itemBottleBordeauxTourWOLabel.name=A.O.P. Bordeaux Château Tour Vérité bottle without label
+item.itemBeverageFleurOranger.name=Fleur D'Oranger
+item.itemBottleFleurOrangerWOLabel.name=Fleur D'Oranger Bottle Without Label
+item.itemBottleFleurOranger.name=Fleur D'Oranger Bottle Empty
+item.itemBottleFleurOrangerLabel.name=Fleur D'Oranger Label
 
-item.itemBottleLiqueur.name=Liqueur Bottle Empty
-item.itemBottleLiqueurWOLabel.name=Liqueur bottle without label
+item.itemBeverageLimonade.name=Limonade
+item.itemBottleLimonadeWOLabel.name=Limonade Bottle Without Label
+item.itemBottleLimonade.name=Limonade Bottle Empty
+item.itemBottleLimonadeLabel.name=Limonade Label
 
-item.itemAmarettoWOLabel.name=Amaretto bottle without label
+item.itemBeveragePerrier.name=Perrier
+item.itemBottlePerrierWOLabel.name=Perrier Bottle Without Label
+item.itemBottlePerrier.name=Perrier Bottle Empty
+item.itemBottlePerrierLabel.name=Perrier Label
 
-item.itemBitterWOLabel.name=Bitter bottle without label
+item.itemBeverageSchweppesAgrum.name=Schweppes Agrum'
+item.itemBottleSchweppesAgrumWOLabel.name=Schweppes Agrum' Bottle Without Label
+item.itemBottleSchweppesAgrum.name=Schweppes Agrum' Bottle Empty
+item.itemBottleSchweppesAgrumLabel.name=Schweppes Agrum' Label
 
-item.itemBlueCuracaoWOLabel.name=Blue Curaçao bottle without label
-item.itemBottleBlueCaracao.name=Blue Curaçao bottle Empty
+item.itemBeverageSchweppesDarkSide.name=Schweppes Dark Side
+item.itemBottleSchweppesDarkSideWOLabel.name=Schweppes Dark Side Bottle Without Label
+item.itemBottleSchweppesDarkSide.name=Schweppes Dark Side Bottle Empty
+item.itemBottleSchweppesDarkSideLabel.name=Schweppes Dark Side Label
 
-item.itemCuracaoTripleSecWOLabel.name=Curaçao Triple Sec bottle without label
+item.itemBeverageSchweppesGingerAle.name=Schweppes Ginger Ale
+item.itemBottleSchweppesGingerAleWOLabel.name=Schweppes Ginger Ale Bottle Without Label
+item.itemBottleSchweppesGingerAle.name=Schweppes Ginger Ale Bottle Empty
+item.itemBottleSchweppesGingerAleLabel.name=Schweppes Ginger Ale Label
 
-item.itemBenedictineWOLabel.name=Bénédictine Bottle Without Label
-item.itemBottleBenedictine=Bénédictine Bottle Empty
+item.itemBeverageSchweppesLemon.name=Schweppes Lemon
+item.itemBottleSchweppesLemonWOLabel.name=Schweppes Lemon Bottle Without Label
+item.itemBottleSchweppesLemon.name=Schweppes Lemon Bottle Empty
+item.itemBottleSchweppesLemonLabel.name=Schweppes Lemon Label
 
-item.itemBaileysWOLabel.name=Baileys Bottle Without Label
-item.itemBottleBaileys=Baileys Bottle Empty
+item.itemBeverageSchweppesMango.name=Schweppes Mango
+item.itemBottleSchweppesMangoWOLabel.name=Schweppes Mango Bottle Without Label
+item.itemBottleSchweppesMango.name=Schweppes Mango Bottle Empty
+item.itemBottleSchweppesMangoLabel.name=Schweppes Mango Label
 
-item.itemCampariWOLabel.name=Campari Bottle Without Label
-item.itemBottleCampari=Campari Bottle Empty
+item.itemBeverageSchweppesPamplemousse.name=Schweppes Pamplemousse
+item.itemBottleSchweppesPamplemousseWOLabel.name=Schweppes Pamplemousse Bottle Without Label
+item.itemBottleSchweppesPamplemousse.name=Schweppes Pamplemousse Bottle Empty
+item.itemBottleSchweppesPamplemousseLabel.name=Schweppes Pamplemousse Label
 
-item.itemChartreuseVerteWOLabel.name=Chartreuse Verte Bottle Without Label
-item.itemBottleChartreuseVerte=Chartreuse Verte Bottle Empty
+item.itemBeverageSchweppesPassion.name=Schweppes Passion
+item.itemBottleSchweppesPassionWOLabel.name=Schweppes Passion Bottle Without Label
+item.itemBottleSchweppesPassion.name=Schweppes Passion Bottle Empty
+item.itemBottleSchweppesPassionLabel.name=Schweppes Passion Label
 
-item.itemWorcestershireSauceWOLabel.name=Worcestershire Sauce Bottle Without Label
-item.itemBottleWorcestershireSauce=Worcestershire Sauce Bottle Empty
+item.itemBeverageSchweppesPech.name=Schweppes Pech'
+item.itemBottleSchweppesPechWOLabel.name=Schweppes Pech' Bottle Without Label
+item.itemBottleSchweppesPech.name=Schweppes Pech' Bottle Empty
+item.itemBottleSchweppesPechLabel.name=Schweppes Pech' Label
 
-item.itemCuracaoOrangeWOLabel.name=Curaçao Orange Bottle Without Label
-item.itemBottleCuracaoOrange=Curaçao Orange Bottle Empty
+item.itemBeverageSchweppesPomme.name=Schweppes Pomme
+item.itemBottleSchweppesPommeWOLabel.name=Schweppes Pomme Bottle Without Label
+item.itemBottleSchweppesPomme.name=Schweppes Pomme Bottle Empty
+item.itemBottleSchweppesPommeLabel.name=Schweppes Pomme Label
 
-item.itemAngosturaBitterWOLabel.name=Angostura Bitter Bottle Without Label
-item.itemBottleAngosturaBitter=Angostura Bitter Bottle Empty
+item.itemBeverageSchweppesRaisin.name=Schweppes Raisin
+item.itemBottleSchweppesRaisinWOLabel.name=Schweppes Raisin Bottle Without Label
+item.itemBottleSchweppesRaisin.name=Schweppes Raisin Bottle Empty
+item.itemBottleSchweppesRaisinLabel.name=Schweppes Raisin Label
 
-item.itemChartreuseJauneWOLabel.name=Chartreuse Jaune Bottle Without Label
-item.itemBottleChartreuseJaune=Chartreuse Jaune Bottle Empty
+item.itemBeverageSchweppesRicqles.name=Schweppes Ricqles
+item.itemBottleSchweppesRicqlesWOLabel.name=Schweppes Ricqles Bottle Without Label
+item.itemBottleSchweppesRicqles.name=Schweppes Ricqles Bottle Empty
+item.itemBottleSchweppesRicqlesLabel.name=Schweppes Ricqles Label
 
-item.itemFernetBrancaWOLabel.name=Fernet Branca Bottle Without Label
-item.itemBottleFernetBranca=Fernet Branca Bottle Empty
+item.itemBeverageSchweppesTonic.name=Schweppes Tonic
+item.itemBottleSchweppesTonicWOLabel.name=Schweppes Tonic Bottle Without Label
+item.itemBottleSchweppesTonic.name=Schweppes Tonic Bottle Empty
+item.itemBottleSchweppesTonicLabel.name=Schweppes Tonic Label
 
-item.itemPiscoWOLabel.name=Pisco Bottle Without Label
-item.itemBottlePisco=Pisco Bottle Empty
 
-item.itemTabascoWOLabel.name=Tabasco Bottle Without Label
-item.itemBottleTabasco=Tabasco Bottle Empty
 
-item.itemDrambuieWOLabel.name=Drambuie Bottle Without Label
-item.itemBottleDrambuie=Drambuie Bottle Empty
 
-item.itemDubonnetRougeWOLabel.name=Dubonnet Rouge Bottle Without Label
-item.itemBottleDubonnetRouge=Dubonnet Rouge Bottle Empty
 
-item.itemPontarlierWOLabel.name=Pontarlier Bottle Without Label
-item.itemBottlePontarlier=Pontarlier Bottle Empty
 
-item.itemFleurOrangerWOLabel.name=Fleur d'Oranger Bottle Without Label
-item.itemBottleFleurOranger=Fleur d'Oranger Bottle Empty
 
-item.itemLimonadeWOLabel.name=Limonade Bottle Without Label
-item.itemBottleLimonade=Limonade Bottle Empty
 
-item.itemGrandMarnierWOLabel.name=Grand Marnier Bottle Without Label
-item.itemBottleGrandMarnier=Grand Marnier Bottle Empty
 
-item.itemHoneyWOLabel.name=Honey Without Label
-item.itemBottleHoney=Honey Empty
 
-item.itemGuinnessWOLabel.name=Guinness Bottle Without Label
-item.itemBottleGuinness=Guinness Bottle Empty
 
-item.itemHeinekenWOLabel.name=Heineken Bottle Without Label
-item.itemBottleHeineken=Heineken Bottle Empty
 
-item.itemScweppesTonicWOLabel.name=Schweppes Tonic Bottle Without Label
-item.itemBottleSchweppesTonic=Schweppes Tonic Bottle Empty
 
-item.itemSchweppesGingerAleWOLabel.name=Schweppes Ginger Ale Bottle Without Label
-item.itemBottleSchweppesGingerAle=Schweppes Ginger Ale Bottle Empty
 
-item.itemSchweppesAgrumWOLabel.name=Schweppes Agrum Bottle Without Label
-item.itemBottleSchweppesAgrum=Schweppes Agrum Bottle Empty
 
-item.itemSchweppesRicqlesWOLabel.name=Schweppes Ricqles Bottle Without Label
-item.itemBottleSchweppesRicqles=Schweppes Ricqles Bottle Empty
+	// Cocktail
+itemGroup.CreativeTabsCocktail=Cocktails
 
-item.itemSchweppesPommeWOLabel.name=Schweppes Pomm' Bottle Without Label
-item.itemBottleSchweppesPomme=Schweppes Pomm' Bottle Empty
+item.itemGlassCup.name=Glass Cup
+item.itemCocktailGlassDirty.name=Cocktail Glass Dirty
+item.itemOldFashonnedDirty.name=Old-Fashioned Dirty
+item.itemTumblerDirty.name=Tumbler Dirty
+item.itemGlassCupDirty.name=Glass Cup Dirty
+item.itemFluteDirty.name=Flute Dirty
+item.itemCocktailBacardi.name=Bacardi Cocktail
+item.itemCocktailBalletRusse.name=Ballet Russe
+item.itemCocktailEureka.name=Eureka
+item.itemCocktailHonoluluPunch.name=Honolulu Punch
+item.itemCocktailLadyKiller.name=Lady Killer
+item.itemCocktailIrishCoffee.name=Irish Coffee
+item.itemCocktailCaipirinha.name=Caïpirinha
+item.itemCocktailCosmopolitain.name=Cosmopolitain
+item.itemCocktailCucumberMartini.name=Cucumber Martini
+item.itemCocktailFiesta.name=Fiesta
+item.itemCocktailMelonMartini.name=Melon Martini
+item.itemCocktailMetropolitain.name=Metropolitain
+item.itemCocktailRaspberryAndMintMartini.name=Raspberry & Mint Martini
+item.itemCocktailBalalaika.name=Balalaïka
+item.itemCocktailDoubleVision.name=Double Vision
+item.itemCocktailClockworkOrange.name=Clockwork Orange
+item.itemCocktailCassisina.name=Cassisina
+item.itemCocktailCapeCodder.name=Cape Codder
+item.itemCocktailCaipirovska.name=Caïpirovska
+item.itemCocktailBurgundyJuicer.name=Burgundy Juicer
+item.itemCocktailBlueLagoon.name=Blue Lagoon
+item.itemCocktailBerryBlush.name=Berry Blush
+item.itemCocktailVodkaGimlet.name=Vodka Gimlet
+item.itemCocktailExpressoMartini.name=Espresso Martini
+item.itemCocktailFriskyBison.name=Frisky Bison
+item.itemCocktailKamikaze.name=Kamikaze
+item.itemCocktailKillerPunch.name=Killer Punch
+item.itemCocktailKremlinCooler.name=Kremlin Cooler
+item.itemCocktailLemonDrop.name=Lemon Drop
+item.itemCocktailLongIslandIcedTea.name=Long Island Iced Tea
+item.itemCocktailMoscowMule.name=Moscow Mule
+item.itemCocktailNapoli.name=Napoli
+item.itemCocktailAppleMartini.name=Apple Martini
+item.itemCocktailLycheeMartini.name=Lychee Martini
+item.itemCocktailWhiteRussian.name=White Russian
+item.itemCocktailVelvetHammer.name=Velvet Hammer
+item.itemCocktailUncleVanya.name=Uncle Vanya
+item.itemCocktailTestaRossa.name=Testa Rossa
+item.itemCocktailRaspberryMule.name=Raspberry Mule
+item.itemCocktailPurpleHooter.name=Purple Hooter
+item.itemCocktailPurpleHaze.name=PurpleHaze
+item.itemCocktailAquamarine.name=Aquamarine
+item.itemCocktailChiChi.name=Chi Chi
+item.itemCocktailFrenchMartini.name=French Martini
+item.itemCocktailHarverWallbanger.name=Harver Wallbanger
+item.itemCocktailMadras.name=Madras
+item.itemCocktailPolishMartini.name=Polish Martini
+item.itemCocktailSaltyDog.name=Salty Dog
+item.itemCocktailSanFrancisco.name=San Francisco
+item.itemCocktailScrewdriver.name=Screwdriver
+item.itemCocktailGodmother.name=Godmother
+item.itemCocktailGipsyQueen.name=Gipsy Queen
+item.itemCocktailChocolateMartini.name=Chocolate Martini
+item.itemCocktailBlackRussian.name=Black Russian
+item.itemCocktailBettyBlue.name=Betty Blue
+item.itemCocktailWooWoo.name=Woo Woo
+item.itemCocktailTetanka.name=Tetanka
+item.itemCocktailSexOnTheBeach.name=Sex On The Beach
+item.itemCocktailSeaBreeze.name=Sea Breeze
+item.itemCocktailRedRussian.name=Red Russian
+item.itemCocktailVodkaStinger.name=Vodka Stinger
+item.itemCocktailBloodyMary.name=Bloody Mary
+item.itemCocktailJungleJoe.name=Jungle Joe
+item.itemCocktailXYZ.name=X.Y.Z.
+item.itemCocktailAnejoHighball.name=Añejo Highball
+item.itemCocktailPinaColada.name=Piña Colada
+item.itemCocktailTomAndJerry.name=Tom & Jerry
+item.itemCocktailGrogAmericain.name=Grog Américain
+item.itemCocktailBacardiCocktailRum.name=Bacardi Cocktail
+item.itemCocktailTNTCocktail.name=T.N.T.
+item.itemCocktailIceBreaker.name=Ice-Breaker
+item.itemCocktailPinata.name=Piñata
+item.itemCocktailTNT2.name=T.N.T. n°2
+item.itemCocktailBetweenTheSheets.name=Between-The-Sheets
+item.itemCocktailDeeLight.name=Dee-Light
+item.itemCocktailHorseSNeck.name=Horse's Neck
+item.itemCocktailSideCar.name=Side-Car
+item.itemCocktailBB.name=B & B
+item.itemCocktailBP.name=B & P
+item.itemCocktailChampsElysees.name=Champs-Élysées
+item.itemCocktailSantinaSPousseCafe.name=Santina's Pousse-Café
+item.itemCocktailMaximSCoffee.name=Maxim's Coffee
+item.itemCocktailCC.name=C.C.
+item.itemCocktailPimmSRoyal.name=Pimm's Royal
+item.itemCocktailPickMeUp.name=Pick-me-Up
+item.itemCocktailNightDay.name=Night & Day
+item.itemCocktailTomateALAbsinthe.name=Tomate à l'Absinthe
+item.itemCocktailVermouthCassis.name=Vermouth-Cassis
+item.itemCocktailPimmSCup.name=Pimm's Cup
+item.itemCocktailScarlettOHara.name=Scarlett O'Hara
+item.itemCocktailB52.name=B-52
+item.itemCocktailBullSEye.name=Bull's Eye
+item.itemCocktailPlanterSPunchless.name=Planter's Punchless
+item.itemCocktailTomatoCucumberSparkle.name=Tomato & Cucumber Sparkle
+item.itemCocktailParsonSSpecial.name=Parson's Special
+item.itemCocktailRideCosmopolitain.name=Rude Cosmopolitain
+item.itemCocktailAztecStinger.name=Aztec Stringer
+item.itemCocktailCastroColler.name=Castro Cooler
+item.itemCocktailHarvvardCooler.name=Havard Cooler
+item.itemCocktailAstoria.name=Astoria
+item.itemCocktailAttaboy.name=Attaboy
+item.itemCocktailBloodhound.name=Bloodhound
+item.itemCocktailBronxTerrace.name=Bronx Terrace
+item.itemCocktailClaridge.name=Claridge
+item.itemCocktailDryMartini.name=Dry Martini
+item.itemCocktailDubonnetCocktail.name=Dubonnet Cocktail
+item.itemCocktailFloriditaBronx.name=Floridita Bronx
+item.itemCocktailGibson.name=Gibson
+item.itemCocktailJournalist.name=Journalist
+item.itemCocktailKnickerbocker.name=Knickerbocker
+item.itemCocktailLeaveItToMe.name=Leave it to me
+item.itemCocktailLondonFog.name=London Fog
+item.itemCocktailRabbitCooler.name=Rabbit Cooler
+item.itemCocktailRabbitSunrise.name=Rabbit Sunrise
+item.itemCocktailGoldenScream.name=Golden Scream
+item.itemCocktailMiklyMango.name=Mikly Mango
+item.itemCocktailParisette.name=Parisette
+item.itemCocktailPinkPineapple.name=Pink Pineapple
+item.itemCocktailPrairieOyster.name=Prairie Oyster
+item.itemCocktailPussyFoot.name=Pussy Foot
+item.itemCocktailVanillaMilkshake.name=Vanilla Milkshake
+item.itemCocktailShirleyTemple.name=Shirley Temple
+item.itemCocktailSouthsideCooler.name=Southside Cooler
+item.itemCocktailStrawberryCooler.name=Strawberry Cooler
+item.itemCocktailBabyBreeze.name=Baby Breeze
+item.itemCocktailBananaJuicer.name=Banana Juicer
+item.itemCocktailCaliforniaSmoothie.name=California Smoothie
+item.itemCocktailCinderella.name=Cinderella
+item.itemCocktailLoneTree.name=Lone Tree
+item.itemCocktailMartinez.name=Martinez
+item.itemCocktailParisian.name=Parisian
+item.itemCocktailPinkGin.name=Pink Gin
+item.itemCocktailTurf.name=Turf
+item.itemCocktailZaza.name=Zaza
+item.itemCocktailAlabamaFizz.name=Alabama Fizz
+item.itemCocktailAviation.name=Aviation
+item.itemCocktailBlackout.name=Blackout
+item.itemCocktailBlueBird.name=Blue Bird
+item.itemCocktailBramble.name=Bramble
+item.itemCocktailBreakfastMartini.name=Breakfast Martini
+item.itemCocktailDesertHealer.name=Desert Healer
+item.itemCocktailGimlet.name=Gimlet
+item.itemCocktailGinFizz.name=Gin Fizz
+item.itemCocktailGreenHat.name=Green Hat
+item.itemCocktailJaizkibel.name=Jaikibel
+item.itemCocktailJohnCollins.name=John Collins
+item.itemCocktailMacka.name=Macka
+item.itemCocktailNickySFizz.name=Nicky's Fizz
+item.itemCocktailPinkLady.name=Pink Lady
+item.itemCocktailRaspberryCollins.name=Raspberry Collins
+item.itemCocktailResolute.name=Resolute
+item.itemCocktailShadyGrove.name=Shady Grove
+item.itemCocktailSingaporeSling.name=Singapore Sling
+item.itemCocktailSouthside.name=Southside
+item.itemCocktailTamanacoDry.name=Tamanaco Dry
+item.itemCocktailWhiteLady.name=White Lady
+item.itemCocktailAbbey.name=Abbey
+item.itemCocktailBronx.name=Bronx
+item.itemCocktailColonial.name=Colonial
+item.itemCocktailMiamiBeach.name=Miami Beach
+item.itemCocktailMonkeyGland.name=Monkey Gland
+item.itemCocktailOpal.name=Opal
+item.itemCocktailOrangeBlossom.name=Orange Blossom
+item.itemCocktailParadise.name=Paradise
+item.itemCocktailQueenCocktail.name=Queen Cocktail
+item.itemCocktailRafflesSling.name=Raffles Sling
+item.itemCocktailRedLion.name=Red Lion
+item.itemCocktailAcacias.name=Acacias
+item.itemCocktailLemonySnicket.name=Lemony Snicket
+item.itemCocktailJustTry.name=Just Try
+item.itemCocktailFrenchKiss.name=French Kiss
+item.itemCocktailFallenAngel.name=Fallen Angel
+item.itemCocktailEvolution.name=Evolution
+item.itemCocktailCaruso.name=Caruso
+item.itemCocktailBijou.name=Bijou
+item.itemCocktailBeeSKnees.name=Bee's Knees
+item.itemCocktailAlaska.name=Alaska
+item.itemCocktailPrinceton.name=Princeton
+item.itemCocktailSpringFeeling.name=Spring Feeling
+item.itemCocktailAlexander.name=Alexander
+item.itemCocktailCloverClub.name=Clover Club
+item.itemCocktailRamosGinFizz.name=Ramos Gin Fizz
+item.itemCocktailRedSnapper.name=Red Snapper
+item.itemCocktailBlackthorn.name=Blackthorn
+item.itemCocktailChurchill.name=Churchill
+item.itemCocktailEuropeanBeauty.name=European Beauty
+item.itemCocktailGaslight.name=Gaslight
+item.itemCocktailHondarribia.name=Hondarribia
+item.itemCocktailManhattan.name=Manhattan
+item.itemCocktailOldFashioned.name=Old-Fashioned
+item.itemCocktailRobRoy.name=Rob Roy
+item.itemCocktailSazerac.name=Sazerac
+item.itemCocktailScoffLaw.name=Scoff Law
+item.itemCocktailUpToDate.name=Up To Date
+item.itemCocktailWhizBang.name=Whiz Bang
+item.itemCocktailCableGram.name=Cable Gram
+item.itemCocktailCaliforniaLemonade.name=California Lemonade
+item.itemCocktailCommodore.name=Commodore
+item.itemCocktailCreativity.name=Creativity
+item.itemCocktailFrancisTheMule.name=Francis The Mule
+item.itemCocktailFrisco.name=Frisco
+item.itemCocktailHemingwaySour.name=Hemingway Sour
+item.itemCocktailHighlandCooler.name=Highland Cooler
+item.itemCocktailHighVoltage.name=High Voltage
+item.itemCocktailIrishRose.name=Irish Rose
+item.itemCocktailKentuckyTea.name=Kentucky Tea
+item.itemCocktailKlondikeCooler.name=Klondike Cooler
+item.itemCocktailLynchburgLemonade.name=Lynchburg Lemonade
+item.itemCocktailMintJulep.name=Mint Julep
+item.itemCocktailNewYorker.name=New Yorker
+item.itemCocktailWhiskeySour.name=Whiskey Sour
+item.itemCocktailAlgonquin.name=Algonquin
+item.itemCocktailBeamMeUpScotty.name=Beam Me Up Scotty
+item.itemCocktailBloodAndSand.name=Blood & Sand
+item.itemCocktailInkStreet.name=Ink Street
+item.itemCocktailPollySpecial.name=Polly Special
+item.itemCocktailWardEight.name=Ward Eight
+item.itemCocktailBobbyBurns.name=Bobby Burns
+item.itemCocktailDelmarva.name=Delmarva
+item.itemCocktailGodfather.name=Godfather
+item.itemCocktailKentuckyColonel.name=Kentucky Colonel
+item.itemCocktailRustyNail.name=Rusty Nail
+item.itemCocktailTipperary.name=Tipperary
+item.itemCocktailTwistin.name=Twistin
+item.itemCocktailBostonSour.name=Boston Sour
+item.itemCocktailElkSown.name=ELk Sown
+item.itemCocktailMillionnaire.name=Millionnaire
+item.itemCocktailMochaMartini.name=Mocha Martini
+item.itemCocktailMorningGloryFizz.name=Morning Glory Fizz
+item.itemCocktailMountain.name=Mountain
+item.itemCocktailBlueBlazer.name=Blue Blazer
+item.itemCocktailCubanManhattan.name=Cuban Manhattan
+item.itemCocktailPresidente.name=Presidente
+item.itemCocktailRedwood.name=Redwood
+item.itemCocktailTreacle.name=Treacle
+item.itemCocktailBejaFlor.name=Beja Flor
+item.itemCocktailBlackRose.name=Black Rose
+item.itemCocktailBostonCooler.name=Boston Cooler
+item.itemCocktailCableCar.name=Cable Car
+item.itemCocktailCitrusCooler.name=Citrus Cooler
+item.itemCocktailCosmoRon.name=Cosmo Ron
+item.itemCocktailCubaLibre.name=Cuba Libre
+item.itemCocktailDaiquiri.name=Daïquiri
+item.itemCocktailDarkAndStormy.name=Dark & Stormy
+item.itemCocktailDoctorFunk.name=Doctor Funk
+item.itemCocktailFloriditaDaiquiri.name=Floridita Daïquiri
+item.itemCocktailFrozenDaiquiri.name=Frozen Daïquiri
+item.itemCocktailHemingwaySpecial.name=Hemingway Special
+item.itemCocktailHoneySuckle.name=Honey Suckle
+item.itemCocktailIsleOfPines.name=Isle of Pines
+item.itemCocktailJamaicanMule.name=Jamaican Mule
+item.itemCocktailMaiTai.name=Maï Taï
+item.itemCocktailMaramaRumPunch.name=Marama Rum Punch
+item.itemCocktailMojito.name=Mojito
+item.itemCocktailMontegoBay.name=Montego Bay
+item.itemCocktailPeriodista.name=Periodista
+item.itemCocktailPinkDaiquiri.name=Pink Daïquiri
+item.itemCocktailPlanterSPunch.name=Planter's Punch
+item.itemCocktailQuarterDeck.name=Quarter Deck
+item.itemCocktailRumble.name=Rumble
+item.itemCocktailSuzieTaylor.name=Suzie Taylor
+item.itemCocktailTiPunch.name=Ti Punch
+item.itemCocktailAristo.name=Aristo
+item.itemCocktailAtomicDog.name=Atomic Dog
+item.itemCocktailBaccarat.name=Baccarat
+item.itemCocktailBahamaMama.name=Bahama Mama
+item.itemCocktailBananaDaiquiri.name=Banana Daïquiri
+item.itemCocktailBaticaAbaci.name=Batica Abaci
+item.itemCocktailBossaNova.name=Bossa Nova
+item.itemCocktailCaribbeanBreeze.name=Caribbean Breeze
+item.itemCocktailFlamingo.name=Flamingo
+item.itemCocktailHavanaBeach.name=Havana Beach
+item.itemCocktailHurricane.name=Hurricane
+item.itemCocktailIslandInTheSun.name=Island in the Sun
+item.itemCocktailJamDaiquiri.name=Jam Daïquiri
+item.itemCocktailJoeKangoo.name=Joe Kangoo
+item.itemCocktailMaryPickford.name=Mary Pickford
+item.itemCocktailPainKiller.name=Pain Killer
+item.itemCocktailPearlDiver.name=Pearl Diver
+item.itemCocktailPlanteur.name=Planteur
+item.itemCocktailRumRunner.name=Rum Runner
+item.itemCocktailScorpion.name=Scorpion
+item.itemCocktailSterling.name=Sterling
+item.itemCocktailTropicana.name=Tropicana
+item.itemCocktailVoodoo.name=Voodoo
+item.itemCocktailZombie.name=Zombie
+item.itemCocktailBlackWidow.name=Black Widow
+item.itemCocktailCentenario.name=Centenario
+item.itemCocktailMackinnon.name=Mackinnon
+item.itemCocktailMulata.name=Mulata
+item.itemCocktailYellowBird.name=Yellow Bird
+item.itemCocktailBabyAlexander.name=Baby Alexander
+item.itemCocktailCubanita.name=Cubanita
+item.itemCocktailFishHousePunch.name=Fish House Punch
+item.itemCocktailHotButteredRum.name=Hot Buttered Rum
+item.itemCocktailCaliforniaDream.name=California Dream
+item.itemCocktailMexicoManhattan.name=Mexico Manhattan
+item.itemCocktailTequilaEtSangrita.name=Tequila & Sangrita
+item.itemCocktailTequilaStraight.name=Tequila Straight
+item.itemCocktailTequini.name=Tequini
+item.itemCocktailAgaveJulep.name=Agave Julep
+item.itemCocktailAlamoSplash.name=Alamo Splash
+item.itemCocktailChanguirongo.name=Changuirongo
+item.itemCocktailElDiablo.name=El Diablo
+item.itemCocktailFrozenMargarita.name=Frozen Margarita
+item.itemCocktailJapaneseSlipper.name=Japanese Slipper
+item.itemCocktailMargarita.name=Margarita
+item.itemCocktailMexicola.name=Mexicola
+item.itemCocktailPurplePancho.name=Purple Pancho
+item.itemCocktailTequilaSunset.name=Tequila Sunset
+item.itemCocktailVivaVilla.name=Viva Villa
+item.itemCocktailAcapulco.name=Acapulco
+item.itemCocktailAgavePunch.name=Agave Punch
+item.itemCocktailSangria.name=Sangria
+item.itemCocktailVinChaud.name=Vin Chaud
+item.itemCocktailAmbassador.name=Ambassador
+item.itemCocktailArriba.name=Arriba
+item.itemCocktailBroadwayThirst.name=Broadway Thirst
+item.itemCocktailCactusBanger.name=Cactus Banger
+item.itemCocktailChihuahua.name=Chihuahua
+item.itemCocktailChimayo.name=Chimayo
+item.itemCocktailCocoMexico.name=Coco Mexico
+item.itemCocktailJungleJuice.name=Jungle Juice
+item.itemCocktailMexican.name=Mexican
+item.itemCocktailPlayaDelMar.name=Playa Del Mar
+item.itemCocktailStrawberryMargarita.name=Strawberry Margarita
+item.itemCocktailTequilaSunrise.name=Tequila Sunrise
+item.itemCocktailTomahawk.name=Tomahawk
+item.itemCocktailVertigo.name=Vertigo
+item.itemCocktailAguamiel.name=Aguamiel
+item.itemCocktailAliceInWonderland.name=Alice in Wonderland
+item.itemCocktailBananaBoat.name=Banana Boat
+item.itemCocktailBraveBull.name=Brave Bull
+item.itemCocktailCactusFlower.name=Cactus Flower
+item.itemCocktailMockingbird.name=Mockingbird
+item.itemCocktailSpeedyGonzales.name=Speedy Gonzales
+item.itemCocktailBloodyMaria.name=Bloody Maria
+item.itemCocktailFrostbite.name=Frostbite
+item.itemCocktailGorillaSweat.name=Gorilla Sweat
+item.itemCocktailMexicanCoffee.name=Mexican Coffee
+item.itemCocktailMexicanTea.name=Mexican Tea
+item.itemCocktailAmberTwist.name=Amber Twist
+item.itemCocktailAmericanBeauty.name=American Beauty
+item.itemCocktailGotham.name=Gotham
+item.itemCocktailHarvard.name=Harvard
+item.itemCocktailRose.name=Rose
+item.itemCocktailBrandyHighball.name=Brandy Highball
+item.itemCocktailCassisco.name=Cassisco
+item.itemCocktailDepthBomb.name=Depth Bomb
+item.itemCocktailGeorgiaMintJulep.name=Georgia Mint Julep
+item.itemCocktailHavvardCooler.name=Havard Cooler
+item.itemCocktailJackRose.name=Jack Rose
+item.itemCocktailNormandyCooler.name=Normandy Cooler
+item.itemCocktailPiscola.name=Piscola
+item.itemCocktailPiscoPunch.name=Pisco Punch
+item.itemCocktailPiscoSour.name=Pisco Sour
+item.itemCocktailAppleSunrise.name=Apple Sunrise
+item.itemCocktailEastIndia.name=East India
+item.itemCocktailElUltimo.name=El Ultimo
+item.itemCocktailOlympic.name=Olympic
+item.itemCocktailBananaBliss.name=Banana Bliss
+item.itemCocktailBlackJack.name=Black Jack
+item.itemCocktailBountyBoat.name=Bounty Boat
+item.itemCocktailBurgos.name=Burgos
+item.itemCocktailCherryBlossom.name=Cherry Blossom
+item.itemCocktailCorpseReviver.name=Corpse Reviver
+item.itemCocktailCuban.name=Cuban
+item.itemCocktailFrenchConnection.name=French Connection
+item.itemCocktailHighbinder.name=Highbinder
+item.itemCocktailHoneyMoon.name=Honey Moon
+item.itemCocktailJapanese.name=Japanese
+item.itemCocktailNikolaschka.name=Nikolaschka
+item.itemCocktailStinger.name=Stinger
+item.itemCocktailVanderbilt.name=Vanderbilt
+item.itemCocktailBrandyAlexander.name=Brandy Alexander
+item.itemCocktailBrandyMilkPunch.name=Brandy Milk Punch
+item.itemCocktailBrownBear.name=Brown Bear
+item.itemCocktailBrandyBlazer.name=Brandy Blazer
+item.itemCocktailCoffeeNudge.name=Coffee Nudge
+item.itemCocktailAlfonso.name=Alfonso
+item.itemCocktailAmbrosia.name=Ambrosia
+item.itemCocktailCarolChanning.name=Carol Channing
+item.itemCocktailChampagneCocktail.name=Champagne Cocktail
+item.itemCocktailGingerCocktail.name=Ginger Cocktail
+item.itemCocktailHemingway.name=Hemingway
+item.itemCocktailKirRoyal.name=Kir Royal
+item.itemCocktailAmericanFlyer.name=American Flyer
+item.itemCocktailBlueChampagne.name=Blue Champagne
+item.itemCocktailChampagneJulep.name=Champagne Julep
+item.itemCocktailPinkBanana.name=Pink Banana
+item.itemCocktailMangoSparkle.name=Mango Sparkle
+item.itemCocktailPassionCooler.name=Passion Cooler
+item.itemCocktailPurplePash.name=Purple Pash
+item.itemCocktailRaspberrySquash.name=Raspberry Squash
+item.itemCocktailCranberryColada.name=Cranberry Colada
+item.itemCocktailCrazyNavel.name=Crazy Navel
+item.itemCocktailGentleBreeze.name=Gentle Breeze
+item.itemCocktailMadraSpecial.name=Madra Special
+item.itemCocktailMangoBreeze.name=Mango Breeze
+item.itemCocktailMySky.name=My Sky
+item.itemCocktailPainCutter.name=Pain Cutter
+item.itemCocktailPassionBreeze.name=Passion Breeze
+item.itemCocktailVirginColada.name=Virgin Colada
+item.itemCocktailYellowBear.name=Yellow Bear
+item.itemCocktailBunnyShame.name=Bunny Shame
+item.itemCocktailCucumberCooler.name=Cucumber Cooler
+item.itemCocktailHolyMary.name=Holy Mary
+item.itemCocktailApplePilar.name=Apple Pilar
+item.itemCocktailAppleSparkle.name=Apple Sparkle
+item.itemCocktailAsianPassion.name=Asian Passion
+item.itemCocktailBoraBoraBrew.name=Bora Bora Brew
+item.itemCocktailFlorida.name=Florida
+item.itemCocktailGrapefruitCooler.name=Grapefruit Cooler
+item.itemCocktailIcedTea.name=Iced Tea
+item.itemCocktailLemonade.name=Lemonade
+item.itemCocktailChampagneSour.name=Champagne Sour
+item.itemCocktailFrench75.name=French 75
+item.itemCocktailMeringue.name=Meringue
+item.itemCocktailBellini.name=Bellini
+item.itemCocktailHawaiiSparkle.name=Hawaii Sparkle
+item.itemCocktailJacuzzi.name=Jacuzzi
+item.itemCocktailMimosa.name=Mimosa
+item.itemCocktailRossini.name=Rossini
+item.itemCocktailRoyalHighball.name=Royal Highball
+item.itemCocktailRussianSpringPunch.name=Russian Spring Punch
+item.itemCocktailSaratoga.name=Saratoga
+item.itemCocktailSerendipiti.name=Serendipiti
+item.itemCocktailTropicalHibiscus.name=Tropical Hibiscus
+item.itemCocktailValencia.name=Valencia
+item.itemCocktailBlackPearl.name=Black Pearl
+item.itemCocktailBlackVelvet.name=Black Velvet
+item.itemCocktailMidnightMoon.name=Midnight Moon
+item.itemCocktailOhio.name=Ohio
+item.itemCocktailPrinceOfWales.name=Prince of Wales
+item.itemCocktailAbsintheDrip.name=Absinthe Drip
+item.itemCocktailAbsintheVeilleuse.name=Absinthe Veilleuse
+item.itemCocktailAdonis.name=Adonis
+item.itemCocktailAmericano.name=Americano
+item.itemCocktailBamboo.name=Bamboo
+item.itemCocktailBrazil.name=Brazil
+item.itemCocktailKir.name=Kir
+item.itemCocktailNegroni.name=Negroni
+item.itemCocktailSpritzer.name=Spritzer
+item.itemCocktailAmericanLemonade.name=American Lemonade
+item.itemCocktailApricotCooler.name=Apricot Cooler
+item.itemCocktailBasic.name=Basic
+item.itemCocktailBerrySour.name=Berry Sour
+item.itemCocktailCherryCooler.name=Cherry Cooler
+item.itemCocktailKlondikeHighball.name=Klondike Highball
+item.itemCocktailTampico.name=Tampico
+item.itemCocktailFuzzyNavel.name=Fuzzy Navel
+item.itemCocktailGaribaldi.name=Garibaldi
+item.itemCocktailTigerTail.name=Tiger Tail
+item.itemCocktailFerrari.name=Ferrari
+item.itemCocktailBananaBanshee.name=Banana Banshee
+item.itemCocktailDustyRose.name=Dusty Rose
+item.itemCocktailGoldenCadillac.name=Golden Cadillac
+item.itemCocktailGoldenDream.name=Golden Dream
+item.itemCocktailGrasshopper.name=Grasshopper
+item.itemCocktailHotShot.name=Hot Shot
 
-item.itemSchweppesDarkSideWOLabel.name=Schweppes Dark Side Bottle Without Label
-item.itemBottleSchweppesDarkSide=Schweppes Dark Side Bottle Empty
 
-item.itemSchweppesLemonWOLabel.name=Schweppes Lemon Bottle Without Label
-item.itemBottleSchweppesLemon=Schweppes Lemon Bottle Empty
 
-item.itemSchweppesPamplemousseWOLabel.name=Schweppes Pamplemousse Bottle Without Label
-item.itemBottleSchweppesPamplemousse=Schweppes Pamplemousse Bottle Empty
 
-item.itemSchweppesMangoWOLabel.name=Schweppes Mango Bottle Without Label
-item.itemBottleSchweppesMango=Schweppes Mango Bottle Empty
 
-item.itemSchweppesPechWOLabel.name=Schweppes Pech' Bottle Without Label
-item.itemBottleSchweppesPech=Schweppes Pech' Bottle Empty
 
-item.itemSchweppesPassionWOLabel.name=Schweppes Passion Bottle Without Label
-item.itemBottleSchweppesPassion=Schweppes Passion Bottle Empty
 
-item.itemChampagneMummWOLabel.name=Champagne Mumm Bottle Without Label
-item.itemBottleChampagneMumm=Champagne Mumm Bottle Empty
 
-item.itemXeresWOLabel.name=Xeres Bottle Without Label
-item.itemBottleXeres=Xeres Bottle Empty
 
-item.itemEnateWOLabel.name=Enate Bottle Without Label
-item.itemBottleEnate=Enate Bottle Empty
 
-item.itemBourgogneAligoteWOLabel.name=Bourgogne Aligoté Bottle Without Label
-item.itemBottleBourgogneAligote=Bourgogne Aligoté Bottle Empty
 
-item.itemPetrusWOLabel.name=Petrus Bottle Without Label
-item.itemBottlePetrus=Petrus Bottle Empty
 
-item.itemAlsaceRieslingWOLabel.name=Alsace Riesling Bottle Without Label
-item.itemBottleAlsaceRiesling=Alsace Riesling Bottle Empty
 
-item.itemLeffeWOLabel.name=Leffe Bottle Without Label
-item.itemBottleLeffe=Leffe Bottle Empty
 
-item.itemSkollWOLabel.name=Skoll Bottle Without Label
-item.itemBottleSkoll=Skoll Bottle Empty
+// Coffee & Tea
+itemGroup.CreativeTabsCoffeeAndTea=Coffee & Tea
 
-item.itemSmirnoffWOLabel.name=Smirnoff Bottle Without Label
-item.itemBottleSmirnoff=Smirnoff Bottle Empty
+item.itemCoffeeArabicasGround.name=Coffee Arabicas Ground
+item.itemCoffeeBlueMountainGround.name=Coffee Blue Mountain Ground
+item.itemCoffeeBourbonPointuGround.name=Coffee Bourbon Pointu Ground
+item.itemCoffeeCatturaGround.name=Coffee Cattura Ground
+item.itemCoffeeHarrarGround.name=Coffee Harrar Ground
+item.itemCoffeeHuehuetenangoGround.name=Coffee Huehuetenango Ground
+item.itemCoffeeJavaGround.name=Coffee Java Ground
+item.itemCoffeeKenyaAAGround.name=Coffee Kenya AA Ground
+item.itemCoffeeKonaGround.name=Coffee Kona Ground
+item.itemCoffeeKontirWildForestGround.name=Coffee Kontir Wild Forest Ground
+item.itemCoffeeKopiLuwakGround.name=Coffee Kopi Luwak Ground
+item.itemCoffeeKupeAlamidGround.name=Coffee Kupe Alamid Ground
+item.itemCoffeeMokaGround.name=Coffee Moka Ground
+item.itemCoffeeMundoNovoGround.name=Coffee Mundo Novo Ground
+item.itemCoffeeMuragogypeGround.name=Coffee Muragogype Ground
+item.itemCoffeePeaberryGround.name=Coffee Peaberry Ground
+item.itemCoffeeTarrazuGround.name=Coffee Tarrazu Ground
+item.itemCoffeeTorajaKalossiGround.name=Coffee Toraja Kalossi Ground
+item.itemCoffeeYirgacheffeGround.name=Coffee Yirgacheffe Ground
+item.itemDriedTeaLeaves.name=Dried Tea Leaves
 
-item.itemDesperadosWOLabel.name=Desperados Bottle Without Label
-item.itemBottleDesperados=Desperados Bottle Empty
+item.itemCapsuleBukeelaKaEthiopia.name=Capsule Bukeela Ka Ethiopia
+item.itemCapsuleIndriyaFromIndia.name=Capsule Indriya From India
+item.itemCapsuleKazaar.name=Capsule Kazaar
+item.itemCapsuleDecaffeinato.name=Capsule Decaffeinato
+item.itemCapsuleRistretto.name=Capsule Ristretto
+item.itemCapsuleDecaffeinatoIntenso.name=Capsule Decaffeinato Intenso
+item.itemCapsuleCapriccio.name=Capsule Capriccio
+item.itemCapsuleArpeggio.name=Capsule Arpeggio
+item.itemCapsuleCosi.name=Capsule Cosi
+item.itemCapsuleDecaffeinatoLungo.name=Capsule Decaffeinato Lungo
+item.itemCapsuleRosabayaDeColombia.name=Capsule Rosabaya De Colombia
+item.itemCapsuleDulsaoDoBrasil.name=Capsule Dulsao Do Brasil
+item.itemCapsuleFortissioLungo.name=Capsule Fortissio Lungo
+item.itemCapsuleLinizioLungo.name=Capsule Linizio Lungo
+item.itemCapsuleLivanto.name=Capsule Livanto
+item.itemCapsuleRoma.name=Capsule Roma
+item.itemCapsuleVivaltoLungo.name=Capsule Vivalto Lungo
+item.itemCapsuleVolluto.name=Capsule Volluto
+item.itemCapsuleDharkan.name=Capsule Dharkan
 
-item.itemBrittWOLabel.name=Britt Bottle Without Label
-item.itemBottleBritt=Britt Bottle Empty
+item.itemCapsuleBukeelaKaEthiopiaEmpty.name=Capsule Bukeela Ka Ethiopia Empty
+item.itemCapsuleIndriyaFromIndiaEmpty.name=Capsule Indriya From India Empty
+item.itemCapsuleKazaarEmpty.name=Capsule Kazaar Empty
+item.itemCapsuleDecaffeinatoEmpty.name=Capsule Decaffeinato Empty
+item.itemCapsuleRistrettoEmpty.name=Capsule Ristretto Empty
+item.itemCapsuleDecaffeinatoIntensoEmpty.name=Capsule Decaffeinato Intenso Empty
+item.itemCapsuleCapriccioEmpty.name=Capsule Capriccio Empty
+item.itemCapsuleArpeggioEmpty.name=Capsule Arpeggio Empty
+item.itemCapsuleCosiEmpty.name=Capsule Cosi Empty
+item.itemCapsuleDecaffeinatoLungoEmpty.name=Capsule Decaffeinato Lungo Empty
+item.itemCapsuleRosabayaDeColombiaEmpty.name=Capsule Rosabaya De Colombia Empty
+item.itemCapsuleDulsaoDoBrasilEmpty.name=Capsule Dulsao Do Brasil Empty
+item.itemCapsuleFortissioLungoEmpty.name=Capsule Fortissio Lungo Empty
+item.itemCapsuleLinizioLungoEmpty.name=Capsule Linizio Lungo Empty
+item.itemCapsuleLivantoEmpty.name=Capsule Livanto Empty
+item.itemCapsuleRomaEmpty.name=Capsule Roma Empty
+item.itemCapsuleVivaltoLungoEmpty.name=Capsule Vivalto Lungo Empty
+item.itemCapsuleVollutoEmpty.name=Capsule Volluto Empty
+item.itemCapsuleDharkanEmpty.name=Capsule Dharkan Empty
 
-item.item1664WOLabel.name=1664 Bottle Without Label
-item.itemBottle1664=1664 Bottle Empty
+item.itemTeaBagCaramel.name=Caramel Tea Bag
+item.itemTeaBagLemon.name=Lemon Tea Bag
+item.itemTeaBagPeach.name=Peach Tea Bag
+item.itemTeaBagRaspberry.name=Raspberry Tea Bag
+item.itemTeaBagMatchaGreen.name=Matcha Green Tea Bag
+item.itemTeaBagChai.name=Chai Tea Bag
+item.itemTeaBagRedFruit.name=Red Fruit Tea Bag
+item.itemTeaBagEarlGrey.name=Earl Grey Tea Bag
+item.itemTeaBagEmpty.name=Empty Tea Bag
 
-item.itemGrimberWOLabel.name=Grimbergen Bottle Without Label
-item.itemBottleGrimbergen=Grimbergen Bottle Empty
+item.itemCupBukeelaKaEthiopia.name=Cup Bukeela Ka Ethiopia
+item.itemCupIndriyaFromIndia.name=Cup Indriya From India
+item.itemCupKazaar.name=Cup Kazaar
+item.itemCupDecaffeinato.name=Cup Decaffeinato
+item.itemCupRistretto.name=Cup Ristretto
+item.itemCupDecaffeinatoIntenso.name=Cup Decaffeinato Intenso
+item.itemCupCapriccio.name=Cup Capriccio
+item.itemCupArpeggio.name=Cup Arpeggio
+item.itemCupCosi.name=Cup Cosi
+item.itemCupDecaffeinatoLungo.name=Cup Decaffeinato Lungo
+item.itemCupRosabayaDeColombia.name=Cup Rosabaya De Colombia
+item.itemCupDulsaoDoBrasil.name=Cup Dulsao Do Brasil
+item.itemCupFortissioLungo.name=Cup Fortissio Lungo
+item.itemCupLinizioLungo.name=Cup Linizio Lungo
+item.itemCupLivanto.name=Cup Livanto
+item.itemCupRoma.name=Cup Roma
+item.itemCupVivaltoLungo.name=Cup Vivalto Lungo
+item.itemCupVolluto.name=Cup Volluto
+item.itemCupDharkan.name=Cup Dharkan
+item.itemCupCoffeeEmpty.name=Cup Empty
 
-item.itemSanMiguelWOLabel.name=San Miguel Bottle Without Label
-item.itemBottleSanMiguel=San Miguel Bottle Empty
+item.itemTeaLemon.name=Lemon Tea
+item.itemTeaPeach.name=Peach Tea
+item.itemTeaMatchaGreen.name=Matcha Green Tea
+item.itemTeaRaspberry.name=Raspberry Tea
+item.itemTeaChai.name=Chaï Tea
+item.itemTeaEarlGrey.name=Earl Grey Tea
+item.itemTeaRedFruit.name=Red Fruit Tea
+item.itemTeaCaramel.name=Caramel Tea
 
-item.itemXIIWOLabel.name=XII Bottle Without Label
-item.itemBottleXII=XII Bottle Empty
+item.itemCoffeeMoka.name=Coffee Moka
+item.itemCoffeeCattura.name=Coffee Cattura
+item.itemCoffeeBlueMountain.name=Coffee Blue Mountain
+item.itemTeaLeaves.name=Tea Leaves
+item.itemCoffeeKona.name=Coffee Kona
+item.itemCoffeeHarrar.name=Coffee Harrar
+item.itemCoffeeTorajaKalossi.name=Coffee Toraja Kalossi
+item.itemCoffeeKupeAlamid.name=Coffee Kupe Alamid
+item.itemCoffeeTarrazu.name=Coffee Tarrazu
+item.itemCoffeeArabicas.name=Coffee Arabicas
+item.itemCoffeeKopiLuwak.name=Coffee Kopi Luwak
+item.itemCoffeeKontirWildForest.name=Coffee Kontir Wild Forest
+item.itemCoffeeBourbonPointu.name=Coffee Bourbon Pointu
+item.itemCoffeePeaberry.name=Coffee Peaberry
+item.itemCoffeeYirgacheffe.name=Coffee Yirgacheffe
+item.itemCoffeeMundoNovo.name=Coffee Mundo Novo
+item.itemCoffeeHuehuetenango.name=Coffee Huehuetenango
+item.itemCoffeeMuragogype.name=Coffee Muragogype
+item.itemCoffeeKenyaAA.name=Coffee Kenya AA
+item.itemCoffeeJava.name=Coffee Java
 
-item.itemDuvelWOLabel.name=Duvel Bottle Without Label
-item.itemBottleDuvel=Duvel Bottle Empty
 
-item.itemGet27WOLabel.name=Get 27 Bottle Without Label
-item.itemBottleGet27=Get 27 Bottle Empty
 
-item.itemSouthernComfortWOLabel.name=Southern Comfort Bottle Without Label
-item.itemBottleSouthernComfort=Southern Comfort Bottle Empty
 
-item.itemSchweppesRaisinWOLabel.name=Schweppes Raisin Bottle Without Label
-item.itemBottleSchweppesRaisin=Schweppes Raisin Bottle Empty
 
-item.itemWOLabel.name= Bottle Without Label
-item.itemBottle= Bottle Empty
+
 
 
 
@@ -1425,108 +2188,6 @@ item.item.name=
 item.item.name=
 
 
-//CD
-item.korpiklaanivodka.name=Vodka - KORPIKLAANI
-item.korpiklaanivodka.desc=Vodka - KORPIKLAANI
-item.marseillaise.desc=La Marseillaise - ROUGET DE LISLE
-item.marseillaise.name=La Marseillaise - ROUGET DE LISLE
-item.starfishism.name=Starfish ISM - SAVANT
-item.starfishism.desc=Starfish ISM - SAVANT
-item.ismoriginalmix.name=ISM Original Mix - SAVANT
-item.ismoriginalmix.desc=ISM Original Mix - SAVANT
-item.dangerous.name=Dangerous - KARDINAL OFFISHALL FEAT. AKON & SEAN PAUL
-item.dangerous.desc=Dangerous - KARDINAL OFFISHALL FEAT. AKON & SEAN PAUL
-item.bananonymous.name=Bananonymous - SAVANT
-item.bananonymous.desc=Bananonymous - SAVANT
-item.accordeon.name=Accordeon Musette
-item.accordeon.desc=Accordeon Musette
-item.youmakeme.name=You Make Me - AVICII
-item.youmakeme.desc=You Make Me - AVICII
-item.tequila.name=Tequila - THE CHAMPS
-item.tequila.desc=Tequila - THE CHAMPS
-item.sweetdreams.name=Sweet Dreams (Are Made Of This) - EURYTHMICS
-item.sweetdreams.desc=Sweet Dreams (Are Made Of This) - EURYTHMICS
-item.sweat.name=Sweat - DAVID GUETTA FEAT. SNOOP DOGG
-item.sweat.desc=Sweat - DAVID GUETTA FEAT. SNOOP DOGG
-item.summer.name=Summer - CALVIN HARRIS
-item.summer.desc=Summer - CALVIN HARRIS
-item.shootingstar.name=Shooting Star - TARA McDONALD FEAT. ZAHO
-item.shootingstar.desc=Shooting Star - TARA McDONALD FEAT. ZAHO
-item.fivehours.name=Five Hours - DEORRO
-item.fivehours.desc=Five Hours - DEORRO
-item.wadeinthewater.name=Wade In The Water - SAVANT
-item.wadeinthewater.desc=Wade In The Water - SAVANT
-item.babylove.name=Baby Love - DIANA ROSS & THE SUPREMES
-item.babylove.desc=Baby Love - DIANA ROSS & THE SUPREMES
-item.bennyhill.name=Benny Hill - THE EDWIN DAVIDS JAZZ BAND
-item.bennyhill.desc==Benny Hill - THE EDWIN DAVIDS JAZZ BAND
-item.bigroomblitz.name=Bigroom Blitz - SCOOTER
-item.bigroomblitz.desc=Bigroom Blitz - SCOOTER
-item.bornagain.name=Born Again - AHZEE
-item.bornagain.desc=Born Again - AHZEE
-item.daddycool.name=Daddy Cool - BONEY M
-item.daddycool.desc=Daddy Cool - BONEY M
-item.darelalala.name=La La La - SHAKIRA
-item.darelalala.desc=La La La - SHAKIRA
-item.faded.name=Faded - ZHU
-item.faded.desc=Faded - ZHU
-item.freaks.name=Freaks - TIMMY TRUMPET & SAVAGE
-item.freaks.desc=Freaks - TIMMY TRUMPET & SAVAGE
-item.heybrother.name=Hey Brother - AVICII
-item.heybrother.desc=Hey Brother - AVICII
-item.iamanalbatraoz.name=I'm An Albatraoz - ARONCHUPA
-item.iamanalbatraoz.desc=I'm An Albatraoz - ARONCHUPA
-item.igetaround.name=I Get Around - THE BEACH BOYS
-item.igetaround.desc=I Get Around - THE BEACH BOYS
-item.igotyoubabe.name=I Got You Babe - SONNY & CHER
-item.igotyoubabe.desc=I Got You Babe - SONNY & CHER
-item.latinlovers.name=La Camisa Negra - JULIO IGLESIAS & JR. & NUNO RESENDE
-item.latinlovers.desc=La Camisa Negra - JULIO IGLESIAS & JR. & NUNO RESENDE
-item.lechanteur.name=Le Chanteur - DANIEL BALAVOINE
-item.lechanteur.desc=Le Chanteur - DANIEL BALAVOINE
-item.mauvaisefoinocture.name=Mauvaise Foi Nocturne - FATAL BAZOOKA FEAT. VITOO
-item.mauvaisefoinocture.desc=Mauvaise Foi Nocturne - FATAL BAZOOKA FEAT. VITOO
-item.menezdaou.name=Menez Daou - LES RAMONEURS DE MENHIRS
-item.menezdaou.desc=Menez Daou - LES RAMONEURS DE MENHIRS
-item.papaoutai.name=Papaoutai - STROMAE
-item.papaoutai.desc=Papaoutai - STROMAE
-item.problem.name=Problem - ARIANA GRANDE FEAT. IGGY AZALEA
-item.problem.desc=Problem - ARIANA GRANDE FEAT. IGGY AZALEA
-item.riversong.name=Riversong - BRUNUHVILLE FEAT. SHARM
-item.riversong.desc=Riversong - BRUNUHVILLE FEAT. SHARM
-item.setfiretotherain.name=Set Fire To The Rain - ADELE
-item.setfiretotherain.desc=Set Fire To The Rain - ADELE
-item.stilllovingyou.name=Still Loving You - SCORPIONS
-item.stilllovingyou.desc=Still Loving You - SCORPIONS
-item.sugarsugar.name=Sugar Sugar - THE ARCHIES
-item.sugarsugar.desc=Sugar Sugar - THE ARCHIES
-item.tafete.name=Ta Fête - STROMAE
-item.tafete.desc=Ta Fête - STROMAE
-item.tsunami.name=Tsunami - DVBBS & BORGEOUS
-item.tsunami.desc=Tsunami - DVBBS & BORGEOUS
-item.ulysse.name=Ulysse - RIDAN
-item.ulysse.desc=Ulysse - RIDAN
-item.wakemeup.name=Wake Me Up - AVICII
-item.wakemeup.desc=Wake Me Up - AVICII
-item.weareloud.desc=Booyah - SHOWTEK FEAT. WE ARE LOUD & SONNY WILSON
-item.weareloud.name=Booyah - SHOWTEK FEAT. WE ARE LOUD & SONNY WILSON
-item.wouldntitbenice.desc=Wouldn't It Be Nice - THE BEACH BOYS
-item.wouldntitbenice.name=Wouldn't It Be Nice - THE BEACH BOYS
-item.yee.desc=Yee - DEORRO
-item.yee.name=Yee - DEORRO
-item.ymca.desc=Y.M.C.A. - VILLAGE PEOPLE
-item.ymca.name=Y.M.C.A. - VILLAGE PEOPLE
-
-
-
-
-
-
-
-
-
-
-
 
 
 	//items tools and kitchen tools
@@ -1736,307 +2397,6 @@ tile.blockKebabStand.name=Kebab Stand
 
 
 
-
-
-
-
-
-
-
-	// Labels
-itemGroup.CreativeTabsLabel=Labels
-
-item.itemCapCorseLabel.name=Cap-Corse label
-item.itemBenturColaLabel.name=Bentur-Cola label
-item.itemBrandyLabel.name=Brandy label
-item.itemCalvadosLabel.name=Calvados label
-item.itemChouchenLabel.name=Chouchen label
-item.itemCiderLabel.name=Cider Kerne label
-item.itemCognacLabel.name=Cognac label
-item.itemGinLabel.name=Gin label
-item.itemLambigLabel.name=Lambig label
-item.itemLiquorLabel.name=Liqueur label
-item.itemPastis51Label.name=Pastis 51 label
-item.itemPerrierLabel.name=Perrier label
-item.itemPommeauLabel.name=Pommeau label
-item.itemRedMartiniLabel.name=Red Martini label
-item.itemRedPortLabel.name=Red Port label
-item.itemRedWineLabel.name=Red wine label
-item.itemRumLabel.name=Rum label
-item.itemTequilaLabel.name=Tequila label
-item.itemVinegarLabel.name=Vinegar label
-item.itemVodkaLabel.name=Vodka label
-item.itemWhiteMartiniLabel.name=White Martini label
-item.itemWhiskeyLabel.name=Whiskey label
-item.itemWhitePortLabel.name=White Port label
-item.itemWhiteWineLabel.name=White wine label
-item.itemCremeLabel.name=Creme label
-item.itemSiropMoninOrangeLabel.name=Monin Label
-item.itemBordeauxTourLabel.name=Bordeaux Château Tour Verite Label
-item.itemBordeauxLaryLabel.name=Bordeaux Château Lary Label
-item.itemTabascoLabel.name=Tabasco Label
-item.itemBlueCuracaoLabel.name=Blue Curaçao Label
-item.itemPontarlierLabel.name=Pontarlier Label
-item.itemDubonnetRougeLabel.name=Dubonnet Rouge Label
-item.itemBenedictineLabel.name=Benedictine Label
-item.itemWorcestershireSauceLabel.name=Worcestershire Sauce Label
-item.itemAmarettoLabel.name=Amaretto Label
-item.itemBitterLabel.name=Bitter Label
-item.itemCuracaoTripleSecLabel.name=Curaçao Triple Sec Label
-item.itemHeinekenLabel.name=Heineken Label
-item.itemBaileysLabel.name=Baileys Label
-item.itemChartreuseJauneLabel.name=Chartreuse Jaune Label
-item.itemFleurOrangerLabel.name=Fleur d'Oranger Label
-item.itemDrambuieLabel.name=Drambuie Label
-item.itemPetrusLabel.name=Petrus Label
-item.itemAngosturaBitterLabel.name=Angostura Bitter Label
-item.itemCampariLabel.name=Campari Label
-item.itemCuracaoOrangeLabel.name=Curaçaco Orange Label
-item.itemPiscoLabel.name=Pisco Label
-item.itemChartreuseVerteLabel.name=Chartreuse Verte Label
-item.itemGrandMarnierLabel.name=Grand Marnier Label
-item.itemLimonadeLabel.name=Limonade Label
-item.itemXeresLabel.name=Xeres Label
-item.itemSchweppesTonicLabel.name=Schweppes Tonic Label
-item.itemFernetBrancaLabel.name=Fernet Branca Label
-item.itemSchweppesGingerAleLabel.name=Schweppes Ginger Ale Label
-item.itemChampagneMummLabel.name=Champagne Mumm Label
-item.itemGuinnessLabel.name=Guinness Label
-item.itemEnateLabel.name=Énate Label
-item.itemLabelHoney.name=Honey Label
-item.itemSouthernComfortLabel.name=Southern Comfort Label
-item.itemBourgogneAligoteLabel.name=Bourgogne Aligoté Label
-item.itemAlsaceRieslingLabel.name=Alsace Riesling Label
-item.itemLabelSchweppesPassion.name=Schweppes Passion Label
-item.itemLabelSchweppesPech.name=Schweppes Pech' Label
-item.itemLabelSchweppesPamplemousse.name=Schweppes Pamplemousse Label
-item.itemLabelSchweppesMango.name=Schweppes Mango Label
-item.itemLabelSchweppesDarkSide.name=Schweppes Dark Side Label
-item.itemLabelSchweppesAgrum.name=Schweppes Agrum Label
-item.itemLabelSchweppesRicqles.name=Schweppes Ricqles Label
-item.itemLabelSchweppesLemon.name=Schweppes Lemon Label
-item.itemLabelSchweppesPomme.name=Schweppes Pomm' Label
-item.itemLabelLeffe.name=Leffe Label
-item.itemLabelSkoll.name=Skoll Label
-item.itemLabelSmirnoff.name=Smirnoff Label
-item.itemLabelDesperados.name=Desperados Label
-item.itemLabelBritt.name=Britt Label
-item.itemLabel1664.name=1664 Label
-item.itemLabelGrimbergen.name=Grimbergen Label
-item.itemLabelSanMiguel.name=San Miguel Label
-item.itemLabelXII.name=XII Label
-item.itemLabelDuvel.name=Duvel Label
-item.itemLabelGet27.name=Get 27 Label
-item.itemLabelSchweppesRaisin.name=Schweppes Raisin Label
-
-
-
-
-
-
-
-
-
-
-	// Pharmaceuticals
-itemGroup.CreativeTabsPharmaceutical=Pharmaceuticals
-
-item.itemDoliprane200mg.name=Doliprane 200 mg
-item.itemDoliprane300mg.name=Doliprane 300 mg
-item.itemDoliprane500mg.name=Doliprane 500 mg
-item.itemDoliprane1000mg.name=Doliprane 1000 mg
-
-
-
-
-
-
-
-
-	// Wrapping
-itemGroup.CreativeTabsWrapping=Wrapping
-
-item.itemWrappingDoliprane200mg.name=Wrapping of Doliprane 200 mg
-item.itemWrappingDoliprane300mg.name=Wrapping of Doliprane 300 mg
-item.itemWrappingDoliprane500mg.name=Wrapping of Doliprane 500 mg
-item.itemWrappingDoliprane1000mg.name=Wrapping of Doliprane 1000 mg
-
-
-
-
-
-
-
-
-
-	//items Ore
-itemGroup.CreativeTabsOre=Ores and Precious Stone
-
-tile.blockOreAdamantite.name=Adamantite Ore
-tile.blockOreAluminium.name=Aluminium Ore
-tile.blockOreCopper.name=Copper Ore
-tile.blockOreLead.name=Lead Ore
-tile.blockOreMithril.name=Mithril Ore
-tile.blockOreNatrium.name=Natrium Ore
-tile.blockOreNickel.name=Nickel Ore
-tile.blockOrePlatinum.name=Platinum Ore
-tile.blockOreSilver.name=Silver Ore
-tile.blockOreTin.name=Tin Ore
-tile.blockOreTitan.name=Titan Ore
-tile.blockOreTungsten.name=Tungsten Ore
-tile.blockOreUranium.name=Uranium Ore
-tile.blockOreAmethyst.name=Amethyst Ore
-tile.blockOreCalcium.name=Calcium Ore
-tile.blockOreJade.name=Jade Ore
-tile.blockOreMagnesium.name=Magnesium Ore
-tile.blockOreOnyx.name=Onyx Ore
-tile.blockOreOpal.name=Opal Ore
-tile.blockOreRuby.name=Ruby Ore
-tile.blockOreSalt.name=Salt Ore
-tile.blockOreSapphire.name=Sapphire Ore
-tile.blockOreTopaz.name=Topaz Ore
-tile.blockOreSulphur.name=Sulphur Ore
-tile.blockOreZinc.name=Zinc Ore
-tile.blockOrePainite.name=Painite Ore
-
-tile.blockAluminium.name=Block of Aluminium
-tile.blockAmethyst.name=Block of Amethyst
-tile.blockCopper.name=Block of Copper
-tile.blockJade.name=Block of Jade
-tile.blockLead.name=Block of Lead
-tile.blockMithril.name=Block of Mithril
-tile.blockNatrium.name=Block of Natrium
-tile.blockNickel.name=Block of Nickel
-tile.blockOnyx.name=Block of Onyx
-tile.blockOpal.name=Block of Opal
-tile.blockPlatinum.name=Block of Platinum
-tile.blockUranium.name=Block of Uranium
-tile.blockZinc.name=Block of Zinc
-tile.blockAdamantite.name=Block of Adamantite
-tile.blockPainite.name=Block of Painite
-tile.blockCalcium.name=Block of Calcium
-tile.blockTungsten.name=Block of Tungsten
-tile.blockTopaz.name=Block of Topaz
-tile.blockTitan.name=Block of Titan
-tile.blockSteel.name=Block of Steel
-tile.blockSapphire.name=Block of Sapphire
-tile.blockRuby.name=Block of Ruby
-item.itemLasagna.name=Lasagne
-
-item.itemIngotAdamantite.name=Adamantite Ingot
-item.itemIngotAluminium.name=Aluminium Ingot
-item.ItemIngotCalcium.name=Calcium Ingot
-item.itemIngotCopper.name=Copper Ingot
-item.itemIngotLead.name=Lead Ingot
-item.itemIngotMithril.name=Mithril Ingot
-item.itemIngotNatrium.name=Natrium Ingot
-item.itemIngotNickel.name=Nickel Ingot
-item.itemIngotPlatinum.name=Platinum Ingot
-item.itemIngotSilver.name=Silver Ingot
-item.itemIngotSteel.name=Steel Ingot
-item.itemIngotTin.name=Tin Ingot
-item.itemIngotTitan.name=Titan Ingot
-item.itemIngotTungsten.name=Tungsten Ingot
-item.itemIngotUranium.name=Uranium Ingot
-item.itemIngotZinc.name=Zinc Ingot
-
-item.itemAmethyst.name=Amethyst
-item.itemJade.name=Jade
-item.itemOnyx.name=Onyx
-item.itemOpal.name=Opal
-item.itemRuby.name=Ruby
-item.itemSapphire.name=Sapphire
-item.itemTopaz.name=Topaz
-item.itemPainite.name=Painite
-
-tile.blockMundoCraftLordGold.name=Mundo Craft Lord Gold
-tile.blockMundoCraftLordRedstone.name=Mundo Craft Lord Redstone
-tile.blockMundoCraftLordDiamond.name=Mundo Craft Lord Diamond
-tile.blockMundoCraftLordIron.name=Mundo Craft Lord Iron
-tile.blockMundoCraftLordCopper.name=Mundo Craft Lord Copper
-
-
-item.itemDustAdamantite.name=Adamantite Dust
-item.itemDustAluminium.name=Aluminium Dust
-item.itemDustAmethyst.name=Amethyst Dust
-item.ItemDustCalcium.name=Calcium
-item.itemDustCopper.name=Copper Dust
-item.itemDustEmerald.name=Emerald Dust
-item.itemDustJade.name=Jade Dust
-item.itemDustLead.name=Lead Dust
-item.itemMagnesium.name=Magnesium
-item.itemDustMithril.name=Mithril Dust
-item.itemDustNatrium.name=Natrium Dust
-item.itemSalt.name=Salt
-item.itemSulphur.name=Sulphur
-item.itemDustNickel.name=Nickel Dust
-item.itemDustOpal.name=Opal Dust
-item.itemDustPlatinum.name=Platinum Dust
-item.itemDustSilver.name=Silver Dust
-item.itemDustSteel.name=Steel Dust
-item.itemDustTin.name=Tin Dust
-item.itemDustTitan.name=Titan Dust
-item.itemDustTungsten.name=Tungsten Dust
-item.itemDustUranium.name=Uranium Dust
-item.itemDustCalcium.name=Calcium
-item.itemDustUranium.name=Uranium Dust
-
-item.itemNuggetAdamantite.name=Adamantite Nugget
-item.itemNuggetAluminium.name=Aluminium Nugget
-item.itemNuggetAmethyst.name=Amethyst Nugget
-item.itemNuggetCopper.name=Copper Nugget
-item.itemNuggetEmerald.name=Emerald Nugget
-item.itemNuggetJade.name=Jade Nugget
-item.itemNuggetLead.name=Lead Nugget
-item.itemNuggetMithril.name=Mithril Nugget
-item.itemNuggetNatrium.name=Natrium Nugget
-item.itemNuggetNickel.name=Nickel Nugget
-item.itemNuggetOnyx.name=Onyx Nugget
-item.itemNuggetPlatinum.name=Platinum Nugget
-item.itemNuggetRuby.name=Ruby Nugget
-item.itemNuggetSapphire.name=Sapphire Nugget
-item.itemNuggetJade.name=Jade Nugget
-item.itemNuggetLead.name=Lead Nugget
-item.itemNuggetSilver.name=Silver Nugget
-item.itemNuggetSteel.name=Steel Nugget
-item.itemNuggetTin.name=Tin Nugget
-item.itemNuggetTungsten.name=Tungsten Nugget
-item.itemNuggetUranium.name=Uranium Nugget
-item.itemNuggetZinc.name=Zinc Nugget
-
-item.itemGearTitan.name=Titan Gear
-item.itemGearSteel.name=Steel Gear
-item.itemGearZinc.name=Zinc Gear
-item.itemGearMithril.name=Mithril Gear
-item.itemGearPlatinum.name=Platinum Gear
-item.itemGearAdamantite.name=Adamantite Gear
-item.itemGearNatrium.name=Natrium Gear
-item.itemGearNickel.name=Nickel Gear
-item.itemGearAluminium.name=Aluminium Gear
-item.itemGearTungsten.name=Tungsten Gear
-
-item.itemPowerCoilAdamantite.name=Adamantite Power Coil
-item.itemPowerCoilAluminium.name=Aluminium Power Coil
-item.itemPowerCoilAmethyst.name=Amethyst Power Coil
-item.itemPowerCoilDiamond.name=Diamond Power Coil
-item.itemPowerCoilJade.name=Jade Power Coil
-item.itemPowerCoilMithril.name=Mithril Power Coil
-item.itemPowerCoilNickel.name=Nickel Power Coil
-item.itemPowerCoilOnyx.name=Onyx Power Coil
-item.itemPowerCoilOpal.name=Opal Power Coil
-item.itemPowerCoilPainite.name=Painite Power Coil
-item.itemPowerCoilRuby.name=Ruby Power Coil
-item.itemPowerCoilSapphire.name=Sapphire Power Coil
-item.itemPowerCoilTopaz.name=Topaz Power Coil
-item.itemPowerCoilTungsten.name=Tungsten Power Coil
-
-item.itemPneumaticServoAdamantite.name=Adamantite Pneumatic Servo
-item.itemPneumaticServoAmethyst.name=Amethyst Pneumatic Servo
-item.itemPneumaticServoPainite.name=Painite Pneumatic Servo
-item.itemPneumaticServoRuby.name=Ruby Pneumatic Servo
-item.itemPneumaticServoTopaz.name=Topaz Pneumatic Servo
-item.itemPneumaticServoUranium.name=Uranium Pneumatic Servo
-item.itemPneumaticServoZinc.name=Zinc Pneumatic Servo
 
 
 
@@ -2631,475 +2991,7 @@ tile.blockDecorationTnt_1.name=TNT
 
 
 
-	// Cocktail
-itemGroup.CreativeTabsCocktail=Cocktails
 
-item.itemGlassCup.name=Glass Cup
-item.itemCocktailGlassDirty.name=Cocktail Glass Dirty
-item.itemOldFashonnedDirty.name=Old-Fashioned Dirty
-item.itemTumblerDirty.name=Tumbler Dirty
-item.itemGlassCupDirty.name=Glass Cup Dirty
-item.itemFluteDirty.name=Flute Dirty
-item.itemCocktailBacardi.name=Bacardi Cocktail
-item.itemCocktailBalletRusse.name=Ballet Russe
-item.itemCocktailEureka.name=Eureka
-item.itemCocktailHonoluluPunch.name=Honolulu Punch
-item.itemCocktailLadyKiller.name=Lady Killer
-item.itemCocktailIrishCoffee.name=Irish Coffee
-item.itemCocktailCaipirinha.name=Caïpirinha
-item.itemCocktailCosmopolitain.name=Cosmopolitain
-item.itemCocktailCucumberMartini.name=Cucumber Martini
-item.itemCocktailFiesta.name=Fiesta
-item.itemCocktailMelonMartini.name=Melon Martini
-item.itemCocktailMetropolitain.name=Metropolitain
-item.itemCocktailRaspberryAndMintMartini.name=Raspberry & Mint Martini
-item.itemCocktailBalalaika.name=Balalaïka
-item.itemCocktailDoubleVision.name=Double Vision
-item.itemCocktailClockworkOrange.name=Clockwork Orange
-item.itemCocktailCassisina.name=Cassisina
-item.itemCocktailCapeCodder.name=Cape Codder
-item.itemCocktailCaipirovska.name=Caïpirovska
-item.itemCocktailBurgundyJuicer.name=Burgundy Juicer
-item.itemCocktailBlueLagoon.name=Blue Lagoon
-item.itemCocktailBerryBlush.name=Berry Blush
-item.itemCocktailVodkaGimlet.name=Vodka Gimlet
-item.itemCocktailExpressoMartini.name=Espresso Martini
-item.itemCocktailFriskyBison.name=Frisky Bison
-item.itemCocktailKamikaze.name=Kamikaze
-item.itemCocktailKillerPunch.name=Killer Punch
-item.itemCocktailKremlinCooler.name=Kremlin Cooler
-item.itemCocktailLemonDrop.name=Lemon Drop
-item.itemCocktailLongIslandIcedTea.name=Long Island Iced Tea
-item.itemCocktailMoscowMule.name=Moscow Mule
-item.itemCocktailNapoli.name=Napoli
-item.itemCocktailAppleMartini.name=Apple Martini
-item.itemCocktailLycheeMartini.name=Lychee Martini
-item.itemCocktailWhiteRussian.name=White Russian
-item.itemCocktailVelvetHammer.name=Velvet Hammer
-item.itemCocktailUncleVanya.name=Uncle Vanya
-item.itemCocktailTestaRossa.name=Testa Rossa
-item.itemCocktailRaspberryMule.name=Raspberry Mule
-item.itemCocktailPurpleHooter.name=Purple Hooter
-item.itemCocktailPurpleHaze.name=PurpleHaze
-item.itemCocktailAquamarine.name=Aquamarine
-item.itemCocktailChiChi.name=Chi Chi
-item.itemCocktailFrenchMartini.name=French Martini
-item.itemCocktailHarverWallbanger.name=Harver Wallbanger
-item.itemCocktailMadras.name=Madras
-item.itemCocktailPolishMartini.name=Polish Martini
-item.itemCocktailSaltyDog.name=Salty Dog
-item.itemCocktailSanFrancisco.name=San Francisco
-item.itemCocktailScrewdriver.name=Screwdriver
-item.itemCocktailGodmother.name=Godmother
-item.itemCocktailGipsyQueen.name=Gipsy Queen
-item.itemCocktailChocolateMartini.name=Chocolate Martini
-item.itemCocktailBlackRussian.name=Black Russian
-item.itemCocktailBettyBlue.name=Betty Blue
-item.itemCocktailWooWoo.name=Woo Woo
-item.itemCocktailTetanka.name=Tetanka
-item.itemCocktailSexOnTheBeach.name=Sex On The Beach
-item.itemCocktailSeaBreeze.name=Sea Breeze
-item.itemCocktailRedRussian.name=Red Russian
-item.itemCocktailVodkaStinger.name=Vodka Stinger
-item.itemCocktailBloodyMary.name=Bloody Mary
-item.itemCocktailJungleJoe.name=Jungle Joe
-item.itemCocktailXYZ.name=X.Y.Z.
-item.itemCocktailAnejoHighball.name=Añejo Highball
-item.itemCocktailPinaColada.name=Piña Colada
-item.itemCocktailTomAndJerry.name=Tom & Jerry
-item.itemCocktailGrogAmericain.name=Grog Américain
-item.itemCocktailBacardiCocktailRum.name=Bacardi Cocktail
-item.itemCocktailTNTCocktail.name=T.N.T.
-item.itemCocktailIceBreaker.name=Ice-Breaker
-item.itemCocktailPinata.name=Piñata
-item.itemCocktailTNT2.name=T.N.T. n°2
-item.itemCocktailBetweenTheSheets.name=Between-The-Sheets
-item.itemCocktailDeeLight.name=Dee-Light
-item.itemCocktailHorseSNeck.name=Horse's Neck
-item.itemCocktailSideCar.name=Side-Car
-item.itemCocktailBB.name=B & B
-item.itemCocktailBP.name=B & P
-item.itemCocktailChampsElysees.name=Champs-Élysées
-item.itemCocktailSantinaSPousseCafe.name=Santina's Pousse-Café
-item.itemCocktailMaximSCoffee.name=Maxim's Coffee
-item.itemCocktailCC.name=C.C.
-item.itemCocktailPimmSRoyal.name=Pimm's Royal
-item.itemCocktailPickMeUp.name=Pick-me-Up
-item.itemCocktailNightDay.name=Night & Day
-item.itemCocktailTomateALAbsinthe.name=Tomate à l'Absinthe
-item.itemCocktailVermouthCassis.name=Vermouth-Cassis
-item.itemCocktailPimmSCup.name=Pimm's Cup
-item.itemCocktailScarlettOHara.name=Scarlett O'Hara
-item.itemCocktailB52.name=B-52
-item.itemCocktailBullSEye.name=Bull's Eye
-item.itemCocktailPlanterSPunchless.name=Planter's Punchless
-item.itemCocktailTomatoCucumberSparkle.name=Tomato & Cucumber Sparkle
-item.itemCocktailParsonSSpecial.name=Parson's Special
-item.itemCocktailRideCosmopolitain.name=Rude Cosmopolitain
-item.itemCocktailAztecStinger.name=Aztec Stringer
-item.itemCocktailCastroColler.name=Castro Cooler
-item.itemCocktailHarvvardCooler.name=Havard Cooler
-item.itemCocktailAstoria.name=Astoria
-item.itemCocktailAttaboy.name=Attaboy
-item.itemCocktailBloodhound.name=Bloodhound
-item.itemCocktailBronxTerrace.name=Bronx Terrace
-item.itemCocktailClaridge.name=Claridge
-item.itemCocktailDryMartini.name=Dry Martini
-item.itemCocktailDubonnetCocktail.name=Dubonnet Cocktail
-item.itemCocktailFloriditaBronx.name=Floridita Bronx
-item.itemCocktailGibson.name=Gibson
-item.itemCocktailJournalist.name=Journalist
-item.itemCocktailKnickerbocker.name=Knickerbocker
-item.itemCocktailLeaveItToMe.name=Leave it to me
-item.itemCocktailLondonFog.name=London Fog
-item.itemCocktailRabbitCooler.name=Rabbit Cooler
-item.itemCocktailRabbitSunrise.name=Rabbit Sunrise
-item.itemCocktailGoldenScream.name=Golden Scream
-item.itemCocktailMiklyMango.name=Mikly Mango
-item.itemCocktailParisette.name=Parisette
-item.itemCocktailPinkPineapple.name=Pink Pineapple
-item.itemCocktailPrairieOyster.name=Prairie Oyster
-item.itemCocktailPussyFoot.name=Pussy Foot
-item.itemCocktailVanillaMilkshake.name=Vanilla Milkshake
-item.itemCocktailShirleyTemple.name=Shirley Temple
-item.itemCocktailSouthsideCooler.name=Southside Cooler
-item.itemCocktailStrawberryCooler.name=Strawberry Cooler
-item.itemCocktailBabyBreeze.name=Baby Breeze
-item.itemCocktailBananaJuicer.name=Banana Juicer
-item.itemCocktailCaliforniaSmoothie.name=California Smoothie
-item.itemCocktailCinderella.name=Cinderella
-item.itemCocktailLoneTree.name=Lone Tree
-item.itemCocktailMartinez.name=Martinez
-item.itemCocktailParisian.name=Parisian
-item.itemCocktailPinkGin.name=Pink Gin
-item.itemCocktailTurf.name=Turf
-item.itemCocktailZaza.name=Zaza
-item.itemCocktailAlabamaFizz.name=Alabama Fizz
-item.itemCocktailAviation.name=Aviation
-item.itemCocktailBlackout.name=Blackout
-item.itemCocktailBlueBird.name=Blue Bird
-item.itemCocktailBramble.name=Bramble
-item.itemCocktailBreakfastMartini.name=Breakfast Martini
-item.itemCocktailDesertHealer.name=Desert Healer
-item.itemCocktailGimlet.name=Gimlet
-item.itemCocktailGinFizz.name=Gin Fizz
-item.itemCocktailGreenHat.name=Green Hat
-item.itemCocktailJaizkibel.name=Jaikibel
-item.itemCocktailJohnCollins.name=John Collins
-item.itemCocktailMacka.name=Macka
-item.itemCocktailNickySFizz.name=Nicky's Fizz
-item.itemCocktailPinkLady.name=Pink Lady
-item.itemCocktailRaspberryCollins.name=Raspberry Collins
-item.itemCocktailResolute.name=Resolute
-item.itemCocktailShadyGrove.name=Shady Grove
-item.itemCocktailSingaporeSling.name=Singapore Sling
-item.itemCocktailSouthside.name=Southside
-item.itemCocktailTamanacoDry.name=Tamanaco Dry
-item.itemCocktailWhiteLady.name=White Lady
-item.itemCocktailAbbey.name=Abbey
-item.itemCocktailBronx.name=Bronx
-item.itemCocktailColonial.name=Colonial
-item.itemCocktailMiamiBeach.name=Miami Beach
-item.itemCocktailMonkeyGland.name=Monkey Gland
-item.itemCocktailOpal.name=Opal
-item.itemCocktailOrangeBlossom.name=Orange Blossom
-item.itemCocktailParadise.name=Paradise
-item.itemCocktailQueenCocktail.name=Queen Cocktail
-item.itemCocktailRafflesSling.name=Raffles Sling
-item.itemCocktailRedLion.name=Red Lion
-item.itemCocktailAcacias.name=Acacias
-item.itemCocktailLemonySnicket.name=Lemony Snicket
-item.itemCocktailJustTry.name=Just Try
-item.itemCocktailFrenchKiss.name=French Kiss
-item.itemCocktailFallenAngel.name=Fallen Angel
-item.itemCocktailEvolution.name=Evolution
-item.itemCocktailCaruso.name=Caruso
-item.itemCocktailBijou.name=Bijou
-item.itemCocktailBeeSKnees.name=Bee's Knees
-item.itemCocktailAlaska.name=Alaska
-item.itemCocktailPrinceton.name=Princeton
-item.itemCocktailSpringFeeling.name=Spring Feeling
-item.itemCocktailAlexander.name=Alexander
-item.itemCocktailCloverClub.name=Clover Club
-item.itemCocktailRamosGinFizz.name=Ramos Gin Fizz
-item.itemCocktailRedSnapper.name=Red Snapper
-item.itemCocktailBlackthorn.name=Blackthorn
-item.itemCocktailChurchill.name=Churchill
-item.itemCocktailEuropeanBeauty.name=European Beauty
-item.itemCocktailGaslight.name=Gaslight
-item.itemCocktailHondarribia.name=Hondarribia
-item.itemCocktailManhattan.name=Manhattan
-item.itemCocktailOldFashioned.name=Old-Fashioned
-item.itemCocktailRobRoy.name=Rob Roy
-item.itemCocktailSazerac.name=Sazerac
-item.itemCocktailScoffLaw.name=Scoff Law
-item.itemCocktailUpToDate.name=Up To Date
-item.itemCocktailWhizBang.name=Whiz Bang
-item.itemCocktailCableGram.name=Cable Gram
-item.itemCocktailCaliforniaLemonade.name=California Lemonade
-item.itemCocktailCommodore.name=Commodore
-item.itemCocktailCreativity.name=Creativity
-item.itemCocktailFrancisTheMule.name=Francis The Mule
-item.itemCocktailFrisco.name=Frisco
-item.itemCocktailHemingwaySour.name=Hemingway Sour
-item.itemCocktailHighlandCooler.name=Highland Cooler
-item.itemCocktailHighVoltage.name=High Voltage
-item.itemCocktailIrishRose.name=Irish Rose
-item.itemCocktailKentuckyTea.name=Kentucky Tea
-item.itemCocktailKlondikeCooler.name=Klondike Cooler
-item.itemCocktailLynchburgLemonade.name=Lynchburg Lemonade
-item.itemCocktailMintJulep.name=Mint Julep
-item.itemCocktailNewYorker.name=New Yorker
-item.itemCocktailWhiskeySour.name=Whiskey Sour
-item.itemCocktailAlgonquin.name=Algonquin
-item.itemCocktailBeamMeUpScotty.name=Beam Me Up Scotty
-item.itemCocktailBloodAndSand.name=Blood & Sand
-item.itemCocktailInkStreet.name=Ink Street
-item.itemCocktailPollySpecial.name=Polly Special
-item.itemCocktailWardEight.name=Ward Eight
-item.itemCocktailBobbyBurns.name=Bobby Burns
-item.itemCocktailDelmarva.name=Delmarva
-item.itemCocktailGodfather.name=Godfather
-item.itemCocktailKentuckyColonel.name=Kentucky Colonel
-item.itemCocktailRustyNail.name=Rusty Nail
-item.itemCocktailTipperary.name=Tipperary
-item.itemCocktailTwistin.name=Twistin
-item.itemCocktailBostonSour.name=Boston Sour
-item.itemCocktailElkSown.name=ELk Sown
-item.itemCocktailMillionnaire.name=Millionnaire
-item.itemCocktailMochaMartini.name=Mocha Martini
-item.itemCocktailMorningGloryFizz.name=Morning Glory Fizz
-item.itemCocktailMountain.name=Mountain
-item.itemCocktailBlueBlazer.name=Blue Blazer
-item.itemCocktailCubanManhattan.name=Cuban Manhattan
-item.itemCocktailPresidente.name=Presidente
-item.itemCocktailRedwood.name=Redwood
-item.itemCocktailTreacle.name=Treacle
-item.itemCocktailBejaFlor.name=Beja Flor
-item.itemCocktailBlackRose.name=Black Rose
-item.itemCocktailBostonCooler.name=Boston Cooler
-item.itemCocktailCableCar.name=Cable Car
-item.itemCocktailCitrusCooler.name=Citrus Cooler
-item.itemCocktailCosmoRon.name=Cosmo Ron
-item.itemCocktailCubaLibre.name=Cuba Libre
-item.itemCocktailDaiquiri.name=Daïquiri
-item.itemCocktailDarkAndStormy.name=Dark & Stormy
-item.itemCocktailDoctorFunk.name=Doctor Funk
-item.itemCocktailFloriditaDaiquiri.name=Floridita Daïquiri
-item.itemCocktailFrozenDaiquiri.name=Frozen Daïquiri
-item.itemCocktailHemingwaySpecial.name=Hemingway Special
-item.itemCocktailHoneySuckle.name=Honey Suckle
-item.itemCocktailIsleOfPines.name=Isle of Pines
-item.itemCocktailJamaicanMule.name=Jamaican Mule
-item.itemCocktailMaiTai.name=Maï Taï
-item.itemCocktailMaramaRumPunch.name=Marama Rum Punch
-item.itemCocktailMojito.name=Mojito
-item.itemCocktailMontegoBay.name=Montego Bay
-item.itemCocktailPeriodista.name=Periodista
-item.itemCocktailPinkDaiquiri.name=Pink Daïquiri
-item.itemCocktailPlanterSPunch.name=Planter's Punch
-item.itemCocktailQuarterDeck.name=Quarter Deck
-item.itemCocktailRumble.name=Rumble
-item.itemCocktailSuzieTaylor.name=Suzie Taylor
-item.itemCocktailTiPunch.name=Ti Punch
-item.itemCocktailAristo.name=Aristo
-item.itemCocktailAtomicDog.name=Atomic Dog
-item.itemCocktailBaccarat.name=Baccarat
-item.itemCocktailBahamaMama.name=Bahama Mama
-item.itemCocktailBananaDaiquiri.name=Banana Daïquiri
-item.itemCocktailBaticaAbaci.name=Batica Abaci
-item.itemCocktailBossaNova.name=Bossa Nova
-item.itemCocktailCaribbeanBreeze.name=Caribbean Breeze
-item.itemCocktailFlamingo.name=Flamingo
-item.itemCocktailHavanaBeach.name=Havana Beach
-item.itemCocktailHurricane.name=Hurricane
-item.itemCocktailIslandInTheSun.name=Island in the Sun
-item.itemCocktailJamDaiquiri.name=Jam Daïquiri
-item.itemCocktailJoeKangoo.name=Joe Kangoo
-item.itemCocktailMaryPickford.name=Mary Pickford
-item.itemCocktailPainKiller.name=Pain Killer
-item.itemCocktailPearlDiver.name=Pearl Diver
-item.itemCocktailPlanteur.name=Planteur
-item.itemCocktailRumRunner.name=Rum Runner
-item.itemCocktailScorpion.name=Scorpion
-item.itemCocktailSterling.name=Sterling
-item.itemCocktailTropicana.name=Tropicana
-item.itemCocktailVoodoo.name=Voodoo
-item.itemCocktailZombie.name=Zombie
-item.itemCocktailBlackWidow.name=Black Widow
-item.itemCocktailCentenario.name=Centenario
-item.itemCocktailMackinnon.name=Mackinnon
-item.itemCocktailMulata.name=Mulata
-item.itemCocktailYellowBird.name=Yellow Bird
-item.itemCocktailBabyAlexander.name=Baby Alexander
-item.itemCocktailCubanita.name=Cubanita
-item.itemCocktailFishHousePunch.name=Fish House Punch
-item.itemCocktailHotButteredRum.name=Hot Buttered Rum
-item.itemCocktailCaliforniaDream.name=California Dream
-item.itemCocktailMexicoManhattan.name=Mexico Manhattan
-item.itemCocktailTequilaEtSangrita.name=Tequila & Sangrita
-item.itemCocktailTequilaStraight.name=Tequila Straight
-item.itemCocktailTequini.name=Tequini
-item.itemCocktailAgaveJulep.name=Agave Julep
-item.itemCocktailAlamoSplash.name=Alamo Splash
-item.itemCocktailChanguirongo.name=Changuirongo
-item.itemCocktailElDiablo.name=El Diablo
-item.itemCocktailFrozenMargarita.name=Frozen Margarita
-item.itemCocktailJapaneseSlipper.name=Japanese Slipper
-item.itemCocktailMargarita.name=Margarita
-item.itemCocktailMexicola.name=Mexicola
-item.itemCocktailPurplePancho.name=Purple Pancho
-item.itemCocktailTequilaSunset.name=Tequila Sunset
-item.itemCocktailVivaVilla.name=Viva Villa
-item.itemCocktailAcapulco.name=Acapulco
-item.itemCocktailAgavePunch.name=Agave Punch
-item.itemCocktailSangria.name=Sangria
-item.itemCocktailVinChaud.name=Vin Chaud
-item.itemCocktailAmbassador.name=Ambassador
-item.itemCocktailArriba.name=Arriba
-item.itemCocktailBroadwayThirst.name=Broadway Thirst
-item.itemCocktailCactusBanger.name=Cactus Banger
-item.itemCocktailChihuahua.name=Chihuahua
-item.itemCocktailChimayo.name=Chimayo
-item.itemCocktailCocoMexico.name=Coco Mexico
-item.itemCocktailJungleJuice.name=Jungle Juice
-item.itemCocktailMexican.name=Mexican
-item.itemCocktailPlayaDelMar.name=Playa Del Mar
-item.itemCocktailStrawberryMargarita.name=Strawberry Margarita
-item.itemCocktailTequilaSunrise.name=Tequila Sunrise
-item.itemCocktailTomahawk.name=Tomahawk
-item.itemCocktailVertigo.name=Vertigo
-item.itemCocktailAguamiel.name=Aguamiel
-item.itemCocktailAliceInWonderland.name=Alice in Wonderland
-item.itemCocktailBananaBoat.name=Banana Boat
-item.itemCocktailBraveBull.name=Brave Bull
-item.itemCocktailCactusFlower.name=Cactus Flower
-item.itemCocktailMockingbird.name=Mockingbird
-item.itemCocktailSpeedyGonzales.name=Speedy Gonzales
-item.itemCocktailBloodyMaria.name=Bloody Maria
-item.itemCocktailFrostbite.name=Frostbite
-item.itemCocktailGorillaSweat.name=Gorilla Sweat
-item.itemCocktailMexicanCoffee.name=Mexican Coffee
-item.itemCocktailMexicanTea.name=Mexican Tea
-item.itemCocktailAmberTwist.name=Amber Twist
-item.itemCocktailAmericanBeauty.name=American Beauty
-item.itemCocktailGotham.name=Gotham
-item.itemCocktailHarvard.name=Harvard
-item.itemCocktailRose.name=Rose
-item.itemCocktailBrandyHighball.name=Brandy Highball
-item.itemCocktailCassisco.name=Cassisco
-item.itemCocktailDepthBomb.name=Depth Bomb
-item.itemCocktailGeorgiaMintJulep.name=Georgia Mint Julep
-item.itemCocktailHavvardCooler.name=Havard Cooler
-item.itemCocktailJackRose.name=Jack Rose
-item.itemCocktailNormandyCooler.name=Normandy Cooler
-item.itemCocktailPiscola.name=Piscola
-item.itemCocktailPiscoPunch.name=Pisco Punch
-item.itemCocktailPiscoSour.name=Pisco Sour
-item.itemCocktailAppleSunrise.name=Apple Sunrise
-item.itemCocktailEastIndia.name=East India
-item.itemCocktailElUltimo.name=El Ultimo
-item.itemCocktailOlympic.name=Olympic
-item.itemCocktailBananaBliss.name=Banana Bliss
-item.itemCocktailBlackJack.name=Black Jack
-item.itemCocktailBountyBoat.name=Bounty Boat
-item.itemCocktailBurgos.name=Burgos
-item.itemCocktailCherryBlossom.name=Cherry Blossom
-item.itemCocktailCorpseReviver.name=Corpse Reviver
-item.itemCocktailCuban.name=Cuban
-item.itemCocktailFrenchConnection.name=French Connection
-item.itemCocktailHighbinder.name=Highbinder
-item.itemCocktailHoneyMoon.name=Honey Moon
-item.itemCocktailJapanese.name=Japanese
-item.itemCocktailNikolaschka.name=Nikolaschka
-item.itemCocktailStinger.name=Stinger
-item.itemCocktailVanderbilt.name=Vanderbilt
-item.itemCocktailBrandyAlexander.name=Brandy Alexander
-item.itemCocktailBrandyMilkPunch.name=Brandy Milk Punch
-item.itemCocktailBrownBear.name=Brown Bear
-item.itemCocktailBrandyBlazer.name=Brandy Blazer
-item.itemCocktailCoffeeNudge.name=Coffee Nudge
-item.itemCocktailAlfonso.name=Alfonso
-item.itemCocktailAmbrosia.name=Ambrosia
-item.itemCocktailCarolChanning.name=Carol Channing
-item.itemCocktailChampagneCocktail.name=Champagne Cocktail
-item.itemCocktailGingerCocktail.name=Ginger Cocktail
-item.itemCocktailHemingway.name=Hemingway
-item.itemCocktailKirRoyal.name=Kir Royal
-item.itemCocktailAmericanFlyer.name=American Flyer
-item.itemCocktailBlueChampagne.name=Blue Champagne
-item.itemCocktailChampagneJulep.name=Champagne Julep
-item.itemCocktailPinkBanana.name=Pink Banana
-item.itemCocktailMangoSparkle.name=Mango Sparkle
-item.itemCocktailPassionCooler.name=Passion Cooler
-item.itemCocktailPurplePash.name=Purple Pash
-item.itemCocktailRaspberrySquash.name=Raspberry Squash
-item.itemCocktailCranberryColada.name=Cranberry Colada
-item.itemCocktailCrazyNavel.name=Crazy Navel
-item.itemCocktailGentleBreeze.name=Gentle Breeze
-item.itemCocktailMadraSpecial.name=Madra Special
-item.itemCocktailMangoBreeze.name=Mango Breeze
-item.itemCocktailMySky.name=My Sky
-item.itemCocktailPainCutter.name=Pain Cutter
-item.itemCocktailPassionBreeze.name=Passion Breeze
-item.itemCocktailVirginColada.name=Virgin Colada
-item.itemCocktailYellowBear.name=Yellow Bear
-item.itemCocktailBunnyShame.name=Bunny Shame
-item.itemCocktailCucumberCooler.name=Cucumber Cooler
-item.itemCocktailHolyMary.name=Holy Mary
-item.itemCocktailApplePilar.name=Apple Pilar
-item.itemCocktailAppleSparkle.name=Apple Sparkle
-item.itemCocktailAsianPassion.name=Asian Passion
-item.itemCocktailBoraBoraBrew.name=Bora Bora Brew
-item.itemCocktailFlorida.name=Florida
-item.itemCocktailGrapefruitCooler.name=Grapefruit Cooler
-item.itemCocktailIcedTea.name=Iced Tea
-item.itemCocktailLemonade.name=Lemonade
-item.itemCocktailChampagneSour.name=Champagne Sour
-item.itemCocktailFrench75.name=French 75
-item.itemCocktailMeringue.name=Meringue
-item.itemCocktailBellini.name=Bellini
-item.itemCocktailHawaiiSparkle.name=Hawaii Sparkle
-item.itemCocktailJacuzzi.name=Jacuzzi
-item.itemCocktailMimosa.name=Mimosa
-item.itemCocktailRossini.name=Rossini
-item.itemCocktailRoyalHighball.name=Royal Highball
-item.itemCocktailRussianSpringPunch.name=Russian Spring Punch
-item.itemCocktailSaratoga.name=Saratoga
-item.itemCocktailSerendipiti.name=Serendipiti
-item.itemCocktailTropicalHibiscus.name=Tropical Hibiscus
-item.itemCocktailValencia.name=Valencia
-item.itemCocktailBlackPearl.name=Black Pearl
-item.itemCocktailBlackVelvet.name=Black Velvet
-item.itemCocktailMidnightMoon.name=Midnight Moon
-item.itemCocktailOhio.name=Ohio
-item.itemCocktailPrinceOfWales.name=Prince of Wales
-item.itemCocktailAbsintheDrip.name=Absinthe Drip
-item.itemCocktailAbsintheVeilleuse.name=Absinthe Veilleuse
-item.itemCocktailAdonis.name=Adonis
-item.itemCocktailAmericano.name=Americano
-item.itemCocktailBamboo.name=Bamboo
-item.itemCocktailBrazil.name=Brazil
-item.itemCocktailKir.name=Kir
-item.itemCocktailNegroni.name=Negroni
-item.itemCocktailSpritzer.name=Spritzer
-item.itemCocktailAmericanLemonade.name=American Lemonade
-item.itemCocktailApricotCooler.name=Apricot Cooler
-item.itemCocktailBasic.name=Basic
-item.itemCocktailBerrySour.name=Berry Sour
-item.itemCocktailCherryCooler.name=Cherry Cooler
-item.itemCocktailKlondikeHighball.name=Klondike Highball
-item.itemCocktailTampico.name=Tampico
-item.itemCocktailFuzzyNavel.name=Fuzzy Navel
-item.itemCocktailGaribaldi.name=Garibaldi
-item.itemCocktailTigerTail.name=Tiger Tail
-item.itemCocktailFerrari.name=Ferrari
-item.itemCocktailBananaBanshee.name=Banana Banshee
-item.itemCocktailDustyRose.name=Dusty Rose
-item.itemCocktailGoldenCadillac.name=Golden Cadillac
-item.itemCocktailGoldenDream.name=Golden Dream
-item.itemCocktailGrasshopper.name=Grasshopper
-item.itemCocktailHotShot.name=Hot Shot
 
 
 
@@ -3123,132 +3015,7 @@ item.itemBug.name=Gros BUG !!
 
 
 
-	// Coffee & Tea
-itemGroup.CreativeTabsCoffeeAndTea=Coffee & Tea
-
-item.itemTeapot.name=Teapot
-item.itemMugCoffeeEmpty.name=Cup Empty
-
-item.itemTeaLemon.name=Lemon Tea
-item.itemTeaPeach.name=Peach Tea
-item.itemTeaMatchaGreen.name=Matcha Green Tea
-item.itemTeaRaspberry.name=Raspberry Tea
-item.itemTeaChai.name=Chaï Tea
-item.itemTeaEarlGrey.name=Earl Grey Tea
-item.itemTeaRedFruit.name=Red Fruit Tea
-item.itemTeaCaramel.name=Caramel Tea
-
-item.itemTeaBagCaramel.name=Caramel Tea Bag
-item.itemTeaBagLemon.name=Lemon Tea Bag
-item.itemTeaBagPeach.name=Peach Tea Bag
-item.itemTeaBagRaspberry.name=Raspberry Tea Bag
-item.itemTeaBagMatchaGreen.name=Matcha Green Tea Bag
-item.itemTeaBagChai.name=Chai Tea Bag
-item.itemTeaBagRedFruit.name=Red Fruit Tea Bag
-item.itemTeaBagEarlGrey.name=Earl Grey Tea Bag
-item.itemTeaBagEmpty.name=Empty Tea Bag
-
-item.itemCapsuleBukeelaKaEthiopia.name=Capsule Bukeela Ka Ethiopia
-item.itemCapsuleIndriyaFromIndia.name=Capsule Indriya From India
-item.itemCapsuleKazaar.name=Capsule Kazaar
-item.itemCapsuleDecaffeinato.name=Capsule Decaffeinato
-item.itemCapsuleRistretto.name=Capsule Ristretto
-item.itemCapsuleDecaffeinatoIntenso.name=Capsule Decaffeinato Intenso
-item.itemCapsuleCapriccio.name=Capsule Capriccio
-item.itemCapsuleArpeggio.name=Capsule Arpeggio
-item.itemCapsuleCosi.name=Capsule Cosi
-item.itemCapsuleDecaffeinatoLungo.name=Capsule Decaffeinato Lungo
-item.itemCapsuleRosabayaDeColombia.name=Capsule Rosabaya De Colombia
-item.itemCapsuleDulsaoDoBrasil.name=Capsule Dulsao Do Brasil
-item.itemCapsuleFortissioLungo.name=Capsule Fortissio Lungo
-item.itemCapsuleLinizioLungo.name=Capsule Linizio Lungo
-item.itemCapsuleLivanto.name=Capsule Livanto
-item.itemCapsuleRoma.name=Capsule Roma
-item.itemCapsuleVivaltoLungo.name=Capsule Vivalto Lungo
-item.itemCapsuleVolluto.name=Capsule Volluto
-item.itemCapsuleDharkan.name=Capsule Dharkan
-
-item.itemCapsuleBukeelaKaEthiopiaEmpty.name=Capsule Bukeela Ka Ethiopia Empty
-item.itemCapsuleIndriyaFromIndiaEmpty.name=Capsule Indriya From India Empty
-item.itemCapsuleKazaarEmpty.name=Capsule Kazaar Empty
-item.itemCapsuleDecaffeinatoEmpty.name=Capsule Decaffeinato Empty
-item.itemCapsuleRistrettoEmpty.name=Capsule Ristretto Empty
-item.itemCapsuleDecaffeinatoIntensoEmpty.name=Capsule Decaffeinato Intenso Empty
-item.itemCapsuleCapriccioEmpty.name=Capsule Capriccio Empty
-item.itemCapsuleArpeggioEmpty.name=Capsule Arpeggio Empty
-item.itemCapsuleCosiEmpty.name=Capsule Cosi Empty
-item.itemCapsuleDecaffeinatoLungoEmpty.name=Capsule Decaffeinato Lungo Empty
-item.itemCapsuleRosabayaDeColombiaEmpty.name=Capsule Rosabaya De Colombia Empty
-item.itemCapsuleDulsaoDoBrasilEmpty.name=Capsule Dulsao Do Brasil Empty
-item.itemCapsuleFortissioLungoEmpty.name=Capsule Fortissio Lungo Empty
-item.itemCapsuleLinizioLungoEmpty.name=Capsule Linizio Lungo Empty
-item.itemCapsuleLivantoEmpty.name=Capsule Livanto Empty
-item.itemCapsuleRomaEmpty.name=Capsule Roma Empty
-item.itemCapsuleVivaltoLungoEmpty.name=Capsule Vivalto Lungo Empty
-item.itemCapsuleVollutoEmpty.name=Capsule Volluto Empty
-item.itemCapsuleDharkanEmpty.name=Capsule Dharkan Empty
-
-item.itemCoffeeMoka.name=Coffee Moka
-item.itemCoffeeCattura.name=Coffee Cattura
-item.itemCoffeeBlueMountain.name=Coffee Blue Mountain
-item.itemTeaLeaves.name=Tea Leaves
-item.itemCoffeeKona.name=Coffee Kona
-item.itemCoffeeHarrar.name=Coffee Harrar
-item.itemCoffeeTorajaKalossi.name=Coffee Toraja Kalossi
-item.itemCoffeeKupeAlamid.name=Coffee Kupe Alamid
-item.itemCoffeeTarrazu.name=Coffee Tarrazu
-item.itemCoffeeArabicas.name=Coffee Arabicas
-item.itemCoffeeKopiLuwak.name=Coffee Kopi Luwak
-item.itemCoffeeKontirWildForest.name=Coffee Kontir Wild Forest
-item.itemCoffeeBourbonPointu.name=Coffee Bourbon Pointu
-item.itemCoffeePeaberry.name=Coffee Peaberry
-item.itemCoffeeYirgacheffe.name=Coffee Yirgacheffe
-item.itemCoffeeMundoNovo.name=Coffee Mundo Novo
-item.itemCoffeeHuehuetenango.name=Coffee Huehuetenango
-item.itemCoffeeMuragogype.name=Coffee Muragogype
-item.itemCoffeeKenyaAA.name=Coffee Kenya AA
-item.itemCoffeeJava.name=Coffee Java
-item.itemDriedTeaLeaves.name=Dried Tea Leaves
-
-item.itemCoffeeArabicasGround.name=Coffee Arabicas Ground
-item.itemCoffeeBlueMountainGround.name=Coffee Blue Mountain Ground
-item.itemCoffeeBourbonPointuGround.name=Coffee Bourbon Pointu Ground
-item.itemCoffeeCatturaGround.name=Coffee Cattura Ground
-item.itemCoffeeHarrarGround.name=Coffee Harrar Ground
-item.itemCoffeeHuehuetenangoGround.name=Coffee Huehuetenango Ground
-item.itemCoffeeJavaGround.name=Coffee Java Ground
-item.itemCoffeeKenyaAAGround.name=Coffee Kenya AA Ground
-item.itemCoffeeKonaGround.name=Coffee Kona Ground
-item.itemCoffeeKontirWildForestGround.name=Coffee Kontir Wild Forest Ground
-item.itemCoffeeKopiLuwakGround.name=Coffee Kopi Luwak Ground
-item.itemCoffeeKupeAlamidGround.name=Coffee Kupe Alamid Ground
-item.itemCoffeeMokaGround.name=Coffee Moka Ground
-item.itemCoffeeMundoNovoGround.name=Coffee Mundo Novo Ground
-item.itemCoffeeMuragogypeGround.name=Coffee Muragogype Ground
-item.itemCoffeePeaberryGround.name=Coffee Peaberry Ground
-item.itemCoffeeTarrazuGround.name=Coffee Tarrazu Ground
-item.itemCoffeeTorajaKalossiGround.name=Coffee Toraja Kalossi Ground
-item.itemCoffeeYirgacheffeGround.name=Coffee Yirgacheffe Ground
-
-item.itemCupBukeelaKaEthiopia.name=Cup Bukeela Ka Ethiopia
-item.itemCupIndriyaFromIndia.name=Cup Indriya From India
-item.itemCupKazaar.name=Cup Kazaar
-item.itemCupDecaffeinato.name=Cup Decaffeinato
-item.itemCupRistretto.name=Cup Ristretto
-item.itemCupDecaffeinatoIntenso.name=Cup Decaffeinato Intenso
-item.itemCupCapriccio.name=Cup Capriccio
-item.itemCupArpeggio.name=Cup Arpeggio
-item.itemCupCosi.name=Cup Cosi
-item.itemCupDecaffeinatoLungo.name=Cup Decaffeinato Lungo
-item.itemCupRosabayaDeColombia.name=Cup Rosabaya De Colombia
-item.itemCupDulsaoDoBrasil.name=Cup Dulsao Do Brasil
-item.itemCupFortissioLungo.name=Cup Fortissio Lungo
-item.itemCupLinizioLungo.name=Cup Linizio Lungo
-item.itemCupLivanto.name=Cup Livanto
-item.itemCupRoma.name=Cup Roma
-item.itemCupVivaltoLungo.name=Cup Vivalto Lungo
-item.itemCupVolluto.name=Cup Volluto
-item.itemCupDharkan.name=Cup Dharkan
+	
 
 
 
