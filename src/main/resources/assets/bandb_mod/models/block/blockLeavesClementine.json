@@ -1,1 +1,6 @@
-{    "parent": "block/leaves",    "textures": {        "all": "bandb_mod:blocks/tree/leaves/blockLeavesClementine"    }}
+{
+    "parent": "block/leaves",
+    "textures": {
+        "all": "bandb_mod:blocks/tree/leaves/blockLeavesClementine"
+    }
+}

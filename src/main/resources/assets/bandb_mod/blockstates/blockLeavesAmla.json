@@ -1,1 +1,5 @@
-{    "variants": {        "normal":  { "model": "bandb_mod:blockLeavesAmla" },    }}
+{
+    "variants": {
+        "normal":  { "model": "bandb_mod:blockLeavesAmla" }
+    }
+}

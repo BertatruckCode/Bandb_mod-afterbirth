@@ -1,1 +1,5 @@
-{    "variants": {        "normal":  { "model": "bandb_mod:blockLeavesKumquat" },    }}
+{
+    "variants": {
+        "normal":  { "model": "bandb_mod:blockLeavesKumquat" }
+    }
+}

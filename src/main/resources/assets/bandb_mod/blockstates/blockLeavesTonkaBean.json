@@ -1,1 +1,5 @@
-{    "variants": {        "normal":  { "model": "bandb_mod:blockLeavesTonkaBean" },    }}
+{
+    "variants": {
+        "normal":  { "model": "bandb_mod:blockLeavesTonkaBean" }
+    }
+}

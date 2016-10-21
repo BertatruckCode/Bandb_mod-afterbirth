@@ -1,7 +1,7 @@
 {
     "parent":"builtin/generated",
     "textures": {
-        "layer0":"bandb_mod:items/plant/grains/itemPlantSunflowerSeed"
+        "layer0":"bandb_mod:items/plant/itemPlantSunflowerSeed"
     },
     "display": {
         "thirdperson": {

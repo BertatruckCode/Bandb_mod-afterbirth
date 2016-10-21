@@ -1,1 +1,5 @@
-{    "variants": {        "normal":  { "model": "bandb_mod:blockLeavesPapaya" },    }}
+{
+    "variants": {
+        "normal":  { "model": "bandb_mod:blockLeavesPapaya" }
+    }
+}

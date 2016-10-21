@@ -1,1 +1,5 @@
-{    "variants": {        "normal":  { "model": "bandb_mod:blockLeavesMaple" },    }}
+{
+    "variants": {
+        "normal":  { "model": "bandb_mod:blockLeavesMaple" }
+    }
+}
