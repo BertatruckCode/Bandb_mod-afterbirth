@@ -3,6 +3,9 @@ package fr.bentur_and_bertatruck.bandb_mod.common.loader;
 import fr.bentur_and_bertatruck.bandb_mod.common.fluid.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -200,18 +203,21 @@ public class BandbFluids {
 	public static Fluid fluid;
 	public static Block block;
 
-
 	
-	public static void preInit(){				
+	public static void register(){				
 		
 		fluidMoltenGlass = new FluidMoltenGlass().setUnlocalizedName("fluidMoltenGlass");
-		blockMoltenGlass = new BlockFluidMoltenGlass(fluidMoltenGlass, Material.water).setCreativeTab(BandbCreativeTabs.CreativeTabsFluid).setBlockName("blockMoltenGlass");
+		blockMoltenGlass = new BlockFluidMoltenGlass(fluidMoltenGlass, Material.water).setCreativeTab(BandbCreativeTabs.CreativeTabsFluid);
 		GameRegistry.registerBlock(blockMoltenGlass, "blockMoltenGlass");
-		
+	}
+	public static void registerRender(){
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(blockMoltenGlass), 0, new ModelResourceLocation("bandb_mod:blockMoltenGlass", "inventory"));
+	}
+		/**
 		fluidWin = new FluidWin().setUnlocalizedName("fluidWin");
-		blockWin = new BlockFluidWin(fluidWin, Material.water).setCreativeTab(BandbCreativeTabs.CreativeTabsFluid).setBlockName("blockWin");
+		blockWin = new BlockFluidWin(fluidWin, Material.water).setCreativeTab(BandbCreativeTabs.CreativeTabsFluid);
 		GameRegistry.registerBlock(blockWin, "blockWin");
-		
+		/**
 		fluidBenedictine = new FluidBenedictine().setUnlocalizedName("fluidBenedictine");
 		blockBenedictine = new BlockFluidBenedictine(fluidBenedictine, Material.water).setCreativeTab(BandbCreativeTabs.CreativeTabsFluid).setBlockName("blockBenedictine");
 		GameRegistry.registerBlock(blockBenedictine, "blockBenedictine");
@@ -471,7 +477,7 @@ public class BandbFluids {
 
 	private static void setBlockName(String string) {
 		// TODO Auto-generated method stub
-		
-	}
-
+		**/
 }
+
+

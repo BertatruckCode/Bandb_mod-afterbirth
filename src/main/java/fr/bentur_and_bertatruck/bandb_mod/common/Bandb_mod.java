@@ -7,6 +7,7 @@ import fr.bentur_and_bertatruck.bandb_mod.common.handler.CraftingHandler;
 import fr.bentur_and_bertatruck.bandb_mod.common.handler.EventHandlerBandb;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBeverages;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBlocks;
+import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFluids;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbFood;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbItems;
 import fr.bentur_and_bertatruck.bandb_mod.machine.gui.HandlerGui;
@@ -72,7 +73,6 @@ public class Bandb_mod{
 		BandbCrops.loaderCropSeed();
 		
 		BandbMachines.preInit();
-		BandbFluids.preInit();
 		BandbCocktails.preInit();
 		**/
 		
@@ -80,7 +80,8 @@ public class Bandb_mod{
 		BandbBeverages.register();
 		BandbFood.register();
 		BandbItems.register();
-		
+		BandbFluids.register();
+
 		if(event.getSide() == Side.CLIENT){
 			BandbBlocks.registerRender();
 			BandbBeverages.registerRender();

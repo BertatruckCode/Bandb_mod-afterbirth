@@ -1,24 +1,16 @@
 package fr.bentur_and_bertatruck.bandb_mod.common.fluid;
 
+import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLiving;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.util.IIcon;
-import net.minecraft.util.StringUtils;
+import net.minecraft.util.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.fluids.Fluid;
-import cpw.mods.fml.common.FMLLog;
-import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import fr.bentur_and_bertatruck.bandb_mod.common.Bandb_mod;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 
 public class BlockFluidMoltenGlass extends BlockFluidClassic {
@@ -36,7 +28,6 @@ public class BlockFluidMoltenGlass extends BlockFluidClassic {
       public BlockFluidMoltenGlass(Fluid fluid, Material material) {
         super(fluid, material);
         this.fluid = fluid;
-        setBlockName("blockMoltenGlass");
         setLightLevel(1.0f);
         setCreativeTab(CreativeTabs.tabBlock);
       }
@@ -45,17 +36,7 @@ public class BlockFluidMoltenGlass extends BlockFluidClassic {
         GameRegistry.registerBlock(this, "blockMoltenGlass");
       }
 
-
-      @SideOnly(Side.CLIENT)
-      protected IIcon[] icons;
-
-
-      @Override
-      public IIcon getIcon(int side, int meta) {
-        return side != 0 && side != 1 ? this.icons[1] : this.icons[0];
-      }
-
-
+      /**
       @Override
       @SideOnly(Side.CLIENT)
       public void registerBlockIcons(IIconRegister iconRegister) {
@@ -64,22 +45,21 @@ public class BlockFluidMoltenGlass extends BlockFluidClassic {
 
         fluid.setIcons(icons[0], icons[1]);
       }
+      **/
 
-      @Override
       public boolean canDisplace(IBlockAccess world, int x, int y, int z) {
-        if(world.getBlock(x, y, z).getMaterial().isLiquid()) {
+        if(world.getBlockState(new BlockPos(x, y, z)).getBlock().getMaterial().isLiquid()) {
           return false;
         }
-        return super.canDisplace(world, x, y, z);
+        return super.canDisplace(world, new BlockPos(x, y, z));
       }
 
 
-      @Override
       public boolean displaceIfPossible(World world, int x, int y, int z) {
-        if(world.getBlock(x, y, z).getMaterial().isLiquid()) {
+        if(world.getBlockState(new BlockPos(x, y, z)).getBlock().getMaterial().isLiquid()) {
           return false;
         }
-        return super.displaceIfPossible(world, x, y, z);
+        return super.displaceIfPossible(world, new BlockPos(x, y, z));
       }
 
 }

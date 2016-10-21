@@ -1,27 +1,20 @@
 package fr.bentur_and_bertatruck.bandb_mod.nature.block;
 
-import java.util.List;
 import java.util.Random;
 
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbCreativeTabs;
 import fr.bentur_and_bertatruck.bandb_mod.nature.construction.ConstructionTreesApple;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockBush;
-import net.minecraft.block.BlockPlanks;
 import net.minecraft.block.IGrowable;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockState;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenerator;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockTreeSaplingApple extends BlockBush implements IGrowable{
 	Block blockleaves,blockwood;
@@ -43,14 +36,11 @@ public class BlockTreeSaplingApple extends BlockBush implements IGrowable{
         return this.getUnlocalizedName();
     }
 
-    public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand)
-    {
-        if (!worldIn.isRemote)
-        {
+    public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand){
+        if (!worldIn.isRemote){
             super.updateTick(worldIn, pos, state, rand);
 
-            if (worldIn.getLightFromNeighbors(pos.up()) >= 9 && rand.nextInt(7) == 0)
-            {
+            if (worldIn.getLightFromNeighbors(pos.up()) >= 9 && rand.nextInt(7) == 0){
                 this.grow(worldIn, pos, state, rand);
             }
         }
@@ -61,12 +51,10 @@ public class BlockTreeSaplingApple extends BlockBush implements IGrowable{
     }
     
     public void grow(World worldIn, BlockPos pos, IBlockState state, Random rand){
-        if (((Integer)state.getValue(STAGE)).intValue() == 0)
-        {
+        if (((Integer)state.getValue(STAGE)).intValue() == 0){
             worldIn.setBlockState(pos, state.cycleProperty(STAGE), 4);
         }
-        else
-        {
+        else{
             this.generateTree(worldIn, pos, state, rand);
         }
     }
@@ -88,35 +76,31 @@ public class BlockTreeSaplingApple extends BlockBush implements IGrowable{
     /**
      * Whether this IGrowable can grow
      */
-    public boolean canGrow(World worldIn, BlockPos pos, IBlockState state, boolean isClient)
-    {
+    public boolean canGrow(World worldIn, BlockPos pos, IBlockState state, boolean isClient){
         return true;
     }
 
-    public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state)
-    {
+    public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state){
         return (double)worldIn.rand.nextFloat() < 0.45D;
     }
+    
     /**
      * Convert the given metadata into a BlockState for this Block
      */
-    public IBlockState getStateFromMeta(int meta)
-    {
+    public IBlockState getStateFromMeta(int meta){
         return this.getDefaultState().withProperty(STAGE, Integer.valueOf((meta & 8) >> 3));
     }
 
     /**
      * Convert the BlockState into the correct metadata value
      */
-    public int getMetaFromState(IBlockState state)
-    {
+    public int getMetaFromState(IBlockState state){
         int i = 0;
         i = i | ((Integer)state.getValue(STAGE)).intValue() << 3;
         return i;
     }
 
-    protected BlockState createBlockState()
-    {
+    protected BlockState createBlockState(){
         return new BlockState(this, new IProperty[] {STAGE});
     }
 

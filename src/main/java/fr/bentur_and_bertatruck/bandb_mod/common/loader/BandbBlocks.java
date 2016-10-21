@@ -540,7 +540,7 @@ public class BandbBlocks {
 
 		blockLeavesMango = new BlockTreeLeaf("Mango",BandbFood.itemFruitMango).setUnlocalizedName("blockLeavesMango");
 		blockLeavesMangosteen = new BlockTreeLeaf("Mangosteen",BandbFood.itemFruitMangosteen).setUnlocalizedName("blockLeavesMangosteen");
-		blockLeavesMaple = new BlockTreeLeaf("Maple",BandbFood.itemFruitMaple).setUnlocalizedName("blockLeavesMaple");
+		blockLeavesMaple = new BlockTreeLeaf("Maple",Item.getItemFromBlock(BandbBlocks.blockSaplingMaple)).setUnlocalizedName("blockLeavesMaple");
 		blockLeavesMirabelle = new BlockTreeLeaf("Mirabelle",BandbFood.itemFruitMirabelle).setUnlocalizedName("blockLeavesMirabelle");
 		blockLeavesMorelloCherry = new BlockTreeLeaf("MorelloCherry",BandbFood.itemFruitMorelloCherry).setUnlocalizedName("blockLeavesMorelloCherry");
 
@@ -586,7 +586,7 @@ public class BandbBlocks {
 		GameRegistry.registerBlock(blockLeavesPineNut, "blockLeavesPineNut");
 		GameRegistry.registerBlock(blockLeavesPistachio, "blockLeavesPistachio");
 
-		blockLeavesPlane = new BlockTreeLeaf("Plane",BandbBlock.blockSaplingPlane).setUnlocalizedName("blockLeavesPlane");
+		blockLeavesPlane = new BlockTreeLeaf("Plane",Item.getItemFromBlock(BandbBlocks.blockSaplingPlane)).setUnlocalizedName("blockLeavesPlane");
 		blockLeavesPlantain = new BlockTreeLeaf("Plantain",BandbFood.itemFruitBananaPlantain).setUnlocalizedName("blockLeavesPlantain");
 		blockLeavesPlum = new BlockTreeLeaf("Plum",BandbFood.itemFruitPlum).setUnlocalizedName("blockLeavesPlum");
 		blockLeavesPomegranate = new BlockTreeLeaf("Pomegranate",BandbFood.itemFruitPomegranate).setUnlocalizedName("blockLeavesPomegranate");

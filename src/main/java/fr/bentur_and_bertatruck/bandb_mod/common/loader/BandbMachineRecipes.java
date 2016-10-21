@@ -58,7 +58,7 @@ public class BandbMachineRecipes {
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceAppleTentation, new ItemStack(BandbBeverages.itemSyrupApple));
 		RecipeSyrupMachine.addRecipe(BandbFood.itemFoodApplePie, new ItemStack(BandbBeverages.itemSyrupApplePie));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceApricot, new ItemStack(BandbBeverages.itemSyrupApricot));
-		RecipeSyrupMachine.addRecipe(BandbItems.itemPlantBasil, new ItemStack(BandbBeverages.itemSyrupBasil));
+		RecipeSyrupMachine.addRecipe(BandbFood.itemVegetableBasil, new ItemStack(BandbBeverages.itemSyrupBasil));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageBitter, new ItemStack(BandbBeverages.itemSyrupBitter));
 		
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceBlackberry, new ItemStack(BandbBeverages.itemSyrupBlackberry));
@@ -110,7 +110,7 @@ public class BandbMachineRecipes {
 		RecipeSyrupMachine.addRecipe(BandbFood.itemFoodCremeBrulee , new ItemStack(BandbBeverages.itemSyrupCremeBrulee ));
 		
 		RecipeSyrupMachine.addRecipe(BandbFood.itemVegetableCucumber , new ItemStack(BandbBeverages.itemSyrupCucumber ));
-		RecipeSyrupMachine.addRecipe(Item.getItemFromBlock(BandbBlocks.blockElderberryLeaves) , new ItemStack(BandbBeverages.itemSyrupElderFlower ));
+		RecipeSyrupMachine.addRecipe(Item.getItemFromBlock(BandbBlocks.blockLeavesElderberry) , new ItemStack(BandbBeverages.itemSyrupElderFlower ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemJuiceFig , new ItemStack(BandbBeverages.itemSyrupFig ));
 		RecipeSyrupMachine.addRecipe(BandbBeverages.itemBeverageGin , new ItemStack(BandbBeverages.itemSyrupGin ));
 		RecipeSyrupMachine.addRecipe(BandbFood.itemVegetableGinger , new ItemStack(BandbBeverages.itemSyrupGinger ));
