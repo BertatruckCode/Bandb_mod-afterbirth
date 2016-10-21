@@ -80,7 +80,7 @@ public class Bandb_mod{
 		BandbBeverages.register();
 		BandbFood.register();
 		BandbItems.register();
-		BandbFluids.register();
+		//BandbFluids.register();
 
 		if(event.getSide() == Side.CLIENT){
 			BandbBlocks.registerRender();

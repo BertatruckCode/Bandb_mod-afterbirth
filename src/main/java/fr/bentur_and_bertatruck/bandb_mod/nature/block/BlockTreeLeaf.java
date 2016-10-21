@@ -7,45 +7,32 @@ import java.util.Random;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbBlocks;
 import fr.bentur_and_bertatruck.bandb_mod.common.loader.BandbCreativeTabs;
 import net.minecraft.block.BlockLeaves;
+import net.minecraft.block.BlockLog;
 import net.minecraft.block.BlockPlanks.EnumType;
+import net.minecraft.block.properties.IProperty;
+import net.minecraft.block.state.BlockState;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockPos;
+import net.minecraft.util.EnumWorldBlockLayer;
+import net.minecraft.world.ColorizerFoliage;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraft.world.biome.BiomeColorHelper;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockTreeLeaf extends BlockLeaves {
 	
 	protected String name;
 	protected Item itemDrop;
-//drop Sapling and Fruit
+	
 	public BlockTreeLeaf(String string, Item item) {
 		name = string;
 		itemDrop = item;
 		this.setCreativeTab(BandbCreativeTabs.CreativeTabsLeaf);
-	}
-
-	public String[] func_150125_e() {
-		return null;
-	}
-
-	@Override
-	public boolean isOpaqueCube() {
-		return Blocks.leaves.isOpaqueCube();
-	}
-
-	public boolean isLeaves(IBlockAccess world, int x, int y, int z) {
-		return true;
-	}
-
-	@Override
-	public int getBlockColor() {
-		return -1;
-	}
-
-	public int getRenderColor(int par1) {
-		return -1;
 	}
 
 	@Override
@@ -281,15 +268,105 @@ public class BlockTreeLeaf extends BlockLeaves {
 	return drops;
 	}
 
+	public String getName(){
+		return name;
+	}
+
+	@Override
+	public int getRenderColor(IBlockState state){
+		return ColorizerFoliage.getFoliageColorBasic();
+	}
+	
+	 @SideOnly(Side.CLIENT)
+    public int colorMultiplier(IBlockAccess worldIn, BlockPos pos, int renderPass){
+        return BiomeColorHelper.getFoliageColorAtPos(worldIn, pos);
+    }
+	
+	@Override
+    public int getBlockColor(){
+        return ColorizerFoliage.getFoliageColor(0.5D, 1.0D);
+    }
+	
+	@Override
+    public boolean isLeaves(IBlockAccess world, BlockPos pos){
+        return true;
+    }
+	
+	@Override
+    public boolean isShearable(ItemStack item, IBlockAccess world, BlockPos pos){
+        return true;
+    }
+
 	@Override
 	public List<ItemStack> onSheared(ItemStack item, IBlockAccess world, BlockPos pos, int fortune) {
-		// TODO Auto-generated method stub
-		return null;
+		return new java.util.ArrayList(java.util.Arrays.asList(new ItemStack(this, 1, 1)));
 	}
 
 	@Override
 	public EnumType getWoodType(int meta) {
-		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	 public boolean isOpaqueCube(){
+        return !this.fancyGraphics;
+    }
+
+    @SideOnly(Side.CLIENT)
+    public void setGraphicsLevel(boolean fancy){
+        this.isTransparent = fancy;
+        this.fancyGraphics = fancy;
+        this.iconIndex = fancy ? 0 : 1;
+    }
+
+    @SideOnly(Side.CLIENT)
+    public EnumWorldBlockLayer getBlockLayer(){
+        return this.isTransparent ? EnumWorldBlockLayer.CUTOUT_MIPPED : EnumWorldBlockLayer.SOLID;
+    }
+
+    public boolean isVisuallyOpaque(){
+        return false;
+    }
+    
+    protected BlockState createBlockState(){
+        return new BlockState(this, new IProperty[] {CHECK_DECAY, DECAYABLE});
+    }
+    
+    /**
+     * Convert the given metadata into a BlockState for this Block
+     */
+    public IBlockState getStateFromMeta(int meta){
+        IBlockState iblockstate = this.getDefaultState();
+
+        switch (meta & 12){
+            case 0:
+                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.Y);
+                break;
+            case 4:
+                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.X);
+                break;
+            case 8:
+                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.Z);
+                break;
+            default:
+                iblockstate = iblockstate.withProperty(LOG_AXIS, BlockLog.EnumAxis.NONE);
+        }
+
+        return iblockstate;
+    }
+
+    /**
+     * Convert the BlockState into the correct metadata value
+     */
+    public int getMetaFromState(IBlockState state){
+    	
+        switch ((BlockLog.EnumAxis)state.getValue(LOG_AXIS)){
+            case X: return 4;
+            case Y: return 0;
+            case Z: return 8;
+            case NONE: return 12;
+        }
+        return 12;
+    }
+
+
 }
